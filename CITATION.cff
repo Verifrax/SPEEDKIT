@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: Verifrax
+message: If you use this software, please cite it.
+type: software
+authors:
+  - name: Verifrax
+repository-code: https://github.com/Verifrax
+url: https://verifrax.github.io/VERIFRAX-DOCS/
