@@ -2,30 +2,42 @@ name: Determinism Check
 
 on:
   push:
+    branches: [main]
   pull_request:
-  workflow_dispatch:
+    branches: [main]
+  workflow_dispatch: {}
 
-permissions:
-  contents: read
+env:
+  LC_ALL: C
+  TZ: UTC
 
 jobs:
   determinism:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
+          submodules: false
 
-      # Repo-agnostic determinism gate:
-      # - prove checkout is clean
-      # - prove git does not mutate working tree
+      - name: Mark repo safe
+        shell: bash
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Hard clean workspace
+        shell: bash
+        run: |
+          set -euo pipefail
+          git reset --hard
+          git clean -ffd
+
       - name: Verify clean workspace
         shell: bash
         run: |
           set -euo pipefail
           git status --porcelain=v1
-          test -z " M .github/workflows/determinism-check.yml"
+          test -z "$(git status --porcelain=v1)"
           git diff --exit-code
           git submodule status || true
 
