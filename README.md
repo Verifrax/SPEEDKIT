@@ -1,5 +1,11 @@
 # SPEEDKIT
 
+```
+SYS-000
+STATUS: REGISTERED
+REGISTRY: https://speedkit.eu
+```
+
 ## Purpose
 
 Public registry of recognized systems in the Verifrax stack.
