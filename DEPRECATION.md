@@ -1,31 +1,13 @@
-# Deprecation Policy
+# Deprecation
 
-## Statement
+SPEEDKIT is append-only.
 
-**DEPRECATION: NEVER**
+Registry entries are never deleted.
 
-## Meaning
+Permitted lifecycle transitions:
 
-- speedkit.eu URLs will remain valid indefinitely
-- No URL will be removed or redirected to a different resource
-- No system will be de-listed from the index
+- recognized -> superseded
+- recognized -> discontinued
+- superseded -> discontinued
 
-## Additions
-
-New systems are added via signed commits. Existing entries remain unchanged.
-
-## Modifications
-
-Existing entries are updated only for:
-- Factual corrections
-- Status changes (e.g., "live" → "discontinued")
-- Link updates
-
-Modifications must be:
-- Append-only in spirit (corrections, not deletions)
-- Documented in git history
-
-## Enforcement
-
-The index CI enforces append-only semantics.
-Deletions will fail CI checks.
+Historical registry identity remains permanent.
