@@ -1,3 +1,9 @@
+```
+SYS-000
+STATUS: REGISTERED
+REGISTRY: https://speedkit.eu
+```
+
 # SPEEDKIT
 
 ```
