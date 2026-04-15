@@ -2,42 +2,50 @@
 
 ## This repository
 
-speedkit.eu is the **authoritative index** for:
-- System discovery URLs
-- System status (live/discontinued)
-- Canonical system names
+speedkit.eu is authoritative only for registry recognition metadata published by this repository.
+
+## Authoritative fields
+
+- canonical system name
+- registry class
+- registry status
+- discovery URL
+- entry point URL
+- authoritative specification URL
+
+## Registry classes
+
+- recognized
+- superseded
+- discontinued
+
+## Registry statuses
+
+- registered
+- live
+- discontinued
 
 ## Authoritative files
 
-| File | Authority |
-|------|-----------|
-| `index.html` | System listing |
-| `INDEX_CHECKSUM.txt` | Index integrity |
-| `DEPRECATION.md` | Retention policy |
+- `index.html` — public registry listing
+- `REGISTRY_SNAPSHOT.json` — machine-readable registry snapshot
+- `INDEX_CHECKSUM.txt` — integrity checksum
+- `DEPRECATION.md` — retention and supersession policy
+- `ADD_SYSTEM.md` — admission law
 
 ## Non-authoritative
 
-- Styling (CSS)
 - README
-- System descriptions (summaries only)
-
-## Related systems
-
-| System | Relationship |
-|--------|--------------|
-| VERIFRAX | Listed system |
-| MK10-PRO | Listed system |
-| VATFIX | Listed system |
-
-## Verification
-
-```bash
-sha256sum index.html
-cat INDEX_CHECKSUM.txt
-```
+- CSS
+- marketing summaries
+- repository descriptions outside this repo
+- external repo READMEs
+- artifacts not explicitly listed in authoritative files
 
 ## Policy
 
-- Append-only (no deletions)
-- No deprecation (DEPRECATION: NEVER)
-- No interaction (static read-only)
+- append-only
+- no deletions
+- no interaction
+- static read-only
+- no cross-repo identity ownership

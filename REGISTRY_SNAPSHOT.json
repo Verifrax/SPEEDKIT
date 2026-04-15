@@ -1,98 +1,51 @@
 {
-  "registry": "speedkit.eu",
-  "snapshot_date": "2026-01-25",
-  "policy": "APPEND-ONLY",
-  "removal": "DOES NOT EXIST",
-  "systems": [
-    {
-      "id": "SYS-001",
-      "name": "CICULLIS",
-      "description": "Irreversible CI gate",
-      "repository": "https://github.com/midiakiasat/CICULLIS",
-      "status": "REGISTERED"
-    },
-    {
-      "id": "SYS-002",
-      "name": "MK10-PRO",
-      "description": "Execution index (frozen)",
-      "repository": "https://github.com/kaaffilm/MK10-PRO",
-      "status": "REGISTERED"
-    },
-    {
-      "id": "SYS-003",
-      "name": "VERIFRAX",
-      "description": "Deterministic verification",
-      "repository": "https://github.com/Verifrax/VERIFRAX",
-      "status": "REGISTERED"
-    },
-    {
-      "id": "SYS-004",
-      "name": "VATFIX",
-      "description": "VAT compliance execution",
-      "repository": "https://github.com/vatfix/VATFIX",
-      "status": "REGISTERED"
-    }
+  "registry": "SPEEDKIT",
+  "mode": "public",
+  "policy": [
+    "append-only",
+    "no-deletion",
+    "read-only"
   ],
-  "artifacts": [
+  "items": [
     {
-      "id": "PRIM-001",
-      "name": "GUILLOTINE",
-      "description": "Irreversible execution",
-      "repository": "https://github.com/midiakiasat/guillotine",
-      "status": "REGISTERED"
+      "system_id": "SYS-001",
+      "canonical_name": "CICULLIS",
+      "registry_class": "recognized",
+      "registry_status": "registered",
+      "discovery_url": "https://speedkit.eu/cicullis/index.html",
+      "entry_point_url": "https://speedkit.eu/cicullis/index.html",
+      "authoritative_specification_url": "",
+      "summary": "Irreversible CI gate"
     },
     {
-      "id": "PRIM-002",
-      "name": "IRREVOCULL",
-      "description": "Irreversible judgment",
-      "repository": "https://github.com/midiakiasat/irrevocull",
-      "status": "REGISTERED"
+      "system_id": "SYS-002",
+      "canonical_name": "MK10-PRO",
+      "registry_class": "recognized",
+      "registry_status": "registered",
+      "discovery_url": "https://speedkit.eu/mk10-pro/index.html",
+      "entry_point_url": "https://speedkit.eu/mk10-pro/index.html",
+      "authoritative_specification_url": "",
+      "summary": "Execution index (frozen)"
     },
     {
-      "id": "PRIM-003",
-      "name": "ATTESTORIUM",
-      "description": "Deterministic witness",
-      "repository": "https://github.com/midiakiasat/attestorium",
-      "status": "REGISTERED"
+      "system_id": "SYS-003",
+      "canonical_name": "VERIFRAX",
+      "registry_class": "recognized",
+      "registry_status": "registered",
+      "discovery_url": "https://speedkit.eu/verifrax/index.html",
+      "entry_point_url": "https://speedkit.eu/verifrax/index.html",
+      "authoritative_specification_url": "",
+      "summary": "Deterministic verification"
     },
     {
-      "id": "PRIM-004",
-      "name": "VALIDEXOR",
-      "description": "Deterministic verification",
-      "repository": "https://github.com/midiakiasat/validexor",
-      "status": "REGISTERED"
-    },
-    {
-      "id": "PRIM-005",
-      "name": "LIMENWARD",
-      "description": "Boundary enforcement",
-      "repository": "https://github.com/midiakiasat/limenward",
-      "status": "REGISTERED"
-    },
-    {
-      "id": "PRIM-006",
-      "name": "ORIGINSEAL",
-      "description": "Origin sealing",
-      "repository": "https://github.com/midiakiasat/originseal",
-      "status": "REGISTERED"
-    },
-    {
-      "id": "PRIM-007",
-      "name": "ARCHICUSTOS",
-      "description": "Custody primitive",
-      "repository": "https://github.com/midiakiasat/archicustos",
-      "status": "REGISTERED"
-    },
-    {
-      "id": "PRIM-008",
-      "name": "KAIROCLASP",
-      "description": "Temporal finality",
-      "repository": "https://github.com/midiakiasat/kairoclasp",
-      "status": "REGISTERED"
+      "system_id": "SYS-004",
+      "canonical_name": "VATFIX",
+      "registry_class": "recognized",
+      "registry_status": "registered",
+      "discovery_url": "https://speedkit.eu/vatfix/index.html",
+      "entry_point_url": "https://speedkit.eu/vatfix/index.html",
+      "authoritative_specification_url": "",
+      "summary": "VAT compliance execution"
     }
-  ],
-  "integrity": {
-    "hash_algorithm": "SHA-256",
-    "content_hash": "55d2ed2fd3b1b9a08620a59e613f9b1c4c32b33e70faf02d515167fa0fae16df"
-  }
+  ]
 }
