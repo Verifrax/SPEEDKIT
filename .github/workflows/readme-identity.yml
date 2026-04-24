@@ -29,7 +29,13 @@ jobs:
           fi
 
           # Extract first code block content
-          HEADER=$(awk '/^```$/,/^```$/' "$README" | head -20)
+          HEADER="$(
+            awk '
+              /^```$/ && !inblock { inblock=1; next }
+              /^```$/ && inblock { exit }
+              inblock { print }
+            ' "$README"
+          )"
 
           # Check for SYS-XXX or PRIM-XXX identity
           if ! echo "$HEADER" | grep -qE '^(SYS|PRIM)-[0-9]{3}$'; then
