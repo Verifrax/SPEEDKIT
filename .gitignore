@@ -19,3 +19,5 @@ coverage/
 .next/
 .cache/
 # --- /VERIFRAX LOCAL JUNK ---
+
+.wrangler/
