@@ -1,32 +1,55 @@
 {
   "counts": {
+    "systems": 4,
+    "workspace_entries": 113,
     "github_repositories": 91,
-    "github_sources": 15,
     "npm_packages": 20,
-    "package_sources": 2,
-    "pypi_packages": 0,
-    "total_entries": 111
+    "pypi_packages": 2,
+    "artifacts": 8,
+    "routes": 21,
+    "search_records": 125,
+    "packages": 22
   },
-  "systems": 4,
-  "github": 91,
-  "npm": 20,
-  "pypi": 0,
   "routes": [
     {
+      "cmd": "root",
+      "title": "SPEEDKIT root terminal",
+      "path": "/",
+      "count": "LIVE"
+    },
+    {
+      "cmd": "terminal",
+      "title": "Terminal control surface",
+      "path": "/terminal/",
+      "count": "LIVE"
+    },
+    {
       "cmd": "systems",
-      "title": "Recognized systems",
+      "title": "Recognized systems registry",
       "path": "/systems/",
       "count": 4
+    },
+    {
+      "cmd": "registry",
+      "title": "Registry control surface",
+      "path": "/registry/",
+      "count": 4
+    },
+    {
+      "cmd": "surfaces",
+      "title": "All surface router",
+      "path": "/surfaces/",
+      "count": 113
     },
     {
       "cmd": "workspace",
       "title": "Workspace family router",
       "path": "/workspace/",
-      "count": 111
+      "count": 113
     },
     {
       "cmd": "github",
-      "title": "GitHub source surface",
+      "title": "GitHub repository surface",
       "path": "/github/",
       "count": 91
     },
@@ -34,7 +57,7 @@
       "cmd": "packages",
       "title": "Package router",
       "path": "/packages/",
-      "count": 20
+      "count": 22
     },
     {
       "cmd": "npm",
@@ -46,7 +69,7 @@
       "cmd": "pypi",
       "title": "PyPI package surface",
       "path": "/packages/pypi/",
-      "count": 0
+      "count": 2
     },
     {
       "cmd": "json",
@@ -55,71 +78,126 @@
       "count": 111
     },
     {
-      "cmd": "verifrax",
-      "title": "Verifrax workspace router",
-      "path": "/workspace/verifrax/",
-      "count": 55
-    },
-    {
-      "cmd": "vatfix",
-      "title": "VATFix family page",
-      "path": "/workspace/vatfix/",
-      "count": 27
+      "cmd": "cinematicum",
+      "title": "CINEMATICUM / KAAFFILM",
+      "path": "/workspace/cinematicum/",
+      "count": 6
     },
     {
       "cmd": "invocorder",
-      "title": "INVOCORDER family page",
+      "title": "INVOCORDER",
       "path": "/workspace/invocorder/",
       "count": 7
     },
     {
-      "cmd": "cinematicum",
-      "title": "CINEMATICUM / KAAFFILM family page",
-      "path": "/workspace/cinematicum/",
-      "count": 5
-    },
-    {
       "cmd": "qvra",
-      "title": "QVRA family page",
+      "title": "QVRA",
       "path": "/workspace/qvra/",
       "count": 12
     },
     {
-      "cmd": "truthframer",
-      "title": "TRUTHFRAMER family page",
-      "path": "/workspace/truthframer/",
-      "count": 2
-    },
-    {
       "cmd": "auxiliary",
-      "title": "Auxiliary/microtool family page",
+      "title": "AUXILIARY / MICROTOOLS",
       "path": "/workspace/auxiliary/",
       "count": 3
     },
     {
-      "cmd": "chambers",
-      "title": "Verifrax sovereign chamber order",
+      "cmd": "truthframer",
+      "title": "TRUTHFRAMER",
+      "path": "/workspace/truthframer/",
+      "count": 2
+    },
+    {
+      "cmd": "vatfix",
+      "title": "VATFIX",
+      "path": "/workspace/vatfix/",
+      "count": 27
+    },
+    {
+      "cmd": "verifrax-chambers",
+      "title": "VERIFRAX CHAMBERS",
       "path": "/workspace/verifrax/chambers/",
       "count": 13
     },
     {
-      "cmd": "governance",
-      "title": "Verifrax governance/admissibility",
+      "cmd": "verifrax-governance",
+      "title": "VERIFRAX GOVERNANCE",
       "path": "/workspace/verifrax/governance/",
       "count": 10
     },
     {
-      "cmd": "verification",
-      "title": "Verifrax verification/API/docs/status/SDK",
+      "cmd": "verifrax-verification",
+      "title": "VERIFRAX VERIFICATION / API / DOCS",
       "path": "/workspace/verifrax/verification/",
-      "count": 16
+      "count": 19
     },
     {
-      "cmd": "primitives",
-      "title": "Verifrax primitives",
+      "cmd": "verifrax-primitives",
+      "title": "VERIFRAX PRIMITIVES",
       "path": "/workspace/verifrax/primitives/",
-      "count": 16
+      "count": 14
     }
   ],
-  "boundary": "workspace routes are non-admission projection surfaces"
+  "families": [
+    {
+      "key": "cinematicum",
+      "title": "CINEMATICUM / KAAFFILM",
+      "path": "/workspace/cinematicum/",
+      "count": 6
+    },
+    {
+      "key": "invocorder",
+      "title": "INVOCORDER",
+      "path": "/workspace/invocorder/",
+      "count": 7
+    },
+    {
+      "key": "qvra",
+      "title": "QVRA",
+      "path": "/workspace/qvra/",
+      "count": 12
+    },
+    {
+      "key": "auxiliary",
+      "title": "AUXILIARY / MICROTOOLS",
+      "path": "/workspace/auxiliary/",
+      "count": 3
+    },
+    {
+      "key": "truthframer",
+      "title": "TRUTHFRAMER",
+      "path": "/workspace/truthframer/",
+      "count": 2
+    },
+    {
+      "key": "vatfix",
+      "title": "VATFIX",
+      "path": "/workspace/vatfix/",
+      "count": 27
+    },
+    {
+      "key": "verifrax-chambers",
+      "title": "VERIFRAX CHAMBERS",
+      "path": "/workspace/verifrax/chambers/",
+      "count": 13
+    },
+    {
+      "key": "verifrax-governance",
+      "title": "VERIFRAX GOVERNANCE",
+      "path": "/workspace/verifrax/governance/",
+      "count": 10
+    },
+    {
+      "key": "verifrax-verification",
+      "title": "VERIFRAX VERIFICATION / API / DOCS",
+      "path": "/workspace/verifrax/verification/",
+      "count": 19
+    },
+    {
+      "key": "verifrax-primitives",
+      "title": "VERIFRAX PRIMITIVES",
+      "path": "/workspace/verifrax/primitives/",
+      "count": 14
+    }
+  ]
 }
