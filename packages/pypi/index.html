@@ -4,41 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PYPI PACKAGE SURFACE · speedkit.eu</title>
-  <link rel="stylesheet" href="../../styles.css?v=20260614-super-terminal">
+  <link rel="stylesheet" href="../../styles.css?v=20260614-control-surface">
 </head>
 <body>
 <main class="frame">
   <header class="mast">
     <h1>PYPI PACKAGE SURFACE</h1>
-    <p class="sub">PyPI route is live and currently has zero listed package facts.</p>
-    <p class="timestamp">SPEEDKIT SURFACE · ROUTED · INSPECTABLE</p>
+    <p class="sub">PyPI surface exists and currently has zero public records.</p>
+    <p class="timestamp">SPEEDKIT CONTROL SURFACE · ROUTED · SEARCHABLE · EXPORTABLE</p>
   </header>
 
   <section class="panel">
     <h2>PYPI PACKAGE SURFACE</h2>
     <div class="boundary-box">
-      <p>PyPI route is live and currently has zero listed package facts.</p>
+      <p>PyPI surface exists and currently has zero public records.</p>
       <p><strong>ENTRIES:</strong> 0</p>
-      <p><a href="/">Back to SPEEDKIT terminal</a></p>
+      <p><a href="/terminal/">Open terminal</a></p>
     </div>
-    <div class="boundary-stamp">ROUTED SURFACE · INSPECTABLE</div>
+    <div class="boundary-stamp">CONTROL ROUTE · FILTERABLE</div>
   </section>
-
   <section class="panel">
     <h2>FILTER</h2>
-    <input class="terminal-input route-filter" data-target="surface-rows" placeholder="type to filter this surface">
+    <input class="terminal-input route-filter" data-target="rows" placeholder="filter this surface">
   </section>
-
   <section class="panel">
-    <h2>ENTRIES</h2>
-    <div id="surface-rows" class="registry category-registry object-registry">
-      <div class="boundary-box"><p>No PyPI packages are currently listed in the public workspace surface.</p><p>This route remains live so the package surface is inspectable even when count is zero.</p></div>
+    <h2>RECORDS</h2>
+    <div id="rows" class="registry control-registry">
+      <div class="boundary-box"><p>No PyPI package records are currently listed.</p><p>The route exists and is queryable from the terminal.</p></div>
     </div>
   </section>
 
   <footer class="seal-footer">
     <div class="rule"></div>
-    <div class="seal-text"><a href="/">speedkit.eu</a> · <a href="/workspace/">workspace</a> · <a href="/packages/">packages</a></div>
+    <div class="seal-text"><a href="/">root</a> · <a href="/terminal/">terminal</a> · <a href="/surfaces/">surfaces</a> · <a href="/SPEEDKIT_TERMINAL_MANIFEST.json">manifest</a></div>
     <div class="rule"></div>
     <div class="invariant">REPOSITORY EXISTENCE IS NOT REGISTRY ADMISSION</div>
   </footer>
@@ -48,7 +46,7 @@
 document.querySelectorAll('.route-filter').forEach(input => {
   input.addEventListener('input', () => {
     const q = input.value.toLowerCase().trim();
-    document.querySelectorAll('#' + input.dataset.target + ' .workspace-row').forEach(row => {
+    document.querySelectorAll('#' + input.dataset.target + ' .control-row').forEach(row => {
       row.style.display = row.dataset.search.includes(q) ? '' : 'none';
     });
   });

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARTIFACT ANNEX · speedkit.eu</title>
+  <link rel="stylesheet" href="../styles.css?v=20260614-control-surface">
+</head>
+<body>
+<main class="frame">
+  <header class="mast">
+    <h1>ARTIFACT ANNEX</h1>
+    <p class="sub">Primitive component annex records.</p>
+    <p class="timestamp">SPEEDKIT CONTROL SURFACE · ROUTED · SEARCHABLE · EXPORTABLE</p>
+  </header>
+
+  <section class="panel">
+    <h2>ARTIFACT ANNEX</h2>
+    <div class="boundary-box">
+      <p>Primitive component annex records.</p>
+      <p><strong>ENTRIES:</strong> 8</p>
+      <p><a href="/terminal/">Open terminal</a></p>
+    </div>
+    <div class="boundary-stamp">CONTROL ROUTE · FILTERABLE</div>
+  </section>
+  <section class="panel">
+    <h2>FILTER</h2>
+    <input class="terminal-input route-filter" data-target="rows" placeholder="filter this surface">
+  </section>
+  <section class="panel">
+    <h2>RECORDS</h2>
+    <div id="rows" class="registry control-registry">
+      <a href="https://github.com/midiakiasat/guillotine" class="registry-row control-row" data-search="prim-001 artifact guillotine irreversible execution artifacts">
+        <span>PRIM-001</span>
+        <span>ARTIFACT</span>
+        <span>GUILLOTINE</span>
+        <span>Irreversible execution</span>
+        <span class="status">ANNEX</span>
+      </a>
+      <a href="https://github.com/midiakiasat/irrevocull" class="registry-row control-row" data-search="prim-002 artifact irrevocull irreversible judgment artifacts">
+        <span>PRIM-002</span>
+        <span>ARTIFACT</span>
+        <span>IRREVOCULL</span>
+        <span>Irreversible judgment</span>
+        <span class="status">ANNEX</span>
+      </a>
+      <a href="https://github.com/midiakiasat/attestorium" class="registry-row control-row" data-search="prim-003 artifact attestorium deterministic witness artifacts">
+        <span>PRIM-003</span>
+        <span>ARTIFACT</span>
+        <span>ATTESTORIUM</span>
+        <span>Deterministic witness</span>
+        <span class="status">ANNEX</span>
+      </a>
+      <a href="https://github.com/midiakiasat/validexor" class="registry-row control-row" data-search="prim-004 artifact validexor deterministic verification artifacts">
+        <span>PRIM-004</span>
+        <span>ARTIFACT</span>
+        <span>VALIDEXOR</span>
+        <span>Deterministic verification</span>
+        <span class="status">ANNEX</span>
+      </a>
+      <a href="https://github.com/midiakiasat/limenward" class="registry-row control-row" data-search="prim-005 artifact limenward boundary enforcement artifacts">
+        <span>PRIM-005</span>
+        <span>ARTIFACT</span>
+        <span>LIMENWARD</span>
+        <span>Boundary enforcement</span>
+        <span class="status">ANNEX</span>
+      </a>
+      <a href="https://github.com/midiakiasat/originseal" class="registry-row control-row" data-search="prim-006 artifact originseal origin sealing artifacts">
+        <span>PRIM-006</span>
+        <span>ARTIFACT</span>
+        <span>ORIGINSEAL</span>
+        <span>Origin sealing</span>
+        <span class="status">ANNEX</span>
+      </a>
+      <a href="https://github.com/midiakiasat/archicustos" class="registry-row control-row" data-search="prim-007 artifact archicustos custody primitive artifacts">
+        <span>PRIM-007</span>
+        <span>ARTIFACT</span>
+        <span>ARCHICUSTOS</span>
+        <span>Custody primitive</span>
+        <span class="status">ANNEX</span>
+      </a>
+      <a href="https://github.com/midiakiasat/kairoclasp" class="registry-row control-row" data-search="prim-008 artifact kairoclasp temporal finality artifacts">
+        <span>PRIM-008</span>
+        <span>ARTIFACT</span>
+        <span>KAIROCLASP</span>
+        <span>Temporal finality</span>
+        <span class="status">ANNEX</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="seal-footer">
+    <div class="rule"></div>
+    <div class="seal-text"><a href="/">root</a> · <a href="/terminal/">terminal</a> · <a href="/surfaces/">surfaces</a> · <a href="/SPEEDKIT_TERMINAL_MANIFEST.json">manifest</a></div>
+    <div class="rule"></div>
+    <div class="invariant">REPOSITORY EXISTENCE IS NOT REGISTRY ADMISSION</div>
+  </footer>
+</main>
+
+<script>
+document.querySelectorAll('.route-filter').forEach(input => {
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    document.querySelectorAll('#' + input.dataset.target + ' .control-row').forEach(row => {
+      row.style.display = row.dataset.search.includes(q) ? '' : 'none';
+    });
+  });
+});
+</script>
+
+</body>
+</html>
