@@ -7,7 +7,7 @@
     "npm_packages": 20,
     "pypi_packages": 2,
     "artifacts": 8,
-    "routes": 21,
+    "routes": 23,
     "search_records": 125,
     "packages": 22
   },
@@ -15,6 +15,7 @@
     "help",
     "counts",
     "routes",
+    "tree",
     "systems",
     "registry",
     "surfaces",
@@ -26,79 +27,91 @@
     "families",
     "artifacts",
     "find <text>",
-    "open <route|id|name>",
-    "inspect <route|id|name>",
+    "inspect <id|route|name>",
+    "open <id|route|name>",
     "verify",
     "export json",
-    "export routes",
+    "export manifest",
     "clear"
   ],
   "routes": [
     {
       "cmd": "root",
-      "title": "SPEEDKIT root terminal",
+      "title": "SPEEDKIT root control terminal",
       "path": "/",
       "count": "LIVE"
     },
     {
       "cmd": "terminal",
-      "title": "Terminal control surface",
+      "title": "Full terminal",
       "path": "/terminal/",
       "count": "LIVE"
     },
     {
       "cmd": "systems",
-      "title": "Recognized systems registry",
+      "title": "Recognized systems",
       "path": "/systems/",
       "count": 4
     },
     {
       "cmd": "registry",
-      "title": "Registry control surface",
+      "title": "Registry control",
       "path": "/registry/",
       "count": 4
     },
     {
       "cmd": "surfaces",
-      "title": "All surface router",
+      "title": "All workspace surfaces",
       "path": "/surfaces/",
       "count": 113
     },
     {
       "cmd": "workspace",
-      "title": "Workspace family router",
+      "title": "Workspace router",
       "path": "/workspace/",
       "count": 113
     },
     {
       "cmd": "github",
-      "title": "GitHub repository surface",
+      "title": "GitHub repositories",
       "path": "/github/",
       "count": 91
     },
     {
       "cmd": "packages",
-      "title": "Package router",
+      "title": "All packages",
       "path": "/packages/",
       "count": 22
     },
     {
       "cmd": "npm",
-      "title": "npm package surface",
+      "title": "npm packages",
       "path": "/packages/npm/",
       "count": 20
     },
     {
       "cmd": "pypi",
-      "title": "PyPI package surface",
+      "title": "PyPI packages",
       "path": "/packages/pypi/",
       "count": 2
     },
     {
+      "cmd": "artifacts",
+      "title": "Primitive artifacts",
+      "path": "/artifacts/",
+      "count": 8
+    },
+    {
       "cmd": "json",
-      "title": "Machine-readable workspace JSON",
+      "title": "Workspace JSON",
       "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
-      "count": 111
+      "count": 113
+    },
+    {
+      "cmd": "manifest",
+      "title": "Terminal manifest",
+      "path": "/SPEEDKIT_TERMINAL_MANIFEST.json",
+      "count": 125
     },
     {
       "cmd": "cinematicum",
@@ -202,60 +215,70 @@
   "families": [
     {
       "key": "cinematicum",
+      "order": "01",
       "title": "CINEMATICUM / KAAFFILM",
       "path": "/workspace/cinematicum/",
       "count": 6
     },
     {
       "key": "invocorder",
+      "order": "02",
       "title": "INVOCORDER",
       "path": "/workspace/invocorder/",
       "count": 7
     },
     {
       "key": "qvra",
+      "order": "03",
       "title": "QVRA",
       "path": "/workspace/qvra/",
       "count": 12
     },
     {
       "key": "auxiliary",
+      "order": "04",
       "title": "AUXILIARY / MICROTOOLS",
       "path": "/workspace/auxiliary/",
       "count": 3
     },
     {
       "key": "truthframer",
+      "order": "05",
       "title": "TRUTHFRAMER",
       "path": "/workspace/truthframer/",
       "count": 2
     },
     {
       "key": "vatfix",
+      "order": "06",
       "title": "VATFIX",
       "path": "/workspace/vatfix/",
       "count": 27
     },
     {
       "key": "verifrax-chambers",
+      "order": "07",
       "title": "VERIFRAX CHAMBERS",
       "path": "/workspace/verifrax/chambers/",
       "count": 13
     },
     {
       "key": "verifrax-governance",
+      "order": "08",
       "title": "VERIFRAX GOVERNANCE",
       "path": "/workspace/verifrax/governance/",
       "count": 10
     },
     {
       "key": "verifrax-verification",
+      "order": "09",
       "title": "VERIFRAX VERIFICATION / API / DOCS",
       "path": "/workspace/verifrax/verification/",
       "count": 19
     },
     {
       "key": "verifrax-primitives",
+      "order": "10",
       "title": "VERIFRAX PRIMITIVES",
       "path": "/workspace/verifrax/primitives/",
       "count": 14

@@ -667,3 +667,227 @@ body::after {
     grid-template-columns: 1fr;
   }
 }
+
+/* SPEEDKIT CONTROL UI FINAL START */
+:root {
+  --bg: #000604;
+  --panel: rgba(0, 40, 20, 0.42);
+  --panel-2: rgba(0, 70, 32, 0.35);
+  --line: rgba(0, 255, 120, 0.22);
+  --line-strong: rgba(0, 255, 120, 0.55);
+  --fg: #00ff74;
+  --muted: #75ffad;
+  --dim: #38b86f;
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% -10%, rgba(0, 255, 100, 0.10), transparent 30%),
+    repeating-linear-gradient(0deg, rgba(0,255,120,0.025) 0, rgba(0,255,120,0.025) 1px, transparent 1px, transparent 4px),
+    #000;
+}
+
+.control-frame {
+  max-width: 1180px;
+}
+
+.control-counts {
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+}
+
+.control-seal {
+  letter-spacing: .18em;
+}
+
+.control-terminal {
+  border: 1px solid var(--line-strong);
+  background: linear-gradient(180deg, rgba(0,40,20,.72), rgba(0,10,6,.72));
+  box-shadow: 0 0 28px rgba(0, 255, 120, 0.08);
+}
+
+.terminal-screen {
+  min-height: 190px;
+  max-height: 420px;
+  overflow: auto;
+  padding: 18px;
+  background: rgba(0, 12, 6, .78);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  white-space: pre-wrap;
+  line-height: 1.55;
+}
+
+.terminal-input-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  background: rgba(0,20,10,.65);
+  border-bottom: 1px solid var(--line);
+}
+
+.terminal-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: var(--fg);
+  background: transparent;
+  font: inherit;
+  min-height: 28px;
+}
+
+.terminal-input::placeholder {
+  color: rgba(117,255,173,.55);
+}
+
+.terminal-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px 0 0;
+}
+
+.terminal-buttons button {
+  appearance: none;
+  border: 1px solid var(--line-strong);
+  background: rgba(0, 42, 20, .82);
+  color: var(--fg);
+  font: inherit;
+  font-weight: 800;
+  letter-spacing: .04em;
+  padding: 8px 11px;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: inset 0 0 18px rgba(0,255,120,.06);
+}
+
+.terminal-buttons button:hover,
+.terminal-buttons button:focus {
+  background: rgba(0, 255, 120, .16);
+  color: #baffd2;
+}
+
+.terminal-link {
+  display: block;
+  color: var(--fg);
+  text-decoration: none;
+  border-left: 2px solid var(--line-strong);
+  padding-left: 10px;
+  margin: 3px 0;
+}
+
+.echo {
+  color: #baffd2;
+}
+
+.control-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: 10px;
+}
+
+.control-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--fg);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 14px;
+  min-height: 56px;
+}
+
+.control-card span {
+  font-weight: 900;
+  letter-spacing: .06em;
+}
+
+.control-card strong {
+  font-size: 1.25em;
+  color: #00ff74;
+}
+
+.control-card em {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-style: normal;
+  font-size: .8em;
+}
+
+.control-card:hover {
+  border-color: var(--line-strong);
+  background: var(--panel-2);
+}
+
+.control-registry {
+  display: grid;
+  gap: 0;
+}
+
+.control-row {
+  display: grid;
+  grid-template-columns: 95px 85px minmax(190px, 1fr) minmax(260px, 2fr) 105px;
+  gap: 16px;
+  align-items: start;
+  color: var(--fg);
+  text-decoration: none;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.control-row .id,
+.control-row .surface,
+.control-row .status {
+  color: var(--dim);
+  font-weight: 900;
+}
+
+.control-row .name {
+  color: #baffd2;
+  font-weight: 900;
+}
+
+.control-row .desc {
+  color: var(--muted);
+}
+
+.control-row:hover {
+  background: rgba(0,255,120,.045);
+}
+
+.surface-filter {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--line-strong);
+  background: rgba(0,20,10,.75);
+  color: var(--fg);
+  font: inherit;
+  padding: 12px 14px;
+  outline: none;
+}
+
+.boundary-box {
+  border: 1px solid var(--line);
+  background: rgba(0, 18, 8, .72);
+  padding: 16px;
+}
+
+.boundary-stamp {
+  margin-top: 10px;
+  color: var(--dim);
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+
+@media (max-width: 860px) {
+  .control-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .control-card {
+    grid-template-columns: 1fr auto;
+  }
+}
+/* SPEEDKIT CONTROL UI FINAL END */

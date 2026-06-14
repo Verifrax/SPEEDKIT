@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RECOGNIZED SYSTEMS REGISTRY · speedkit.eu</title>
-  <link rel="stylesheet" href="/styles.css?v=20260614pypi">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGISTRY CONTROL · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css?v=20260614final">
 </head>
 <body>
-<main class="frame">
-  <header class="mast">
-    <h1>RECOGNIZED SYSTEMS REGISTRY</h1>
-    <p class="sub">4 admitted systems</p>
-    <p class="timestamp">REGISTRY OPENED: 2026-01-25</p>
-  </header>
-<section class="panel">
-<h2>RECOGNIZED SYSTEMS REGISTRY</h2>
-<div class="registry"><a href="/cicullis/" class="registry-row workspace-row"><span>SYS-001</span><span>SYSTEM</span><span>CICULLIS</span><span>Irreversible CI gate</span><span class="status">REGISTERED</span></a>
-<a href="/mk10-pro/" class="registry-row workspace-row"><span>SYS-002</span><span>SYSTEM</span><span>MK10-PRO</span><span>Execution index frozen</span><span class="status">REGISTERED</span></a>
-<a href="/verifrax/" class="registry-row workspace-row"><span>SYS-003</span><span>SYSTEM</span><span>VERIFRAX</span><span>Deterministic verification</span><span class="status">REGISTERED</span></a>
-<a href="/vatfix/" class="registry-row workspace-row"><span>SYS-004</span><span>SYSTEM</span><span>VATFIX</span><span>VAT compliance execution</span><span class="status">REGISTERED</span></a></div>
-</section>
-  <footer class="seal-footer">
-    <div class="rule"></div>
-    <div class="seal-text">REGISTERED · ROUTED · SEARCHABLE · INSPECTABLE · EXPORTABLE</div>
-    <div class="rule"></div>
-    <div class="contact-block">
-      <div class="contact-label">OUT-OF-BAND CHANNEL</div>
-      <a href="mailto:contact@speedkit.eu" class="contact-value">contact@speedkit.eu</a>
-    </div>
-    <div class="invariant">STATE IS NOT SUBJECT TO INTERPRETATION</div>
-  </footer>
+<main class="frame control-frame">
+<header class="mast control-mast">
+<h1>REGISTRY CONTROL</h1>
+<p class="sub">recognized system registry</p>
+<p class="timestamp">REGISTRY OPENED: 2026-01-25</p>
+</header>
+
+    <section class="panel">
+      <h2>FILTER</h2>
+      <input class="surface-filter" id="surface-filter" placeholder="filter this page">
+    </section>
+    <section class="panel"><h2>REGISTRY CONTROL</h2><div class="registry control-registry"><a class="registry-row control-row" href="/cicullis/" data-id="SYS-001" data-name="CICULLIS" data-surface="system" data-family="systems"><span class="id">SYS-001</span><span class="surface">SYSTEM</span><span class="name">CICULLIS</span><span class="desc">Irreversible CI gate</span><span class="status">REGISTERED</span></a>
+<a class="registry-row control-row" href="/mk10-pro/" data-id="SYS-002" data-name="MK10-PRO" data-surface="system" data-family="systems"><span class="id">SYS-002</span><span class="surface">SYSTEM</span><span class="name">MK10-PRO</span><span class="desc">Execution index frozen</span><span class="status">REGISTERED</span></a>
+<a class="registry-row control-row" href="/verifrax/" data-id="SYS-003" data-name="VERIFRAX" data-surface="system" data-family="systems"><span class="id">SYS-003</span><span class="surface">SYSTEM</span><span class="name">VERIFRAX</span><span class="desc">Deterministic verification</span><span class="status">REGISTERED</span></a>
+<a class="registry-row control-row" href="/vatfix/" data-id="SYS-004" data-name="VATFIX" data-surface="system" data-family="systems"><span class="id">SYS-004</span><span class="surface">SYSTEM</span><span class="name">VATFIX</span><span class="desc">VAT compliance execution</span><span class="status">REGISTERED</span></a></div></section>
+<footer class="seal-footer">
+<div class="rule"></div>
+<div class="seal-text">REGISTERED · ROUTED · SEARCHABLE · INSPECTABLE · EXPORTABLE</div>
+<div class="rule"></div>
+<div class="contact-block">
+<div class="contact-label">OUT-OF-BAND CHANNEL</div>
+<a href="mailto:contact@speedkit.eu" class="contact-value">contact@speedkit.eu</a>
+</div>
+<div class="invariant">STATE IS NOT SUBJECT TO INTERPRETATION</div>
+</footer>
 </main>
+
+<script>
+const f = document.getElementById("surface-filter");
+f?.addEventListener("input", () => {
+  const q = f.value.toLowerCase();
+  document.querySelectorAll(".control-row").forEach(r => {
+    r.style.display = r.textContent.toLowerCase().includes(q) ? "grid" : "none";
+  });
+});
+</script>
 
 </body>
 </html>
