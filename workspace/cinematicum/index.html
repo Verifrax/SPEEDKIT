@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CINEMATICUM / KAAFFILM ISSUANCE · speedkit.eu</title>
+  <link rel="stylesheet" href="../../styles.css?v=20260614-terminal-router">
+</head>
+<body>
+<main class="frame">
+  <header class="mast">
+    <h1>CINEMATICUM / KAAFFILM ISSUANCE</h1>
+    <p class="sub">Object-family page</p>
+    <p class="timestamp">SPEEDKIT WORKSPACE SURFACE · NOT SYSTEMS ADMISSION</p>
+  </header>
+
+  <section class="panel terminal-panel compact-terminal">
+    <h2>01 · CINEMATICUM / KAAFFILM ISSUANCE</h2>
+    <div class="boundary-box">
+      <p>Admissible motion-picture jurisdiction, KAAFFILM delivery, MK10-PRO, and bound package surfaces.</p>
+      <p><strong>ENTRIES:</strong> 5</p>
+      <p><a href="/workspace/">Back to workspace router</a></p>
+    </div>
+    <div class="boundary-stamp">OWN PAGE · SOURCE FAMILY BOUND</div>
+  </section>
+
+  <section class="panel">
+    <h2>FILTER THIS FAMILY</h2>
+    <input class="terminal-input route-filter" data-target="family-rows" placeholder="type to filter this page, e.g. sdk, api, proof, package">
+  </section>
+
+  <section class="panel">
+    <h2>ORDERED FAMILY ENTRIES</h2>
+    <div id="family-rows" class="registry category-registry object-registry">
+      <a href="https://github.com/CINEMATICUM/CINEMATICUM" class="registry-row workspace-row object-row" data-search="cinematicum/cinematicum cinematicum issues admissible motion pictures. github">
+        <span>001</span>
+        <span>GITHUB</span>
+        <span>CINEMATICUM/CINEMATICUM</span>
+        <span>CINEMATICUM issues admissible motion pictures.</span>
+        <span class="status">LISTED</span>
+      </a>
+      <a href="https://github.com/kaaffilm/.github" class="registry-row workspace-row object-row" data-search="kaaffilm/.github organization profile github">
+        <span>002</span>
+        <span>GITHUB</span>
+        <span>kaaffilm/.github</span>
+        <span>Organization profile</span>
+        <span class="status">LISTED</span>
+      </a>
+      <a href="https://github.com/kaaffilm/CINEMATICUM" class="registry-row workspace-row object-row" data-search="kaaffilm/cinematicum cinematicum produces admissible cinema. github">
+        <span>003</span>
+        <span>GITHUB</span>
+        <span>kaaffilm/CINEMATICUM</span>
+        <span>CINEMATICUM produces admissible cinema.</span>
+        <span class="status">LISTED</span>
+      </a>
+      <a href="https://github.com/kaaffilm/MK10-PRO" class="registry-row workspace-row object-row" data-search="kaaffilm/mk10-pro pre-delivery truth infrastructure github">
+        <span>004</span>
+        <span>GITHUB</span>
+        <span>kaaffilm/MK10-PRO</span>
+        <span>Pre-delivery truth infrastructure</span>
+        <span class="status">LISTED</span>
+      </a>
+      <a href="https://www.npmjs.com/package/@kaaffilm/mk10-pro" class="registry-row workspace-row object-row" data-search="@kaaffilm/mk10-pro mk10-pro witness launcher: public package-surface entrypoint for proof, boundary, and witness commands. npm">
+        <span>005</span>
+        <span>NPM</span>
+        <span>@kaaffilm/mk10-pro</span>
+        <span>MK10-PRO witness launcher: public package-surface entrypoint for proof, boundary, and witness commands.</span>
+        <span class="status">LISTED</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="seal-footer">
+    <div class="rule"></div>
+    <div class="seal-text"><a href="/">speedkit.eu</a> · <a href="/workspace/">workspace router</a></div>
+    <div class="rule"></div>
+    <div class="invariant">REPOSITORY EXISTENCE IS NOT REGISTRY ADMISSION</div>
+  </footer>
+</main>
+
+<script>
+document.querySelectorAll('.route-filter').forEach(input => {
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    document.querySelectorAll('#' + input.dataset.target + ' .workspace-row').forEach(row => {
+      row.style.display = row.dataset.search.includes(q) ? '' : 'none';
+    });
+  });
+});
+</script>
+
+</body>
+</html>

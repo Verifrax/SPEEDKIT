@@ -1,0 +1,73 @@
+{
+  "counts": {
+    "github_repositories": 91,
+    "github_sources": 15,
+    "npm_packages": 20,
+    "package_sources": 2,
+    "pypi_packages": 0,
+    "total_entries": 111
+  },
+  "routes": [
+    {
+      "cmd": "cinematicum",
+      "title": "CINEMATICUM / KAAFFILM ISSUANCE",
+      "path": "/workspace/cinematicum/",
+      "count": 5
+    },
+    {
+      "cmd": "invocorder",
+      "title": "INVOCORDER EVIDENCE STACK",
+      "path": "/workspace/invocorder/",
+      "count": 7
+    },
+    {
+      "cmd": "qvra",
+      "title": "QVRA PUBLIC FIELD STACK",
+      "path": "/workspace/qvra/",
+      "count": 12
+    },
+    {
+      "cmd": "aux",
+      "title": "AUXILIARY / MICROTOOL SURFACES",
+      "path": "/workspace/auxiliary/",
+      "count": 3
+    },
+    {
+      "cmd": "truthframer",
+      "title": "TRUTHFRAMER MARKET-TRUTH STACK",
+      "path": "/workspace/truthframer/",
+      "count": 2
+    },
+    {
+      "cmd": "vatfix",
+      "title": "VATFIX COMPLIANCE STACK",
+      "path": "/workspace/vatfix/",
+      "count": 27
+    },
+    {
+      "cmd": "verifrax chambers",
+      "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
+      "path": "/workspace/verifrax/chambers/",
+      "count": 13
+    },
+    {
+      "cmd": "verifrax governance",
+      "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION SUPPORT",
+      "path": "/workspace/verifrax/governance/",
+      "count": 10
+    },
+    {
+      "cmd": "verifrax verification",
+      "title": "VERIFRAX VERIFICATION / API / DOCS / STATUS / SDK",
+      "path": "/workspace/verifrax/verification/",
+      "count": 16
+    },
+    {
+      "cmd": "verifrax primitives",
+      "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
+      "path": "/workspace/verifrax/primitives/",
+      "count": 16
+    }
+  ],
+  "boundary": "workspace routes are non-admission projection surfaces"
+}
