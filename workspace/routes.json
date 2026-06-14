@@ -1,74 +1,90 @@
 {
+  "mode": "PUBLIC_ONLY",
+  "counts": {
+    "systems": 4,
+    "workspace_entries": 127,
+    "github_surfaces": 105,
+    "github_organizations": 14,
+    "github_repositories": 91,
+    "npm_packages": 20,
+    "pypi_packages": 2,
+    "package_surfaces": 22,
+    "artifacts": 8,
+    "private_purged": 9,
+    "private_remaining": 0,
+    "routes": 32,
+    "search_records": 171
+  },
   "routes": [
     {
       "cmd": "root",
-      "title": "SPEEDKIT root terminal",
+      "title": "SPEEDKIT root engine",
       "path": "/",
       "count": "LIVE"
     },
     {
       "cmd": "terminal",
-      "title": "Terminal control surface",
+      "title": "Full terminal engine",
       "path": "/terminal/",
       "count": "LIVE"
     },
     {
       "cmd": "systems",
-      "title": "Recognized systems registry",
+      "title": "Recognized systems",
       "path": "/systems/",
       "count": 4
     },
     {
       "cmd": "registry",
-      "title": "Registry control surface",
+      "title": "Registry boundary",
       "path": "/registry/",
       "count": 4
     },
     {
       "cmd": "surfaces",
-      "title": "All public workspace surfaces",
+      "title": "All public surfaces",
       "path": "/surfaces/",
       "count": 127
     },
     {
       "cmd": "workspace",
-      "title": "Workspace family router",
+      "title": "Workspace families",
       "path": "/workspace/",
       "count": 127
     },
     {
       "cmd": "github",
-      "title": "GitHub public source surface",
+      "title": "GitHub source",
       "path": "/github/",
       "count": 105
     },
     {
       "cmd": "organizations",
-      "title": "GitHub public organization profiles",
+      "title": "GitHub organizations",
       "path": "/github/#organizations",
       "count": 14
     },
     {
       "cmd": "repositories",
-      "title": "GitHub public repositories",
+      "title": "GitHub repositories",
       "path": "/github/#repositories",
       "count": 91
     },
     {
       "cmd": "packages",
-      "title": "Package router",
+      "title": "Packages",
       "path": "/packages/",
       "count": 22
     },
     {
       "cmd": "npm",
-      "title": "npm package surface",
+      "title": "npm",
       "path": "/packages/npm/",
       "count": 20
     },
     {
       "cmd": "pypi",
-      "title": "PyPI package surface",
+      "title": "PyPI",
       "path": "/packages/pypi/",
       "count": 2
     },
@@ -80,7 +96,7 @@
     },
     {
       "cmd": "json",
-      "title": "Machine-readable public workspace JSON",
+      "title": "Workspace JSON",
       "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
       "count": 127
     },
@@ -313,20 +329,5 @@
       "path": "/workspace/verifrax/primitives/",
       "count": 16
     }
-  ],
-  "counts": {
-    "systems": 4,
-    "workspace_entries": 127,
-    "github_surfaces": 105,
-    "github_organizations": 14,
-    "github_repositories": 91,
-    "npm_packages": 20,
-    "pypi_packages": 2,
-    "package_surfaces": 22,
-    "artifacts": 8,
-    "routes": 32,
-    "search_records": 171,
-    "private_purged": 9,
-    "private_remaining": 0
-  }
+  ]
 }

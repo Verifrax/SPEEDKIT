@@ -1,5 +1,5 @@
 {
-  "title": "SPEEDKIT Public Workspace Repository Surface",
+  "title": "SPEEDKIT Public Workspace Surface",
   "mode": "PUBLIC_ONLY",
   "counts": {
     "systems": 4,
@@ -11,10 +11,10 @@
     "pypi_packages": 2,
     "package_surfaces": 22,
     "artifacts": 8,
-    "routes": 32,
-    "search_records": 171,
     "private_purged": 9,
-    "private_remaining": 0
+    "private_remaining": 0,
+    "routes": 32,
+    "search_records": 171
   },
   "entries": [
     {
@@ -5730,10 +5730,10 @@
     }
   ],
   "boundary": {
-    "root": "terminal control surface",
+    "root": "ideal terminal control engine",
     "systems": "recognized execution systems only",
     "workspace": "public organization/repository/package existence is non-admission metadata",
-    "rule": "repository existence is not registry admission",
-    "privacy": "private repositories are not projected on public SPEEDKIT surfaces"
+    "privacy": "private repositories are not projected on public SPEEDKIT surfaces",
+    "rule": "repository/package existence is not systems admission"
   }
 }

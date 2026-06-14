@@ -1,5 +1,5 @@
 {
-  "title": "SPEEDKIT Public Terminal Control Surface",
+  "title": "SPEEDKIT Ideal Terminal Engine",
   "mode": "PUBLIC_ONLY",
   "counts": {
     "systems": 4,
@@ -11,15 +11,16 @@
     "pypi_packages": 2,
     "package_surfaces": 22,
     "artifacts": 8,
-    "routes": 32,
-    "search_records": 171,
     "private_purged": 9,
-    "private_remaining": 0
+    "private_remaining": 0,
+    "routes": 32,
+    "search_records": 171
   },
   "commands": [
     "help",
     "counts",
     "privacy",
+    "verify",
     "routes",
     "tree",
     "systems",
@@ -32,12 +33,10 @@
     "packages",
     "npm",
     "pypi",
-    "families",
     "artifacts",
     "find <text>",
     "inspect <id/name>",
     "open <route/id/name>",
-    "verify",
     "export manifest",
     "export json",
     "clear"
@@ -45,73 +44,73 @@
   "routes": [
     {
       "cmd": "root",
-      "title": "SPEEDKIT root terminal",
+      "title": "SPEEDKIT root engine",
       "path": "/",
       "count": "LIVE"
     },
     {
       "cmd": "terminal",
-      "title": "Terminal control surface",
+      "title": "Full terminal engine",
       "path": "/terminal/",
       "count": "LIVE"
     },
     {
       "cmd": "systems",
-      "title": "Recognized systems registry",
+      "title": "Recognized systems",
       "path": "/systems/",
       "count": 4
     },
     {
       "cmd": "registry",
-      "title": "Registry control surface",
+      "title": "Registry boundary",
       "path": "/registry/",
       "count": 4
     },
     {
       "cmd": "surfaces",
-      "title": "All public workspace surfaces",
+      "title": "All public surfaces",
       "path": "/surfaces/",
       "count": 127
     },
     {
       "cmd": "workspace",
-      "title": "Workspace family router",
+      "title": "Workspace families",
       "path": "/workspace/",
       "count": 127
     },
     {
       "cmd": "github",
-      "title": "GitHub public source surface",
+      "title": "GitHub source",
       "path": "/github/",
       "count": 105
     },
     {
       "cmd": "organizations",
-      "title": "GitHub public organization profiles",
+      "title": "GitHub organizations",
       "path": "/github/#organizations",
       "count": 14
     },
     {
       "cmd": "repositories",
-      "title": "GitHub public repositories",
+      "title": "GitHub repositories",
       "path": "/github/#repositories",
       "count": 91
     },
     {
       "cmd": "packages",
-      "title": "Package router",
+      "title": "Packages",
       "path": "/packages/",
       "count": 22
     },
     {
       "cmd": "npm",
-      "title": "npm package surface",
+      "title": "npm",
       "path": "/packages/npm/",
       "count": 20
     },
     {
       "cmd": "pypi",
-      "title": "PyPI package surface",
+      "title": "PyPI",
       "path": "/packages/pypi/",
       "count": 2
     },
@@ -123,7 +122,7 @@
     },
     {
       "cmd": "json",
-      "title": "Machine-readable public workspace JSON",
+      "title": "Workspace JSON",
       "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
       "count": 127
     },
@@ -6171,7 +6170,7 @@
     {
       "id": "ROUTE-root",
       "surface": "route",
-      "name": "SPEEDKIT root terminal",
+      "name": "SPEEDKIT root engine",
       "description": "/",
       "url": "/",
       "status": "ROUTED",
@@ -6180,7 +6179,7 @@
     {
       "id": "ROUTE-terminal",
       "surface": "route",
-      "name": "Terminal control surface",
+      "name": "Full terminal engine",
       "description": "/terminal/",
       "url": "/terminal/",
       "status": "ROUTED",
@@ -6189,7 +6188,7 @@
     {
       "id": "ROUTE-systems",
       "surface": "route",
-      "name": "Recognized systems registry",
+      "name": "Recognized systems",
       "description": "/systems/",
       "url": "/systems/",
       "status": "ROUTED",
@@ -6198,7 +6197,7 @@
     {
       "id": "ROUTE-registry",
       "surface": "route",
-      "name": "Registry control surface",
+      "name": "Registry boundary",
       "description": "/registry/",
       "url": "/registry/",
       "status": "ROUTED",
@@ -6207,7 +6206,7 @@
     {
       "id": "ROUTE-surfaces",
       "surface": "route",
-      "name": "All public workspace surfaces",
+      "name": "All public surfaces",
       "description": "/surfaces/",
       "url": "/surfaces/",
       "status": "ROUTED",
@@ -6216,7 +6215,7 @@
     {
       "id": "ROUTE-workspace",
       "surface": "route",
-      "name": "Workspace family router",
+      "name": "Workspace families",
       "description": "/workspace/",
       "url": "/workspace/",
       "status": "ROUTED",
@@ -6225,7 +6224,7 @@
     {
       "id": "ROUTE-github",
       "surface": "route",
-      "name": "GitHub public source surface",
+      "name": "GitHub source",
       "description": "/github/",
       "url": "/github/",
       "status": "ROUTED",
@@ -6234,7 +6233,7 @@
     {
       "id": "ROUTE-organizations",
       "surface": "route",
-      "name": "GitHub public organization profiles",
+      "name": "GitHub organizations",
       "description": "/github/#organizations",
       "url": "/github/#organizations",
       "status": "ROUTED",
@@ -6243,7 +6242,7 @@
     {
       "id": "ROUTE-repositories",
       "surface": "route",
-      "name": "GitHub public repositories",
+      "name": "GitHub repositories",
       "description": "/github/#repositories",
       "url": "/github/#repositories",
       "status": "ROUTED",
@@ -6252,7 +6251,7 @@
     {
       "id": "ROUTE-packages",
       "surface": "route",
-      "name": "Package router",
+      "name": "Packages",
       "description": "/packages/",
       "url": "/packages/",
       "status": "ROUTED",
@@ -6261,7 +6260,7 @@
     {
       "id": "ROUTE-npm",
       "surface": "route",
-      "name": "npm package surface",
+      "name": "npm",
       "description": "/packages/npm/",
       "url": "/packages/npm/",
       "status": "ROUTED",
@@ -6270,7 +6269,7 @@
     {
       "id": "ROUTE-pypi",
       "surface": "route",
-      "name": "PyPI package surface",
+      "name": "PyPI",
       "description": "/packages/pypi/",
       "url": "/packages/pypi/",
       "status": "ROUTED",
@@ -6288,7 +6287,7 @@
     {
       "id": "ROUTE-json",
       "surface": "route",
-      "name": "Machine-readable public workspace JSON",
+      "name": "Workspace JSON",
       "description": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
       "url": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
       "status": "ROUTED",
@@ -6468,10 +6467,10 @@
     "speedkit": "Verifrax/SPEEDKIT"
   },
   "boundary": {
-    "root": "terminal control surface",
+    "root": "ideal terminal control engine",
     "systems": "recognized execution systems only",
     "workspace": "public organization/repository/package existence is non-admission metadata",
-    "rule": "repository existence is not registry admission",
-    "privacy": "private repositories are not projected on public SPEEDKIT surfaces"
+    "privacy": "private repositories are not projected on public SPEEDKIT surfaces",
+    "rule": "repository/package existence is not systems admission"
   }
 }
