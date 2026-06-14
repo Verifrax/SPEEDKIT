@@ -1,3 +1,7 @@
 www.speedkit.eu/*  https://speedkit.eu/:splat  301
-/author-workspace  /author-workspace/  301
-/author-workspace/  /author-workspace/index.html  200
+/author-workspace  /workspace/  301
+/author-workspace/  /workspace/  301
+/workspace  /workspace/  301
+/workspace/  /workspace/index.html  200
+/workspace/verifrax  /workspace/verifrax/  301
+/workspace/verifrax/  /workspace/verifrax/index.html  200
