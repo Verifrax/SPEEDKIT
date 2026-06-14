@@ -5,3 +5,13 @@ www.speedkit.eu/*  https://speedkit.eu/:splat  301
 /workspace/  /workspace/index.html  200
 /workspace/verifrax  /workspace/verifrax/  301
 /workspace/verifrax/  /workspace/verifrax/index.html  200
+/systems  /systems/  301
+/systems/  /systems/index.html  200
+/github  /github/  301
+/github/  /github/index.html  200
+/packages  /packages/  301
+/packages/  /packages/index.html  200
+/packages/npm  /packages/npm/  301
+/packages/npm/  /packages/npm/index.html  200
+/packages/pypi  /packages/pypi/  301
+/packages/pypi/  /packages/pypi/index.html  200

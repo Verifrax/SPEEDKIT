@@ -4,31 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>speedkit.eu</title>
-  <link rel="stylesheet" href="styles.css?v=20260614-terminal-router">
+  <link rel="stylesheet" href="styles.css?v=20260614-super-terminal">
 </head>
 <body>
 <main class="frame">
   <header class="mast">
     <h1>speedkit.eu</h1>
-    <p class="sub">Terminal Router for Recognized Systems and Workspace Surfaces</p>
+    <p class="sub">Interactive Terminal Surface for Systems, Repositories, Packages, and Workspace Routes</p>
     <p class="timestamp">REGISTRY OPENED: 2026-01-25</p>
   </header>
 
   <div class="meta">
-    <div class="kv"><span>MODE</span><span>PUBLIC</span></div>
-    <div class="kv"><span>POLICY</span><span>APPEND-ONLY</span></div>
-    <div class="kv"><span>WORKSPACE</span><span>111 ROUTED</span></div>
+    <div class="kv"><span>SYSTEMS</span><span>4</span></div>
+    <div class="kv"><span>GITHUB</span><span>91</span></div>
+    <div class="kv"><span>NPM</span><span>20</span></div>
+    <div class="kv"><span>PYPI</span><span>0</span></div>
   </div>
 
   <div class="seal-block">
-    SPEEDKIT TERMINAL<br>
-    <span>ROUTE · INSPECT · VERIFY BOUNDARY</span>
+    SPEEDKIT SUPER TERMINAL<br>
+    <span>ROUTE · SEARCH · OPEN · VERIFY · EXPORT</span>
   </div>
 
   <section class="panel terminal-panel">
     <h2>TERMINAL</h2>
     <div id="terminal-screen" class="terminal-screen">
-      <div><span class="prompt">speedkit&gt;</span> type <strong>help</strong>, <strong>ls</strong>, <strong>systems</strong>, <strong>workspace</strong>, <strong>open verifrax</strong>, <strong>open vatfix</strong>, or <strong>json</strong></div>
+      <div><span class="prompt">speedkit&gt;</span> commands: <strong>help</strong>, <strong>counts</strong>, <strong>routes</strong>, <strong>systems</strong>, <strong>github</strong>, <strong>packages</strong>, <strong>npm</strong>, <strong>pypi</strong>, <strong>workspace</strong>, <strong>open verifrax</strong>, <strong>find api</strong>, <strong>json</strong></div>
     </div>
     <form id="terminal-form" class="terminal-form">
       <span class="prompt">speedkit&gt;</span>
@@ -36,28 +37,63 @@
     </form>
     <div class="terminal-actions">
       <button type="button" data-cmd="help">help</button>
+      <button type="button" data-cmd="counts">counts</button>
+      <button type="button" data-cmd="routes">routes</button>
       <button type="button" data-cmd="systems">systems</button>
+      <button type="button" data-cmd="github">github</button>
+      <button type="button" data-cmd="packages">packages</button>
+      <button type="button" data-cmd="npm">npm</button>
+      <button type="button" data-cmd="pypi">pypi</button>
       <button type="button" data-cmd="workspace">workspace</button>
       <button type="button" data-cmd="open verifrax">open verifrax</button>
+      <button type="button" data-cmd="find api">find api</button>
       <button type="button" data-cmd="json">json</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>SURFACE COMMAND DECK</h2>
+    <div class="category-grid object-grid router-grid">
+      <a class="category-card object-card" href="/systems/"><span>RECOGNIZED SYSTEMS</span><strong>4</strong></a>
+      <a class="category-card object-card" href="/workspace/"><span>WORKSPACE FAMILY ROUTER</span><strong>111</strong></a>
+      <a class="category-card object-card" href="/github/"><span>GITHUB SOURCE SURFACE</span><strong>91</strong></a>
+      <a class="category-card object-card" href="/packages/"><span>PACKAGE ROUTER</span><strong>20</strong></a>
+      <a class="category-card object-card" href="/packages/npm/"><span>NPM PACKAGE SURFACE</span><strong>20</strong></a>
+      <a class="category-card object-card" href="/packages/pypi/"><span>PYPI PACKAGE SURFACE</span><strong></strong></a>
+      <a class="category-card object-card" href="/workspace/verifrax/"><span>VERIFRAX WORKSPACE ROUTER</span><strong>55</strong></a>
+      <a class="category-card object-card" href="/workspace/vatfix/"><span>VATFix family page</span><strong>27</strong></a>
+      <a class="category-card object-card" href="/workspace/invocorder/"><span>INVOCORDER family page</span><strong>7</strong></a>
+      <a class="category-card object-card" href="/workspace/cinematicum/"><span>CINEMATICUM / KAAFFILM family page</span><strong>5</strong></a>
+      <a class="category-card object-card" href="/workspace/qvra/"><span>QVRA family page</span><strong>12</strong></a>
+      <a class="category-card object-card" href="/workspace/truthframer/"><span>TRUTHFRAMER family page</span><strong>2</strong></a>
     </div>
   </section>
 
   <section class="panel">
     <h2>SYSTEMS</h2>
     <div class="registry">
-      <a href="cicullis/index.html" class="registry-row"><span>SYS-001</span><span>CICULLIS</span><span>Irreversible CI gate</span><span class="status">REGISTERED</span></a>
-      <a href="mk10-pro/index.html" class="registry-row"><span>SYS-002</span><span>MK10-PRO</span><span>Execution index (frozen)</span><span class="status">REGISTERED</span></a>
-      <a href="verifrax/index.html" class="registry-row"><span>SYS-003</span><span>VERIFRAX</span><span>Deterministic verification</span><span class="status">REGISTERED</span></a>
-      <a href="vatfix/index.html" class="registry-row"><span>SYS-004</span><span>VATFIX</span><span>VAT compliance execution</span><span class="status">REGISTERED</span></a>
+      <a href="/cicullis/" class="registry-row"><span>SYS-001</span><span>CICULLIS</span><span>Irreversible CI gate</span><span class="status">REGISTERED</span></a>
+      <a href="/mk10-pro/" class="registry-row"><span>SYS-002</span><span>MK10-PRO</span><span>Execution index (frozen)</span><span class="status">REGISTERED</span></a>
+      <a href="/verifrax/" class="registry-row"><span>SYS-003</span><span>VERIFRAX</span><span>Deterministic verification</span><span class="status">REGISTERED</span></a>
+      <a href="/vatfix/" class="registry-row"><span>SYS-004</span><span>VATFIX</span><span>VAT compliance execution</span><span class="status">REGISTERED</span></a>
     </div>
+  </section>
+
+  <section class="panel">
+    <h2>PACKAGE SURFACES</h2>
+    <div class="boundary-box">
+      <p>npm and PyPI are both first-class routes.</p>
+      <p><strong>NPM PACKAGES:</strong> 20</p>
+      <p><strong>PYPI PACKAGES:</strong> 0</p>
+      <p><a href="/packages/">Open package router</a></p>
+    </div>
+    <div class="boundary-stamp">PACKAGE SURFACES AVAILABLE</div>
   </section>
 
   <section class="panel">
     <h2>WORKSPACE ROUTER</h2>
     <div class="boundary-box">
-      <p>The 111 public workspace entries are no longer printed on the root page.</p>
-      <p>They are routed to object-family pages. GitHub repositories, npm packages, and organization profiles remain bound under their owning family.</p>
+      <p>The 111 public workspace entries live in routed family pages, not on the root page.</p>
       <p><strong>TOTAL ENTRIES:</strong> 111</p>
       <p><strong>GITHUB REPOSITORIES:</strong> 91</p>
       <p><strong>NPM PACKAGES:</strong> 20</p>
@@ -65,29 +101,7 @@
       <p><a href="/workspace/">Open workspace router</a></p>
       <p><a href="/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json">Open machine-readable registry JSON</a></p>
     </div>
-    <div class="boundary-stamp">ROOT ROUTES · FAMILY PAGES OWN THE LISTS · NOT SYSTEMS ADMISSION</div>
-    <div class="category-grid object-grid router-grid">
-      <a class="category-card object-card" href="/workspace/cinematicum/">
-        <span>01 · CINEMATICUM / KAAFFILM ISSUANCE</span><strong>5</strong></a>
-      <a class="category-card object-card" href="/workspace/invocorder/">
-        <span>02 · INVOCORDER EVIDENCE STACK</span><strong>7</strong></a>
-      <a class="category-card object-card" href="/workspace/qvra/">
-        <span>03 · QVRA PUBLIC FIELD STACK</span><strong>12</strong></a>
-      <a class="category-card object-card" href="/workspace/auxiliary/">
-        <span>04 · AUXILIARY / MICROTOOL SURFACES</span><strong>3</strong></a>
-      <a class="category-card object-card" href="/workspace/truthframer/">
-        <span>05 · TRUTHFRAMER MARKET-TRUTH STACK</span><strong>2</strong></a>
-      <a class="category-card object-card" href="/workspace/vatfix/">
-        <span>06 · VATFIX COMPLIANCE STACK</span><strong>27</strong></a>
-      <a class="category-card object-card" href="/workspace/verifrax/chambers/">
-        <span>07 · VERIFRAX SOVEREIGN CHAMBER ORDER</span><strong>13</strong></a>
-      <a class="category-card object-card" href="/workspace/verifrax/governance/">
-        <span>08 · VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION SUPPORT</span><strong>10</strong></a>
-      <a class="category-card object-card" href="/workspace/verifrax/verification/">
-        <span>09 · VERIFRAX VERIFICATION / API / DOCS / STATUS / SDK</span><strong>16</strong></a>
-      <a class="category-card object-card" href="/workspace/verifrax/primitives/">
-        <span>10 · VERIFRAX PRIMITIVE COMPONENT ORDER</span><strong>16</strong></a>
-    </div>
+    <div class="boundary-stamp">ROOT ROUTES · SUBPAGES OWN THE LISTS · NOT SYSTEMS ADMISSION</div>
   </section>
 
   <section class="panel">
@@ -109,8 +123,8 @@
     <h2>PROJECTION BOUNDARY</h2>
     <div class="boundary-box">
       <p>SPEEDKIT SYSTEMS is a projection of publicly recognized execution systems only.</p>
-      <p>The workspace router records public repository/package existence as non-admission metadata.</p>
-      <p>Root routes. Family pages list. Objects govern.</p>
+      <p>The terminal exposes repository/package existence as non-admission metadata.</p>
+      <p>Root routes. Subpages list. JSON exports. Objects govern.</p>
       <p>Experimental and auxiliary repositories are excluded from SYSTEMS unless expressly recognized by registry law.</p>
       <p>Authoritative workspace: <a href="https://github.com/midiakiasat">github.com/midiakiasat</a></p>
       <p class="final">Once listed in SYSTEMS, deletion is not permitted; status may change but registry identity remains.</p>
@@ -120,7 +134,7 @@
 
   <footer class="seal-footer">
     <div class="rule"></div>
-    <div class="seal-text">REGISTERED · ROUTED · INSPECTABLE</div>
+    <div class="seal-text">REGISTERED · ROUTED · SEARCHABLE · EXPORTABLE</div>
     <div class="rule"></div>
     <div class="contact-block">
       <div class="contact-label">OUT-OF-BAND CHANNEL</div>
@@ -131,24 +145,26 @@
 </main>
 
 <script>
-const routes = [{"cmd": "cinematicum", "title": "CINEMATICUM / KAAFFILM ISSUANCE", "path": "/workspace/cinematicum/", "count": 5}, {"cmd": "invocorder", "title": "INVOCORDER EVIDENCE STACK", "path": "/workspace/invocorder/", "count": 7}, {"cmd": "qvra", "title": "QVRA PUBLIC FIELD STACK", "path": "/workspace/qvra/", "count": 12}, {"cmd": "aux", "title": "AUXILIARY / MICROTOOL SURFACES", "path": "/workspace/auxiliary/", "count": 3}, {"cmd": "truthframer", "title": "TRUTHFRAMER MARKET-TRUTH STACK", "path": "/workspace/truthframer/", "count": 2}, {"cmd": "vatfix", "title": "VATFIX COMPLIANCE STACK", "path": "/workspace/vatfix/", "count": 27}, {"cmd": "verifrax chambers", "title": "VERIFRAX SOVEREIGN CHAMBER ORDER", "path": "/workspace/verifrax/chambers/", "count": 13}, {"cmd": "verifrax governance", "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION SUPPORT", "path": "/workspace/verifrax/governance/", "count": 10}, {"cmd": "verifrax verification", "title": "VERIFRAX VERIFICATION / API / DOCS / STATUS / SDK", "path": "/workspace/verifrax/verification/", "count": 16}, {"cmd": "verifrax primitives", "title": "VERIFRAX PRIMITIVE COMPONENT ORDER", "path": "/workspace/verifrax/primitives/", "count": 16}];
-const aliases = {
-  "workspace": "/workspace/",
-  "verifrax": "/workspace/verifrax/",
-  "chambers": "/workspace/verifrax/chambers/",
-  "governance": "/workspace/verifrax/governance/",
-  "verification": "/workspace/verifrax/verification/",
-  "primitives": "/workspace/verifrax/primitives/",
-  "cinematicum": "/workspace/cinematicum/",
-  "kaaffilm": "/workspace/cinematicum/",
-  "invocorder": "/workspace/invocorder/",
-  "qvra": "/workspace/qvra/",
-  "aux": "/workspace/auxiliary/",
-  "auxiliary": "/workspace/auxiliary/",
-  "truthframer": "/workspace/truthframer/",
-  "vatfix": "/workspace/vatfix/",
-  "json": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json"
+const routes = [{"cmd": "systems", "title": "RECOGNIZED SYSTEMS", "path": "/systems/", "count": 4}, {"cmd": "workspace", "title": "WORKSPACE FAMILY ROUTER", "path": "/workspace/", "count": 111}, {"cmd": "github", "title": "GITHUB SOURCE SURFACE", "path": "/github/", "count": 91}, {"cmd": "packages", "title": "PACKAGE ROUTER", "path": "/packages/", "count": 20}, {"cmd": "npm", "title": "NPM PACKAGE SURFACE", "path": "/packages/npm/", "count": 20}, {"cmd": "pypi", "title": "PYPI PACKAGE SURFACE", "path": "/packages/pypi/", "count": 0}, {"cmd": "json", "title": "Machine-readable workspace JSON", "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json", "count": 111}, {"cmd": "verifrax", "title": "VERIFRAX WORKSPACE ROUTER", "path": "/workspace/verifrax/", "count": 55}, {"cmd": "vatfix", "title": "VATFix family page", "path": "/workspace/vatfix/", "count": 27}, {"cmd": "invocorder", "title": "INVOCORDER family page", "path": "/workspace/invocorder/", "count": 7}, {"cmd": "cinematicum", "title": "CINEMATICUM / KAAFFILM family page", "path": "/workspace/cinematicum/", "count": 5}, {"cmd": "qvra", "title": "QVRA family page", "path": "/workspace/qvra/", "count": 12}, {"cmd": "truthframer", "title": "TRUTHFRAMER family page", "path": "/workspace/truthframer/", "count": 2}, {"cmd": "auxiliary", "title": "Auxiliary/microtool family page", "path": "/workspace/auxiliary/", "count": 3}, {"cmd": "chambers", "title": "Verifrax sovereign chamber order", "path": "/workspace/verifrax/chambers/", "count": 13}, {"cmd": "governance", "title": "Verifrax governance/admissibility", "path": "/workspace/verifrax/governance/", "count": 10}, {"cmd": "verification", "title": "Verifrax verification/API/docs/status/SDK", "path": "/workspace/verifrax/verification/", "count": 16}, {"cmd": "primitives", "title": "Verifrax primitives", "path": "/workspace/verifrax/primitives/", "count": 16}];
+const entries = [{"name": "CINEMATICUM/CINEMATICUM", "surface": "github", "url": "https://github.com/CINEMATICUM/CINEMATICUM", "description": "CINEMATICUM issues admissible motion pictures."}, {"name": "INVOCORDER/.github", "surface": "github", "url": "https://github.com/INVOCORDER/.github", "description": "INVOCORDER organization profile"}, {"name": "INVOCORDER/CAPTURE-CONTRACT", "surface": "github", "url": "https://github.com/INVOCORDER/CAPTURE-CONTRACT", "description": "Normative capture contract for machine-action boundary records and replayable evidence bundles."}, {"name": "INVOCORDER/EVIDENCE-SCHEMAS", "surface": "github", "url": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS", "description": "Canonical schemas and validators for INVOCORDER machine-action evidence objects."}, {"name": "INVOCORDER/HOSTILE-FIXTURES", "surface": "github", "url": "https://github.com/INVOCORDER/HOSTILE-FIXTURES", "description": "Adversarial fixture corpus for proving INVOCORDER does not lie, overclaim, silently omit, or confuse integrity with truth."}, {"name": "INVOCORDER/INTEGRATIONS", "surface": "github", "url": "https://github.com/INVOCORDER/INTEGRATIONS", "description": "Runnable integrations for local commands, MCP, CI agents, IDE agents, browser agents, and downstream evidence consumers."}, {"name": "INVOCORDER/INVOCORDER", "surface": "github", "url": "https://github.com/INVOCORDER/INVOCORDER", "description": "Machine-action evidence recorder runtime: hash-chained boundary records and replayable evidence bundles."}, {"name": "kaaffilm/.github", "surface": "github", "url": "https://github.com/kaaffilm/.github", "description": "Organization profile"}, {"name": "kaaffilm/CINEMATICUM", "surface": "github", "url": "https://github.com/kaaffilm/CINEMATICUM", "description": "CINEMATICUM produces admissible cinema."}, {"name": "kaaffilm/MK10-PRO", "surface": "github", "url": "https://github.com/kaaffilm/MK10-PRO", "description": "Pre-delivery truth infrastructure"}, {"name": "midiakiasat/awesome-actions", "surface": "github", "url": "https://github.com/midiakiasat/awesome-actions", "description": "A curated list of awesome actions to use on GitHub"}, {"name": "qvra/bench", "surface": "github", "url": "https://github.com/qvra/bench", "description": "Argument engine for qvra: reproducible benchmarks, constrained comparisons, measurable technical pressure."}, {"name": "qvra/core", "surface": "github", "url": "https://github.com/qvra/core", "description": "Backbone surface for qvra: shared internal machinery that supports live public surfaces."}, {"name": "qvra/index", "surface": "github", "url": "https://github.com/qvra/index", "description": "Field map for qvra: role-based routing that keeps growth legible."}, {"name": "qvra/kit", "surface": "github", "url": "https://github.com/qvra/kit", "description": "Reusable foundation surface for qvra: copyable repo bases and route-first starting shapes."}, {"name": "qvra/lab", "surface": "github", "url": "https://github.com/qvra/lab", "description": "Public experimentation zone for qvra: unstable prototypes, sharp unfinished ideas, forward pressure."}, {"name": "qvra/launch", "surface": "github", "url": "https://github.com/qvra/launch", "description": "Fast entry surface for qvra: starter paths and one-shot bootstrap routes."}, {"name": "qvra/meta", "surface": "github", "url": "https://github.com/qvra/meta", "description": "Pattern engine for qvra: shared standards, repo grammar, and operating defaults."}, {"name": "qvra/pulse", "surface": "github", "url": "https://github.com/qvra/pulse", "description": "Heartbeat surface for qvra: motion logs, release rhythm, recurrence, visible field activity."}, {"name": "qvra/qvra", "surface": "github", "url": "https://github.com/qvra/qvra", "description": "Front door for qvra: route-first entry into the live field."}, {"name": "qvra/run", "surface": "github", "url": "https://github.com/qvra/run", "description": "Immediate utility anchor for qvra: small runnable tools, visible output, fast wins."}, {"name": "qvra/show", "surface": "github", "url": "https://github.com/qvra/show", "description": "Visible proof surface for qvra: demos, examples, showcase routes, curiosity into contact."}, {"name": "qvra/site", "surface": "github", "url": "https://github.com/qvra/site", "description": "Public web surface for qvra: fast, visual, current, route-dense."}, {"name": "qxvo/MAILSIEVE", "surface": "github", "url": "https://github.com/qxvo/MAILSIEVE", "description": "Bounded, resumable CLI for discovering publicly listed business email addresses from domain lists."}, {"name": "qzro/ADJUTORIX", "surface": "github", "url": "https://github.com/qzro/ADJUTORIX", "description": "repository"}, {"name": "TRUTHFRAMER/.github", "surface": "github", "url": "https://github.com/TRUTHFRAMER/.github", "description": "Public organization profile for TRUTHFRAMER."}, {"name": "TRUTHFRAMER/truthframer-platform", "surface": "github", "url": "https://github.com/TRUTHFRAMER/truthframer-platform", "description": "The object spine for TRUTHFRAMER: replayable visual truth frames for market reality."}, {"name": "VATFix/CONSOLE", "surface": "github", "url": "https://github.com/VATFix/CONSOLE", "description": "repository"}, {"name": "VATFix/LEGAL", "surface": "github", "url": "https://github.com/VATFix/LEGAL", "description": "repository"}, {"name": "VATFix/OPS", "surface": "github", "url": "https://github.com/VATFix/OPS", "description": "repository"}, {"name": "VATFix/REGISTRY", "surface": "github", "url": "https://github.com/VATFix/REGISTRY", "description": "repository"}, {"name": "VATFix/REPLAY", "surface": "github", "url": "https://github.com/VATFix/REPLAY", "description": "repository"}, {"name": "VATFix/SECTORS", "surface": "github", "url": "https://github.com/VATFix/SECTORS", "description": "repository"}, {"name": "VATFix/SECURITY", "surface": "github", "url": "https://github.com/VATFix/SECURITY", "description": "repository"}, {"name": "VATFix/TELEMETRY", "surface": "github", "url": "https://github.com/VATFix/TELEMETRY", "description": "repository"}, {"name": "VATFix/VATFIX", "surface": "github", "url": "https://github.com/VATFix/VATFIX", "description": "repository"}, {"name": "VATFix/vatfix-action", "surface": "github", "url": "https://github.com/VATFix/vatfix-action", "description": "repository"}, {"name": "VATFix/vatfix-attestations", "surface": "github", "url": "https://github.com/VATFix/vatfix-attestations", "description": "repository"}, {"name": "VATFix/vatfix-audit-log-spec", "surface": "github", "url": "https://github.com/VATFix/vatfix-audit-log-spec", "description": "repository"}, {"name": "VATFix/vatfix-evidence-model", "surface": "github", "url": "https://github.com/VATFix/vatfix-evidence-model", "description": "repository"}, {"name": "VATFix/vatfix-fallback-adapter", "surface": "github", "url": "https://github.com/VATFix/vatfix-fallback-adapter", "description": "repository"}, {"name": "VATFix/vatfix-intrastat", "surface": "github", "url": "https://github.com/VATFix/vatfix-intrastat", "description": "repository"}, {"name": "VATFix/vatfix-invoice", "surface": "github", "url": "https://github.com/VATFix/vatfix-invoice", "description": "repository"}, {"name": "VATFix/VATFix-Master", "surface": "github", "url": "https://github.com/VATFix/VATFix-Master", "description": "repository"}, {"name": "VATFix/vatfix-oss", "surface": "github", "url": "https://github.com/VATFix/vatfix-oss", "description": "repository"}, {"name": "VATFix/vatfix-postman", "surface": "github", "url": "https://github.com/VATFix/vatfix-postman", "description": "repository"}, {"name": "VATFix/vatfix-rules-eu", "surface": "github", "url": "https://github.com/VATFix/vatfix-rules-eu", "description": "repository"}, {"name": "VATFix/vatfix-sdk-js", "surface": "github", "url": "https://github.com/VATFix/vatfix-sdk-js", "description": "repository"}, {"name": "VATFix/vatfix-sdk-python", "surface": "github", "url": "https://github.com/VATFix/vatfix-sdk-python", "description": "repository"}, {"name": "VATFix/vatfix-sepa", "surface": "github", "url": "https://github.com/VATFix/vatfix-sepa", "description": "repository"}, {"name": "VATFix/vatfix-vies-adapter", "surface": "github", "url": "https://github.com/VATFix/vatfix-vies-adapter", "description": "repository"}, {"name": "VATFix/vatfix-xml", "surface": "github", "url": "https://github.com/VATFix/vatfix-xml", "description": "repository"}, {"name": "VATFix/vatfix-zapier", "surface": "github", "url": "https://github.com/VATFix/vatfix-zapier", "description": "repository"}, {"name": "VATFix/vatfix.eu", "surface": "github", "url": "https://github.com/VATFix/vatfix.eu", "description": "repository"}, {"name": "Verifrax/.github", "surface": "github", "url": "https://github.com/Verifrax/.github", "description": "Canonical GitHub governance, community defaults, and organization profile surface for Verifrax repositories."}, {"name": "Verifrax/ADMISSORIUM", "surface": "github", "url": "https://github.com/Verifrax/ADMISSORIUM", "description": "Admissibility enforcement implementation for the VERIFRAX constitutional perimeter."}, {"name": "Verifrax/ANAGNORIUM", "surface": "github", "url": "https://github.com/Verifrax/ANAGNORIUM", "description": "repository"}, {"name": "Verifrax/apply", "surface": "github", "url": "https://github.com/Verifrax/apply", "description": "Application and contributor intake surface for Verifrax: structured submissions, roles, and growth pipeline."}, {"name": "Verifrax/archicustos", "surface": "github", "url": "https://github.com/Verifrax/archicustos", "description": "Custody-preservation primitive for Verifrax: protects continuity, control, and artifact stewardship boundaries."}, {"name": "Verifrax/ARCHITECTURE", "surface": "github", "url": "https://github.com/Verifrax/ARCHITECTURE", "description": "Canonical system architecture, repository topology, host map, and governance boundary for Verifrax."}, {"name": "Verifrax/attestorium", "surface": "github", "url": "https://github.com/Verifrax/attestorium", "description": "Attestation primitive for Verifrax: emits deterministic attestation signals for irreversible verification systems."}, {"name": "Verifrax/AUCTORISEAL", "surface": "github", "url": "https://github.com/Verifrax/AUCTORISEAL", "description": "Authority issuance system for Verifrax: generates governance seals that authorize execution and bind receipts."}, {"name": "Verifrax/cicullis", "surface": "github", "url": "https://github.com/Verifrax/cicullis", "description": "Deterministic GitHub enforcement action for Verifrax: irreversible merge-time policy and compliance gating."}, {"name": "Verifrax/CONSONORIUM", "surface": "github", "url": "https://github.com/Verifrax/CONSONORIUM", "description": "Reconciler, compiler, repair, and quarantine engine that aligns Verifrax surfaces to law and epoch truth."}, {"name": "Verifrax/CORPIFORM", "surface": "github", "url": "https://github.com/Verifrax/CORPIFORM", "description": "Deterministic execution runtime for Verifrax: authority-governed runs with verifiable receipt output."}, {"name": "Verifrax/guillotine", "surface": "github", "url": "https://github.com/Verifrax/guillotine", "description": "Termination primitive for Verifrax: enforces irreversible cut-off and final-stop behavior in governed systems."}, {"name": "Verifrax/irrevocull", "surface": "github", "url": "https://github.com/Verifrax/irrevocull", "description": "Judgment primitive for Verifrax: records irreversible decisions for deterministic trust and compliance systems."}, {"name": "Verifrax/kairoclasp", "surface": "github", "url": "https://github.com/Verifrax/kairoclasp", "description": "Time-boundary primitive for Verifrax: locks temporal conditions for deterministic verification and control."}, {"name": "Verifrax/limenward", "surface": "github", "url": "https://github.com/Verifrax/limenward", "description": "Boundary-enforcement primitive for Verifrax: guards entry, transition, and limit conditions in governed systems."}, {"name": "Verifrax/ORBISTIUM", "surface": "github", "url": "https://github.com/Verifrax/ORBISTIUM", "description": "Canonical world graph, reconciled epochs, proof bundles, and current-state memory for Verifrax."}, {"name": "Verifrax/originseal", "surface": "github", "url": "https://github.com/Verifrax/originseal", "description": "Origin-sealing primitive for Verifrax: binds artifact origin and provenance for deterministic trust chains."}, {"name": "Verifrax/proof", "surface": "github", "url": "https://github.com/Verifrax/proof", "description": "Public proof publication surface for Verifrax: canonical proof artifacts, disclosures, and verification references."}, {"name": "Verifrax/REGRESSORIUM", "surface": "github", "url": "https://github.com/Verifrax/REGRESSORIUM", "description": "repository"}, {"name": "Verifrax/SIGILLARIUM", "surface": "github", "url": "https://github.com/Verifrax/SIGILLARIUM", "description": "Deterministic artifact sealing protocol for reproducible integrity bundles independent of identity or blockchain."}, {"name": "Verifrax/SPEEDKIT", "surface": "github", "url": "https://github.com/Verifrax/SPEEDKIT", "description": "Verifrax root registry and governance surface: SPEEDKIT."}, {"name": "Verifrax/SYNTAGMARIUM", "surface": "github", "url": "https://github.com/Verifrax/SYNTAGMARIUM", "description": "Constitutional law, invariants, role definitions, and projection contracts for the Verifrax system."}, {"name": "Verifrax/TACHYRIUM", "surface": "github", "url": "https://github.com/Verifrax/TACHYRIUM", "description": "v0.1.0 live \u2014 bounded sovereign cognition infrastructure for the Verifrax stack."}, {"name": "Verifrax/validexor", "surface": "github", "url": "https://github.com/Verifrax/validexor", "description": "Verification primitive for Verifrax: deterministic validation logic for irreversible integrity systems."}, {"name": "Verifrax/VERIFRAX", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX", "description": "Core Verifrax verification protocol for authority-governed execution, evidence receipts, and deterministic trust."}, {"name": "Verifrax/VERIFRAX-API", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-API", "description": "Canonical API source for api.verifrax.net. Execution surface only."}, {"name": "Verifrax/VERIFRAX-CONTROL-VERIFY", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-CONTROL-VERIFY", "description": "External replay verifier for VERIFRAX public control fixed point"}, {"name": "Verifrax/VERIFRAX-DOCS", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-DOCS", "description": "Official documentation site for Verifrax systems, repositories, hosts, policies, and public operating surfaces."}, {"name": "Verifrax/verifrax-marketplace-smoke", "surface": "github", "url": "https://github.com/Verifrax/verifrax-marketplace-smoke", "description": "Marketplace smoke-test repository for Verifrax actions, releases, and installation-path verification."}, {"name": "Verifrax/VERIFRAX-PROFILES", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-PROFILES", "description": "Schemas, fixtures, and deterministic profile surfaces for Verifrax identity and verification flows."}, {"name": "Verifrax/VERIFRAX-PY", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-PY", "description": "Python SDK and CLI implementation boundary for VERIFRAX verification, evidence inspection, API access, and refusal-aware object-chain diagnostics."}, {"name": "Verifrax/VERIFRAX-SAMPLES", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-SAMPLES", "description": "Reference samples and example artifacts for Verifrax verification, evidence, and integration workflows."}, {"name": "Verifrax/VERIFRAX-SPEC", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-SPEC", "description": "Formal Verifrax specification covering contracts, invariants, evidence boundaries, and verification rules."}, {"name": "Verifrax/VERIFRAX-STATUS", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-STATUS", "description": "Canonical operational status surface for status.verifrax.net. Status truth only."}, {"name": "Verifrax/VERIFRAX-SURFACE", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-SURFACE", "description": "Canonical surface system for VERIFRAX."}, {"name": "Verifrax/VERIFRAX-verify", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-verify", "description": "Public verification surface for finality-grade truth checks, proof review, and post-hoc determination."}, {"name": "Verifrax/VERIFRAX-WWW", "surface": "github", "url": "https://github.com/Verifrax/VERIFRAX-WWW", "description": "Canonical root surface for www.verifrax.net Public entry only."}, {"name": "@invocorder/recorder", "surface": "npm", "url": "https://www.npmjs.com/package/@invocorder/recorder", "description": "Machine-action evidence substrate: hash-chained boundary records and replayable evidence bundles."}, {"name": "@kaaffilm/mk10-pro", "surface": "npm", "url": "https://www.npmjs.com/package/@kaaffilm/mk10-pro", "description": "MK10-PRO witness launcher: public package-surface entrypoint for proof, boundary, and witness commands."}, {"name": "@verifrax/archicustos", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/archicustos", "description": "Verifrax primitive \u2014 custody preservation primitive for deterministic irreversible systems."}, {"name": "@verifrax/attestorium", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/attestorium", "description": "Verifrax primitive \u2014 attestation primitive for deterministic irreversible systems."}, {"name": "@verifrax/auctoriseal", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/auctoriseal", "description": "Authority sealing primitive for canonical authority ledgers, genesis seal publication, and verifier-visible issuance surfaces in the Verifrax stack."}, {"name": "@verifrax/cicullis", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/cicullis", "description": "Deterministic GitHub enforcement action for Verifrax merge-time policy and compliance gating."}, {"name": "@verifrax/corpiform", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/corpiform", "description": "CORPIFORM is an authority-governed deterministic execution runtime that consumes AUCTORISEAL authority and emits signed, replay-resistant receipts."}, {"name": "@verifrax/guillotine", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/guillotine", "description": "Verifrax primitive \u2014 termination primitive for deterministic irreversible systems."}, {"name": "@verifrax/irrevocull", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/irrevocull", "description": "Verifrax primitive \u2014 judgment primitive for deterministic irreversible systems."}, {"name": "@verifrax/kairoclasp", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/kairoclasp", "description": "Verifrax primitive \u2014 time boundary primitive for deterministic irreversible systems."}, {"name": "@verifrax/limenward", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/limenward", "description": "Verifrax primitive \u2014 boundary enforcement primitive for deterministic irreversible systems."}, {"name": "@verifrax/originseal", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/originseal", "description": "Verifrax primitive \u2014 origin sealing primitive for deterministic irreversible systems."}, {"name": "@verifrax/root", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/root", "description": "Package: @verifrax/root Binary: verifrax-seal Repository: Verifrax/VERIFRAX"}, {"name": "@verifrax/sigillarium", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/sigillarium", "description": "Package: @verifrax/sigillarium Repository: Verifrax/SIGILLARIUM"}, {"name": "@verifrax/validexor", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/validexor", "description": "Verifrax primitive \u2014 verification primitive for deterministic irreversible systems."}, {"name": "@verifrax/verifrax", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/verifrax", "description": "Package: @verifrax/root Binary: verifrax-seal Repository: Verifrax/VERIFRAX"}, {"name": "@verifrax/verifrax-api", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/verifrax-api", "description": "Package: @verifrax/verifrax-api Binary: verifrax-seal Repository: Verifrax/VERIFRAX-API"}, {"name": "@verifrax/verifrax-profiles", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/verifrax-profiles", "description": "Deterministic profile corpus for the governed Verifrax verification system."}, {"name": "@verifrax/verifrax-spec", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/verifrax-spec", "description": "Derived specification publication surface for the governed Verifrax system."}, {"name": "@verifrax/verifrax-verify", "surface": "npm", "url": "https://www.npmjs.com/package/@verifrax/verifrax-verify", "description": "Package: @verifrax/verifrax-verify"}];
+const aliases = Object.fromEntries(routes.map(r => [r.cmd, r.path]));
+aliases.pkg = "/packages/";
+aliases.package = "/packages/";
+aliases.repo = "/github/";
+aliases.repos = "/github/";
+aliases.source = "/github/";
+aliases.sources = "/github/";
+aliases.js = "/packages/npm/";
+aliases.python = "/packages/pypi/";
+
+const counts = {
+  systems: 4,
+  github: 91,
+  npm: 20,
+  pypi: 0,
+  workspace: 111
 };
+
 const screen = document.getElementById("terminal-screen");
 const input = document.getElementById("terminal-input");
 const form = document.getElementById("terminal-form");
@@ -164,6 +180,12 @@ function routeList() {
   return routes.map(r => `<div><a href="${r.path}">${r.cmd}</a> · ${r.count} · ${r.title}</div>`).join("");
 }
 
+function resultList(q) {
+  const matches = entries.filter(e => (e.name + " " + e.surface + " " + e.description).toLowerCase().includes(q)).slice(0, 25);
+  if (!matches.length) return "no match";
+  return matches.map(e => `<div><a href="${e.url}">${e.surface.toUpperCase()} · ${e.name}</a> · ${e.description}</div>`).join("");
+}
+
 function run(cmd) {
   const raw = cmd.trim();
   if (!raw) return;
@@ -171,32 +193,37 @@ function run(cmd) {
   const c = raw.toLowerCase();
 
   if (c === "help") {
-    line("commands: help · ls · systems · workspace · open &lt;name&gt; · json · clear");
+    line("commands: help · counts · routes · systems · github · packages/pkg · npm · pypi · workspace · open &lt;route&gt; · find &lt;text&gt; · json · clear");
     return;
   }
   if (c === "clear") {
     screen.innerHTML = "";
     return;
   }
-  if (c === "ls" || c === "workspace") {
+  if (c === "counts" || c === "status") {
+    line(`systems=${counts.systems} · github=${counts.github} · npm=${counts.npm} · pypi=${counts.pypi} · workspace=${counts.workspace}`);
+    return;
+  }
+  if (c === "routes" || c === "ls") {
     line(routeList());
     return;
   }
-  if (c === "systems") {
-    line('<div><a href="/cicullis/">SYS-001 CICULLIS</a></div><div><a href="/mk10-pro/">SYS-002 MK10-PRO</a></div><div><a href="/verifrax/">SYS-003 VERIFRAX</a></div><div><a href="/vatfix/">SYS-004 VATFIX</a></div>');
+  if (c === "json") {
+    location.href = "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json";
     return;
   }
-  if (c === "json") {
-    location.href = aliases.json;
+  if (c.startsWith("find ") || c.startsWith("search ")) {
+    const q = c.replace(/^(find|search)\s+/, "").trim();
+    line(resultList(q));
     return;
   }
   if (c.startsWith("open ")) {
     const target = c.replace(/^open\s+/, "").trim();
     if (aliases[target]) {
       location.href = aliases[target];
-    } else {
-      line("unknown route: " + target + " · run ls");
+      return;
     }
+    line("unknown route: " + target + " · run routes");
     return;
   }
   if (aliases[c]) {

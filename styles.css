@@ -569,3 +569,35 @@ body::after {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* surface command deck */
+.router-grid .category-card {
+  min-height: 54px;
+}
+
+.terminal-screen div {
+  margin-bottom: 4px;
+}
+
+.terminal-screen strong {
+  color: #00ff66;
+}
+
+.terminal-screen::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-screen::-webkit-scrollbar-thumb {
+  background: #123522;
+}
+
+.boundary-box a {
+  color: #00ff66;
+}
+
+.category-card:hover,
+.terminal-actions button:hover {
+  background: #0a1b0f;
+  border-color: #00ff66;
+}

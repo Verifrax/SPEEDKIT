@@ -7,64 +7,116 @@
     "pypi_packages": 0,
     "total_entries": 111
   },
+  "systems": 4,
+  "github": 91,
+  "npm": 20,
+  "pypi": 0,
   "routes": [
     {
-      "cmd": "cinematicum",
-      "title": "CINEMATICUM / KAAFFILM ISSUANCE",
-      "path": "/workspace/cinematicum/",
-      "count": 5
+      "cmd": "systems",
+      "title": "Recognized systems",
+      "path": "/systems/",
+      "count": 4
     },
     {
-      "cmd": "invocorder",
-      "title": "INVOCORDER EVIDENCE STACK",
-      "path": "/workspace/invocorder/",
-      "count": 7
+      "cmd": "workspace",
+      "title": "Workspace family router",
+      "path": "/workspace/",
+      "count": 111
     },
     {
-      "cmd": "qvra",
-      "title": "QVRA PUBLIC FIELD STACK",
-      "path": "/workspace/qvra/",
-      "count": 12
+      "cmd": "github",
+      "title": "GitHub source surface",
+      "path": "/github/",
+      "count": 91
     },
     {
-      "cmd": "aux",
-      "title": "AUXILIARY / MICROTOOL SURFACES",
-      "path": "/workspace/auxiliary/",
-      "count": 3
+      "cmd": "packages",
+      "title": "Package router",
+      "path": "/packages/",
+      "count": 20
     },
     {
-      "cmd": "truthframer",
-      "title": "TRUTHFRAMER MARKET-TRUTH STACK",
-      "path": "/workspace/truthframer/",
-      "count": 2
+      "cmd": "npm",
+      "title": "npm package surface",
+      "path": "/packages/npm/",
+      "count": 20
+    },
+    {
+      "cmd": "pypi",
+      "title": "PyPI package surface",
+      "path": "/packages/pypi/",
+      "count": 0
+    },
+    {
+      "cmd": "json",
+      "title": "Machine-readable workspace JSON",
+      "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
+      "count": 111
+    },
+    {
+      "cmd": "verifrax",
+      "title": "Verifrax workspace router",
+      "path": "/workspace/verifrax/",
+      "count": 55
     },
     {
       "cmd": "vatfix",
-      "title": "VATFIX COMPLIANCE STACK",
+      "title": "VATFix family page",
       "path": "/workspace/vatfix/",
       "count": 27
     },
     {
-      "cmd": "verifrax chambers",
-      "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
+      "cmd": "invocorder",
+      "title": "INVOCORDER family page",
+      "path": "/workspace/invocorder/",
+      "count": 7
+    },
+    {
+      "cmd": "cinematicum",
+      "title": "CINEMATICUM / KAAFFILM family page",
+      "path": "/workspace/cinematicum/",
+      "count": 5
+    },
+    {
+      "cmd": "qvra",
+      "title": "QVRA family page",
+      "path": "/workspace/qvra/",
+      "count": 12
+    },
+    {
+      "cmd": "truthframer",
+      "title": "TRUTHFRAMER family page",
+      "path": "/workspace/truthframer/",
+      "count": 2
+    },
+    {
+      "cmd": "auxiliary",
+      "title": "Auxiliary/microtool family page",
+      "path": "/workspace/auxiliary/",
+      "count": 3
+    },
+    {
+      "cmd": "chambers",
+      "title": "Verifrax sovereign chamber order",
       "path": "/workspace/verifrax/chambers/",
       "count": 13
     },
     {
-      "cmd": "verifrax governance",
-      "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION SUPPORT",
+      "cmd": "governance",
+      "title": "Verifrax governance/admissibility",
       "path": "/workspace/verifrax/governance/",
       "count": 10
     },
     {
-      "cmd": "verifrax verification",
-      "title": "VERIFRAX VERIFICATION / API / DOCS / STATUS / SDK",
+      "cmd": "verification",
+      "title": "Verifrax verification/API/docs/status/SDK",
       "path": "/workspace/verifrax/verification/",
       "count": 16
     },
     {
-      "cmd": "verifrax primitives",
-      "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
+      "cmd": "primitives",
+      "title": "Verifrax primitives",
       "path": "/workspace/verifrax/primitives/",
       "count": 16
     }
