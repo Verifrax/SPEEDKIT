@@ -392,3 +392,27 @@ body::after {
 .category-registry {
   border: 0;
 }
+
+
+.object-card {
+  text-decoration: none;
+}
+
+.object-family {
+  scroll-margin-top: 24px;
+}
+
+.object-registry .object-row {
+  grid-template-columns: 56px 90px 280px 1fr 110px;
+}
+
+.object-row span:first-child {
+  color: #7cff9d;
+  font-variant-numeric: tabular-nums;
+}
+
+@media(max-width:900px) {
+  .object-registry .object-row {
+    grid-template-columns: 1fr;
+  }
+}
