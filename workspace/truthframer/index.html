@@ -1,69 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TRUTHFRAMER MARKET-TRUTH STACK · speedkit.eu</title>
-  <link rel="stylesheet" href="../../styles.css?v=20260614-terminal-router">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRUTHFRAMER · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css?v=20260614final">
 </head>
 <body>
-<main class="frame">
-  <header class="mast">
-    <h1>TRUTHFRAMER MARKET-TRUTH STACK</h1>
-    <p class="sub">Object-family page</p>
-    <p class="timestamp">SPEEDKIT WORKSPACE SURFACE · NOT SYSTEMS ADMISSION</p>
-  </header>
+<main class="frame control-frame">
+<header class="mast control-mast">
+<h1>TRUTHFRAMER</h1>
+<p class="sub">2 surfaces</p>
+<p class="timestamp">REGISTRY OPENED: 2026-01-25</p>
+</header>
 
-  <section class="panel terminal-panel compact-terminal">
-    <h2>05 · TRUTHFRAMER MARKET-TRUTH STACK</h2>
-    <div class="boundary-box">
-      <p>Replayable market-truth object surfaces and organization profile.</p>
-      <p><strong>ENTRIES:</strong> 2</p>
-      <p><a href="/workspace/">Back to workspace router</a></p>
-    </div>
-    <div class="boundary-stamp">OWN PAGE · SOURCE FAMILY BOUND</div>
-  </section>
-
-  <section class="panel">
-    <h2>FILTER THIS FAMILY</h2>
-    <input class="terminal-input route-filter" data-target="family-rows" placeholder="type to filter this page, e.g. sdk, api, proof, package">
-  </section>
-
-  <section class="panel">
-    <h2>ORDERED FAMILY ENTRIES</h2>
-    <div id="family-rows" class="registry category-registry object-registry">
-      <a href="https://github.com/TRUTHFRAMER/.github" class="registry-row workspace-row object-row" data-search="truthframer/.github public organization profile for truthframer. github">
-        <span>001</span>
-        <span>GITHUB</span>
-        <span>TRUTHFRAMER/.github</span>
-        <span>Public organization profile for TRUTHFRAMER.</span>
-        <span class="status">LISTED</span>
-      </a>
-      <a href="https://github.com/TRUTHFRAMER/truthframer-platform" class="registry-row workspace-row object-row" data-search="truthframer/truthframer-platform the object spine for truthframer: replayable visual truth frames for market reality. github">
-        <span>002</span>
-        <span>GITHUB</span>
-        <span>TRUTHFRAMER/truthframer-platform</span>
-        <span>The object spine for TRUTHFRAMER: replayable visual truth frames for market reality.</span>
-        <span class="status">LISTED</span>
-      </a>
-    </div>
-  </section>
-
-  <footer class="seal-footer">
-    <div class="rule"></div>
-    <div class="seal-text"><a href="/">speedkit.eu</a> · <a href="/workspace/">workspace router</a></div>
-    <div class="rule"></div>
-    <div class="invariant">REPOSITORY EXISTENCE IS NOT REGISTRY ADMISSION</div>
-  </footer>
+    <section class="panel">
+      <h2>FILTER</h2>
+      <input class="surface-filter" id="surface-filter" placeholder="filter this page">
+    </section>
+    <section class="panel"><h2>TRUTHFRAMER</h2><div class="registry control-registry"><a class="registry-row control-row" href="https://github.com/TRUTHFRAMER/.github" data-id="WSP-026" data-name="TRUTHFRAMER/.github" data-surface="github" data-family="truthframer"><span class="id">WSP-026</span><span class="surface">GITHUB</span><span class="name">TRUTHFRAMER/.github</span><span class="desc">Public organization profile for TRUTHFRAMER.</span><span class="status">LISTED</span></a>
+<a class="registry-row control-row" href="https://github.com/TRUTHFRAMER/truthframer-platform" data-id="WSP-027" data-name="TRUTHFRAMER/truthframer-platform" data-surface="github" data-family="truthframer"><span class="id">WSP-027</span><span class="surface">GITHUB</span><span class="name">TRUTHFRAMER/truthframer-platform</span><span class="desc">The object spine for TRUTHFRAMER: replayable visual truth frames for market reality.</span><span class="status">LISTED</span></a></div></section>
+<footer class="seal-footer">
+<div class="rule"></div>
+<div class="seal-text">REGISTERED · ROUTED · SEARCHABLE · INSPECTABLE · EXPORTABLE</div>
+<div class="rule"></div>
+<div class="contact-block">
+<div class="contact-label">OUT-OF-BAND CHANNEL</div>
+<a href="mailto:contact@speedkit.eu" class="contact-value">contact@speedkit.eu</a>
+</div>
+<div class="invariant">STATE IS NOT SUBJECT TO INTERPRETATION</div>
+</footer>
 </main>
 
 <script>
-document.querySelectorAll('.route-filter').forEach(input => {
-  input.addEventListener('input', () => {
-    const q = input.value.toLowerCase().trim();
-    document.querySelectorAll('#' + input.dataset.target + ' .workspace-row').forEach(row => {
-      row.style.display = row.dataset.search.includes(q) ? '' : 'none';
-    });
+const f = document.getElementById("surface-filter");
+f?.addEventListener("input", () => {
+  const q = f.value.toLowerCase();
+  document.querySelectorAll(".control-row").forEach(r => {
+    r.style.display = r.textContent.toLowerCase().includes(q) ? "grid" : "none";
   });
 });
 </script>

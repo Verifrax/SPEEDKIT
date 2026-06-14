@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PYPI PACKAGE SURFACE · speedkit.eu</title>
-  <link rel="stylesheet" href="/styles.css?v=20260614pypi">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PYPI PACKAGE SURFACE · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css?v=20260614final">
 </head>
 <body>
-<main class="frame">
-  <header class="mast">
-    <h1>PYPI PACKAGE SURFACE</h1>
-    <p class="sub">2 PyPI package surfaces</p>
-    <p class="timestamp">REGISTRY OPENED: 2026-01-25</p>
-  </header>
-<section class="panel">
-<h2>PYPI PACKAGE SURFACE</h2>
-<div class="registry"><a href="https://pypi.org/project/mk10-pro/" class="registry-row workspace-row"><span>WSP-112</span><span>PYPI</span><span>mk10-pro</span><span>Deterministic pre-delivery truth infrastructure for audiovisual mastering. Produces cryptographically verifiable Master Truth Bundles (MTB).</span><span class="status">LISTED</span></a>
-<a href="https://pypi.org/project/verifrax/" class="registry-row workspace-row"><span>WSP-113</span><span>PYPI</span><span>verifrax</span><span>Python SDK and CLI for VERIFRAX bounded verification, evidence inspection, API access, and refusal-aware object-chain diagnostics.</span><span class="status">LISTED</span></a></div>
-</section>
-  <footer class="seal-footer">
-    <div class="rule"></div>
-    <div class="seal-text">REGISTERED · ROUTED · SEARCHABLE · INSPECTABLE · EXPORTABLE</div>
-    <div class="rule"></div>
-    <div class="contact-block">
-      <div class="contact-label">OUT-OF-BAND CHANNEL</div>
-      <a href="mailto:contact@speedkit.eu" class="contact-value">contact@speedkit.eu</a>
-    </div>
-    <div class="invariant">STATE IS NOT SUBJECT TO INTERPRETATION</div>
-  </footer>
+<main class="frame control-frame">
+<header class="mast control-mast">
+<h1>PYPI PACKAGE SURFACE</h1>
+<p class="sub">2 PyPI package surfaces</p>
+<p class="timestamp">REGISTRY OPENED: 2026-01-25</p>
+</header>
+
+    <section class="panel">
+      <h2>FILTER</h2>
+      <input class="surface-filter" id="surface-filter" placeholder="filter this page">
+    </section>
+    <section class="panel"><h2>PYPI PACKAGE SURFACE</h2><div class="registry control-registry"><a class="registry-row control-row" href="https://pypi.org/project/mk10-pro/" data-id="WSP-112" data-name="mk10-pro" data-surface="pypi" data-family="cinematicum"><span class="id">WSP-112</span><span class="surface">PYPI</span><span class="name">mk10-pro</span><span class="desc">Deterministic pre-delivery truth infrastructure for audiovisual mastering. Produces cryptographically verifiable Master Truth Bundles (MTB).</span><span class="status">LISTED</span></a>
+<a class="registry-row control-row" href="https://pypi.org/project/verifrax/" data-id="WSP-113" data-name="verifrax" data-surface="pypi" data-family="verifrax-verification"><span class="id">WSP-113</span><span class="surface">PYPI</span><span class="name">verifrax</span><span class="desc">Python SDK and CLI for VERIFRAX bounded verification, evidence inspection, API access, and refusal-aware object-chain diagnostics.</span><span class="status">LISTED</span></a></div></section>
+<footer class="seal-footer">
+<div class="rule"></div>
+<div class="seal-text">REGISTERED · ROUTED · SEARCHABLE · INSPECTABLE · EXPORTABLE</div>
+<div class="rule"></div>
+<div class="contact-block">
+<div class="contact-label">OUT-OF-BAND CHANNEL</div>
+<a href="mailto:contact@speedkit.eu" class="contact-value">contact@speedkit.eu</a>
+</div>
+<div class="invariant">STATE IS NOT SUBJECT TO INTERPRETATION</div>
+</footer>
 </main>
+
+<script>
+const f = document.getElementById("surface-filter");
+f?.addEventListener("input", () => {
+  const q = f.value.toLowerCase();
+  document.querySelectorAll(".control-row").forEach(r => {
+    r.style.display = r.textContent.toLowerCase().includes(q) ? "grid" : "none";
+  });
+});
+</script>
 
 </body>
 </html>
