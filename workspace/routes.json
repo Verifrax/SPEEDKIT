@@ -24,7 +24,7 @@
     },
     {
       "cmd": "terminal",
-      "title": "Full terminal engine",
+      "title": "Control terminal",
       "path": "/terminal/",
       "count": "LIVE"
     },
