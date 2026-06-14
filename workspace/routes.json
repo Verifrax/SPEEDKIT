@@ -26,33 +26,33 @@
     },
     {
       "cmd": "surfaces",
-      "title": "All workspace surfaces",
+      "title": "All public workspace surfaces",
       "path": "/surfaces/",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "workspace",
       "title": "Workspace family router",
       "path": "/workspace/",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "github",
-      "title": "GitHub source surface",
+      "title": "GitHub public source surface",
       "path": "/github/",
-      "count": 114
+      "count": 105
     },
     {
       "cmd": "organizations",
-      "title": "GitHub organization profiles",
+      "title": "GitHub public organization profiles",
       "path": "/github/#organizations",
       "count": 14
     },
     {
       "cmd": "repositories",
-      "title": "GitHub repositories",
+      "title": "GitHub public repositories",
       "path": "/github/#repositories",
-      "count": 100
+      "count": 91
     },
     {
       "cmd": "packages",
@@ -80,21 +80,21 @@
     },
     {
       "cmd": "json",
-      "title": "Machine-readable workspace JSON",
+      "title": "Machine-readable public workspace JSON",
       "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "manifest",
       "title": "Terminal manifest",
       "path": "/SPEEDKIT_TERMINAL_MANIFEST.json",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "cinematicum",
       "title": "CINEMATICUM / KAAFFILM ISSUANCE",
       "path": "/workspace/cinematicum/",
-      "count": 16
+      "count": 8
     },
     {
       "cmd": "invocorder",
@@ -166,31 +166,31 @@
       "cmd": "vatfix",
       "title": "VATFIX COMPLIANCE STACK",
       "path": "/workspace/vatfix/",
-      "count": 29
+      "count": 28
     },
     {
       "cmd": "verifrax-chambers",
       "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
       "path": "/workspace/verifrax/chambers/",
-      "count": 5
+      "count": 13
     },
     {
       "cmd": "verifrax-governance",
       "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION",
       "path": "/workspace/verifrax/governance/",
-      "count": 2
+      "count": 11
     },
     {
       "cmd": "verifrax-verification",
       "title": "VERIFRAX VERIFICATION / API / DOCS / SDK",
       "path": "/workspace/verifrax/verification/",
-      "count": 42
+      "count": 17
     },
     {
       "cmd": "verifrax-primitives",
       "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
       "path": "/workspace/verifrax/primitives/",
-      "count": 8
+      "count": 16
     }
   ],
   "families": [
@@ -199,7 +199,7 @@
       "title": "CINEMATICUM / KAAFFILM ISSUANCE",
       "description": "Film issuance, KAAFFILM delivery, MK10-PRO, npm and PyPI package bindings.",
       "path": "/workspace/cinematicum/",
-      "count": 16
+      "count": 8
     },
     {
       "key": "invocorder",
@@ -283,48 +283,50 @@
       "title": "VATFIX COMPLIANCE STACK",
       "description": "VAT compliance execution, registry, replay, SDKs, adapters, operations, and web.",
       "path": "/workspace/vatfix/",
-      "count": 29
+      "count": 28
     },
     {
       "key": "verifrax-chambers",
       "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
       "description": "Constitutional chamber order and bound package surfaces.",
       "path": "/workspace/verifrax/chambers/",
-      "count": 5
+      "count": 13
     },
     {
       "key": "verifrax-governance",
       "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION",
       "description": "Governance, admissibility, registry, proof, architecture, and enforcement surfaces.",
       "path": "/workspace/verifrax/governance/",
-      "count": 2
+      "count": 11
     },
     {
       "key": "verifrax-verification",
       "title": "VERIFRAX VERIFICATION / API / DOCS / SDK",
       "description": "Verification protocol, API, docs, profiles, SDKs, samples, status, and package surfaces.",
       "path": "/workspace/verifrax/verification/",
-      "count": 42
+      "count": 17
     },
     {
       "key": "verifrax-primitives",
       "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
       "description": "Primitive source repositories and bound package surfaces.",
       "path": "/workspace/verifrax/primitives/",
-      "count": 8
+      "count": 16
     }
   ],
   "counts": {
     "systems": 4,
-    "workspace_entries": 136,
-    "github_surfaces": 114,
+    "workspace_entries": 127,
+    "github_surfaces": 105,
     "github_organizations": 14,
-    "github_repositories": 100,
+    "github_repositories": 91,
     "npm_packages": 20,
     "pypi_packages": 2,
     "package_surfaces": 22,
     "artifacts": 8,
     "routes": 32,
-    "search_records": 180
+    "search_records": 171,
+    "private_purged": 9,
+    "private_remaining": 0
   }
 }
