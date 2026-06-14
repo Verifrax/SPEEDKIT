@@ -1,5 +1,5 @@
 {
-  "title": "SPEEDKIT Ideal Terminal Engine",
+  "title": "SPEEDKIT Control Engine",
   "mode": "PUBLIC_ONLY",
   "counts": {
     "systems": 4,
@@ -50,7 +50,7 @@
     },
     {
       "cmd": "terminal",
-      "title": "Full terminal engine",
+      "title": "Control terminal",
       "path": "/terminal/",
       "count": "LIVE"
     },
@@ -6179,7 +6179,7 @@
     {
       "id": "ROUTE-terminal",
       "surface": "route",
-      "name": "Full terminal engine",
+      "name": "Control terminal",
       "description": "/terminal/",
       "url": "/terminal/",
       "status": "ROUTED",
@@ -6467,10 +6467,30 @@
     "speedkit": "Verifrax/SPEEDKIT"
   },
   "boundary": {
-    "root": "ideal terminal control engine",
+    "root": "control terminal control engine",
     "systems": "recognized execution systems only",
     "workspace": "public organization/repository/package existence is non-admission metadata",
     "privacy": "private repositories are not projected on public SPEEDKIT surfaces",
     "rule": "repository/package existence is not systems admission"
+  },
+  "control_engine": {
+    "canonical_name": "SPEEDKIT Control Engine",
+    "mode": "PUBLIC_ONLY",
+    "purpose": "Route, search, inspect, verify, and export the public SPEEDKIT control surface without converting repositories, organizations, or packages into admitted systems.",
+    "system_boundary": {
+      "recognized_execution_systems": 4,
+      "public_workspace_surfaces": 127,
+      "rule": "A repository, organization, or package is not automatically a system."
+    },
+    "language_policy": {
+      "canonical_surface_terms": [
+        "control engine",
+        "public control surface",
+        "recognized execution systems",
+        "public workspace universe",
+        "public-only gate"
+      ],
+      "rejected_surface_language_class": "subjective promotional status language"
+    }
   }
 }

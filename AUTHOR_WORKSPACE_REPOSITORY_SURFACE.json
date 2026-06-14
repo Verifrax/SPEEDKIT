@@ -5730,7 +5730,7 @@
     }
   ],
   "boundary": {
-    "root": "ideal terminal control engine",
+    "root": "control terminal control engine",
     "systems": "recognized execution systems only",
     "workspace": "public organization/repository/package existence is non-admission metadata",
     "privacy": "private repositories are not projected on public SPEEDKIT surfaces",
