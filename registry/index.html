@@ -3,55 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SPEEDKIT SYSTEMS · speedkit.eu</title>
+  <title>SPEEDKIT REGISTRY · speedkit.eu</title>
   <link rel="stylesheet" href="../styles.css?v=20260614-control-surface">
 </head>
 <body>
 <main class="frame">
   <header class="mast">
-    <h1>SPEEDKIT SYSTEMS</h1>
-    <p class="sub">Recognized execution systems only.</p>
+    <h1>SPEEDKIT REGISTRY</h1>
+    <p class="sub">Recognition boundary and systems control.</p>
     <p class="timestamp">SPEEDKIT CONTROL SURFACE · ROUTED · SEARCHABLE · EXPORTABLE</p>
   </header>
 
   <section class="panel">
-    <h2>SPEEDKIT SYSTEMS</h2>
+    <h2>REGISTRY CONTROL</h2>
     <div class="boundary-box">
-      <p>Recognized execution systems only.</p>
-      <p><strong>ENTRIES:</strong> 4</p>
-      <p><a href="/terminal/">Open terminal</a></p>
+      <p>SPEEDKIT registry authority is limited to recognized execution-system metadata.</p>
+      <p>Workspace repositories and packages are searchable facts, not systems admission.</p>
     </div>
-    <div class="boundary-stamp">CONTROL ROUTE · FILTERABLE</div>
-  </section>
-  <section class="panel">
-    <h2>FILTER</h2>
-    <input class="terminal-input route-filter" data-target="rows" placeholder="filter this surface">
-  </section>
-  <section class="panel">
-    <h2>RECORDS</h2>
-    <div id="rows" class="registry control-registry">
+    <div class="registry control-registry">
       <a href="/cicullis/" class="registry-row control-row" data-search="sys-001 system cicullis irreversible ci gate systems">
         <span>SYS-001</span>
         <span>SYSTEM</span>
         <span>CICULLIS</span>
         <span>Irreversible CI gate</span>
         <span class="status">REGISTERED</span>
-      </a>
-      <a href="/mk10-pro/" class="registry-row control-row" data-search="sys-002 system mk10-pro execution index frozen systems">
+      </a>      <a href="/mk10-pro/" class="registry-row control-row" data-search="sys-002 system mk10-pro execution index frozen systems">
         <span>SYS-002</span>
         <span>SYSTEM</span>
         <span>MK10-PRO</span>
         <span>Execution index frozen</span>
         <span class="status">REGISTERED</span>
-      </a>
-      <a href="/verifrax/" class="registry-row control-row" data-search="sys-003 system verifrax deterministic verification systems">
+      </a>      <a href="/verifrax/" class="registry-row control-row" data-search="sys-003 system verifrax deterministic verification systems">
         <span>SYS-003</span>
         <span>SYSTEM</span>
         <span>VERIFRAX</span>
         <span>Deterministic verification</span>
         <span class="status">REGISTERED</span>
-      </a>
-      <a href="/vatfix/" class="registry-row control-row" data-search="sys-004 system vatfix vat compliance execution systems">
+      </a>      <a href="/vatfix/" class="registry-row control-row" data-search="sys-004 system vatfix vat compliance execution systems">
         <span>SYS-004</span>
         <span>SYSTEM</span>
         <span>VATFIX</span>
@@ -68,17 +56,6 @@
     <div class="invariant">REPOSITORY EXISTENCE IS NOT REGISTRY ADMISSION</div>
   </footer>
 </main>
-
-<script>
-document.querySelectorAll('.route-filter').forEach(input => {
-  input.addEventListener('input', () => {
-    const q = input.value.toLowerCase().trim();
-    document.querySelectorAll('#' + input.dataset.target + ' .control-row').forEach(row => {
-      row.style.display = row.dataset.search.includes(q) ? '' : 'none';
-    });
-  });
-});
-</script>
 
 </body>
 </html>

@@ -601,3 +601,69 @@ body::after {
   background: #0a1b0f;
   border-color: #00ff66;
 }
+
+
+/* SPEEDKIT terminal control surface */
+.terminal-metrics {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.control-terminal {
+  border-color: #00ff66;
+  box-shadow: 0 0 0 1px rgba(0,255,102,.12), 0 0 48px rgba(0,255,102,.06);
+}
+
+.terminal-screen-large {
+  min-height: 260px;
+  max-height: 520px;
+}
+
+.control-registry .control-row {
+  grid-template-columns: 90px 90px 260px 1fr 110px;
+}
+
+.control-row span:first-child {
+  color: #7cff9d;
+  font-variant-numeric: tabular-nums;
+}
+
+.control-row span:nth-child(2) {
+  color: #00ff66;
+}
+
+.terminal-screen div {
+  margin-bottom: 5px;
+}
+
+.terminal-screen a {
+  color: #00ff66;
+  text-decoration: none;
+}
+
+.terminal-screen a:hover {
+  text-decoration: underline;
+}
+
+.terminal-screen strong {
+  color: #00ff66;
+}
+
+.router-grid .category-card {
+  min-height: 58px;
+}
+
+.boundary-box a {
+  color: #00ff66;
+}
+
+.category-card:hover,
+.terminal-actions button:hover {
+  background: #0b1f11;
+  border-color: #00ff66;
+}
+
+@media(max-width:900px) {
+  .control-registry .control-row {
+    grid-template-columns: 1fr;
+  }
+}

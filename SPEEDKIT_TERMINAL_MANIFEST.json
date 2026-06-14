@@ -1,0 +1,1378 @@
+{
+  "title": "SPEEDKIT Terminal Control Surface",
+  "counts": {
+    "systems": 4,
+    "workspace_entries": 111,
+    "github_repositories": 91,
+    "npm_packages": 20,
+    "pypi_packages": 0,
+    "artifacts": 8,
+    "routes": 21,
+    "search_records": 123
+  },
+  "commands": [
+    "help",
+    "counts",
+    "routes",
+    "systems",
+    "registry",
+    "surfaces",
+    "workspace",
+    "github",
+    "packages",
+    "npm",
+    "pypi",
+    "families",
+    "artifacts",
+    "find <text>",
+    "open <route|id|name>",
+    "inspect <route|id|name>",
+    "verify",
+    "export json",
+    "export routes",
+    "clear"
+  ],
+  "routes": [
+    {
+      "cmd": "root",
+      "title": "SPEEDKIT root terminal",
+      "path": "/",
+      "count": "LIVE"
+    },
+    {
+      "cmd": "terminal",
+      "title": "Terminal control surface",
+      "path": "/terminal/",
+      "count": "LIVE"
+    },
+    {
+      "cmd": "systems",
+      "title": "Recognized systems registry",
+      "path": "/systems/",
+      "count": 4
+    },
+    {
+      "cmd": "registry",
+      "title": "Registry control surface",
+      "path": "/registry/",
+      "count": 4
+    },
+    {
+      "cmd": "surfaces",
+      "title": "All surface router",
+      "path": "/surfaces/",
+      "count": 111
+    },
+    {
+      "cmd": "workspace",
+      "title": "Workspace family router",
+      "path": "/workspace/",
+      "count": 111
+    },
+    {
+      "cmd": "github",
+      "title": "GitHub repository surface",
+      "path": "/github/",
+      "count": 91
+    },
+    {
+      "cmd": "packages",
+      "title": "Package router",
+      "path": "/packages/",
+      "count": 20
+    },
+    {
+      "cmd": "npm",
+      "title": "npm package surface",
+      "path": "/packages/npm/",
+      "count": 20
+    },
+    {
+      "cmd": "pypi",
+      "title": "PyPI package surface",
+      "path": "/packages/pypi/",
+      "count": 0
+    },
+    {
+      "cmd": "json",
+      "title": "Machine-readable workspace JSON",
+      "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
+      "count": 111
+    },
+    {
+      "cmd": "cinematicum",
+      "title": "CINEMATICUM / KAAFFILM",
+      "path": "/workspace/cinematicum/",
+      "count": 5
+    },
+    {
+      "cmd": "invocorder",
+      "title": "INVOCORDER",
+      "path": "/workspace/invocorder/",
+      "count": 7
+    },
+    {
+      "cmd": "qvra",
+      "title": "QVRA",
+      "path": "/workspace/qvra/",
+      "count": 12
+    },
+    {
+      "cmd": "auxiliary",
+      "title": "AUXILIARY / MICROTOOLS",
+      "path": "/workspace/auxiliary/",
+      "count": 3
+    },
+    {
+      "cmd": "truthframer",
+      "title": "TRUTHFRAMER",
+      "path": "/workspace/truthframer/",
+      "count": 2
+    },
+    {
+      "cmd": "vatfix",
+      "title": "VATFIX",
+      "path": "/workspace/vatfix/",
+      "count": 27
+    },
+    {
+      "cmd": "verifrax-chambers",
+      "title": "VERIFRAX CHAMBERS",
+      "path": "/workspace/verifrax/chambers/",
+      "count": 13
+    },
+    {
+      "cmd": "verifrax-governance",
+      "title": "VERIFRAX GOVERNANCE",
+      "path": "/workspace/verifrax/governance/",
+      "count": 10
+    },
+    {
+      "cmd": "verifrax-verification",
+      "title": "VERIFRAX VERIFICATION / API / DOCS",
+      "path": "/workspace/verifrax/verification/",
+      "count": 18
+    },
+    {
+      "cmd": "verifrax-primitives",
+      "title": "VERIFRAX PRIMITIVES",
+      "path": "/workspace/verifrax/primitives/",
+      "count": 14
+    }
+  ],
+  "systems": [
+    {
+      "id": "SYS-001",
+      "name": "CICULLIS",
+      "class": "recognized",
+      "status": "REGISTERED",
+      "role": "Irreversible CI gate",
+      "url": "/cicullis/",
+      "family": "systems"
+    },
+    {
+      "id": "SYS-002",
+      "name": "MK10-PRO",
+      "class": "recognized",
+      "status": "REGISTERED",
+      "role": "Execution index frozen",
+      "url": "/mk10-pro/",
+      "family": "systems"
+    },
+    {
+      "id": "SYS-003",
+      "name": "VERIFRAX",
+      "class": "recognized",
+      "status": "REGISTERED",
+      "role": "Deterministic verification",
+      "url": "/verifrax/",
+      "family": "systems"
+    },
+    {
+      "id": "SYS-004",
+      "name": "VATFIX",
+      "class": "recognized",
+      "status": "REGISTERED",
+      "role": "VAT compliance execution",
+      "url": "/vatfix/",
+      "family": "systems"
+    }
+  ],
+  "families": [
+    {
+      "key": "cinematicum",
+      "title": "CINEMATICUM / KAAFFILM",
+      "path": "/workspace/cinematicum/",
+      "count": 5
+    },
+    {
+      "key": "invocorder",
+      "title": "INVOCORDER",
+      "path": "/workspace/invocorder/",
+      "count": 7
+    },
+    {
+      "key": "qvra",
+      "title": "QVRA",
+      "path": "/workspace/qvra/",
+      "count": 12
+    },
+    {
+      "key": "auxiliary",
+      "title": "AUXILIARY / MICROTOOLS",
+      "path": "/workspace/auxiliary/",
+      "count": 3
+    },
+    {
+      "key": "truthframer",
+      "title": "TRUTHFRAMER",
+      "path": "/workspace/truthframer/",
+      "count": 2
+    },
+    {
+      "key": "vatfix",
+      "title": "VATFIX",
+      "path": "/workspace/vatfix/",
+      "count": 27
+    },
+    {
+      "key": "verifrax-chambers",
+      "title": "VERIFRAX CHAMBERS",
+      "path": "/workspace/verifrax/chambers/",
+      "count": 13
+    },
+    {
+      "key": "verifrax-governance",
+      "title": "VERIFRAX GOVERNANCE",
+      "path": "/workspace/verifrax/governance/",
+      "count": 10
+    },
+    {
+      "key": "verifrax-verification",
+      "title": "VERIFRAX VERIFICATION / API / DOCS",
+      "path": "/workspace/verifrax/verification/",
+      "count": 18
+    },
+    {
+      "key": "verifrax-primitives",
+      "title": "VERIFRAX PRIMITIVES",
+      "path": "/workspace/verifrax/primitives/",
+      "count": 14
+    }
+  ],
+  "search_index": [
+    {
+      "id": "SYS-001",
+      "surface": "system",
+      "name": "CICULLIS",
+      "description": "Irreversible CI gate",
+      "url": "/cicullis/",
+      "status": "REGISTERED",
+      "family": "systems"
+    },
+    {
+      "id": "SYS-002",
+      "surface": "system",
+      "name": "MK10-PRO",
+      "description": "Execution index frozen",
+      "url": "/mk10-pro/",
+      "status": "REGISTERED",
+      "family": "systems"
+    },
+    {
+      "id": "SYS-003",
+      "surface": "system",
+      "name": "VERIFRAX",
+      "description": "Deterministic verification",
+      "url": "/verifrax/",
+      "status": "REGISTERED",
+      "family": "systems"
+    },
+    {
+      "id": "SYS-004",
+      "surface": "system",
+      "name": "VATFIX",
+      "description": "VAT compliance execution",
+      "url": "/vatfix/",
+      "status": "REGISTERED",
+      "family": "systems"
+    },
+    {
+      "id": "WSP-001",
+      "surface": "github",
+      "name": "CINEMATICUM/CINEMATICUM",
+      "description": "CINEMATICUM issues admissible motion pictures.",
+      "url": "https://github.com/CINEMATICUM/CINEMATICUM",
+      "status": "LISTED",
+      "family": "cinematicum"
+    },
+    {
+      "id": "WSP-002",
+      "surface": "github",
+      "name": "INVOCORDER/.github",
+      "description": "INVOCORDER organization profile",
+      "url": "https://github.com/INVOCORDER/.github",
+      "status": "LISTED",
+      "family": "invocorder"
+    },
+    {
+      "id": "WSP-003",
+      "surface": "github",
+      "name": "INVOCORDER/CAPTURE-CONTRACT",
+      "description": "Normative capture contract for machine-action boundary records and replayable evidence bundles.",
+      "url": "https://github.com/INVOCORDER/CAPTURE-CONTRACT",
+      "status": "LISTED",
+      "family": "invocorder"
+    },
+    {
+      "id": "WSP-004",
+      "surface": "github",
+      "name": "INVOCORDER/EVIDENCE-SCHEMAS",
+      "description": "Canonical schemas and validators for INVOCORDER machine-action evidence objects.",
+      "url": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS",
+      "status": "LISTED",
+      "family": "invocorder"
+    },
+    {
+      "id": "WSP-005",
+      "surface": "github",
+      "name": "INVOCORDER/HOSTILE-FIXTURES",
+      "description": "Adversarial fixture corpus for proving INVOCORDER does not lie, overclaim, silently omit, or confuse integrity with truth.",
+      "url": "https://github.com/INVOCORDER/HOSTILE-FIXTURES",
+      "status": "LISTED",
+      "family": "invocorder"
+    },
+    {
+      "id": "WSP-006",
+      "surface": "github",
+      "name": "INVOCORDER/INTEGRATIONS",
+      "description": "Runnable integrations for local commands, MCP, CI agents, IDE agents, browser agents, and downstream evidence consumers.",
+      "url": "https://github.com/INVOCORDER/INTEGRATIONS",
+      "status": "LISTED",
+      "family": "invocorder"
+    },
+    {
+      "id": "WSP-007",
+      "surface": "github",
+      "name": "INVOCORDER/INVOCORDER",
+      "description": "Machine-action evidence recorder runtime: hash-chained boundary records and replayable evidence bundles.",
+      "url": "https://github.com/INVOCORDER/INVOCORDER",
+      "status": "LISTED",
+      "family": "invocorder"
+    },
+    {
+      "id": "WSP-008",
+      "surface": "github",
+      "name": "kaaffilm/.github",
+      "description": "Organization profile",
+      "url": "https://github.com/kaaffilm/.github",
+      "status": "LISTED",
+      "family": "cinematicum"
+    },
+    {
+      "id": "WSP-009",
+      "surface": "github",
+      "name": "kaaffilm/CINEMATICUM",
+      "description": "CINEMATICUM produces admissible cinema.",
+      "url": "https://github.com/kaaffilm/CINEMATICUM",
+      "status": "LISTED",
+      "family": "cinematicum"
+    },
+    {
+      "id": "WSP-010",
+      "surface": "github",
+      "name": "kaaffilm/MK10-PRO",
+      "description": "Pre-delivery truth infrastructure",
+      "url": "https://github.com/kaaffilm/MK10-PRO",
+      "status": "LISTED",
+      "family": "cinematicum"
+    },
+    {
+      "id": "WSP-011",
+      "surface": "github",
+      "name": "midiakiasat/awesome-actions",
+      "description": "A curated list of awesome actions to use on GitHub",
+      "url": "https://github.com/midiakiasat/awesome-actions",
+      "status": "LISTED",
+      "family": "auxiliary"
+    },
+    {
+      "id": "WSP-012",
+      "surface": "github",
+      "name": "qvra/bench",
+      "description": "Argument engine for qvra: reproducible benchmarks, constrained comparisons, measurable technical pressure.",
+      "url": "https://github.com/qvra/bench",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-013",
+      "surface": "github",
+      "name": "qvra/core",
+      "description": "Backbone surface for qvra: shared internal machinery that supports live public surfaces.",
+      "url": "https://github.com/qvra/core",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-014",
+      "surface": "github",
+      "name": "qvra/index",
+      "description": "Field map for qvra: role-based routing that keeps growth legible.",
+      "url": "https://github.com/qvra/index",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-015",
+      "surface": "github",
+      "name": "qvra/kit",
+      "description": "Reusable foundation surface for qvra: copyable repo bases and route-first starting shapes.",
+      "url": "https://github.com/qvra/kit",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-016",
+      "surface": "github",
+      "name": "qvra/lab",
+      "description": "Public experimentation zone for qvra: unstable prototypes, sharp unfinished ideas, forward pressure.",
+      "url": "https://github.com/qvra/lab",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-017",
+      "surface": "github",
+      "name": "qvra/launch",
+      "description": "Fast entry surface for qvra: starter paths and one-shot bootstrap routes.",
+      "url": "https://github.com/qvra/launch",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-018",
+      "surface": "github",
+      "name": "qvra/meta",
+      "description": "Pattern engine for qvra: shared standards, repo grammar, and operating defaults.",
+      "url": "https://github.com/qvra/meta",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-019",
+      "surface": "github",
+      "name": "qvra/pulse",
+      "description": "Heartbeat surface for qvra: motion logs, release rhythm, recurrence, visible field activity.",
+      "url": "https://github.com/qvra/pulse",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-020",
+      "surface": "github",
+      "name": "qvra/qvra",
+      "description": "Front door for qvra: route-first entry into the live field.",
+      "url": "https://github.com/qvra/qvra",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-021",
+      "surface": "github",
+      "name": "qvra/run",
+      "description": "Immediate utility anchor for qvra: small runnable tools, visible output, fast wins.",
+      "url": "https://github.com/qvra/run",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-022",
+      "surface": "github",
+      "name": "qvra/show",
+      "description": "Visible proof surface for qvra: demos, examples, showcase routes, curiosity into contact.",
+      "url": "https://github.com/qvra/show",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-023",
+      "surface": "github",
+      "name": "qvra/site",
+      "description": "Public web surface for qvra: fast, visual, current, route-dense.",
+      "url": "https://github.com/qvra/site",
+      "status": "LISTED",
+      "family": "qvra"
+    },
+    {
+      "id": "WSP-024",
+      "surface": "github",
+      "name": "qxvo/MAILSIEVE",
+      "description": "Bounded, resumable CLI for discovering publicly listed business email addresses from domain lists.",
+      "url": "https://github.com/qxvo/MAILSIEVE",
+      "status": "LISTED",
+      "family": "auxiliary"
+    },
+    {
+      "id": "WSP-025",
+      "surface": "github",
+      "name": "qzro/ADJUTORIX",
+      "description": "repository",
+      "url": "https://github.com/qzro/ADJUTORIX",
+      "status": "LISTED",
+      "family": "auxiliary"
+    },
+    {
+      "id": "WSP-026",
+      "surface": "github",
+      "name": "TRUTHFRAMER/.github",
+      "description": "Public organization profile for TRUTHFRAMER.",
+      "url": "https://github.com/TRUTHFRAMER/.github",
+      "status": "LISTED",
+      "family": "truthframer"
+    },
+    {
+      "id": "WSP-027",
+      "surface": "github",
+      "name": "TRUTHFRAMER/truthframer-platform",
+      "description": "The object spine for TRUTHFRAMER: replayable visual truth frames for market reality.",
+      "url": "https://github.com/TRUTHFRAMER/truthframer-platform",
+      "status": "LISTED",
+      "family": "truthframer"
+    },
+    {
+      "id": "WSP-028",
+      "surface": "github",
+      "name": "VATFix/CONSOLE",
+      "description": "repository",
+      "url": "https://github.com/VATFix/CONSOLE",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-029",
+      "surface": "github",
+      "name": "VATFix/LEGAL",
+      "description": "repository",
+      "url": "https://github.com/VATFix/LEGAL",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-030",
+      "surface": "github",
+      "name": "VATFix/OPS",
+      "description": "repository",
+      "url": "https://github.com/VATFix/OPS",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-031",
+      "surface": "github",
+      "name": "VATFix/REGISTRY",
+      "description": "repository",
+      "url": "https://github.com/VATFix/REGISTRY",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-032",
+      "surface": "github",
+      "name": "VATFix/REPLAY",
+      "description": "repository",
+      "url": "https://github.com/VATFix/REPLAY",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-033",
+      "surface": "github",
+      "name": "VATFix/SECTORS",
+      "description": "repository",
+      "url": "https://github.com/VATFix/SECTORS",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-034",
+      "surface": "github",
+      "name": "VATFix/SECURITY",
+      "description": "repository",
+      "url": "https://github.com/VATFix/SECURITY",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-035",
+      "surface": "github",
+      "name": "VATFix/TELEMETRY",
+      "description": "repository",
+      "url": "https://github.com/VATFix/TELEMETRY",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-036",
+      "surface": "github",
+      "name": "VATFix/VATFIX",
+      "description": "repository",
+      "url": "https://github.com/VATFix/VATFIX",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-037",
+      "surface": "github",
+      "name": "VATFix/vatfix-action",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-action",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-038",
+      "surface": "github",
+      "name": "VATFix/vatfix-attestations",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-attestations",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-039",
+      "surface": "github",
+      "name": "VATFix/vatfix-audit-log-spec",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-audit-log-spec",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-040",
+      "surface": "github",
+      "name": "VATFix/vatfix-evidence-model",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-evidence-model",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-041",
+      "surface": "github",
+      "name": "VATFix/vatfix-fallback-adapter",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-fallback-adapter",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-042",
+      "surface": "github",
+      "name": "VATFix/vatfix-intrastat",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-intrastat",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-043",
+      "surface": "github",
+      "name": "VATFix/vatfix-invoice",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-invoice",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-044",
+      "surface": "github",
+      "name": "VATFix/VATFix-Master",
+      "description": "repository",
+      "url": "https://github.com/VATFix/VATFix-Master",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-045",
+      "surface": "github",
+      "name": "VATFix/vatfix-oss",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-oss",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-046",
+      "surface": "github",
+      "name": "VATFix/vatfix-postman",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-postman",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-047",
+      "surface": "github",
+      "name": "VATFix/vatfix-rules-eu",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-rules-eu",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-048",
+      "surface": "github",
+      "name": "VATFix/vatfix-sdk-js",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-sdk-js",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-049",
+      "surface": "github",
+      "name": "VATFix/vatfix-sdk-python",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-sdk-python",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-050",
+      "surface": "github",
+      "name": "VATFix/vatfix-sepa",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-sepa",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-051",
+      "surface": "github",
+      "name": "VATFix/vatfix-vies-adapter",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-vies-adapter",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-052",
+      "surface": "github",
+      "name": "VATFix/vatfix-xml",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-xml",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-053",
+      "surface": "github",
+      "name": "VATFix/vatfix-zapier",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix-zapier",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-054",
+      "surface": "github",
+      "name": "VATFix/vatfix.eu",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix.eu",
+      "status": "LISTED",
+      "family": "vatfix"
+    },
+    {
+      "id": "WSP-055",
+      "surface": "github",
+      "name": "Verifrax/.github",
+      "description": "Canonical GitHub governance, community defaults, and organization profile surface for Verifrax repositories.",
+      "url": "https://github.com/Verifrax/.github",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-056",
+      "surface": "github",
+      "name": "Verifrax/ADMISSORIUM",
+      "description": "Admissibility enforcement implementation for the VERIFRAX constitutional perimeter.",
+      "url": "https://github.com/Verifrax/ADMISSORIUM",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-057",
+      "surface": "github",
+      "name": "Verifrax/ANAGNORIUM",
+      "description": "repository",
+      "url": "https://github.com/Verifrax/ANAGNORIUM",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-058",
+      "surface": "github",
+      "name": "Verifrax/apply",
+      "description": "Application and contributor intake surface for Verifrax: structured submissions, roles, and growth pipeline.",
+      "url": "https://github.com/Verifrax/apply",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-059",
+      "surface": "github",
+      "name": "Verifrax/archicustos",
+      "description": "Custody-preservation primitive for Verifrax: protects continuity, control, and artifact stewardship boundaries.",
+      "url": "https://github.com/Verifrax/archicustos",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-060",
+      "surface": "github",
+      "name": "Verifrax/ARCHITECTURE",
+      "description": "Canonical system architecture, repository topology, host map, and governance boundary for Verifrax.",
+      "url": "https://github.com/Verifrax/ARCHITECTURE",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-061",
+      "surface": "github",
+      "name": "Verifrax/attestorium",
+      "description": "Attestation primitive for Verifrax: emits deterministic attestation signals for irreversible verification systems.",
+      "url": "https://github.com/Verifrax/attestorium",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-062",
+      "surface": "github",
+      "name": "Verifrax/AUCTORISEAL",
+      "description": "Authority issuance system for Verifrax: generates governance seals that authorize execution and bind receipts.",
+      "url": "https://github.com/Verifrax/AUCTORISEAL",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-063",
+      "surface": "github",
+      "name": "Verifrax/cicullis",
+      "description": "Deterministic GitHub enforcement action for Verifrax: irreversible merge-time policy and compliance gating.",
+      "url": "https://github.com/Verifrax/cicullis",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-064",
+      "surface": "github",
+      "name": "Verifrax/CONSONORIUM",
+      "description": "Reconciler, compiler, repair, and quarantine engine that aligns Verifrax surfaces to law and epoch truth.",
+      "url": "https://github.com/Verifrax/CONSONORIUM",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-065",
+      "surface": "github",
+      "name": "Verifrax/CORPIFORM",
+      "description": "Deterministic execution runtime for Verifrax: authority-governed runs with verifiable receipt output.",
+      "url": "https://github.com/Verifrax/CORPIFORM",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-066",
+      "surface": "github",
+      "name": "Verifrax/guillotine",
+      "description": "Termination primitive for Verifrax: enforces irreversible cut-off and final-stop behavior in governed systems.",
+      "url": "https://github.com/Verifrax/guillotine",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-067",
+      "surface": "github",
+      "name": "Verifrax/irrevocull",
+      "description": "Judgment primitive for Verifrax: records irreversible decisions for deterministic trust and compliance systems.",
+      "url": "https://github.com/Verifrax/irrevocull",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-068",
+      "surface": "github",
+      "name": "Verifrax/kairoclasp",
+      "description": "Time-boundary primitive for Verifrax: locks temporal conditions for deterministic verification and control.",
+      "url": "https://github.com/Verifrax/kairoclasp",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-069",
+      "surface": "github",
+      "name": "Verifrax/limenward",
+      "description": "Boundary-enforcement primitive for Verifrax: guards entry, transition, and limit conditions in governed systems.",
+      "url": "https://github.com/Verifrax/limenward",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-070",
+      "surface": "github",
+      "name": "Verifrax/ORBISTIUM",
+      "description": "Canonical world graph, reconciled epochs, proof bundles, and current-state memory for Verifrax.",
+      "url": "https://github.com/Verifrax/ORBISTIUM",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-071",
+      "surface": "github",
+      "name": "Verifrax/originseal",
+      "description": "Origin-sealing primitive for Verifrax: binds artifact origin and provenance for deterministic trust chains.",
+      "url": "https://github.com/Verifrax/originseal",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-072",
+      "surface": "github",
+      "name": "Verifrax/proof",
+      "description": "Public proof publication surface for Verifrax: canonical proof artifacts, disclosures, and verification references.",
+      "url": "https://github.com/Verifrax/proof",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-073",
+      "surface": "github",
+      "name": "Verifrax/REGRESSORIUM",
+      "description": "repository",
+      "url": "https://github.com/Verifrax/REGRESSORIUM",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-074",
+      "surface": "github",
+      "name": "Verifrax/SIGILLARIUM",
+      "description": "Deterministic artifact sealing protocol for reproducible integrity bundles independent of identity or blockchain.",
+      "url": "https://github.com/Verifrax/SIGILLARIUM",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-075",
+      "surface": "github",
+      "name": "Verifrax/SPEEDKIT",
+      "description": "Verifrax root registry and governance surface: SPEEDKIT.",
+      "url": "https://github.com/Verifrax/SPEEDKIT",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-076",
+      "surface": "github",
+      "name": "Verifrax/SYNTAGMARIUM",
+      "description": "Constitutional law, invariants, role definitions, and projection contracts for the Verifrax system.",
+      "url": "https://github.com/Verifrax/SYNTAGMARIUM",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-077",
+      "surface": "github",
+      "name": "Verifrax/TACHYRIUM",
+      "description": "v0.1.0 live \u2014 bounded sovereign cognition infrastructure for the Verifrax stack.",
+      "url": "https://github.com/Verifrax/TACHYRIUM",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-078",
+      "surface": "github",
+      "name": "Verifrax/validexor",
+      "description": "Verification primitive for Verifrax: deterministic validation logic for irreversible integrity systems.",
+      "url": "https://github.com/Verifrax/validexor",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-079",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX",
+      "description": "Core Verifrax verification protocol for authority-governed execution, evidence receipts, and deterministic trust.",
+      "url": "https://github.com/Verifrax/VERIFRAX",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-080",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-API",
+      "description": "Canonical API source for api.verifrax.net. Execution surface only.",
+      "url": "https://github.com/Verifrax/VERIFRAX-API",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-081",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-CONTROL-VERIFY",
+      "description": "External replay verifier for VERIFRAX public control fixed point",
+      "url": "https://github.com/Verifrax/VERIFRAX-CONTROL-VERIFY",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-082",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-DOCS",
+      "description": "Official documentation site for Verifrax systems, repositories, hosts, policies, and public operating surfaces.",
+      "url": "https://github.com/Verifrax/VERIFRAX-DOCS",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-083",
+      "surface": "github",
+      "name": "Verifrax/verifrax-marketplace-smoke",
+      "description": "Marketplace smoke-test repository for Verifrax actions, releases, and installation-path verification.",
+      "url": "https://github.com/Verifrax/verifrax-marketplace-smoke",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-084",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-PROFILES",
+      "description": "Schemas, fixtures, and deterministic profile surfaces for Verifrax identity and verification flows.",
+      "url": "https://github.com/Verifrax/VERIFRAX-PROFILES",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-085",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-PY",
+      "description": "Python SDK and CLI implementation boundary for VERIFRAX verification, evidence inspection, API access, and refusal-aware object-chain diagnostics.",
+      "url": "https://github.com/Verifrax/VERIFRAX-PY",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-086",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-SAMPLES",
+      "description": "Reference samples and example artifacts for Verifrax verification, evidence, and integration workflows.",
+      "url": "https://github.com/Verifrax/VERIFRAX-SAMPLES",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-087",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-SPEC",
+      "description": "Formal Verifrax specification covering contracts, invariants, evidence boundaries, and verification rules.",
+      "url": "https://github.com/Verifrax/VERIFRAX-SPEC",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-088",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-STATUS",
+      "description": "Canonical operational status surface for status.verifrax.net. Status truth only.",
+      "url": "https://github.com/Verifrax/VERIFRAX-STATUS",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-089",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-SURFACE",
+      "description": "Canonical surface system for VERIFRAX.",
+      "url": "https://github.com/Verifrax/VERIFRAX-SURFACE",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-090",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-verify",
+      "description": "Public verification surface for finality-grade truth checks, proof review, and post-hoc determination.",
+      "url": "https://github.com/Verifrax/VERIFRAX-verify",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-091",
+      "surface": "github",
+      "name": "Verifrax/VERIFRAX-WWW",
+      "description": "Canonical root surface for www.verifrax.net Public entry only.",
+      "url": "https://github.com/Verifrax/VERIFRAX-WWW",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-092",
+      "surface": "npm",
+      "name": "@invocorder/recorder",
+      "description": "Machine-action evidence substrate: hash-chained boundary records and replayable evidence bundles.",
+      "url": "https://www.npmjs.com/package/@invocorder/recorder",
+      "status": "LISTED",
+      "family": "invocorder"
+    },
+    {
+      "id": "WSP-093",
+      "surface": "npm",
+      "name": "@kaaffilm/mk10-pro",
+      "description": "MK10-PRO witness launcher: public package-surface entrypoint for proof, boundary, and witness commands.",
+      "url": "https://www.npmjs.com/package/@kaaffilm/mk10-pro",
+      "status": "LISTED",
+      "family": "cinematicum"
+    },
+    {
+      "id": "WSP-094",
+      "surface": "npm",
+      "name": "@verifrax/archicustos",
+      "description": "Verifrax primitive \u2014 custody preservation primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/archicustos",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-095",
+      "surface": "npm",
+      "name": "@verifrax/attestorium",
+      "description": "Verifrax primitive \u2014 attestation primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/attestorium",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-096",
+      "surface": "npm",
+      "name": "@verifrax/auctoriseal",
+      "description": "Authority sealing primitive for canonical authority ledgers, genesis seal publication, and verifier-visible issuance surfaces in the Verifrax stack.",
+      "url": "https://www.npmjs.com/package/@verifrax/auctoriseal",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-097",
+      "surface": "npm",
+      "name": "@verifrax/cicullis",
+      "description": "Deterministic GitHub enforcement action for Verifrax merge-time policy and compliance gating.",
+      "url": "https://www.npmjs.com/package/@verifrax/cicullis",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-098",
+      "surface": "npm",
+      "name": "@verifrax/corpiform",
+      "description": "CORPIFORM is an authority-governed deterministic execution runtime that consumes AUCTORISEAL authority and emits signed, replay-resistant receipts.",
+      "url": "https://www.npmjs.com/package/@verifrax/corpiform",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-099",
+      "surface": "npm",
+      "name": "@verifrax/guillotine",
+      "description": "Verifrax primitive \u2014 termination primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/guillotine",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-100",
+      "surface": "npm",
+      "name": "@verifrax/irrevocull",
+      "description": "Verifrax primitive \u2014 judgment primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/irrevocull",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-101",
+      "surface": "npm",
+      "name": "@verifrax/kairoclasp",
+      "description": "Verifrax primitive \u2014 time boundary primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/kairoclasp",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-102",
+      "surface": "npm",
+      "name": "@verifrax/limenward",
+      "description": "Verifrax primitive \u2014 boundary enforcement primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/limenward",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-103",
+      "surface": "npm",
+      "name": "@verifrax/originseal",
+      "description": "Verifrax primitive \u2014 origin sealing primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/originseal",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-104",
+      "surface": "npm",
+      "name": "@verifrax/root",
+      "description": "Package: @verifrax/root Binary: verifrax-seal Repository: Verifrax/VERIFRAX",
+      "url": "https://www.npmjs.com/package/@verifrax/root",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-105",
+      "surface": "npm",
+      "name": "@verifrax/sigillarium",
+      "description": "Package: @verifrax/sigillarium Repository: Verifrax/SIGILLARIUM",
+      "url": "https://www.npmjs.com/package/@verifrax/sigillarium",
+      "status": "LISTED",
+      "family": "verifrax-governance"
+    },
+    {
+      "id": "WSP-106",
+      "surface": "npm",
+      "name": "@verifrax/validexor",
+      "description": "Verifrax primitive \u2014 verification primitive for deterministic irreversible systems.",
+      "url": "https://www.npmjs.com/package/@verifrax/validexor",
+      "status": "LISTED",
+      "family": "verifrax-primitives"
+    },
+    {
+      "id": "WSP-107",
+      "surface": "npm",
+      "name": "@verifrax/verifrax",
+      "description": "Package: @verifrax/root Binary: verifrax-seal Repository: Verifrax/VERIFRAX",
+      "url": "https://www.npmjs.com/package/@verifrax/verifrax",
+      "status": "LISTED",
+      "family": "verifrax-chambers"
+    },
+    {
+      "id": "WSP-108",
+      "surface": "npm",
+      "name": "@verifrax/verifrax-api",
+      "description": "Package: @verifrax/verifrax-api Binary: verifrax-seal Repository: Verifrax/VERIFRAX-API",
+      "url": "https://www.npmjs.com/package/@verifrax/verifrax-api",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-109",
+      "surface": "npm",
+      "name": "@verifrax/verifrax-profiles",
+      "description": "Deterministic profile corpus for the governed Verifrax verification system.",
+      "url": "https://www.npmjs.com/package/@verifrax/verifrax-profiles",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-110",
+      "surface": "npm",
+      "name": "@verifrax/verifrax-spec",
+      "description": "Derived specification publication surface for the governed Verifrax system.",
+      "url": "https://www.npmjs.com/package/@verifrax/verifrax-spec",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-111",
+      "surface": "npm",
+      "name": "@verifrax/verifrax-verify",
+      "description": "Package: @verifrax/verifrax-verify",
+      "url": "https://www.npmjs.com/package/@verifrax/verifrax-verify",
+      "status": "LISTED",
+      "family": "verifrax-verification"
+    },
+    {
+      "id": "PRIM-001",
+      "surface": "artifact",
+      "name": "GUILLOTINE",
+      "description": "Irreversible execution",
+      "url": "https://github.com/midiakiasat/guillotine",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-002",
+      "surface": "artifact",
+      "name": "IRREVOCULL",
+      "description": "Irreversible judgment",
+      "url": "https://github.com/midiakiasat/irrevocull",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-003",
+      "surface": "artifact",
+      "name": "ATTESTORIUM",
+      "description": "Deterministic witness",
+      "url": "https://github.com/midiakiasat/attestorium",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-004",
+      "surface": "artifact",
+      "name": "VALIDEXOR",
+      "description": "Deterministic verification",
+      "url": "https://github.com/midiakiasat/validexor",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-005",
+      "surface": "artifact",
+      "name": "LIMENWARD",
+      "description": "Boundary enforcement",
+      "url": "https://github.com/midiakiasat/limenward",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-006",
+      "surface": "artifact",
+      "name": "ORIGINSEAL",
+      "description": "Origin sealing",
+      "url": "https://github.com/midiakiasat/originseal",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-007",
+      "surface": "artifact",
+      "name": "ARCHICUSTOS",
+      "description": "Custody primitive",
+      "url": "https://github.com/midiakiasat/archicustos",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-008",
+      "surface": "artifact",
+      "name": "KAIROCLASP",
+      "description": "Temporal finality",
+      "url": "https://github.com/midiakiasat/kairoclasp",
+      "status": "ANNEX",
+      "family": "artifacts"
+    }
+  ],
+  "boundary": {
+    "root": "terminal control surface",
+    "systems": "recognized execution systems only",
+    "workspace": "repository/package existence is non-admission metadata",
+    "rule": "repository existence is not registry admission"
+  }
+}
