@@ -1,151 +1,151 @@
-# AUTHOR WORKSPACE REPOSITORY SURFACE
+# SPEEDKIT Author Workspace Registry
 
-STATUS: PUBLIC_BOUNDED_REPOSITORY_SURFACE
-CLASSIFICATION: DERIVED_PROJECTION
+This file records the live public repository/package surface for the configured author account, author-owned organizations, npm user, and PyPI user.
 
-This surface lists public repositories visible through the author account and author-owned organization surfaces.
+Repository existence is not SPEEDKIT systems registry admission.
+Package existence is not SPEEDKIT systems registry admission.
 
-It is not the SPEEDKIT systems registry.
-It is not admission.
-It is not sovereignty.
-It is not verification.
-It is not accepted state.
-It is not terminal recognition.
-It is not terminal recourse.
-
-SPEEDKIT remains the registry of completed execution systems only.
+Generated UTC: `2026-06-14T05:35:36+00:00`
 
 ## Counts
 
-- repositories_total: 92
-- owners_total: 11
-- public_total: 92
-- fork_total: 1
-- archived_total: 27
+- `total_entries`: `111`
+- `github_repositories`: `91`
+- `npm_packages`: `20`
+- `pypi_packages`: `0`
+- `github_sources`: `15`
+- `package_sources`: `2`
 
-## Repository owners
+## Sources
 
-### aikido-bounty-lab
+- `github` — `midiakiasat` — `ok` — count `1` — https://github.com/midiakiasat
+- `github` — `CINEMATICUM` — `ok` — count `1` — https://github.com/CINEMATICUM
+- `github` — `INVOCORDER` — `ok` — count `6` — https://github.com/INVOCORDER
+- `github` — `kaaffilm` — `ok` — count `3` — https://github.com/kaaffilm
+- `github` — `qvra` — `ok` — count `12` — https://github.com/qvra
+- `github` — `qvro` — `ok` — count `0` — https://github.com/qvro
+- `github` — `qvru` — `ok` — count `0` — https://github.com/qvru
+- `github` — `qxra` — `ok` — count `0` — https://github.com/qxra
+- `github` — `qxvi` — `ok` — count `0` — https://github.com/qxvi
+- `github` — `qxvo` — `ok` — count `1` — https://github.com/qxvo
+- `github` — `qzro` — `ok` — count `1` — https://github.com/qzro
+- `github` — `qzru` — `ok` — count `0` — https://github.com/qzru
+- `github` — `TRUTHFRAMER` — `ok` — count `2` — https://github.com/TRUTHFRAMER
+- `github` — `VATFix` — `ok` — count `27` — https://github.com/VATFix
+- `github` — `Verifrax` — `ok` — count `37` — https://github.com/Verifrax
+- `npm` — `kiasat` — `ok` — count `20` — https://www.npmjs.com/~kiasat
+- `pypi` — `kiasat` — `ok` — count `0` — https://pypi.org/user/kiasat/
 
-- [aikido-bounty-lab/aikido-empty-test](https://github.com/aikido-bounty-lab/aikido-empty-test) — PUBLIC — No description.
+## Entries
 
-### CINEMATICUM
-
-- [CINEMATICUM/CINEMATICUM](https://github.com/CINEMATICUM/CINEMATICUM) — PUBLIC — CINEMATICUM issues admissible motion pictures.
-
-### INVOCORDER
-
-- [INVOCORDER/.github](https://github.com/INVOCORDER/.github) — PUBLIC — INVOCORDER organization profile
-- [INVOCORDER/CAPTURE-CONTRACT](https://github.com/INVOCORDER/CAPTURE-CONTRACT) — PUBLIC — Normative capture contract for machine-action boundary records and replayable evidence bundles.
-- [INVOCORDER/EVIDENCE-SCHEMAS](https://github.com/INVOCORDER/EVIDENCE-SCHEMAS) — PUBLIC — Canonical schemas and validators for INVOCORDER machine-action evidence objects.
-- [INVOCORDER/HOSTILE-FIXTURES](https://github.com/INVOCORDER/HOSTILE-FIXTURES) — PUBLIC — Adversarial fixture corpus for proving INVOCORDER does not lie, overclaim, silently omit, or confuse integrity with truth.
-- [INVOCORDER/INTEGRATIONS](https://github.com/INVOCORDER/INTEGRATIONS) — PUBLIC — Runnable integrations for local commands, MCP, CI agents, IDE agents, browser agents, and downstream evidence consumers.
-- [INVOCORDER/INVOCORDER](https://github.com/INVOCORDER/INVOCORDER) — PUBLIC — Machine-action evidence recorder runtime: hash-chained boundary records and replayable evidence bundles.
-
-### kaaffilm
-
-- [kaaffilm/.github](https://github.com/kaaffilm/.github) — PUBLIC — Organization profile
-- [kaaffilm/CINEMATICUM](https://github.com/kaaffilm/CINEMATICUM) — PUBLIC — CINEMATICUM produces admissible cinema.
-- [kaaffilm/MK10-PRO](https://github.com/kaaffilm/MK10-PRO) — PUBLIC — Pre-delivery truth infrastructure
-
-### midiakiasat
-
-- [midiakiasat/awesome-actions](https://github.com/midiakiasat/awesome-actions) — PUBLIC · FORK · ARCHIVED — A curated list of awesome actions to use on GitHub
-
-### qvra
-
-- [qvra/bench](https://github.com/qvra/bench) — PUBLIC — Argument engine for qvra: reproducible benchmarks, constrained comparisons, measurable technical pressure.
-- [qvra/core](https://github.com/qvra/core) — PUBLIC — Backbone surface for qvra: shared internal machinery that supports live public surfaces.
-- [qvra/index](https://github.com/qvra/index) — PUBLIC — Field map for qvra: role-based routing that keeps growth legible.
-- [qvra/kit](https://github.com/qvra/kit) — PUBLIC — Reusable foundation surface for qvra: copyable repo bases and route-first starting shapes.
-- [qvra/lab](https://github.com/qvra/lab) — PUBLIC — Public experimentation zone for qvra: unstable prototypes, sharp unfinished ideas, forward pressure.
-- [qvra/launch](https://github.com/qvra/launch) — PUBLIC — Fast entry surface for qvra: starter paths and one-shot bootstrap routes.
-- [qvra/meta](https://github.com/qvra/meta) — PUBLIC — Pattern engine for qvra: shared standards, repo grammar, and operating defaults.
-- [qvra/pulse](https://github.com/qvra/pulse) — PUBLIC — Heartbeat surface for qvra: motion logs, release rhythm, recurrence, visible field activity.
-- [qvra/qvra](https://github.com/qvra/qvra) — PUBLIC — Front door for qvra: route-first entry into the live field.
-- [qvra/run](https://github.com/qvra/run) — PUBLIC — Immediate utility anchor for qvra: small runnable tools, visible output, fast wins.
-- [qvra/show](https://github.com/qvra/show) — PUBLIC — Visible proof surface for qvra: demos, examples, showcase routes, curiosity into contact.
-- [qvra/site](https://github.com/qvra/site) — PUBLIC — Public web surface for qvra: fast, visual, current, route-dense.
-
-### qxvo
-
-- [qxvo/MAILSIEVE](https://github.com/qxvo/MAILSIEVE) — PUBLIC — Bounded, resumable CLI for discovering publicly listed business email addresses from domain lists.
-
-### qzro
-
-- [qzro/ADJUTORIX](https://github.com/qzro/ADJUTORIX) — PUBLIC — No description.
-
-### TRUTHFRAMER
-
-- [TRUTHFRAMER/.github](https://github.com/TRUTHFRAMER/.github) — PUBLIC — Public organization profile for TRUTHFRAMER.
-- [TRUTHFRAMER/truthframer-platform](https://github.com/TRUTHFRAMER/truthframer-platform) — PUBLIC — The object spine for TRUTHFRAMER: replayable visual truth frames for market reality.
-
-### VATFix
-
-- [VATFix/CONSOLE](https://github.com/VATFix/CONSOLE) — PUBLIC · ARCHIVED — No description.
-- [VATFix/LEGAL](https://github.com/VATFix/LEGAL) — PUBLIC · ARCHIVED — No description.
-- [VATFix/OPS](https://github.com/VATFix/OPS) — PUBLIC · ARCHIVED — No description.
-- [VATFix/REGISTRY](https://github.com/VATFix/REGISTRY) — PUBLIC · ARCHIVED — No description.
-- [VATFix/REPLAY](https://github.com/VATFix/REPLAY) — PUBLIC · ARCHIVED — No description.
-- [VATFix/SECTORS](https://github.com/VATFix/SECTORS) — PUBLIC · ARCHIVED — No description.
-- [VATFix/SECURITY](https://github.com/VATFix/SECURITY) — PUBLIC · ARCHIVED — No description.
-- [VATFix/TELEMETRY](https://github.com/VATFix/TELEMETRY) — PUBLIC · ARCHIVED — No description.
-- [VATFix/VATFIX](https://github.com/VATFix/VATFIX) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-action](https://github.com/VATFix/vatfix-action) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-attestations](https://github.com/VATFix/vatfix-attestations) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-audit-log-spec](https://github.com/VATFix/vatfix-audit-log-spec) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-evidence-model](https://github.com/VATFix/vatfix-evidence-model) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-fallback-adapter](https://github.com/VATFix/vatfix-fallback-adapter) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-intrastat](https://github.com/VATFix/vatfix-intrastat) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-invoice](https://github.com/VATFix/vatfix-invoice) — PUBLIC · ARCHIVED — No description.
-- [VATFix/VATFix-Master](https://github.com/VATFix/VATFix-Master) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-oss](https://github.com/VATFix/vatfix-oss) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-postman](https://github.com/VATFix/vatfix-postman) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-rules-eu](https://github.com/VATFix/vatfix-rules-eu) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-sdk-js](https://github.com/VATFix/vatfix-sdk-js) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-sdk-python](https://github.com/VATFix/vatfix-sdk-python) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-sepa](https://github.com/VATFix/vatfix-sepa) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-vies-adapter](https://github.com/VATFix/vatfix-vies-adapter) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix-xml](https://github.com/VATFix/vatfix-xml) — PUBLIC — No description.
-- [VATFix/vatfix-zapier](https://github.com/VATFix/vatfix-zapier) — PUBLIC · ARCHIVED — No description.
-- [VATFix/vatfix.eu](https://github.com/VATFix/vatfix.eu) — PUBLIC · ARCHIVED — No description.
-
-### Verifrax
-
-- [Verifrax/.github](https://github.com/Verifrax/.github) — PUBLIC — Canonical GitHub governance, community defaults, and organization profile surface for Verifrax repositories.
-- [Verifrax/ADMISSORIUM](https://github.com/Verifrax/ADMISSORIUM) — PUBLIC — Admissibility enforcement implementation for the VERIFRAX constitutional perimeter.
-- [Verifrax/ANAGNORIUM](https://github.com/Verifrax/ANAGNORIUM) — PUBLIC — No description.
-- [Verifrax/apply](https://github.com/Verifrax/apply) — PUBLIC — Application and contributor intake surface for Verifrax: structured submissions, roles, and growth pipeline.
-- [Verifrax/archicustos](https://github.com/Verifrax/archicustos) — PUBLIC — Custody-preservation primitive for Verifrax: protects continuity, control, and artifact stewardship boundaries.
-- [Verifrax/ARCHITECTURE](https://github.com/Verifrax/ARCHITECTURE) — PUBLIC — Canonical system architecture, repository topology, host map, and governance boundary for Verifrax.
-- [Verifrax/attestorium](https://github.com/Verifrax/attestorium) — PUBLIC — Attestation primitive for Verifrax: emits deterministic attestation signals for irreversible verification systems.
-- [Verifrax/AUCTORISEAL](https://github.com/Verifrax/AUCTORISEAL) — PUBLIC — Authority issuance system for Verifrax: generates governance seals that authorize execution and bind receipts.
-- [Verifrax/cicullis](https://github.com/Verifrax/cicullis) — PUBLIC — Deterministic GitHub enforcement action for Verifrax: irreversible merge-time policy and compliance gating.
-- [Verifrax/CONSONORIUM](https://github.com/Verifrax/CONSONORIUM) — PUBLIC — Reconciler, compiler, repair, and quarantine engine that aligns Verifrax surfaces to law and epoch truth.
-- [Verifrax/CORPIFORM](https://github.com/Verifrax/CORPIFORM) — PUBLIC — Deterministic execution runtime for Verifrax: authority-governed runs with verifiable receipt output.
-- [Verifrax/guillotine](https://github.com/Verifrax/guillotine) — PUBLIC — Termination primitive for Verifrax: enforces irreversible cut-off and final-stop behavior in governed systems.
-- [Verifrax/irrevocull](https://github.com/Verifrax/irrevocull) — PUBLIC — Judgment primitive for Verifrax: records irreversible decisions for deterministic trust and compliance systems.
-- [Verifrax/kairoclasp](https://github.com/Verifrax/kairoclasp) — PUBLIC — Time-boundary primitive for Verifrax: locks temporal conditions for deterministic verification and control.
-- [Verifrax/limenward](https://github.com/Verifrax/limenward) — PUBLIC — Boundary-enforcement primitive for Verifrax: guards entry, transition, and limit conditions in governed systems.
-- [Verifrax/ORBISTIUM](https://github.com/Verifrax/ORBISTIUM) — PUBLIC — Canonical world graph, reconciled epochs, proof bundles, and current-state memory for Verifrax.
-- [Verifrax/originseal](https://github.com/Verifrax/originseal) — PUBLIC — Origin-sealing primitive for Verifrax: binds artifact origin and provenance for deterministic trust chains.
-- [Verifrax/proof](https://github.com/Verifrax/proof) — PUBLIC — Public proof publication surface for Verifrax: canonical proof artifacts, disclosures, and verification references.
-- [Verifrax/REGRESSORIUM](https://github.com/Verifrax/REGRESSORIUM) — PUBLIC — No description.
-- [Verifrax/SIGILLARIUM](https://github.com/Verifrax/SIGILLARIUM) — PUBLIC — Deterministic artifact sealing protocol for reproducible integrity bundles independent of identity or blockchain.
-- [Verifrax/SPEEDKIT](https://github.com/Verifrax/SPEEDKIT) — PUBLIC — Verifrax root registry and governance surface: SPEEDKIT.
-- [Verifrax/SYNTAGMARIUM](https://github.com/Verifrax/SYNTAGMARIUM) — PUBLIC — Constitutional law, invariants, role definitions, and projection contracts for the Verifrax system.
-- [Verifrax/TACHYRIUM](https://github.com/Verifrax/TACHYRIUM) — PUBLIC — v0.1.0 live — bounded sovereign cognition infrastructure for the Verifrax stack.
-- [Verifrax/validexor](https://github.com/Verifrax/validexor) — PUBLIC — Verification primitive for Verifrax: deterministic validation logic for irreversible integrity systems.
-- [Verifrax/VERIFRAX](https://github.com/Verifrax/VERIFRAX) — PUBLIC — Core Verifrax verification protocol for authority-governed execution, evidence receipts, and deterministic trust.
-- [Verifrax/VERIFRAX-API](https://github.com/Verifrax/VERIFRAX-API) — PUBLIC — Canonical API source for api.verifrax.net. Execution surface only.
-- [Verifrax/VERIFRAX-CONTROL-VERIFY](https://github.com/Verifrax/VERIFRAX-CONTROL-VERIFY) — PUBLIC — External replay verifier for VERIFRAX public control fixed point
-- [Verifrax/VERIFRAX-DOCS](https://github.com/Verifrax/VERIFRAX-DOCS) — PUBLIC — Official documentation site for Verifrax systems, repositories, hosts, policies, and public operating surfaces.
-- [Verifrax/verifrax-marketplace-smoke](https://github.com/Verifrax/verifrax-marketplace-smoke) — PUBLIC — Marketplace smoke-test repository for Verifrax actions, releases, and installation-path verification.
-- [Verifrax/VERIFRAX-PROFILES](https://github.com/Verifrax/VERIFRAX-PROFILES) — PUBLIC — Schemas, fixtures, and deterministic profile surfaces for Verifrax identity and verification flows.
-- [Verifrax/VERIFRAX-PY](https://github.com/Verifrax/VERIFRAX-PY) — PUBLIC — Python SDK and CLI implementation boundary for VERIFRAX verification, evidence inspection, API access, and refusal-aware object-chain diagnostics.
-- [Verifrax/VERIFRAX-SAMPLES](https://github.com/Verifrax/VERIFRAX-SAMPLES) — PUBLIC — Reference samples and example artifacts for Verifrax verification, evidence, and integration workflows.
-- [Verifrax/VERIFRAX-SPEC](https://github.com/Verifrax/VERIFRAX-SPEC) — PUBLIC — Formal Verifrax specification covering contracts, invariants, evidence boundaries, and verification rules.
-- [Verifrax/VERIFRAX-STATUS](https://github.com/Verifrax/VERIFRAX-STATUS) — PUBLIC — Canonical operational status surface for status.verifrax.net. Status truth only.
-- [Verifrax/VERIFRAX-SURFACE](https://github.com/Verifrax/VERIFRAX-SURFACE) — PUBLIC — Canonical surface system for VERIFRAX.
-- [Verifrax/VERIFRAX-verify](https://github.com/Verifrax/VERIFRAX-verify) — PUBLIC — Public verification surface for finality-grade truth checks, proof review, and post-hoc determination.
-- [Verifrax/VERIFRAX-WWW](https://github.com/Verifrax/VERIFRAX-WWW) — PUBLIC — Canonical root surface for www.verifrax.net Public entry only.
+- `github:CINEMATICUM/CINEMATICUM` — https://github.com/CINEMATICUM/CINEMATICUM
+- `github:INVOCORDER/.github` — https://github.com/INVOCORDER/.github
+- `github:INVOCORDER/CAPTURE-CONTRACT` — https://github.com/INVOCORDER/CAPTURE-CONTRACT
+- `github:INVOCORDER/EVIDENCE-SCHEMAS` — https://github.com/INVOCORDER/EVIDENCE-SCHEMAS
+- `github:INVOCORDER/HOSTILE-FIXTURES` — https://github.com/INVOCORDER/HOSTILE-FIXTURES
+- `github:INVOCORDER/INTEGRATIONS` — https://github.com/INVOCORDER/INTEGRATIONS
+- `github:INVOCORDER/INVOCORDER` — https://github.com/INVOCORDER/INVOCORDER
+- `github:kaaffilm/.github` — https://github.com/kaaffilm/.github
+- `github:kaaffilm/CINEMATICUM` — https://github.com/kaaffilm/CINEMATICUM
+- `github:kaaffilm/MK10-PRO` — https://github.com/kaaffilm/MK10-PRO
+- `github:midiakiasat/awesome-actions` — https://github.com/midiakiasat/awesome-actions
+- `github:qvra/bench` — https://github.com/qvra/bench
+- `github:qvra/core` — https://github.com/qvra/core
+- `github:qvra/index` — https://github.com/qvra/index
+- `github:qvra/kit` — https://github.com/qvra/kit
+- `github:qvra/lab` — https://github.com/qvra/lab
+- `github:qvra/launch` — https://github.com/qvra/launch
+- `github:qvra/meta` — https://github.com/qvra/meta
+- `github:qvra/pulse` — https://github.com/qvra/pulse
+- `github:qvra/qvra` — https://github.com/qvra/qvra
+- `github:qvra/run` — https://github.com/qvra/run
+- `github:qvra/show` — https://github.com/qvra/show
+- `github:qvra/site` — https://github.com/qvra/site
+- `github:qxvo/MAILSIEVE` — https://github.com/qxvo/MAILSIEVE
+- `github:qzro/ADJUTORIX` — https://github.com/qzro/ADJUTORIX
+- `github:TRUTHFRAMER/.github` — https://github.com/TRUTHFRAMER/.github
+- `github:TRUTHFRAMER/truthframer-platform` — https://github.com/TRUTHFRAMER/truthframer-platform
+- `github:VATFix/CONSOLE` — https://github.com/VATFix/CONSOLE
+- `github:VATFix/LEGAL` — https://github.com/VATFix/LEGAL
+- `github:VATFix/OPS` — https://github.com/VATFix/OPS
+- `github:VATFix/REGISTRY` — https://github.com/VATFix/REGISTRY
+- `github:VATFix/REPLAY` — https://github.com/VATFix/REPLAY
+- `github:VATFix/SECTORS` — https://github.com/VATFix/SECTORS
+- `github:VATFix/SECURITY` — https://github.com/VATFix/SECURITY
+- `github:VATFix/TELEMETRY` — https://github.com/VATFix/TELEMETRY
+- `github:VATFix/VATFIX` — https://github.com/VATFix/VATFIX
+- `github:VATFix/vatfix-action` — https://github.com/VATFix/vatfix-action
+- `github:VATFix/vatfix-attestations` — https://github.com/VATFix/vatfix-attestations
+- `github:VATFix/vatfix-audit-log-spec` — https://github.com/VATFix/vatfix-audit-log-spec
+- `github:VATFix/vatfix-evidence-model` — https://github.com/VATFix/vatfix-evidence-model
+- `github:VATFix/vatfix-fallback-adapter` — https://github.com/VATFix/vatfix-fallback-adapter
+- `github:VATFix/vatfix-intrastat` — https://github.com/VATFix/vatfix-intrastat
+- `github:VATFix/vatfix-invoice` — https://github.com/VATFix/vatfix-invoice
+- `github:VATFix/VATFix-Master` — https://github.com/VATFix/VATFix-Master
+- `github:VATFix/vatfix-oss` — https://github.com/VATFix/vatfix-oss
+- `github:VATFix/vatfix-postman` — https://github.com/VATFix/vatfix-postman
+- `github:VATFix/vatfix-rules-eu` — https://github.com/VATFix/vatfix-rules-eu
+- `github:VATFix/vatfix-sdk-js` — https://github.com/VATFix/vatfix-sdk-js
+- `github:VATFix/vatfix-sdk-python` — https://github.com/VATFix/vatfix-sdk-python
+- `github:VATFix/vatfix-sepa` — https://github.com/VATFix/vatfix-sepa
+- `github:VATFix/vatfix-vies-adapter` — https://github.com/VATFix/vatfix-vies-adapter
+- `github:VATFix/vatfix-xml` — https://github.com/VATFix/vatfix-xml
+- `github:VATFix/vatfix-zapier` — https://github.com/VATFix/vatfix-zapier
+- `github:VATFix/vatfix.eu` — https://github.com/VATFix/vatfix.eu
+- `github:Verifrax/.github` — https://github.com/Verifrax/.github
+- `github:Verifrax/ADMISSORIUM` — https://github.com/Verifrax/ADMISSORIUM
+- `github:Verifrax/ANAGNORIUM` — https://github.com/Verifrax/ANAGNORIUM
+- `github:Verifrax/apply` — https://github.com/Verifrax/apply
+- `github:Verifrax/archicustos` — https://github.com/Verifrax/archicustos
+- `github:Verifrax/ARCHITECTURE` — https://github.com/Verifrax/ARCHITECTURE
+- `github:Verifrax/attestorium` — https://github.com/Verifrax/attestorium
+- `github:Verifrax/AUCTORISEAL` — https://github.com/Verifrax/AUCTORISEAL
+- `github:Verifrax/cicullis` — https://github.com/Verifrax/cicullis
+- `github:Verifrax/CONSONORIUM` — https://github.com/Verifrax/CONSONORIUM
+- `github:Verifrax/CORPIFORM` — https://github.com/Verifrax/CORPIFORM
+- `github:Verifrax/guillotine` — https://github.com/Verifrax/guillotine
+- `github:Verifrax/irrevocull` — https://github.com/Verifrax/irrevocull
+- `github:Verifrax/kairoclasp` — https://github.com/Verifrax/kairoclasp
+- `github:Verifrax/limenward` — https://github.com/Verifrax/limenward
+- `github:Verifrax/ORBISTIUM` — https://github.com/Verifrax/ORBISTIUM
+- `github:Verifrax/originseal` — https://github.com/Verifrax/originseal
+- `github:Verifrax/proof` — https://github.com/Verifrax/proof
+- `github:Verifrax/REGRESSORIUM` — https://github.com/Verifrax/REGRESSORIUM
+- `github:Verifrax/SIGILLARIUM` — https://github.com/Verifrax/SIGILLARIUM
+- `github:Verifrax/SPEEDKIT` — https://github.com/Verifrax/SPEEDKIT
+- `github:Verifrax/SYNTAGMARIUM` — https://github.com/Verifrax/SYNTAGMARIUM
+- `github:Verifrax/TACHYRIUM` — https://github.com/Verifrax/TACHYRIUM
+- `github:Verifrax/validexor` — https://github.com/Verifrax/validexor
+- `github:Verifrax/VERIFRAX` — https://github.com/Verifrax/VERIFRAX
+- `github:Verifrax/VERIFRAX-API` — https://github.com/Verifrax/VERIFRAX-API
+- `github:Verifrax/VERIFRAX-CONTROL-VERIFY` — https://github.com/Verifrax/VERIFRAX-CONTROL-VERIFY
+- `github:Verifrax/VERIFRAX-DOCS` — https://github.com/Verifrax/VERIFRAX-DOCS
+- `github:Verifrax/verifrax-marketplace-smoke` — https://github.com/Verifrax/verifrax-marketplace-smoke
+- `github:Verifrax/VERIFRAX-PROFILES` — https://github.com/Verifrax/VERIFRAX-PROFILES
+- `github:Verifrax/VERIFRAX-PY` — https://github.com/Verifrax/VERIFRAX-PY
+- `github:Verifrax/VERIFRAX-SAMPLES` — https://github.com/Verifrax/VERIFRAX-SAMPLES
+- `github:Verifrax/VERIFRAX-SPEC` — https://github.com/Verifrax/VERIFRAX-SPEC
+- `github:Verifrax/VERIFRAX-STATUS` — https://github.com/Verifrax/VERIFRAX-STATUS
+- `github:Verifrax/VERIFRAX-SURFACE` — https://github.com/Verifrax/VERIFRAX-SURFACE
+- `github:Verifrax/VERIFRAX-verify` — https://github.com/Verifrax/VERIFRAX-verify
+- `github:Verifrax/VERIFRAX-WWW` — https://github.com/Verifrax/VERIFRAX-WWW
+- `npm:@invocorder/recorder` — https://www.npmjs.com/package/@invocorder/recorder
+- `npm:@kaaffilm/mk10-pro` — https://www.npmjs.com/package/@kaaffilm/mk10-pro
+- `npm:@verifrax/archicustos` — https://www.npmjs.com/package/@verifrax/archicustos
+- `npm:@verifrax/attestorium` — https://www.npmjs.com/package/@verifrax/attestorium
+- `npm:@verifrax/auctoriseal` — https://www.npmjs.com/package/@verifrax/auctoriseal
+- `npm:@verifrax/cicullis` — https://www.npmjs.com/package/@verifrax/cicullis
+- `npm:@verifrax/corpiform` — https://www.npmjs.com/package/@verifrax/corpiform
+- `npm:@verifrax/guillotine` — https://www.npmjs.com/package/@verifrax/guillotine
+- `npm:@verifrax/irrevocull` — https://www.npmjs.com/package/@verifrax/irrevocull
+- `npm:@verifrax/kairoclasp` — https://www.npmjs.com/package/@verifrax/kairoclasp
+- `npm:@verifrax/limenward` — https://www.npmjs.com/package/@verifrax/limenward
+- `npm:@verifrax/originseal` — https://www.npmjs.com/package/@verifrax/originseal
+- `npm:@verifrax/root` — https://www.npmjs.com/package/@verifrax/root
+- `npm:@verifrax/sigillarium` — https://www.npmjs.com/package/@verifrax/sigillarium
+- `npm:@verifrax/validexor` — https://www.npmjs.com/package/@verifrax/validexor
+- `npm:@verifrax/verifrax` — https://www.npmjs.com/package/@verifrax/verifrax
+- `npm:@verifrax/verifrax-api` — https://www.npmjs.com/package/@verifrax/verifrax-api
+- `npm:@verifrax/verifrax-profiles` — https://www.npmjs.com/package/@verifrax/verifrax-profiles
+- `npm:@verifrax/verifrax-spec` — https://www.npmjs.com/package/@verifrax/verifrax-spec
+- `npm:@verifrax/verifrax-verify` — https://www.npmjs.com/package/@verifrax/verifrax-verify
