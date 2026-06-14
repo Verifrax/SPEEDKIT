@@ -325,3 +325,70 @@ body::after {
     padding: 0;
   }
 }
+
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.category-card {
+  border: 1px solid #123522;
+  background: #061109;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #a8ffbf;
+}
+
+.category-card span {
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.category-card strong {
+  color: #00ff66;
+}
+
+.workspace-category {
+  border: 1px solid #123522;
+  margin: 24px 0;
+  background: #050805;
+}
+
+.category-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  border-bottom: 1px solid #123522;
+  padding: 12px 14px;
+}
+
+.category-head h3 {
+  margin: 0;
+  color: #00ff66;
+  font-size: 14px;
+  letter-spacing: .08em;
+}
+
+.category-count {
+  color: #00ff66;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.category-desc {
+  margin: 0;
+  padding: 12px 14px;
+  color: #83b891;
+  border-bottom: 1px solid #0b2416;
+}
+
+.category-registry {
+  border: 0;
+}
