@@ -3,107 +3,53 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SPEEDKIT Public Control Terminal · speedkit.eu</title>
+<title>SPEEDKIT Control Engine · speedkit.eu</title>
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <main class="wrap">
-<header>
-<h1><a href="/">speedkit.eu</a></h1>
-<p class="sub">Interactive terminal control surface for systems, public organizations, public repositories, packages, PyPI, routes, and exports</p>
-<p>REGISTRY OPENED: 2026-01-25</p>
-<div class="topline"><div class="stats"><div><span>SYSTEMS</span><b>4</b></div><div><span>ORGS</span><b>14</b></div><div><span>REPOS</span><b>91</b></div><div><span>NPM</span><b>20</b></div><div><span>PYPI</span><b>2</b></div><div><span>PACKAGES</span><b>22</b></div><div><span>WORKSPACE</span><b>127</b></div><div><span>PRIVATE</span><b>0</b></div></div></div>
-<div class="seal">SPEEDKIT PUBLIC CONTROL TERMINAL<br>PUBLIC ONLY · ROUTED · SEARCHABLE · INSPECTABLE · EXPORTABLE</div>
+<header class="header">
+  <div>
+    <p class="kicker">speedkit.eu</p>
+    <h1><a href="/">SPEEDKIT Control Engine</a></h1>
+    <p class="sub">Ideal terminal control surface for public systems, public source, packages, PyPI, routes, and exports</p>
+    <p>REGISTRY OPENED: 2026-01-25</p>
+  </div>
+  <div class="meta"><div class="metric"><span>SYSTEMS</span><b data-count="systems">4</b></div><div class="metric"><span>ORGS</span><b data-count="github_organizations">14</b></div><div class="metric"><span>REPOS</span><b data-count="github_repositories">91</b></div><div class="metric"><span>NPM</span><b data-count="npm_packages">20</b></div><div class="metric"><span>PYPI</span><b data-count="pypi_packages">2</b></div><div class="metric"><span>PACKAGES</span><b data-count="package_surfaces">22</b></div><div class="metric"><span>WORKSPACE</span><b data-count="workspace_entries">127</b></div><div class="metric"><span>PRIVATE</span><b data-count="private_remaining">0</b></div></div>
 </header>
+<div class="seal">SPEEDKIT IDEAL TERMINAL ENGINE<br>PUBLIC ONLY · ROUTE · SEARCH · INSPECT · VERIFY · EXPORT</div>
 
-<section class="terminal">
-  <div class="terminal-title">TERMINAL CONTROL · PUBLIC ONLY</div>
-  <div id="screen" class="screen"><span class="prompt">speedkit&gt;</span> PUBLIC_ONLY=true · PRIVATE_PURGED=9 · PRIVATE_REMAINING=0
-<span class="prompt">speedkit&gt;</span> real commands loaded. Type <strong>help</strong>, <strong>privacy</strong>, <strong>counts</strong>, <strong>tree</strong>, <strong>find pypi</strong>, <strong>MK10PRO</strong>, <strong>ADJUTORIX</strong>, <strong>verify</strong>, or <strong>export manifest</strong>.</div>
-  <div class="cmdline"><label for="cmd"><span class="prompt">speedkit&gt;</span></label><input id="cmd" autocomplete="off" placeholder="type command and press enter"></div>
-  <div class="buttons"><button data-cmd="help">help</button><button data-cmd="counts">counts</button><button data-cmd="privacy">privacy</button><button data-cmd="routes">routes</button><button data-cmd="tree">tree</button><button data-cmd="systems">systems</button><button data-cmd="github">github</button><button data-cmd="organizations">organizations</button><button data-cmd="repositories">repositories</button><button data-cmd="packages">packages</button><button data-cmd="npm">npm</button><button data-cmd="pypi">pypi</button><button data-cmd="workspace">workspace</button><button data-cmd="find pypi">find pypi</button><button data-cmd="find verifrax">find verifrax</button><button data-cmd="MK10PRO">MK10PRO</button><button data-cmd="ADJUTORIX">ADJUTORIX</button><button data-cmd="inspect WSP-001">inspect WSP-001</button><button data-cmd="verify">verify</button><button data-cmd="export manifest">export manifest</button></div>
+<section class="engine">
+  <div class="console">
+    <div class="title">Command Engine · Public Only</div>
+    <div id="screen" class="screen"><span class="prompt">speedkit&gt;</span> engine online · PUBLIC_ONLY=true · PRIVATE_REMAINING=0
+<span class="prompt">speedkit&gt;</span> use / to focus · try help, counts, tree, find pypi, inspect WSP-001, open pypi, verify</div>
+    <div class="cmdbar"><label for="cmd"><span class="prompt">speedkit&gt;</span></label><input id="cmd" autocomplete="off" placeholder="command / search / inspect / open"></div>
+    <div class="quick"><button type="button" data-cmd="help">help</button><button type="button" data-cmd="counts">counts</button><button type="button" data-cmd="privacy">privacy</button><button type="button" data-cmd="verify">verify</button><button type="button" data-cmd="routes">routes</button><button type="button" data-cmd="tree">tree</button><button type="button" data-cmd="systems">systems</button><button type="button" data-cmd="github">github</button><button type="button" data-cmd="organizations">organizations</button><button type="button" data-cmd="repositories">repositories</button><button type="button" data-cmd="packages">packages</button><button type="button" data-cmd="npm">npm</button><button type="button" data-cmd="pypi">pypi</button><button type="button" data-cmd="workspace">workspace</button><button type="button" data-cmd="find pypi">find pypi</button><button type="button" data-cmd="find verifrax">find verifrax</button><button type="button" data-cmd="MK10PRO">MK10PRO</button><button type="button" data-cmd="ADJUTORIX">ADJUTORIX</button><button type="button" data-cmd="inspect WSP-001">inspect WSP-001</button><button type="button" data-cmd="export manifest">export manifest</button></div>
+  </div>
+  <aside class="inspector">
+    <div class="title">Inspector</div>
+    <pre id="inspect">No record selected.</pre>
+  </aside>
 </section>
 
 
-<h2>CONTROL ROUTES</h2><div class="grid"><a class="card" href="/"><strong>SPEEDKIT root terminal</strong><span>root</span><b>LIVE</b></a><a class="card" href="/terminal/"><strong>Terminal control surface</strong><span>terminal</span><b>LIVE</b></a><a class="card" href="/systems/"><strong>Recognized systems registry</strong><span>systems</span><b>4</b></a><a class="card" href="/registry/"><strong>Registry control surface</strong><span>registry</span><b>4</b></a><a class="card" href="/surfaces/"><strong>All public workspace surfaces</strong><span>surfaces</span><b>127</b></a><a class="card" href="/workspace/"><strong>Workspace family router</strong><span>workspace</span><b>127</b></a><a class="card" href="/github/"><strong>GitHub public source surface</strong><span>github</span><b>105</b></a><a class="card" href="/github/#organizations"><strong>GitHub public organization profiles</strong><span>organizations</span><b>14</b></a><a class="card" href="/github/#repositories"><strong>GitHub public repositories</strong><span>repositories</span><b>91</b></a><a class="card" href="/packages/"><strong>Package router</strong><span>packages</span><b>22</b></a><a class="card" href="/packages/npm/"><strong>npm package surface</strong><span>npm</span><b>20</b></a><a class="card" href="/packages/pypi/"><strong>PyPI package surface</strong><span>pypi</span><b>2</b></a><a class="card" href="/artifacts/"><strong>Primitive artifacts</strong><span>artifacts</span><b>8</b></a><a class="card" href="/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json"><strong>Machine-readable public workspace JSON</strong><span>json</span><b>127</b></a><a class="card" href="/SPEEDKIT_TERMINAL_MANIFEST.json"><strong>Terminal manifest</strong><span>manifest</span><b>127</b></a><a class="card" href="/workspace/cinematicum/"><strong>CINEMATICUM / KAAFFILM ISSUANCE</strong><span>cinematicum</span><b>8</b></a><a class="card" href="/workspace/invocorder/"><strong>INVOCORDER EVIDENCE STACK</strong><span>invocorder</span><b>8</b></a><a class="card" href="/workspace/qvra/"><strong>QVRA PUBLIC FIELD STACK</strong><span>qvra</span><b>13</b></a><a class="card" href="/workspace/qvro/"><strong>QVRO PUBLIC FIELD STACK</strong><span>qvro</span><b>1</b></a><a class="card" href="/workspace/qvru/"><strong>QVRU PUBLIC FIELD STACK</strong><span>qvru</span><b>1</b></a><a class="card" href="/workspace/qxra/"><strong>QXRA PUBLIC FIELD STACK</strong><span>qxra</span><b>1</b></a><a class="card" href="/workspace/qxvi/"><strong>QXVI PUBLIC FIELD STACK</strong><span>qxvi</span><b>1</b></a><a class="card" href="/workspace/qxvo/"><strong>QXVO PUBLIC FIELD STACK</strong><span>qxvo</span><b>2</b></a><a class="card" href="/workspace/qzro/"><strong>QZRO PUBLIC FIELD STACK</strong><span>qzro</span><b>2</b></a><a class="card" href="/workspace/qzru/"><strong>QZRU PUBLIC FIELD STACK</strong><span>qzru</span><b>1</b></a><a class="card" href="/workspace/personal/"><strong>MIDIAKIASAT PERSONAL PUBLIC SURFACE</strong><span>personal</span><b>1</b></a><a class="card" href="/workspace/truthframer/"><strong>TRUTHFRAMER MARKET-TRUTH STACK</strong><span>truthframer</span><b>3</b></a><a class="card" href="/workspace/vatfix/"><strong>VATFIX COMPLIANCE STACK</strong><span>vatfix</span><b>28</b></a><a class="card" href="/workspace/verifrax/chambers/"><strong>VERIFRAX SOVEREIGN CHAMBER ORDER</strong><span>verifrax-chambers</span><b>13</b></a><a class="card" href="/workspace/verifrax/governance/"><strong>VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION</strong><span>verifrax-governance</span><b>11</b></a><a class="card" href="/workspace/verifrax/verification/"><strong>VERIFRAX VERIFICATION / API / DOCS / SDK</strong><span>verifrax-verification</span><b>17</b></a><a class="card" href="/workspace/verifrax/primitives/"><strong>VERIFRAX PRIMITIVE COMPONENT ORDER</strong><span>verifrax-primitives</span><b>16</b></a></div>
-<h2>SYSTEMS</h2><div class='table'><a class="row" href="/cicullis/"><span>SYS-001</span><span>SYSTEM</span><span>CICULLIS</span><span>systems</span><span>Irreversible CI gate</span><span class="status">REGISTERED</span></a><a class="row" href="/mk10-pro/"><span>SYS-002</span><span>SYSTEM</span><span>MK10-PRO</span><span>systems</span><span>Execution index frozen</span><span class="status">REGISTERED</span></a><a class="row" href="/verifrax/"><span>SYS-003</span><span>SYSTEM</span><span>VERIFRAX</span><span>systems</span><span>Deterministic verification</span><span class="status">REGISTERED</span></a><a class="row" href="/vatfix/"><span>SYS-004</span><span>SYSTEM</span><span>VATFIX</span><span>systems</span><span>VAT compliance execution</span><span class="status">REGISTERED</span></a></div>
-<h2>FAMILY ROUTER</h2><div class="grid"><a class="card" href="/workspace/cinematicum/"><strong>CINEMATICUM / KAAFFILM ISSUANCE</strong><span>cinematicum</span><b>8</b></a><a class="card" href="/workspace/invocorder/"><strong>INVOCORDER EVIDENCE STACK</strong><span>invocorder</span><b>8</b></a><a class="card" href="/workspace/qvra/"><strong>QVRA PUBLIC FIELD STACK</strong><span>qvra</span><b>13</b></a><a class="card" href="/workspace/qvro/"><strong>QVRO PUBLIC FIELD STACK</strong><span>qvro</span><b>1</b></a><a class="card" href="/workspace/qvru/"><strong>QVRU PUBLIC FIELD STACK</strong><span>qvru</span><b>1</b></a><a class="card" href="/workspace/qxra/"><strong>QXRA PUBLIC FIELD STACK</strong><span>qxra</span><b>1</b></a><a class="card" href="/workspace/qxvi/"><strong>QXVI PUBLIC FIELD STACK</strong><span>qxvi</span><b>1</b></a><a class="card" href="/workspace/qxvo/"><strong>QXVO PUBLIC FIELD STACK</strong><span>qxvo</span><b>2</b></a><a class="card" href="/workspace/qzro/"><strong>QZRO PUBLIC FIELD STACK</strong><span>qzro</span><b>2</b></a><a class="card" href="/workspace/qzru/"><strong>QZRU PUBLIC FIELD STACK</strong><span>qzru</span><b>1</b></a><a class="card" href="/workspace/personal/"><strong>MIDIAKIASAT PERSONAL PUBLIC SURFACE</strong><span>personal</span><b>1</b></a><a class="card" href="/workspace/truthframer/"><strong>TRUTHFRAMER MARKET-TRUTH STACK</strong><span>truthframer</span><b>3</b></a><a class="card" href="/workspace/vatfix/"><strong>VATFIX COMPLIANCE STACK</strong><span>vatfix</span><b>28</b></a><a class="card" href="/workspace/verifrax/chambers/"><strong>VERIFRAX SOVEREIGN CHAMBER ORDER</strong><span>verifrax-chambers</span><b>13</b></a><a class="card" href="/workspace/verifrax/governance/"><strong>VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION</strong><span>verifrax-governance</span><b>11</b></a><a class="card" href="/workspace/verifrax/verification/"><strong>VERIFRAX VERIFICATION / API / DOCS / SDK</strong><span>verifrax-verification</span><b>17</b></a><a class="card" href="/workspace/verifrax/primitives/"><strong>VERIFRAX PRIMITIVE COMPONENT ORDER</strong><span>verifrax-primitives</span><b>16</b></a></div>
-<h2>PACKAGE SURFACES</h2>
-<div class="box">NPM: 20<br>PYPI: 2<br>TOTAL PACKAGES: 22<br><a href="/packages/">Open package router</a><br><a href="/packages/pypi/">Open PyPI package surface</a></div>
-<h2>PUBLIC-ONLY GATE</h2>
-<div class="box">PUBLIC_ONLY=true<br>PRIVATE_PURGED=9<br>PRIVATE_REMAINING=0<br>Machine-readable manifest: <a href="/SPEEDKIT_TERMINAL_MANIFEST.json">SPEEDKIT_TERMINAL_MANIFEST.json</a></div>
+<h2>Core Surfaces</h2><div class="grid"><a class="card" href="/terminal/"><strong>Full terminal engine</strong><span>terminal</span><b>LIVE</b></a><a class="card" href="/systems/"><strong>Recognized systems</strong><span>systems</span><b>4</b></a><a class="card" href="/surfaces/"><strong>All public surfaces</strong><span>surfaces</span><b>127</b></a><a class="card" href="/workspace/"><strong>Workspace families</strong><span>workspace</span><b>127</b></a><a class="card" href="/github/"><strong>GitHub source</strong><span>github</span><b>105</b></a><a class="card" href="/github/#organizations"><strong>GitHub organizations</strong><span>organizations</span><b>14</b></a><a class="card" href="/github/#repositories"><strong>GitHub repositories</strong><span>repositories</span><b>91</b></a><a class="card" href="/packages/"><strong>Packages</strong><span>packages</span><b>22</b></a><a class="card" href="/packages/npm/"><strong>npm</strong><span>npm</span><b>20</b></a><a class="card" href="/packages/pypi/"><strong>PyPI</strong><span>pypi</span><b>2</b></a><a class="card" href="/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json"><strong>Workspace JSON</strong><span>json</span><b>127</b></a><a class="card" href="/SPEEDKIT_TERMINAL_MANIFEST.json"><strong>Terminal manifest</strong><span>manifest</span><b>127</b></a></div>
+<h2>Recognized Systems</h2><div class='table slim'><a class="row" href="/cicullis/"><span>SYS-001</span><span>SYSTEM</span><span>CICULLIS</span><span>systems</span><span>Irreversible CI gate</span><span class="status">REGISTERED</span></a><a class="row" href="/mk10-pro/"><span>SYS-002</span><span>SYSTEM</span><span>MK10-PRO</span><span>systems</span><span>Execution index frozen</span><span class="status">REGISTERED</span></a><a class="row" href="/verifrax/"><span>SYS-003</span><span>SYSTEM</span><span>VERIFRAX</span><span>systems</span><span>Deterministic verification</span><span class="status">REGISTERED</span></a><a class="row" href="/vatfix/"><span>SYS-004</span><span>SYSTEM</span><span>VATFIX</span><span>systems</span><span>VAT compliance execution</span><span class="status">REGISTERED</span></a></div>
+<h2>Public Package Rail</h2>
+<div class="box">NPM: 20<br>PYPI: 2<br>TOTAL PACKAGE SURFACES: 22<br><a href="/packages/">Open package router</a><br><a href="/packages/pypi/">Open PyPI package surface</a></div>
+<h2>Public-Only Gate</h2>
+<div class="box">PUBLIC_ONLY=true<br>PRIVATE_PURGED=9<br>PRIVATE_REMAINING=0<br>Manifest: <a href="/SPEEDKIT_TERMINAL_MANIFEST.json">SPEEDKIT_TERMINAL_MANIFEST.json</a></div>
 
 <section class="boundary">
-<strong>PROJECTION BOUNDARY</strong><br><br>
-SPEEDKIT SYSTEMS is a projection of publicly recognized execution systems only.<br>
-The terminal exposes public organization, repository, npm, and PyPI existence as non-admission metadata.<br>
-Private repositories are not projected on public SPEEDKIT surfaces.<br>
-Repository/package existence is not systems admission.
+  <strong>PROJECTION BOUNDARY</strong><br><br>
+  SPEEDKIT SYSTEMS is a projection of publicly recognized execution systems only.<br>
+  The engine exposes public organizations, public repositories, npm packages, and PyPI packages as non-admission metadata.<br>
+  Private repositories are not projected on public SPEEDKIT surfaces.<br>
+  Repository/package existence is not systems admission.
 </section>
 <footer class="footer">REGISTERED · ROUTED · PUBLIC-ONLY · SEARCHABLE · INSPECTABLE · EXPORTABLE<br><br>contact@speedkit.eu<br><br>STATE IS NOT SUBJECT TO INTERPRETATION</footer>
 </main>
-
-<script>
-let MANIFEST = null;
-const screenEl = document.getElementById("screen");
-const cmdEl = document.getElementById("cmd");
-
-function line(x){ screenEl.innerHTML += "\n" + x; screenEl.scrollTop = screenEl.scrollHeight; }
-function recs(){ return [...MANIFEST.systems, ...MANIFEST.workspace_entries, ...MANIFEST.artifacts, ...MANIFEST.routes.map(r => ({id:"ROUTE-"+r.cmd,surface:"route",name:r.title,description:r.path,url:r.path,status:"ROUTED",family:"routes"}))]; }
-function fmt(r){ return `${r.id||""} · ${r.surface||""} · ${r.name||""} · ${r.family||""} · ${r.status||""} · ${r.url||""}`; }
-function findOne(q){
-  const k = q.toLowerCase().trim();
-  const alias = MANIFEST.aliases[k];
-  const target = (alias || q).toLowerCase();
-  return recs().find(r =>
-    String(r.id||"").toLowerCase() === target ||
-    String(r.name||"").toLowerCase() === target ||
-    String(r.full_name||"").toLowerCase() === target ||
-    String(r.cmd||"").toLowerCase() === target
-  );
-}
-function printRows(rows, max=18){
-  if(!rows.length){ line("NO_MATCH"); return; }
-  rows.slice(0,max).forEach(r => line(fmt(r)));
-  if(rows.length > max) line(`... ${rows.length-max} more`);
-}
-function openRecord(r){ if(!r){ line("NO_MATCH"); return; } line("OPEN " + fmt(r)); if(r.url) location.href = r.url; }
-async function run(raw){
-  if(!MANIFEST){ MANIFEST = await fetch("/SPEEDKIT_TERMINAL_MANIFEST.json").then(r=>r.json()); }
-  const cmd = raw.trim(); if(!cmd) return;
-  line(`<span class="prompt">speedkit&gt;</span> ${cmd}`);
-  const lc = cmd.toLowerCase();
-
-  if(lc === "clear"){ screenEl.innerHTML = ""; return; }
-  if(lc === "help"){ line("COMMANDS: " + MANIFEST.commands.join(" · ")); return; }
-  if(lc === "counts"){ line(JSON.stringify(MANIFEST.counts)); return; }
-  if(lc === "privacy"){ line(`PUBLIC_ONLY=true · PRIVATE_PURGED=${MANIFEST.counts.private_purged} · PRIVATE_REMAINING=${MANIFEST.counts.private_remaining}`); return; }
-  if(lc === "verify"){ line(`VERIFY_PASS=true · public_only=true · systems=${MANIFEST.counts.systems} · orgs=${MANIFEST.counts.github_organizations} · repos=${MANIFEST.counts.github_repositories} · npm=${MANIFEST.counts.npm_packages} · pypi=${MANIFEST.counts.pypi_packages} · workspace=${MANIFEST.counts.workspace_entries} · private_remaining=0`); return; }
-  if(lc === "routes"){ printRows(MANIFEST.routes.map(r=>({id:"ROUTE-"+r.cmd,surface:"route",name:r.title,description:r.path,url:r.path,status:"ROUTED",family:"routes"})), 40); return; }
-  if(lc === "tree" || lc === "families"){ MANIFEST.families.forEach(f => line(`${f.key} · ${f.count} · ${f.path}`)); return; }
-  if(lc === "systems"){ printRows(MANIFEST.systems); return; }
-  if(lc === "github"){ printRows(MANIFEST.workspace_entries.filter(r => r.surface === "github" || r.surface === "github-org"), 40); return; }
-  if(lc === "organizations"){ printRows(MANIFEST.workspace_entries.filter(r => r.surface === "github-org"), 40); return; }
-  if(lc === "repositories"){ printRows(MANIFEST.workspace_entries.filter(r => r.surface === "github"), 40); return; }
-  if(lc === "packages"){ printRows(MANIFEST.workspace_entries.filter(r => r.surface === "npm" || r.surface === "pypi"), 40); return; }
-  if(lc === "npm"){ printRows(MANIFEST.workspace_entries.filter(r => r.surface === "npm"), 40); return; }
-  if(lc === "pypi"){ printRows(MANIFEST.workspace_entries.filter(r => r.surface === "pypi"), 40); return; }
-  if(lc === "workspace" || lc === "surfaces"){ printRows(MANIFEST.workspace_entries, 40); return; }
-  if(lc === "artifacts"){ printRows(MANIFEST.artifacts, 40); return; }
-  if(lc === "export manifest"){ location.href = "/SPEEDKIT_TERMINAL_MANIFEST.json"; return; }
-  if(lc === "export json"){ location.href = "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json"; return; }
-  if(lc.startsWith("find ")){ const q = lc.slice(5); printRows(recs().filter(r => JSON.stringify(r).toLowerCase().includes(q)), 40); return; }
-  if(lc.startsWith("inspect ")){ const r = findOne(cmd.slice(8)); line(r ? JSON.stringify(r, null, 2) : "NO_MATCH"); return; }
-  if(lc.startsWith("open ")){ openRecord(findOne(cmd.slice(5))); return; }
-
-  const r = findOne(cmd);
-  if(r){ line("MATCH " + fmt(r)); return; }
-  line("NO_MATCH");
-}
-fetch("/SPEEDKIT_TERMINAL_MANIFEST.json").then(r=>r.json()).then(m=>{MANIFEST=m;});
-if(cmdEl){ cmdEl.addEventListener("keydown", e => { if(e.key==="Enter"){ run(cmdEl.value); cmdEl.value=""; }}); }
-document.querySelectorAll("button[data-cmd]").forEach(b => b.addEventListener("click", () => run(b.dataset.cmd)));
-</script>
-
+<script src="/speedkit-engine.js"></script>
 </body>
 </html>

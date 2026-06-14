@@ -2,6 +2,8 @@
 /terminal/ /terminal/index.html 200
 /registry /registry/ 301
 /registry/ /registry/index.html 200
+/systems /systems/ 301
+/systems/ /systems/index.html 200
 /surfaces /surfaces/ 301
 /surfaces/ /surfaces/index.html 200
 /github /github/ 301
@@ -14,6 +16,8 @@
 /packages/pypi/ /packages/pypi/index.html 200
 /workspace /workspace/ 301
 /workspace/ /workspace/index.html 200
+/workspace/verifrax /workspace/verifrax/ 301
+/workspace/verifrax/ /workspace/verifrax/index.html 200
 /workspace/cinematicum /workspace/cinematicum/ 301
 /workspace/cinematicum/ /workspace/cinematicum/index.html 200
 /workspace/invocorder /workspace/invocorder/ 301
