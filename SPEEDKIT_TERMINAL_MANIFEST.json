@@ -2,13 +2,14 @@
   "title": "SPEEDKIT Terminal Control Surface",
   "counts": {
     "systems": 4,
-    "workspace_entries": 111,
+    "workspace_entries": 113,
     "github_repositories": 91,
     "npm_packages": 20,
-    "pypi_packages": 0,
+    "pypi_packages": 2,
     "artifacts": 8,
     "routes": 21,
-    "search_records": 123
+    "search_records": 125,
+    "packages": 22
   },
   "commands": [
     "help",
@@ -61,13 +62,13 @@
       "cmd": "surfaces",
       "title": "All surface router",
       "path": "/surfaces/",
-      "count": 111
+      "count": 113
     },
     {
       "cmd": "workspace",
       "title": "Workspace family router",
       "path": "/workspace/",
-      "count": 111
+      "count": 113
     },
     {
       "cmd": "github",
@@ -79,7 +80,7 @@
       "cmd": "packages",
       "title": "Package router",
       "path": "/packages/",
-      "count": 20
+      "count": 22
     },
     {
       "cmd": "npm",
@@ -91,7 +92,7 @@
       "cmd": "pypi",
       "title": "PyPI package surface",
       "path": "/packages/pypi/",
-      "count": 0
+      "count": 2
     },
     {
       "cmd": "json",
@@ -103,7 +104,7 @@
       "cmd": "cinematicum",
       "title": "CINEMATICUM / KAAFFILM",
       "path": "/workspace/cinematicum/",
-      "count": 5
+      "count": 6
     },
     {
       "cmd": "invocorder",
@@ -151,7 +152,7 @@
       "cmd": "verifrax-verification",
       "title": "VERIFRAX VERIFICATION / API / DOCS",
       "path": "/workspace/verifrax/verification/",
-      "count": 18
+      "count": 19
     },
     {
       "cmd": "verifrax-primitives",
@@ -203,7 +204,7 @@
       "key": "cinematicum",
       "title": "CINEMATICUM / KAAFFILM",
       "path": "/workspace/cinematicum/",
-      "count": 5
+      "count": 6
     },
     {
       "key": "invocorder",
@@ -251,7 +252,7 @@
       "key": "verifrax-verification",
       "title": "VERIFRAX VERIFICATION / API / DOCS",
       "path": "/workspace/verifrax/verification/",
-      "count": 18
+      "count": 19
     },
     {
       "key": "verifrax-primitives",
@@ -985,7 +986,7 @@
       "id": "WSP-077",
       "surface": "github",
       "name": "Verifrax/TACHYRIUM",
-      "description": "v0.1.0 live \u2014 bounded sovereign cognition infrastructure for the Verifrax stack.",
+      "description": "v0.1.0 live — bounded sovereign cognition infrastructure for the Verifrax stack.",
       "url": "https://github.com/Verifrax/TACHYRIUM",
       "status": "LISTED",
       "family": "verifrax-chambers"
@@ -1138,7 +1139,7 @@
       "id": "WSP-094",
       "surface": "npm",
       "name": "@verifrax/archicustos",
-      "description": "Verifrax primitive \u2014 custody preservation primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — custody preservation primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/archicustos",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1147,7 +1148,7 @@
       "id": "WSP-095",
       "surface": "npm",
       "name": "@verifrax/attestorium",
-      "description": "Verifrax primitive \u2014 attestation primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — attestation primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/attestorium",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1183,7 +1184,7 @@
       "id": "WSP-099",
       "surface": "npm",
       "name": "@verifrax/guillotine",
-      "description": "Verifrax primitive \u2014 termination primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — termination primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/guillotine",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1192,7 +1193,7 @@
       "id": "WSP-100",
       "surface": "npm",
       "name": "@verifrax/irrevocull",
-      "description": "Verifrax primitive \u2014 judgment primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — judgment primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/irrevocull",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1201,7 +1202,7 @@
       "id": "WSP-101",
       "surface": "npm",
       "name": "@verifrax/kairoclasp",
-      "description": "Verifrax primitive \u2014 time boundary primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — time boundary primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/kairoclasp",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1210,7 +1211,7 @@
       "id": "WSP-102",
       "surface": "npm",
       "name": "@verifrax/limenward",
-      "description": "Verifrax primitive \u2014 boundary enforcement primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — boundary enforcement primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/limenward",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1219,7 +1220,7 @@
       "id": "WSP-103",
       "surface": "npm",
       "name": "@verifrax/originseal",
-      "description": "Verifrax primitive \u2014 origin sealing primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — origin sealing primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/originseal",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1246,7 +1247,7 @@
       "id": "WSP-106",
       "surface": "npm",
       "name": "@verifrax/validexor",
-      "description": "Verifrax primitive \u2014 verification primitive for deterministic irreversible systems.",
+      "description": "Verifrax primitive — verification primitive for deterministic irreversible systems.",
       "url": "https://www.npmjs.com/package/@verifrax/validexor",
       "status": "LISTED",
       "family": "verifrax-primitives"
@@ -1295,6 +1296,28 @@
       "url": "https://www.npmjs.com/package/@verifrax/verifrax-verify",
       "status": "LISTED",
       "family": "verifrax-verification"
+    },
+    {
+      "id": "WSP-112",
+      "surface": "pypi",
+      "name": "mk10-pro",
+      "description": "Deterministic pre-delivery truth infrastructure for audiovisual mastering. Produces cryptographically verifiable Master Truth Bundles (MTB).",
+      "url": "https://pypi.org/project/mk10-pro/",
+      "status": "LISTED",
+      "family": "cinematicum",
+      "version": "1.0.3",
+      "source_binding": "kaaffilm/MK10-PRO"
+    },
+    {
+      "id": "WSP-113",
+      "surface": "pypi",
+      "name": "verifrax",
+      "description": "Python SDK and CLI for VERIFRAX bounded verification, evidence inspection, API access, and refusal-aware object-chain diagnostics.",
+      "url": "https://pypi.org/project/verifrax/",
+      "status": "LISTED",
+      "family": "verifrax-verification",
+      "version": "0.1.0",
+      "source_binding": "Verifrax/VERIFRAX-PY"
     },
     {
       "id": "PRIM-001",
