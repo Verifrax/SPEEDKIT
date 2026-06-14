@@ -1,21 +1,25 @@
 {
-  "title": "SPEEDKIT Deep Terminal Control Surface",
+  "title": "SPEEDKIT Public Terminal Control Surface",
+  "mode": "PUBLIC_ONLY",
   "counts": {
     "systems": 4,
-    "workspace_entries": 136,
-    "github_surfaces": 114,
+    "workspace_entries": 127,
+    "github_surfaces": 105,
     "github_organizations": 14,
-    "github_repositories": 100,
+    "github_repositories": 91,
     "npm_packages": 20,
     "pypi_packages": 2,
     "package_surfaces": 22,
     "artifacts": 8,
     "routes": 32,
-    "search_records": 180
+    "search_records": 171,
+    "private_purged": 9,
+    "private_remaining": 0
   },
   "commands": [
     "help",
     "counts",
+    "privacy",
     "routes",
     "tree",
     "systems",
@@ -65,33 +69,33 @@
     },
     {
       "cmd": "surfaces",
-      "title": "All workspace surfaces",
+      "title": "All public workspace surfaces",
       "path": "/surfaces/",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "workspace",
       "title": "Workspace family router",
       "path": "/workspace/",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "github",
-      "title": "GitHub source surface",
+      "title": "GitHub public source surface",
       "path": "/github/",
-      "count": 114
+      "count": 105
     },
     {
       "cmd": "organizations",
-      "title": "GitHub organization profiles",
+      "title": "GitHub public organization profiles",
       "path": "/github/#organizations",
       "count": 14
     },
     {
       "cmd": "repositories",
-      "title": "GitHub repositories",
+      "title": "GitHub public repositories",
       "path": "/github/#repositories",
-      "count": 100
+      "count": 91
     },
     {
       "cmd": "packages",
@@ -119,21 +123,21 @@
     },
     {
       "cmd": "json",
-      "title": "Machine-readable workspace JSON",
+      "title": "Machine-readable public workspace JSON",
       "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "manifest",
       "title": "Terminal manifest",
       "path": "/SPEEDKIT_TERMINAL_MANIFEST.json",
-      "count": 136
+      "count": 127
     },
     {
       "cmd": "cinematicum",
       "title": "CINEMATICUM / KAAFFILM ISSUANCE",
       "path": "/workspace/cinematicum/",
-      "count": 16
+      "count": 8
     },
     {
       "cmd": "invocorder",
@@ -205,31 +209,31 @@
       "cmd": "vatfix",
       "title": "VATFIX COMPLIANCE STACK",
       "path": "/workspace/vatfix/",
-      "count": 29
+      "count": 28
     },
     {
       "cmd": "verifrax-chambers",
       "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
       "path": "/workspace/verifrax/chambers/",
-      "count": 5
+      "count": 13
     },
     {
       "cmd": "verifrax-governance",
       "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION",
       "path": "/workspace/verifrax/governance/",
-      "count": 2
+      "count": 11
     },
     {
       "cmd": "verifrax-verification",
       "title": "VERIFRAX VERIFICATION / API / DOCS / SDK",
       "path": "/workspace/verifrax/verification/",
-      "count": 42
+      "count": 17
     },
     {
       "cmd": "verifrax-primitives",
       "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
       "path": "/workspace/verifrax/primitives/",
-      "count": 8
+      "count": 16
     }
   ],
   "systems": [
@@ -276,7 +280,7 @@
       "title": "CINEMATICUM / KAAFFILM ISSUANCE",
       "description": "Film issuance, KAAFFILM delivery, MK10-PRO, npm and PyPI package bindings.",
       "path": "/workspace/cinematicum/",
-      "count": 16
+      "count": 8
     },
     {
       "key": "invocorder",
@@ -360,35 +364,35 @@
       "title": "VATFIX COMPLIANCE STACK",
       "description": "VAT compliance execution, registry, replay, SDKs, adapters, operations, and web.",
       "path": "/workspace/vatfix/",
-      "count": 29
+      "count": 28
     },
     {
       "key": "verifrax-chambers",
       "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
       "description": "Constitutional chamber order and bound package surfaces.",
       "path": "/workspace/verifrax/chambers/",
-      "count": 5
+      "count": 13
     },
     {
       "key": "verifrax-governance",
       "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION",
       "description": "Governance, admissibility, registry, proof, architecture, and enforcement surfaces.",
       "path": "/workspace/verifrax/governance/",
-      "count": 2
+      "count": 11
     },
     {
       "key": "verifrax-verification",
       "title": "VERIFRAX VERIFICATION / API / DOCS / SDK",
       "description": "Verification protocol, API, docs, profiles, SDKs, samples, status, and package surfaces.",
       "path": "/workspace/verifrax/verification/",
-      "count": 42
+      "count": 17
     },
     {
       "key": "verifrax-primitives",
       "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
       "description": "Primitive source repositories and bound package surfaces.",
       "path": "/workspace/verifrax/primitives/",
-      "count": 8
+      "count": 16
     }
   ],
   "workspace_entries": [
@@ -462,45 +466,23 @@
       "surface": "github",
       "kind": "repository",
       "owner": "kaaffilm",
-      "name": "amplify-next-template",
-      "full_name": "kaaffilm/amplify-next-template",
-      "description": "My Amplify Gen 2 starter application",
-      "url": "https://github.com/kaaffilm/amplify-next-template",
-      "visibility": "private",
-      "private": true,
+      "name": ".github",
+      "full_name": "kaaffilm/.github",
+      "description": "Organization profile",
+      "url": "https://github.com/kaaffilm/.github",
+      "visibility": "public",
+      "private": false,
       "archived": false,
       "fork": false,
-      "language": "CSS",
-      "license": "MIT-0",
+      "language": null,
+      "license": null,
       "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
+      "updated_at": "2026-05-01T09:50:43Z",
       "workspace_registry_status": "listed",
       "systems_registry_admission": "not admitted by repository existence",
       "family": "cinematicum",
       "status": "LISTED",
       "id": "WSP-004"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "cinelint",
-      "full_name": "kaaffilm/cinelint",
-      "description": "VERIFRAX  is universal verification and finality framework for deterministic processes.",
-      "url": "https://github.com/kaaffilm/cinelint",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "TypeScript",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-12-27T13:01:43Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-005"
     },
     {
       "surface": "github",
@@ -522,117 +504,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-006"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "demo-repository",
-      "full_name": "kaaffilm/demo-repository",
-      "description": "A code repository designed to show the best GitHub has to offer.",
-      "url": "https://github.com/kaaffilm/demo-repository",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T12:36:30Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-007"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "flowbuilder-pro",
-      "full_name": "kaaffilm/flowbuilder-pro",
-      "description": "Full-stack prompt generator with Vite + Node.js",
-      "url": "https://github.com/kaaffilm/flowbuilder-pro",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "JavaScript",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-008"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": ".github",
-      "full_name": "kaaffilm/.github",
-      "description": "Organization profile",
-      "url": "https://github.com/kaaffilm/.github",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2026-05-01T09:50:43Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-009"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "july-tower-shell",
-      "full_name": "kaaffilm/july-tower-shell",
-      "description": "The cinematic React-based front-end for JULY — Kaaffilm’s AI-powered film operative command interface.",
-      "url": "https://github.com/kaaffilm/july-tower-shell",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "JavaScript",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-010"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "kaaffilm-pulse",
-      "full_name": "kaaffilm/kaaffilm-pulse",
-      "description": "The Creative Operating System for Filmmakers",
-      "url": "https://github.com/kaaffilm/kaaffilm-pulse",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-011"
+      "id": "WSP-005"
     },
     {
       "surface": "github",
@@ -654,51 +526,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-012"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "quickdcp",
-      "full_name": "kaaffilm/quickdcp",
-      "description": "Automated DCP/IMF encoding, validation, proofing, and packaging API.",
-      "url": "https://github.com/kaaffilm/quickdcp",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "MIT",
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:14Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-013"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "vault-loop-kit",
-      "full_name": "kaaffilm/vault-loop-kit",
-      "description": "repository",
-      "url": "https://github.com/kaaffilm/vault-loop-kit",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:14Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-014"
+      "id": "WSP-006"
     },
     {
       "surface": "npm",
@@ -720,7 +548,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-015"
+      "id": "WSP-007"
     },
     {
       "surface": "pypi",
@@ -742,7 +570,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-016"
+      "id": "WSP-008"
     },
     {
       "surface": "github-org",
@@ -764,51 +592,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-017"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "INVOCORDER",
-      "name": "CAPTURE-CONTRACT",
-      "full_name": "INVOCORDER/CAPTURE-CONTRACT",
-      "description": "Normative capture contract for machine-action boundary records and replayable evidence bundles.",
-      "url": "https://github.com/INVOCORDER/CAPTURE-CONTRACT",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "CC-BY-4.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-08T15:56:47Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "invocorder",
-      "status": "LISTED",
-      "id": "WSP-018"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "INVOCORDER",
-      "name": "EVIDENCE-SCHEMAS",
-      "full_name": "INVOCORDER/EVIDENCE-SCHEMAS",
-      "description": "Canonical schemas and validators for INVOCORDER machine-action evidence objects.",
-      "url": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "MPL-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-08T15:56:48Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "invocorder",
-      "status": "LISTED",
-      "id": "WSP-019"
+      "id": "WSP-009"
     },
     {
       "surface": "github",
@@ -830,7 +614,51 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-020"
+      "id": "WSP-010"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "INVOCORDER",
+      "name": "CAPTURE-CONTRACT",
+      "full_name": "INVOCORDER/CAPTURE-CONTRACT",
+      "description": "Normative capture contract for machine-action boundary records and replayable evidence bundles.",
+      "url": "https://github.com/INVOCORDER/CAPTURE-CONTRACT",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "CC-BY-4.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-08T15:56:47Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "invocorder",
+      "status": "LISTED",
+      "id": "WSP-011"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "INVOCORDER",
+      "name": "EVIDENCE-SCHEMAS",
+      "full_name": "INVOCORDER/EVIDENCE-SCHEMAS",
+      "description": "Canonical schemas and validators for INVOCORDER machine-action evidence objects.",
+      "url": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "MPL-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-08T15:56:48Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "invocorder",
+      "status": "LISTED",
+      "id": "WSP-012"
     },
     {
       "surface": "github",
@@ -852,7 +680,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-021"
+      "id": "WSP-013"
     },
     {
       "surface": "github",
@@ -874,7 +702,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-022"
+      "id": "WSP-014"
     },
     {
       "surface": "github",
@@ -896,7 +724,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-023"
+      "id": "WSP-015"
     },
     {
       "surface": "npm",
@@ -918,7 +746,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-024"
+      "id": "WSP-016"
     },
     {
       "surface": "github-org",
@@ -940,7 +768,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-025"
+      "id": "WSP-017"
     },
     {
       "surface": "github",
@@ -962,7 +790,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-026"
+      "id": "WSP-018"
     },
     {
       "surface": "github",
@@ -984,7 +812,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-027"
+      "id": "WSP-019"
     },
     {
       "surface": "github",
@@ -1006,7 +834,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-028"
+      "id": "WSP-020"
     },
     {
       "surface": "github",
@@ -1028,7 +856,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-029"
+      "id": "WSP-021"
     },
     {
       "surface": "github",
@@ -1050,7 +878,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-030"
+      "id": "WSP-022"
     },
     {
       "surface": "github",
@@ -1072,7 +900,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-031"
+      "id": "WSP-023"
     },
     {
       "surface": "github",
@@ -1094,7 +922,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-032"
+      "id": "WSP-024"
     },
     {
       "surface": "github",
@@ -1116,7 +944,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-033"
+      "id": "WSP-025"
     },
     {
       "surface": "github",
@@ -1138,7 +966,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-034"
+      "id": "WSP-026"
     },
     {
       "surface": "github",
@@ -1160,7 +988,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-035"
+      "id": "WSP-027"
     },
     {
       "surface": "github",
@@ -1182,7 +1010,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-036"
+      "id": "WSP-028"
     },
     {
       "surface": "github",
@@ -1204,7 +1032,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-037"
+      "id": "WSP-029"
     },
     {
       "surface": "github-org",
@@ -1226,7 +1054,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvro",
       "status": "LISTED",
-      "id": "WSP-038"
+      "id": "WSP-030"
     },
     {
       "surface": "github-org",
@@ -1248,7 +1076,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvru",
       "status": "LISTED",
-      "id": "WSP-039"
+      "id": "WSP-031"
     },
     {
       "surface": "github-org",
@@ -1270,7 +1098,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxra",
       "status": "LISTED",
-      "id": "WSP-040"
+      "id": "WSP-032"
     },
     {
       "surface": "github-org",
@@ -1292,7 +1120,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxvi",
       "status": "LISTED",
-      "id": "WSP-041"
+      "id": "WSP-033"
     },
     {
       "surface": "github-org",
@@ -1314,7 +1142,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxvo",
       "status": "LISTED",
-      "id": "WSP-042"
+      "id": "WSP-034"
     },
     {
       "surface": "github",
@@ -1336,7 +1164,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxvo",
       "status": "LISTED",
-      "id": "WSP-043"
+      "id": "WSP-035"
     },
     {
       "surface": "github-org",
@@ -1358,7 +1186,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qzro",
       "status": "LISTED",
-      "id": "WSP-044"
+      "id": "WSP-036"
     },
     {
       "surface": "github",
@@ -1380,7 +1208,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qzro",
       "status": "LISTED",
-      "id": "WSP-045"
+      "id": "WSP-037"
     },
     {
       "surface": "github-org",
@@ -1402,7 +1230,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qzru",
       "status": "LISTED",
-      "id": "WSP-046"
+      "id": "WSP-038"
     },
     {
       "surface": "github",
@@ -1424,7 +1252,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "personal",
       "status": "LISTED",
-      "id": "WSP-047"
+      "id": "WSP-039"
     },
     {
       "surface": "github-org",
@@ -1446,7 +1274,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "truthframer",
       "status": "LISTED",
-      "id": "WSP-048"
+      "id": "WSP-040"
     },
     {
       "surface": "github",
@@ -1468,7 +1296,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "truthframer",
       "status": "LISTED",
-      "id": "WSP-049"
+      "id": "WSP-041"
     },
     {
       "surface": "github",
@@ -1490,7 +1318,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "truthframer",
       "status": "LISTED",
-      "id": "WSP-050"
+      "id": "WSP-042"
     },
     {
       "surface": "github-org",
@@ -1512,7 +1340,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-051"
+      "id": "WSP-043"
     },
     {
       "surface": "github",
@@ -1534,7 +1362,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-052"
+      "id": "WSP-044"
     },
     {
       "surface": "github",
@@ -1556,7 +1384,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-053"
+      "id": "WSP-045"
     },
     {
       "surface": "github",
@@ -1578,7 +1406,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-054"
+      "id": "WSP-046"
     },
     {
       "surface": "github",
@@ -1600,7 +1428,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-055"
+      "id": "WSP-047"
     },
     {
       "surface": "github",
@@ -1622,7 +1450,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-056"
+      "id": "WSP-048"
     },
     {
       "surface": "github",
@@ -1644,7 +1472,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-057"
+      "id": "WSP-049"
     },
     {
       "surface": "github",
@@ -1666,7 +1494,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-058"
+      "id": "WSP-050"
     },
     {
       "surface": "github",
@@ -1688,7 +1516,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-059"
+      "id": "WSP-051"
     },
     {
       "surface": "github",
@@ -1710,7 +1538,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-060"
+      "id": "WSP-052"
     },
     {
       "surface": "github",
@@ -1732,7 +1560,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-061"
+      "id": "WSP-053"
     },
     {
       "surface": "github",
@@ -1754,7 +1582,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-062"
+      "id": "WSP-054"
     },
     {
       "surface": "github",
@@ -1776,29 +1604,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-063"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "VATFix",
-      "name": "vatfix.eu",
-      "full_name": "VATFix/vatfix.eu",
-      "description": "repository",
-      "url": "https://github.com/VATFix/vatfix.eu",
-      "visibility": "public",
-      "private": false,
-      "archived": true,
-      "fork": false,
-      "language": "HTML",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2026-01-28T21:24:19Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "vatfix",
-      "status": "LISTED",
-      "id": "WSP-064"
+      "id": "WSP-055"
     },
     {
       "surface": "github",
@@ -1820,7 +1626,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-065"
+      "id": "WSP-056"
     },
     {
       "surface": "github",
@@ -1842,7 +1648,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-066"
+      "id": "WSP-057"
     },
     {
       "surface": "github",
@@ -1864,7 +1670,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-067"
+      "id": "WSP-058"
     },
     {
       "surface": "github",
@@ -1886,7 +1692,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-068"
+      "id": "WSP-059"
     },
     {
       "surface": "github",
@@ -1908,7 +1714,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-069"
+      "id": "WSP-060"
     },
     {
       "surface": "github",
@@ -1930,29 +1736,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-070"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "VATFix",
-      "name": "VATFix-Plus",
-      "full_name": "VATFix/VATFix-Plus",
-      "description": "Commercial EU VAT validation API. VIES fallback. Stripe-secured access.",
-      "url": "https://github.com/VATFix/VATFix-Plus",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "MIT",
-      "default_branch": "main",
-      "updated_at": "2026-01-29T21:59:09Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "vatfix",
-      "status": "LISTED",
-      "id": "WSP-071"
+      "id": "WSP-061"
     },
     {
       "surface": "github",
@@ -1974,7 +1758,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-072"
+      "id": "WSP-062"
     },
     {
       "surface": "github",
@@ -1996,7 +1780,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-073"
+      "id": "WSP-063"
     },
     {
       "surface": "github",
@@ -2018,7 +1802,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-074"
+      "id": "WSP-064"
     },
     {
       "surface": "github",
@@ -2040,7 +1824,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-075"
+      "id": "WSP-065"
     },
     {
       "surface": "github",
@@ -2062,7 +1846,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-076"
+      "id": "WSP-066"
     },
     {
       "surface": "github",
@@ -2084,7 +1868,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-077"
+      "id": "WSP-067"
     },
     {
       "surface": "github",
@@ -2106,7 +1890,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-078"
+      "id": "WSP-068"
     },
     {
       "surface": "github",
@@ -2128,29 +1912,227 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-079"
+      "id": "WSP-069"
     },
     {
-      "surface": "github-org",
-      "kind": "organization",
+      "surface": "github",
+      "kind": "repository",
+      "owner": "VATFix",
+      "name": "vatfix.eu",
+      "full_name": "VATFix/vatfix.eu",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix.eu",
+      "visibility": "public",
+      "private": false,
+      "archived": true,
+      "fork": false,
+      "language": "HTML",
+      "license": null,
+      "default_branch": "main",
+      "updated_at": "2026-01-28T21:24:19Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "vatfix",
+      "status": "LISTED",
+      "id": "WSP-070"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
       "owner": "Verifrax",
-      "name": "Verifrax",
-      "full_name": "Verifrax",
-      "description": "Deterministic artifact authority infrastructure for verification and finality.",
-      "url": "https://github.com/Verifrax",
+      "name": "ANAGNORIUM",
+      "full_name": "Verifrax/ANAGNORIUM",
+      "description": "repository",
+      "url": "https://github.com/Verifrax/ANAGNORIUM",
       "visibility": "public",
       "private": false,
       "archived": false,
       "fork": false,
-      "language": null,
-      "license": null,
-      "default_branch": null,
-      "updated_at": "2026-03-25T10:36:22Z",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:43:15Z",
       "workspace_registry_status": "listed",
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-080"
+      "id": "WSP-071"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "AUCTORISEAL",
+      "full_name": "Verifrax/AUCTORISEAL",
+      "description": "Authority issuance system for Verifrax: generates governance seals that authorize execution and bind receipts.",
+      "url": "https://github.com/Verifrax/AUCTORISEAL",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-06-01T18:54:31Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-072"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "CONSONORIUM",
+      "full_name": "Verifrax/CONSONORIUM",
+      "description": "Reconciler, compiler, repair, and quarantine engine that aligns Verifrax surfaces to law and epoch truth.",
+      "url": "https://github.com/Verifrax/CONSONORIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-31T10:36:23Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-073"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "CORPIFORM",
+      "full_name": "Verifrax/CORPIFORM",
+      "description": "Deterministic execution runtime for Verifrax: authority-governed runs with verifiable receipt output.",
+      "url": "https://github.com/Verifrax/CORPIFORM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-25T06:22:37Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-074"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "ORBISTIUM",
+      "full_name": "Verifrax/ORBISTIUM",
+      "description": "Canonical world graph, reconciled epochs, proof bundles, and current-state memory for Verifrax.",
+      "url": "https://github.com/Verifrax/ORBISTIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-28T21:15:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-075"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "REGRESSORIUM",
+      "full_name": "Verifrax/REGRESSORIUM",
+      "description": "repository",
+      "url": "https://github.com/Verifrax/REGRESSORIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:46:27Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-076"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "SYNTAGMARIUM",
+      "full_name": "Verifrax/SYNTAGMARIUM",
+      "description": "Constitutional law, invariants, role definitions, and projection contracts for the Verifrax system.",
+      "url": "https://github.com/Verifrax/SYNTAGMARIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-24T18:31:25Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-077"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "TACHYRIUM",
+      "full_name": "Verifrax/TACHYRIUM",
+      "description": "v0.1.0 live — bounded sovereign cognition infrastructure for the Verifrax stack.",
+      "url": "https://github.com/Verifrax/TACHYRIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-06-01T12:14:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-078"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "VERIFRAX",
+      "full_name": "Verifrax/VERIFRAX",
+      "description": "Core Verifrax verification protocol for authority-governed execution, evidence receipts, and deterministic trust.",
+      "url": "https://github.com/Verifrax/VERIFRAX",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:39:47Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-079"
     },
     {
       "surface": "npm",
@@ -2172,7 +2154,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-081"
+      "id": "WSP-080"
     },
     {
       "surface": "npm",
@@ -2194,7 +2176,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-082"
+      "id": "WSP-081"
     },
     {
       "surface": "npm",
@@ -2216,7 +2198,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-083"
+      "id": "WSP-082"
     },
     {
       "surface": "npm",
@@ -2238,7 +2220,205 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
+      "id": "WSP-083"
+    },
+    {
+      "surface": "github-org",
+      "kind": "organization",
+      "owner": "Verifrax",
+      "name": "Verifrax",
+      "full_name": "Verifrax",
+      "description": "Deterministic artifact authority infrastructure for verification and finality.",
+      "url": "https://github.com/Verifrax",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": null,
+      "default_branch": null,
+      "updated_at": "2026-03-25T10:36:22Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
       "id": "WSP-084"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": ".github",
+      "full_name": "Verifrax/.github",
+      "description": "Canonical GitHub governance, community defaults, and organization profile surface for Verifrax repositories.",
+      "url": "https://github.com/Verifrax/.github",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:50:59Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-085"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "ADMISSORIUM",
+      "full_name": "Verifrax/ADMISSORIUM",
+      "description": "Admissibility enforcement implementation for the VERIFRAX constitutional perimeter.",
+      "url": "https://github.com/Verifrax/ADMISSORIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-23T09:52:03Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-086"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "apply",
+      "full_name": "Verifrax/apply",
+      "description": "Application and contributor intake surface for Verifrax: structured submissions, roles, and growth pipeline.",
+      "url": "https://github.com/Verifrax/apply",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-20T18:05:01Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-087"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "ARCHITECTURE",
+      "full_name": "Verifrax/ARCHITECTURE",
+      "description": "Canonical system architecture, repository topology, host map, and governance boundary for Verifrax.",
+      "url": "https://github.com/Verifrax/ARCHITECTURE",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-24T06:02:15Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-088"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "cicullis",
+      "full_name": "Verifrax/cicullis",
+      "description": "Deterministic GitHub enforcement action for Verifrax: irreversible merge-time policy and compliance gating.",
+      "url": "https://github.com/Verifrax/cicullis",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-25T06:22:43Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-089"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "proof",
+      "full_name": "Verifrax/proof",
+      "description": "Public proof publication surface for Verifrax: canonical proof artifacts, disclosures, and verification references.",
+      "url": "https://github.com/Verifrax/proof",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T21:38:50Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-090"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "SIGILLARIUM",
+      "full_name": "Verifrax/SIGILLARIUM",
+      "description": "Deterministic artifact sealing protocol for reproducible integrity bundles independent of identity or blockchain.",
+      "url": "https://github.com/Verifrax/SIGILLARIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "MPL-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-24T10:46:42Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-091"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "SPEEDKIT",
+      "full_name": "Verifrax/SPEEDKIT",
+      "description": "Verifrax root registry and governance surface: SPEEDKIT.",
+      "url": "https://github.com/Verifrax/SPEEDKIT",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-06-14T07:30:35Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-092"
     },
     {
       "surface": "npm",
@@ -2260,7 +2440,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-governance",
       "status": "LISTED",
-      "id": "WSP-085"
+      "id": "WSP-093"
     },
     {
       "surface": "npm",
@@ -2282,557 +2462,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-governance",
       "status": "LISTED",
-      "id": "WSP-086"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ADMISSORIUM",
-      "full_name": "Verifrax/ADMISSORIUM",
-      "description": "Admissibility enforcement implementation for the VERIFRAX constitutional perimeter.",
-      "url": "https://github.com/Verifrax/ADMISSORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-23T09:52:03Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-087"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ANAGNORIUM",
-      "full_name": "Verifrax/ANAGNORIUM",
-      "description": "repository",
-      "url": "https://github.com/Verifrax/ANAGNORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:43:15Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-088"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "apply",
-      "full_name": "Verifrax/apply",
-      "description": "Application and contributor intake surface for Verifrax: structured submissions, roles, and growth pipeline.",
-      "url": "https://github.com/Verifrax/apply",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-20T18:05:01Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-089"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "archicustos",
-      "full_name": "Verifrax/archicustos",
-      "description": "Custody-preservation primitive for Verifrax: protects continuity, control, and artifact stewardship boundaries.",
-      "url": "https://github.com/Verifrax/archicustos",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:29:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-090"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ARCHITECTURE",
-      "full_name": "Verifrax/ARCHITECTURE",
-      "description": "Canonical system architecture, repository topology, host map, and governance boundary for Verifrax.",
-      "url": "https://github.com/Verifrax/ARCHITECTURE",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-24T06:02:15Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-091"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "attestorium",
-      "full_name": "Verifrax/attestorium",
-      "description": "Attestation primitive for Verifrax: emits deterministic attestation signals for irreversible verification systems.",
-      "url": "https://github.com/Verifrax/attestorium",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:56:57Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-092"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "AUCTORISEAL",
-      "full_name": "Verifrax/AUCTORISEAL",
-      "description": "Authority issuance system for Verifrax: generates governance seals that authorize execution and bind receipts.",
-      "url": "https://github.com/Verifrax/AUCTORISEAL",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-06-01T18:54:31Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-093"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "cicullis",
-      "full_name": "Verifrax/cicullis",
-      "description": "Deterministic GitHub enforcement action for Verifrax: irreversible merge-time policy and compliance gating.",
-      "url": "https://github.com/Verifrax/cicullis",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-25T06:22:43Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
       "id": "WSP-094"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "CONSONORIUM",
-      "full_name": "Verifrax/CONSONORIUM",
-      "description": "Reconciler, compiler, repair, and quarantine engine that aligns Verifrax surfaces to law and epoch truth.",
-      "url": "https://github.com/Verifrax/CONSONORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-31T10:36:23Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-095"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "CORPIFORM",
-      "full_name": "Verifrax/CORPIFORM",
-      "description": "Deterministic execution runtime for Verifrax: authority-governed runs with verifiable receipt output.",
-      "url": "https://github.com/Verifrax/CORPIFORM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-25T06:22:37Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-096"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": ".github",
-      "full_name": "Verifrax/.github",
-      "description": "Canonical GitHub governance, community defaults, and organization profile surface for Verifrax repositories.",
-      "url": "https://github.com/Verifrax/.github",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:50:59Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-097"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "guillotine",
-      "full_name": "Verifrax/guillotine",
-      "description": "Termination primitive for Verifrax: enforces irreversible cut-off and final-stop behavior in governed systems.",
-      "url": "https://github.com/Verifrax/guillotine",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:04Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-098"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "irrevocull",
-      "full_name": "Verifrax/irrevocull",
-      "description": "Judgment primitive for Verifrax: records irreversible decisions for deterministic trust and compliance systems.",
-      "url": "https://github.com/Verifrax/irrevocull",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-099"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "kairoclasp",
-      "full_name": "Verifrax/kairoclasp",
-      "description": "Time-boundary primitive for Verifrax: locks temporal conditions for deterministic verification and control.",
-      "url": "https://github.com/Verifrax/kairoclasp",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:45:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-100"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "limenward",
-      "full_name": "Verifrax/limenward",
-      "description": "Boundary-enforcement primitive for Verifrax: guards entry, transition, and limit conditions in governed systems.",
-      "url": "https://github.com/Verifrax/limenward",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:20Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-101"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ORBISTIUM",
-      "full_name": "Verifrax/ORBISTIUM",
-      "description": "Canonical world graph, reconciled epochs, proof bundles, and current-state memory for Verifrax.",
-      "url": "https://github.com/Verifrax/ORBISTIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-28T21:15:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-102"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "originseal",
-      "full_name": "Verifrax/originseal",
-      "description": "Origin-sealing primitive for Verifrax: binds artifact origin and provenance for deterministic trust chains.",
-      "url": "https://github.com/Verifrax/originseal",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:28Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-103"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "proof",
-      "full_name": "Verifrax/proof",
-      "description": "Public proof publication surface for Verifrax: canonical proof artifacts, disclosures, and verification references.",
-      "url": "https://github.com/Verifrax/proof",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T21:38:50Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-104"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "REGRESSORIUM",
-      "full_name": "Verifrax/REGRESSORIUM",
-      "description": "repository",
-      "url": "https://github.com/Verifrax/REGRESSORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:46:27Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-105"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "SIGILLARIUM",
-      "full_name": "Verifrax/SIGILLARIUM",
-      "description": "Deterministic artifact sealing protocol for reproducible integrity bundles independent of identity or blockchain.",
-      "url": "https://github.com/Verifrax/SIGILLARIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "MPL-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-24T10:46:42Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-106"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "SPEEDKIT",
-      "full_name": "Verifrax/SPEEDKIT",
-      "description": "Verifrax root registry and governance surface: SPEEDKIT.",
-      "url": "https://github.com/Verifrax/SPEEDKIT",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-06-14T07:30:35Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-107"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "SYNTAGMARIUM",
-      "full_name": "Verifrax/SYNTAGMARIUM",
-      "description": "Constitutional law, invariants, role definitions, and projection contracts for the Verifrax system.",
-      "url": "https://github.com/Verifrax/SYNTAGMARIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-24T18:31:25Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-108"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "TACHYRIUM",
-      "full_name": "Verifrax/TACHYRIUM",
-      "description": "v0.1.0 live — bounded sovereign cognition infrastructure for the Verifrax stack.",
-      "url": "https://github.com/Verifrax/TACHYRIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-06-01T12:14:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-109"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "validexor",
-      "full_name": "Verifrax/validexor",
-      "description": "Verification primitive for Verifrax: deterministic validation logic for irreversible integrity systems.",
-      "url": "https://github.com/Verifrax/validexor",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:16:14Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-110"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "VERIFRAX",
-      "full_name": "Verifrax/VERIFRAX",
-      "description": "Core Verifrax verification protocol for authority-governed execution, evidence receipts, and deterministic trust.",
-      "url": "https://github.com/Verifrax/VERIFRAX",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "JavaScript",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:39:47Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-111"
     },
     {
       "surface": "github",
@@ -2854,7 +2484,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-112"
+      "id": "WSP-095"
     },
     {
       "surface": "github",
@@ -2876,7 +2506,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-113"
+      "id": "WSP-096"
     },
     {
       "surface": "github",
@@ -2898,7 +2528,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-114"
+      "id": "WSP-097"
     },
     {
       "surface": "github",
@@ -2920,7 +2550,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-115"
+      "id": "WSP-098"
     },
     {
       "surface": "github",
@@ -2942,7 +2572,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-116"
+      "id": "WSP-099"
     },
     {
       "surface": "github",
@@ -2964,7 +2594,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-117"
+      "id": "WSP-100"
     },
     {
       "surface": "github",
@@ -2986,7 +2616,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-118"
+      "id": "WSP-101"
     },
     {
       "surface": "github",
@@ -3008,7 +2638,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-119"
+      "id": "WSP-102"
     },
     {
       "surface": "github",
@@ -3030,7 +2660,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-120"
+      "id": "WSP-103"
     },
     {
       "surface": "github",
@@ -3052,7 +2682,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-121"
+      "id": "WSP-104"
     },
     {
       "surface": "github",
@@ -3074,7 +2704,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-122"
+      "id": "WSP-105"
     },
     {
       "surface": "github",
@@ -3096,7 +2726,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-123"
+      "id": "WSP-106"
     },
     {
       "surface": "npm",
@@ -3118,7 +2748,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-124"
+      "id": "WSP-107"
     },
     {
       "surface": "npm",
@@ -3140,7 +2770,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-125"
+      "id": "WSP-108"
     },
     {
       "surface": "npm",
@@ -3162,7 +2792,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-126"
+      "id": "WSP-109"
     },
     {
       "surface": "npm",
@@ -3184,7 +2814,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-127"
+      "id": "WSP-110"
     },
     {
       "surface": "pypi",
@@ -3206,7 +2836,183 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-128"
+      "id": "WSP-111"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "archicustos",
+      "full_name": "Verifrax/archicustos",
+      "description": "Custody-preservation primitive for Verifrax: protects continuity, control, and artifact stewardship boundaries.",
+      "url": "https://github.com/Verifrax/archicustos",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:29:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-112"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "attestorium",
+      "full_name": "Verifrax/attestorium",
+      "description": "Attestation primitive for Verifrax: emits deterministic attestation signals for irreversible verification systems.",
+      "url": "https://github.com/Verifrax/attestorium",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:56:57Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-113"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "guillotine",
+      "full_name": "Verifrax/guillotine",
+      "description": "Termination primitive for Verifrax: enforces irreversible cut-off and final-stop behavior in governed systems.",
+      "url": "https://github.com/Verifrax/guillotine",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:04Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-114"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "irrevocull",
+      "full_name": "Verifrax/irrevocull",
+      "description": "Judgment primitive for Verifrax: records irreversible decisions for deterministic trust and compliance systems.",
+      "url": "https://github.com/Verifrax/irrevocull",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:13Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-115"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "kairoclasp",
+      "full_name": "Verifrax/kairoclasp",
+      "description": "Time-boundary primitive for Verifrax: locks temporal conditions for deterministic verification and control.",
+      "url": "https://github.com/Verifrax/kairoclasp",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:45:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-116"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "limenward",
+      "full_name": "Verifrax/limenward",
+      "description": "Boundary-enforcement primitive for Verifrax: guards entry, transition, and limit conditions in governed systems.",
+      "url": "https://github.com/Verifrax/limenward",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:20Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-117"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "originseal",
+      "full_name": "Verifrax/originseal",
+      "description": "Origin-sealing primitive for Verifrax: binds artifact origin and provenance for deterministic trust chains.",
+      "url": "https://github.com/Verifrax/originseal",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:28Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-118"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "validexor",
+      "full_name": "Verifrax/validexor",
+      "description": "Verification primitive for Verifrax: deterministic validation logic for irreversible integrity systems.",
+      "url": "https://github.com/Verifrax/validexor",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:16:14Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-119"
     },
     {
       "surface": "npm",
@@ -3228,7 +3034,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-129"
+      "id": "WSP-120"
     },
     {
       "surface": "npm",
@@ -3250,7 +3056,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-130"
+      "id": "WSP-121"
     },
     {
       "surface": "npm",
@@ -3272,7 +3078,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-131"
+      "id": "WSP-122"
     },
     {
       "surface": "npm",
@@ -3294,7 +3100,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-132"
+      "id": "WSP-123"
     },
     {
       "surface": "npm",
@@ -3316,7 +3122,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-133"
+      "id": "WSP-124"
     },
     {
       "surface": "npm",
@@ -3338,7 +3144,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-134"
+      "id": "WSP-125"
     },
     {
       "surface": "npm",
@@ -3360,7 +3166,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-135"
+      "id": "WSP-126"
     },
     {
       "surface": "npm",
@@ -3382,7 +3188,81 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-136"
+      "id": "WSP-127"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "PRIM-001",
+      "surface": "artifact",
+      "name": "GUILLOTINE",
+      "description": "Irreversible execution",
+      "url": "https://github.com/midiakiasat/guillotine",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-002",
+      "surface": "artifact",
+      "name": "IRREVOCULL",
+      "description": "Irreversible judgment",
+      "url": "https://github.com/midiakiasat/irrevocull",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-003",
+      "surface": "artifact",
+      "name": "ATTESTORIUM",
+      "description": "Deterministic witness",
+      "url": "https://github.com/midiakiasat/attestorium",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-004",
+      "surface": "artifact",
+      "name": "VALIDEXOR",
+      "description": "Deterministic verification",
+      "url": "https://github.com/midiakiasat/validexor",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-005",
+      "surface": "artifact",
+      "name": "LIMENWARD",
+      "description": "Boundary enforcement",
+      "url": "https://github.com/midiakiasat/limenward",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-006",
+      "surface": "artifact",
+      "name": "ORIGINSEAL",
+      "description": "Origin sealing",
+      "url": "https://github.com/midiakiasat/originseal",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-007",
+      "surface": "artifact",
+      "name": "ARCHICUSTOS",
+      "description": "Custody primitive",
+      "url": "https://github.com/midiakiasat/archicustos",
+      "status": "ANNEX",
+      "family": "artifacts"
+    },
+    {
+      "id": "PRIM-008",
+      "surface": "artifact",
+      "name": "KAIROCLASP",
+      "description": "Temporal finality",
+      "url": "https://github.com/midiakiasat/kairoclasp",
+      "status": "ANNEX",
+      "family": "artifacts"
     }
   ],
   "search_index": [
@@ -3492,45 +3372,23 @@
       "surface": "github",
       "kind": "repository",
       "owner": "kaaffilm",
-      "name": "amplify-next-template",
-      "full_name": "kaaffilm/amplify-next-template",
-      "description": "My Amplify Gen 2 starter application",
-      "url": "https://github.com/kaaffilm/amplify-next-template",
-      "visibility": "private",
-      "private": true,
+      "name": ".github",
+      "full_name": "kaaffilm/.github",
+      "description": "Organization profile",
+      "url": "https://github.com/kaaffilm/.github",
+      "visibility": "public",
+      "private": false,
       "archived": false,
       "fork": false,
-      "language": "CSS",
-      "license": "MIT-0",
+      "language": null,
+      "license": null,
       "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
+      "updated_at": "2026-05-01T09:50:43Z",
       "workspace_registry_status": "listed",
       "systems_registry_admission": "not admitted by repository existence",
       "family": "cinematicum",
       "status": "LISTED",
       "id": "WSP-004"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "cinelint",
-      "full_name": "kaaffilm/cinelint",
-      "description": "VERIFRAX  is universal verification and finality framework for deterministic processes.",
-      "url": "https://github.com/kaaffilm/cinelint",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "TypeScript",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-12-27T13:01:43Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-005"
     },
     {
       "surface": "github",
@@ -3552,117 +3410,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-006"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "demo-repository",
-      "full_name": "kaaffilm/demo-repository",
-      "description": "A code repository designed to show the best GitHub has to offer.",
-      "url": "https://github.com/kaaffilm/demo-repository",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T12:36:30Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-007"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "flowbuilder-pro",
-      "full_name": "kaaffilm/flowbuilder-pro",
-      "description": "Full-stack prompt generator with Vite + Node.js",
-      "url": "https://github.com/kaaffilm/flowbuilder-pro",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "JavaScript",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-008"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": ".github",
-      "full_name": "kaaffilm/.github",
-      "description": "Organization profile",
-      "url": "https://github.com/kaaffilm/.github",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2026-05-01T09:50:43Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-009"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "july-tower-shell",
-      "full_name": "kaaffilm/july-tower-shell",
-      "description": "The cinematic React-based front-end for JULY — Kaaffilm’s AI-powered film operative command interface.",
-      "url": "https://github.com/kaaffilm/july-tower-shell",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "JavaScript",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-010"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "kaaffilm-pulse",
-      "full_name": "kaaffilm/kaaffilm-pulse",
-      "description": "The Creative Operating System for Filmmakers",
-      "url": "https://github.com/kaaffilm/kaaffilm-pulse",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-011"
+      "id": "WSP-005"
     },
     {
       "surface": "github",
@@ -3684,51 +3432,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-012"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "quickdcp",
-      "full_name": "kaaffilm/quickdcp",
-      "description": "Automated DCP/IMF encoding, validation, proofing, and packaging API.",
-      "url": "https://github.com/kaaffilm/quickdcp",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "MIT",
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:14Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-013"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "kaaffilm",
-      "name": "vault-loop-kit",
-      "full_name": "kaaffilm/vault-loop-kit",
-      "description": "repository",
-      "url": "https://github.com/kaaffilm/vault-loop-kit",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2025-10-17T07:57:14Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "cinematicum",
-      "status": "LISTED",
-      "id": "WSP-014"
+      "id": "WSP-006"
     },
     {
       "surface": "npm",
@@ -3750,7 +3454,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-015"
+      "id": "WSP-007"
     },
     {
       "surface": "pypi",
@@ -3772,7 +3476,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "cinematicum",
       "status": "LISTED",
-      "id": "WSP-016"
+      "id": "WSP-008"
     },
     {
       "surface": "github-org",
@@ -3794,51 +3498,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-017"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "INVOCORDER",
-      "name": "CAPTURE-CONTRACT",
-      "full_name": "INVOCORDER/CAPTURE-CONTRACT",
-      "description": "Normative capture contract for machine-action boundary records and replayable evidence bundles.",
-      "url": "https://github.com/INVOCORDER/CAPTURE-CONTRACT",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "CC-BY-4.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-08T15:56:47Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "invocorder",
-      "status": "LISTED",
-      "id": "WSP-018"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "INVOCORDER",
-      "name": "EVIDENCE-SCHEMAS",
-      "full_name": "INVOCORDER/EVIDENCE-SCHEMAS",
-      "description": "Canonical schemas and validators for INVOCORDER machine-action evidence objects.",
-      "url": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "MPL-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-08T15:56:48Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "invocorder",
-      "status": "LISTED",
-      "id": "WSP-019"
+      "id": "WSP-009"
     },
     {
       "surface": "github",
@@ -3860,7 +3520,51 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-020"
+      "id": "WSP-010"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "INVOCORDER",
+      "name": "CAPTURE-CONTRACT",
+      "full_name": "INVOCORDER/CAPTURE-CONTRACT",
+      "description": "Normative capture contract for machine-action boundary records and replayable evidence bundles.",
+      "url": "https://github.com/INVOCORDER/CAPTURE-CONTRACT",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "CC-BY-4.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-08T15:56:47Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "invocorder",
+      "status": "LISTED",
+      "id": "WSP-011"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "INVOCORDER",
+      "name": "EVIDENCE-SCHEMAS",
+      "full_name": "INVOCORDER/EVIDENCE-SCHEMAS",
+      "description": "Canonical schemas and validators for INVOCORDER machine-action evidence objects.",
+      "url": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "MPL-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-08T15:56:48Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "invocorder",
+      "status": "LISTED",
+      "id": "WSP-012"
     },
     {
       "surface": "github",
@@ -3882,7 +3586,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-021"
+      "id": "WSP-013"
     },
     {
       "surface": "github",
@@ -3904,7 +3608,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-022"
+      "id": "WSP-014"
     },
     {
       "surface": "github",
@@ -3926,7 +3630,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-023"
+      "id": "WSP-015"
     },
     {
       "surface": "npm",
@@ -3948,7 +3652,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "invocorder",
       "status": "LISTED",
-      "id": "WSP-024"
+      "id": "WSP-016"
     },
     {
       "surface": "github-org",
@@ -3970,7 +3674,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-025"
+      "id": "WSP-017"
     },
     {
       "surface": "github",
@@ -3992,7 +3696,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-026"
+      "id": "WSP-018"
     },
     {
       "surface": "github",
@@ -4014,7 +3718,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-027"
+      "id": "WSP-019"
     },
     {
       "surface": "github",
@@ -4036,7 +3740,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-028"
+      "id": "WSP-020"
     },
     {
       "surface": "github",
@@ -4058,7 +3762,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-029"
+      "id": "WSP-021"
     },
     {
       "surface": "github",
@@ -4080,7 +3784,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-030"
+      "id": "WSP-022"
     },
     {
       "surface": "github",
@@ -4102,7 +3806,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-031"
+      "id": "WSP-023"
     },
     {
       "surface": "github",
@@ -4124,7 +3828,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-032"
+      "id": "WSP-024"
     },
     {
       "surface": "github",
@@ -4146,7 +3850,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-033"
+      "id": "WSP-025"
     },
     {
       "surface": "github",
@@ -4168,7 +3872,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-034"
+      "id": "WSP-026"
     },
     {
       "surface": "github",
@@ -4190,7 +3894,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-035"
+      "id": "WSP-027"
     },
     {
       "surface": "github",
@@ -4212,7 +3916,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-036"
+      "id": "WSP-028"
     },
     {
       "surface": "github",
@@ -4234,7 +3938,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvra",
       "status": "LISTED",
-      "id": "WSP-037"
+      "id": "WSP-029"
     },
     {
       "surface": "github-org",
@@ -4256,7 +3960,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvro",
       "status": "LISTED",
-      "id": "WSP-038"
+      "id": "WSP-030"
     },
     {
       "surface": "github-org",
@@ -4278,7 +3982,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qvru",
       "status": "LISTED",
-      "id": "WSP-039"
+      "id": "WSP-031"
     },
     {
       "surface": "github-org",
@@ -4300,7 +4004,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxra",
       "status": "LISTED",
-      "id": "WSP-040"
+      "id": "WSP-032"
     },
     {
       "surface": "github-org",
@@ -4322,7 +4026,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxvi",
       "status": "LISTED",
-      "id": "WSP-041"
+      "id": "WSP-033"
     },
     {
       "surface": "github-org",
@@ -4344,7 +4048,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxvo",
       "status": "LISTED",
-      "id": "WSP-042"
+      "id": "WSP-034"
     },
     {
       "surface": "github",
@@ -4366,7 +4070,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qxvo",
       "status": "LISTED",
-      "id": "WSP-043"
+      "id": "WSP-035"
     },
     {
       "surface": "github-org",
@@ -4388,7 +4092,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qzro",
       "status": "LISTED",
-      "id": "WSP-044"
+      "id": "WSP-036"
     },
     {
       "surface": "github",
@@ -4410,7 +4114,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qzro",
       "status": "LISTED",
-      "id": "WSP-045"
+      "id": "WSP-037"
     },
     {
       "surface": "github-org",
@@ -4432,7 +4136,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "qzru",
       "status": "LISTED",
-      "id": "WSP-046"
+      "id": "WSP-038"
     },
     {
       "surface": "github",
@@ -4454,7 +4158,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "personal",
       "status": "LISTED",
-      "id": "WSP-047"
+      "id": "WSP-039"
     },
     {
       "surface": "github-org",
@@ -4476,7 +4180,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "truthframer",
       "status": "LISTED",
-      "id": "WSP-048"
+      "id": "WSP-040"
     },
     {
       "surface": "github",
@@ -4498,7 +4202,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "truthframer",
       "status": "LISTED",
-      "id": "WSP-049"
+      "id": "WSP-041"
     },
     {
       "surface": "github",
@@ -4520,7 +4224,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "truthframer",
       "status": "LISTED",
-      "id": "WSP-050"
+      "id": "WSP-042"
     },
     {
       "surface": "github-org",
@@ -4542,7 +4246,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-051"
+      "id": "WSP-043"
     },
     {
       "surface": "github",
@@ -4564,7 +4268,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-052"
+      "id": "WSP-044"
     },
     {
       "surface": "github",
@@ -4586,7 +4290,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-053"
+      "id": "WSP-045"
     },
     {
       "surface": "github",
@@ -4608,7 +4312,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-054"
+      "id": "WSP-046"
     },
     {
       "surface": "github",
@@ -4630,7 +4334,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-055"
+      "id": "WSP-047"
     },
     {
       "surface": "github",
@@ -4652,7 +4356,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-056"
+      "id": "WSP-048"
     },
     {
       "surface": "github",
@@ -4674,7 +4378,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-057"
+      "id": "WSP-049"
     },
     {
       "surface": "github",
@@ -4696,7 +4400,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-058"
+      "id": "WSP-050"
     },
     {
       "surface": "github",
@@ -4718,7 +4422,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-059"
+      "id": "WSP-051"
     },
     {
       "surface": "github",
@@ -4740,7 +4444,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-060"
+      "id": "WSP-052"
     },
     {
       "surface": "github",
@@ -4762,7 +4466,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-061"
+      "id": "WSP-053"
     },
     {
       "surface": "github",
@@ -4784,7 +4488,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-062"
+      "id": "WSP-054"
     },
     {
       "surface": "github",
@@ -4806,29 +4510,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-063"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "VATFix",
-      "name": "vatfix.eu",
-      "full_name": "VATFix/vatfix.eu",
-      "description": "repository",
-      "url": "https://github.com/VATFix/vatfix.eu",
-      "visibility": "public",
-      "private": false,
-      "archived": true,
-      "fork": false,
-      "language": "HTML",
-      "license": null,
-      "default_branch": "main",
-      "updated_at": "2026-01-28T21:24:19Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "vatfix",
-      "status": "LISTED",
-      "id": "WSP-064"
+      "id": "WSP-055"
     },
     {
       "surface": "github",
@@ -4850,7 +4532,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-065"
+      "id": "WSP-056"
     },
     {
       "surface": "github",
@@ -4872,7 +4554,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-066"
+      "id": "WSP-057"
     },
     {
       "surface": "github",
@@ -4894,7 +4576,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-067"
+      "id": "WSP-058"
     },
     {
       "surface": "github",
@@ -4916,7 +4598,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-068"
+      "id": "WSP-059"
     },
     {
       "surface": "github",
@@ -4938,7 +4620,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-069"
+      "id": "WSP-060"
     },
     {
       "surface": "github",
@@ -4960,29 +4642,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-070"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "VATFix",
-      "name": "VATFix-Plus",
-      "full_name": "VATFix/VATFix-Plus",
-      "description": "Commercial EU VAT validation API. VIES fallback. Stripe-secured access.",
-      "url": "https://github.com/VATFix/VATFix-Plus",
-      "visibility": "private",
-      "private": true,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "MIT",
-      "default_branch": "main",
-      "updated_at": "2026-01-29T21:59:09Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "vatfix",
-      "status": "LISTED",
-      "id": "WSP-071"
+      "id": "WSP-061"
     },
     {
       "surface": "github",
@@ -5004,7 +4664,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-072"
+      "id": "WSP-062"
     },
     {
       "surface": "github",
@@ -5026,7 +4686,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-073"
+      "id": "WSP-063"
     },
     {
       "surface": "github",
@@ -5048,7 +4708,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-074"
+      "id": "WSP-064"
     },
     {
       "surface": "github",
@@ -5070,7 +4730,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-075"
+      "id": "WSP-065"
     },
     {
       "surface": "github",
@@ -5092,7 +4752,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-076"
+      "id": "WSP-066"
     },
     {
       "surface": "github",
@@ -5114,7 +4774,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-077"
+      "id": "WSP-067"
     },
     {
       "surface": "github",
@@ -5136,7 +4796,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-078"
+      "id": "WSP-068"
     },
     {
       "surface": "github",
@@ -5158,29 +4818,227 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "vatfix",
       "status": "LISTED",
-      "id": "WSP-079"
+      "id": "WSP-069"
     },
     {
-      "surface": "github-org",
-      "kind": "organization",
+      "surface": "github",
+      "kind": "repository",
+      "owner": "VATFix",
+      "name": "vatfix.eu",
+      "full_name": "VATFix/vatfix.eu",
+      "description": "repository",
+      "url": "https://github.com/VATFix/vatfix.eu",
+      "visibility": "public",
+      "private": false,
+      "archived": true,
+      "fork": false,
+      "language": "HTML",
+      "license": null,
+      "default_branch": "main",
+      "updated_at": "2026-01-28T21:24:19Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "vatfix",
+      "status": "LISTED",
+      "id": "WSP-070"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
       "owner": "Verifrax",
-      "name": "Verifrax",
-      "full_name": "Verifrax",
-      "description": "Deterministic artifact authority infrastructure for verification and finality.",
-      "url": "https://github.com/Verifrax",
+      "name": "ANAGNORIUM",
+      "full_name": "Verifrax/ANAGNORIUM",
+      "description": "repository",
+      "url": "https://github.com/Verifrax/ANAGNORIUM",
       "visibility": "public",
       "private": false,
       "archived": false,
       "fork": false,
-      "language": null,
-      "license": null,
-      "default_branch": null,
-      "updated_at": "2026-03-25T10:36:22Z",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:43:15Z",
       "workspace_registry_status": "listed",
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-080"
+      "id": "WSP-071"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "AUCTORISEAL",
+      "full_name": "Verifrax/AUCTORISEAL",
+      "description": "Authority issuance system for Verifrax: generates governance seals that authorize execution and bind receipts.",
+      "url": "https://github.com/Verifrax/AUCTORISEAL",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-06-01T18:54:31Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-072"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "CONSONORIUM",
+      "full_name": "Verifrax/CONSONORIUM",
+      "description": "Reconciler, compiler, repair, and quarantine engine that aligns Verifrax surfaces to law and epoch truth.",
+      "url": "https://github.com/Verifrax/CONSONORIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-31T10:36:23Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-073"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "CORPIFORM",
+      "full_name": "Verifrax/CORPIFORM",
+      "description": "Deterministic execution runtime for Verifrax: authority-governed runs with verifiable receipt output.",
+      "url": "https://github.com/Verifrax/CORPIFORM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-25T06:22:37Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-074"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "ORBISTIUM",
+      "full_name": "Verifrax/ORBISTIUM",
+      "description": "Canonical world graph, reconciled epochs, proof bundles, and current-state memory for Verifrax.",
+      "url": "https://github.com/Verifrax/ORBISTIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-28T21:15:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-075"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "REGRESSORIUM",
+      "full_name": "Verifrax/REGRESSORIUM",
+      "description": "repository",
+      "url": "https://github.com/Verifrax/REGRESSORIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:46:27Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-076"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "SYNTAGMARIUM",
+      "full_name": "Verifrax/SYNTAGMARIUM",
+      "description": "Constitutional law, invariants, role definitions, and projection contracts for the Verifrax system.",
+      "url": "https://github.com/Verifrax/SYNTAGMARIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-24T18:31:25Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-077"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "TACHYRIUM",
+      "full_name": "Verifrax/TACHYRIUM",
+      "description": "v0.1.0 live — bounded sovereign cognition infrastructure for the Verifrax stack.",
+      "url": "https://github.com/Verifrax/TACHYRIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-06-01T12:14:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-078"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "VERIFRAX",
+      "full_name": "Verifrax/VERIFRAX",
+      "description": "Core Verifrax verification protocol for authority-governed execution, evidence receipts, and deterministic trust.",
+      "url": "https://github.com/Verifrax/VERIFRAX",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:39:47Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-chambers",
+      "status": "LISTED",
+      "id": "WSP-079"
     },
     {
       "surface": "npm",
@@ -5202,7 +5060,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-081"
+      "id": "WSP-080"
     },
     {
       "surface": "npm",
@@ -5224,7 +5082,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-082"
+      "id": "WSP-081"
     },
     {
       "surface": "npm",
@@ -5246,7 +5104,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
-      "id": "WSP-083"
+      "id": "WSP-082"
     },
     {
       "surface": "npm",
@@ -5268,7 +5126,205 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-chambers",
       "status": "LISTED",
+      "id": "WSP-083"
+    },
+    {
+      "surface": "github-org",
+      "kind": "organization",
+      "owner": "Verifrax",
+      "name": "Verifrax",
+      "full_name": "Verifrax",
+      "description": "Deterministic artifact authority infrastructure for verification and finality.",
+      "url": "https://github.com/Verifrax",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": null,
+      "default_branch": null,
+      "updated_at": "2026-03-25T10:36:22Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
       "id": "WSP-084"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": ".github",
+      "full_name": "Verifrax/.github",
+      "description": "Canonical GitHub governance, community defaults, and organization profile surface for Verifrax repositories.",
+      "url": "https://github.com/Verifrax/.github",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-06T15:50:59Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-085"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "ADMISSORIUM",
+      "full_name": "Verifrax/ADMISSORIUM",
+      "description": "Admissibility enforcement implementation for the VERIFRAX constitutional perimeter.",
+      "url": "https://github.com/Verifrax/ADMISSORIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-23T09:52:03Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-086"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "apply",
+      "full_name": "Verifrax/apply",
+      "description": "Application and contributor intake surface for Verifrax: structured submissions, roles, and growth pipeline.",
+      "url": "https://github.com/Verifrax/apply",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-05-20T18:05:01Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-087"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "ARCHITECTURE",
+      "full_name": "Verifrax/ARCHITECTURE",
+      "description": "Canonical system architecture, repository topology, host map, and governance boundary for Verifrax.",
+      "url": "https://github.com/Verifrax/ARCHITECTURE",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": null,
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-24T06:02:15Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-088"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "cicullis",
+      "full_name": "Verifrax/cicullis",
+      "description": "Deterministic GitHub enforcement action for Verifrax: irreversible merge-time policy and compliance gating.",
+      "url": "https://github.com/Verifrax/cicullis",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "AGPL-3.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-25T06:22:43Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-089"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "proof",
+      "full_name": "Verifrax/proof",
+      "description": "Public proof publication surface for Verifrax: canonical proof artifacts, disclosures, and verification references.",
+      "url": "https://github.com/Verifrax/proof",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T21:38:50Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-090"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "SIGILLARIUM",
+      "full_name": "Verifrax/SIGILLARIUM",
+      "description": "Deterministic artifact sealing protocol for reproducible integrity bundles independent of identity or blockchain.",
+      "url": "https://github.com/Verifrax/SIGILLARIUM",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "MPL-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-24T10:46:42Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-091"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "SPEEDKIT",
+      "full_name": "Verifrax/SPEEDKIT",
+      "description": "Verifrax root registry and governance surface: SPEEDKIT.",
+      "url": "https://github.com/Verifrax/SPEEDKIT",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "HTML",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-06-14T07:30:35Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-governance",
+      "status": "LISTED",
+      "id": "WSP-092"
     },
     {
       "surface": "npm",
@@ -5290,7 +5346,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-governance",
       "status": "LISTED",
-      "id": "WSP-085"
+      "id": "WSP-093"
     },
     {
       "surface": "npm",
@@ -5312,557 +5368,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-governance",
       "status": "LISTED",
-      "id": "WSP-086"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ADMISSORIUM",
-      "full_name": "Verifrax/ADMISSORIUM",
-      "description": "Admissibility enforcement implementation for the VERIFRAX constitutional perimeter.",
-      "url": "https://github.com/Verifrax/ADMISSORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-23T09:52:03Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-087"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ANAGNORIUM",
-      "full_name": "Verifrax/ANAGNORIUM",
-      "description": "repository",
-      "url": "https://github.com/Verifrax/ANAGNORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:43:15Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-088"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "apply",
-      "full_name": "Verifrax/apply",
-      "description": "Application and contributor intake surface for Verifrax: structured submissions, roles, and growth pipeline.",
-      "url": "https://github.com/Verifrax/apply",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-20T18:05:01Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-089"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "archicustos",
-      "full_name": "Verifrax/archicustos",
-      "description": "Custody-preservation primitive for Verifrax: protects continuity, control, and artifact stewardship boundaries.",
-      "url": "https://github.com/Verifrax/archicustos",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:29:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-090"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ARCHITECTURE",
-      "full_name": "Verifrax/ARCHITECTURE",
-      "description": "Canonical system architecture, repository topology, host map, and governance boundary for Verifrax.",
-      "url": "https://github.com/Verifrax/ARCHITECTURE",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-24T06:02:15Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-091"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "attestorium",
-      "full_name": "Verifrax/attestorium",
-      "description": "Attestation primitive for Verifrax: emits deterministic attestation signals for irreversible verification systems.",
-      "url": "https://github.com/Verifrax/attestorium",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:56:57Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-092"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "AUCTORISEAL",
-      "full_name": "Verifrax/AUCTORISEAL",
-      "description": "Authority issuance system for Verifrax: generates governance seals that authorize execution and bind receipts.",
-      "url": "https://github.com/Verifrax/AUCTORISEAL",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-06-01T18:54:31Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-093"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "cicullis",
-      "full_name": "Verifrax/cicullis",
-      "description": "Deterministic GitHub enforcement action for Verifrax: irreversible merge-time policy and compliance gating.",
-      "url": "https://github.com/Verifrax/cicullis",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-25T06:22:43Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
       "id": "WSP-094"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "CONSONORIUM",
-      "full_name": "Verifrax/CONSONORIUM",
-      "description": "Reconciler, compiler, repair, and quarantine engine that aligns Verifrax surfaces to law and epoch truth.",
-      "url": "https://github.com/Verifrax/CONSONORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-31T10:36:23Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-095"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "CORPIFORM",
-      "full_name": "Verifrax/CORPIFORM",
-      "description": "Deterministic execution runtime for Verifrax: authority-governed runs with verifiable receipt output.",
-      "url": "https://github.com/Verifrax/CORPIFORM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "AGPL-3.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-25T06:22:37Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-096"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": ".github",
-      "full_name": "Verifrax/.github",
-      "description": "Canonical GitHub governance, community defaults, and organization profile surface for Verifrax repositories.",
-      "url": "https://github.com/Verifrax/.github",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": null,
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:50:59Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-097"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "guillotine",
-      "full_name": "Verifrax/guillotine",
-      "description": "Termination primitive for Verifrax: enforces irreversible cut-off and final-stop behavior in governed systems.",
-      "url": "https://github.com/Verifrax/guillotine",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:04Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-098"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "irrevocull",
-      "full_name": "Verifrax/irrevocull",
-      "description": "Judgment primitive for Verifrax: records irreversible decisions for deterministic trust and compliance systems.",
-      "url": "https://github.com/Verifrax/irrevocull",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:13Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-099"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "kairoclasp",
-      "full_name": "Verifrax/kairoclasp",
-      "description": "Time-boundary primitive for Verifrax: locks temporal conditions for deterministic verification and control.",
-      "url": "https://github.com/Verifrax/kairoclasp",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:45:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-100"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "limenward",
-      "full_name": "Verifrax/limenward",
-      "description": "Boundary-enforcement primitive for Verifrax: guards entry, transition, and limit conditions in governed systems.",
-      "url": "https://github.com/Verifrax/limenward",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:20Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-101"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "ORBISTIUM",
-      "full_name": "Verifrax/ORBISTIUM",
-      "description": "Canonical world graph, reconciled epochs, proof bundles, and current-state memory for Verifrax.",
-      "url": "https://github.com/Verifrax/ORBISTIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-28T21:15:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-102"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "originseal",
-      "full_name": "Verifrax/originseal",
-      "description": "Origin-sealing primitive for Verifrax: binds artifact origin and provenance for deterministic trust chains.",
-      "url": "https://github.com/Verifrax/originseal",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:57:28Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-103"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "proof",
-      "full_name": "Verifrax/proof",
-      "description": "Public proof publication surface for Verifrax: canonical proof artifacts, disclosures, and verification references.",
-      "url": "https://github.com/Verifrax/proof",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T21:38:50Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-104"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "REGRESSORIUM",
-      "full_name": "Verifrax/REGRESSORIUM",
-      "description": "repository",
-      "url": "https://github.com/Verifrax/REGRESSORIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:46:27Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-105"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "SIGILLARIUM",
-      "full_name": "Verifrax/SIGILLARIUM",
-      "description": "Deterministic artifact sealing protocol for reproducible integrity bundles independent of identity or blockchain.",
-      "url": "https://github.com/Verifrax/SIGILLARIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "MPL-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-24T10:46:42Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-106"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "SPEEDKIT",
-      "full_name": "Verifrax/SPEEDKIT",
-      "description": "Verifrax root registry and governance surface: SPEEDKIT.",
-      "url": "https://github.com/Verifrax/SPEEDKIT",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "HTML",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-06-14T07:30:35Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-107"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "SYNTAGMARIUM",
-      "full_name": "Verifrax/SYNTAGMARIUM",
-      "description": "Constitutional law, invariants, role definitions, and projection contracts for the Verifrax system.",
-      "url": "https://github.com/Verifrax/SYNTAGMARIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-24T18:31:25Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-108"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "TACHYRIUM",
-      "full_name": "Verifrax/TACHYRIUM",
-      "description": "v0.1.0 live — bounded sovereign cognition infrastructure for the Verifrax stack.",
-      "url": "https://github.com/Verifrax/TACHYRIUM",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-06-01T12:14:38Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-109"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "validexor",
-      "full_name": "Verifrax/validexor",
-      "description": "Verification primitive for Verifrax: deterministic validation logic for irreversible integrity systems.",
-      "url": "https://github.com/Verifrax/validexor",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "Shell",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-04-23T20:16:14Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-110"
-    },
-    {
-      "surface": "github",
-      "kind": "repository",
-      "owner": "Verifrax",
-      "name": "VERIFRAX",
-      "full_name": "Verifrax/VERIFRAX",
-      "description": "Core Verifrax verification protocol for authority-governed execution, evidence receipts, and deterministic trust.",
-      "url": "https://github.com/Verifrax/VERIFRAX",
-      "visibility": "public",
-      "private": false,
-      "archived": false,
-      "fork": false,
-      "language": "JavaScript",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "updated_at": "2026-05-06T15:39:47Z",
-      "workspace_registry_status": "listed",
-      "systems_registry_admission": "not admitted by repository existence",
-      "family": "verifrax-verification",
-      "status": "LISTED",
-      "id": "WSP-111"
     },
     {
       "surface": "github",
@@ -5884,7 +5390,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-112"
+      "id": "WSP-095"
     },
     {
       "surface": "github",
@@ -5906,7 +5412,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-113"
+      "id": "WSP-096"
     },
     {
       "surface": "github",
@@ -5928,7 +5434,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-114"
+      "id": "WSP-097"
     },
     {
       "surface": "github",
@@ -5950,7 +5456,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-115"
+      "id": "WSP-098"
     },
     {
       "surface": "github",
@@ -5972,7 +5478,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-116"
+      "id": "WSP-099"
     },
     {
       "surface": "github",
@@ -5994,7 +5500,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-117"
+      "id": "WSP-100"
     },
     {
       "surface": "github",
@@ -6016,7 +5522,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-118"
+      "id": "WSP-101"
     },
     {
       "surface": "github",
@@ -6038,7 +5544,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-119"
+      "id": "WSP-102"
     },
     {
       "surface": "github",
@@ -6060,7 +5566,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-120"
+      "id": "WSP-103"
     },
     {
       "surface": "github",
@@ -6082,7 +5588,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-121"
+      "id": "WSP-104"
     },
     {
       "surface": "github",
@@ -6104,7 +5610,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-122"
+      "id": "WSP-105"
     },
     {
       "surface": "github",
@@ -6126,7 +5632,7 @@
       "systems_registry_admission": "not admitted by repository existence",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-123"
+      "id": "WSP-106"
     },
     {
       "surface": "npm",
@@ -6148,7 +5654,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-124"
+      "id": "WSP-107"
     },
     {
       "surface": "npm",
@@ -6170,7 +5676,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-125"
+      "id": "WSP-108"
     },
     {
       "surface": "npm",
@@ -6192,7 +5698,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-126"
+      "id": "WSP-109"
     },
     {
       "surface": "npm",
@@ -6214,7 +5720,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-127"
+      "id": "WSP-110"
     },
     {
       "surface": "pypi",
@@ -6236,7 +5742,183 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-verification",
       "status": "LISTED",
-      "id": "WSP-128"
+      "id": "WSP-111"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "archicustos",
+      "full_name": "Verifrax/archicustos",
+      "description": "Custody-preservation primitive for Verifrax: protects continuity, control, and artifact stewardship boundaries.",
+      "url": "https://github.com/Verifrax/archicustos",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:29:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-112"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "attestorium",
+      "full_name": "Verifrax/attestorium",
+      "description": "Attestation primitive for Verifrax: emits deterministic attestation signals for irreversible verification systems.",
+      "url": "https://github.com/Verifrax/attestorium",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:56:57Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-113"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "guillotine",
+      "full_name": "Verifrax/guillotine",
+      "description": "Termination primitive for Verifrax: enforces irreversible cut-off and final-stop behavior in governed systems.",
+      "url": "https://github.com/Verifrax/guillotine",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:04Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-114"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "irrevocull",
+      "full_name": "Verifrax/irrevocull",
+      "description": "Judgment primitive for Verifrax: records irreversible decisions for deterministic trust and compliance systems.",
+      "url": "https://github.com/Verifrax/irrevocull",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:13Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-115"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "kairoclasp",
+      "full_name": "Verifrax/kairoclasp",
+      "description": "Time-boundary primitive for Verifrax: locks temporal conditions for deterministic verification and control.",
+      "url": "https://github.com/Verifrax/kairoclasp",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:45:38Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-116"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "limenward",
+      "full_name": "Verifrax/limenward",
+      "description": "Boundary-enforcement primitive for Verifrax: guards entry, transition, and limit conditions in governed systems.",
+      "url": "https://github.com/Verifrax/limenward",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:20Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-117"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "originseal",
+      "full_name": "Verifrax/originseal",
+      "description": "Origin-sealing primitive for Verifrax: binds artifact origin and provenance for deterministic trust chains.",
+      "url": "https://github.com/Verifrax/originseal",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:57:28Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-118"
+    },
+    {
+      "surface": "github",
+      "kind": "repository",
+      "owner": "Verifrax",
+      "name": "validexor",
+      "full_name": "Verifrax/validexor",
+      "description": "Verification primitive for Verifrax: deterministic validation logic for irreversible integrity systems.",
+      "url": "https://github.com/Verifrax/validexor",
+      "visibility": "public",
+      "private": false,
+      "archived": false,
+      "fork": false,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "updated_at": "2026-04-23T20:16:14Z",
+      "workspace_registry_status": "listed",
+      "systems_registry_admission": "not admitted by repository existence",
+      "family": "verifrax-primitives",
+      "status": "LISTED",
+      "id": "WSP-119"
     },
     {
       "surface": "npm",
@@ -6258,7 +5940,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-129"
+      "id": "WSP-120"
     },
     {
       "surface": "npm",
@@ -6280,7 +5962,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-130"
+      "id": "WSP-121"
     },
     {
       "surface": "npm",
@@ -6302,7 +5984,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-131"
+      "id": "WSP-122"
     },
     {
       "surface": "npm",
@@ -6324,7 +6006,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-132"
+      "id": "WSP-123"
     },
     {
       "surface": "npm",
@@ -6346,7 +6028,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-133"
+      "id": "WSP-124"
     },
     {
       "surface": "npm",
@@ -6368,7 +6050,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-134"
+      "id": "WSP-125"
     },
     {
       "surface": "npm",
@@ -6390,7 +6072,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-135"
+      "id": "WSP-126"
     },
     {
       "surface": "npm",
@@ -6412,7 +6094,7 @@
       "systems_registry_admission": "package publication is not systems admission",
       "family": "verifrax-primitives",
       "status": "LISTED",
-      "id": "WSP-136"
+      "id": "WSP-127"
     },
     {
       "id": "PRIM-001",
@@ -6525,7 +6207,7 @@
     {
       "id": "ROUTE-surfaces",
       "surface": "route",
-      "name": "All workspace surfaces",
+      "name": "All public workspace surfaces",
       "description": "/surfaces/",
       "url": "/surfaces/",
       "status": "ROUTED",
@@ -6543,7 +6225,7 @@
     {
       "id": "ROUTE-github",
       "surface": "route",
-      "name": "GitHub source surface",
+      "name": "GitHub public source surface",
       "description": "/github/",
       "url": "/github/",
       "status": "ROUTED",
@@ -6552,7 +6234,7 @@
     {
       "id": "ROUTE-organizations",
       "surface": "route",
-      "name": "GitHub organization profiles",
+      "name": "GitHub public organization profiles",
       "description": "/github/#organizations",
       "url": "/github/#organizations",
       "status": "ROUTED",
@@ -6561,7 +6243,7 @@
     {
       "id": "ROUTE-repositories",
       "surface": "route",
-      "name": "GitHub repositories",
+      "name": "GitHub public repositories",
       "description": "/github/#repositories",
       "url": "/github/#repositories",
       "status": "ROUTED",
@@ -6606,7 +6288,7 @@
     {
       "id": "ROUTE-json",
       "surface": "route",
-      "name": "Machine-readable workspace JSON",
+      "name": "Machine-readable public workspace JSON",
       "description": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
       "url": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
       "status": "ROUTED",
@@ -6788,7 +6470,8 @@
   "boundary": {
     "root": "terminal control surface",
     "systems": "recognized execution systems only",
-    "workspace": "organization/repository/package existence is non-admission metadata",
-    "rule": "repository existence is not registry admission"
+    "workspace": "public organization/repository/package existence is non-admission metadata",
+    "rule": "repository existence is not registry admission",
+    "privacy": "private repositories are not projected on public SPEEDKIT surfaces"
   }
 }
