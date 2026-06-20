@@ -1,3 +1,7 @@
+/PUBLIC_RECONCILIATION_PROOF.json /public-reconciliation-proof.json 200
+/public-reconciliation-proof.json /public-reconciliation-proof.json 200
+/reconciliation-proof.json /public-reconciliation-proof.json 200
+
 /public-universe-proof /public-universe-proof.html 200!
 /public-universe-proof/ /public-universe-proof.html 200!
 /PUBLIC_UNIVERSE_PROOF /public-universe-proof.html 200!
