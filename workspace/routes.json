@@ -218,6 +218,12 @@
       "kind": "family-router",
       "label": "VERIFRAX router",
       "path": "/workspace/verifrax/"
+    },
+    {
+      "count": 1,
+      "kind": "document",
+      "label": "Public universe proof",
+      "path": "/PUBLIC_UNIVERSE_PROOF.md"
     }
   ]
 }
