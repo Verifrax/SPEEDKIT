@@ -1,0 +1,21 @@
+name: Public Reconciliation Audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+
+jobs:
+  public-reconciliation-audit:
+    name: public-reconciliation-audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Stamp public reconciliation proof
+        run: node scripts/speedkit-stamp-public-reconciliation-proof.cjs
+
+      - name: Audit public universe invariants
+        run: node scripts/speedkit-public-universe-audit.cjs
