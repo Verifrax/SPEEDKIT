@@ -1,333 +1,223 @@
 {
-  "mode": "PUBLIC_ONLY",
   "counts": {
-    "systems": 4,
-    "workspace_entries": 127,
-    "github_surfaces": 105,
-    "github_organizations": 14,
-    "github_repositories": 91,
+    "families": 18,
+    "github_namespaces": 16,
+    "github_repositories": 97,
+    "github_surfaces": 113,
     "npm_packages": 20,
-    "pypi_packages": 2,
     "package_surfaces": 22,
-    "artifacts": 8,
-    "private_purged": 9,
+    "private_purged": 14,
     "private_remaining": 0,
-    "routes": 32,
-    "search_records": 171
+    "pypi_packages": 2,
+    "systems": 4,
+    "workspace_entries": 135
   },
+  "generated_at": "2026-06-20T11:21:17Z",
+  "mode": "PUBLIC_ONLY",
   "routes": [
     {
-      "cmd": "root",
-      "title": "SPEEDKIT root engine",
-      "path": "/",
-      "count": "LIVE"
+      "count": 135,
+      "kind": "root",
+      "label": "SPEEDKIT Control Engine",
+      "path": "/"
     },
     {
-      "cmd": "terminal",
-      "title": "Control terminal",
-      "path": "/terminal/",
-      "count": "LIVE"
+      "count": 135,
+      "kind": "terminal",
+      "label": "Control terminal",
+      "path": "/terminal/"
     },
     {
-      "cmd": "systems",
-      "title": "Recognized systems",
-      "path": "/systems/",
-      "count": 4
+      "count": 4,
+      "kind": "systems",
+      "label": "Recognized execution systems",
+      "path": "/systems/"
     },
     {
-      "cmd": "registry",
-      "title": "Registry boundary",
-      "path": "/registry/",
-      "count": 4
+      "count": 113,
+      "kind": "github",
+      "label": "GitHub public source",
+      "path": "/github/"
     },
     {
-      "cmd": "surfaces",
-      "title": "All public surfaces",
-      "path": "/surfaces/",
-      "count": 127
+      "count": 22,
+      "kind": "packages",
+      "label": "Package router",
+      "path": "/packages/"
     },
     {
-      "cmd": "workspace",
-      "title": "Workspace families",
-      "path": "/workspace/",
-      "count": 127
+      "count": 20,
+      "kind": "npm",
+      "label": "npm packages",
+      "path": "/packages/npm/"
     },
     {
-      "cmd": "github",
-      "title": "GitHub source",
-      "path": "/github/",
-      "count": 105
+      "count": 2,
+      "kind": "pypi",
+      "label": "PyPI packages",
+      "path": "/packages/pypi/"
     },
     {
-      "cmd": "organizations",
-      "title": "GitHub organizations",
-      "path": "/github/#organizations",
-      "count": 14
+      "count": 135,
+      "kind": "workspace",
+      "label": "Workspace families",
+      "path": "/workspace/"
     },
     {
-      "cmd": "repositories",
-      "title": "GitHub repositories",
-      "path": "/github/#repositories",
-      "count": 91
+      "count": 135,
+      "kind": "surfaces",
+      "label": "All public surfaces",
+      "path": "/surfaces/"
     },
     {
-      "cmd": "packages",
-      "title": "Packages",
-      "path": "/packages/",
-      "count": 22
+      "count": 4,
+      "kind": "registry",
+      "label": "Registry boundary",
+      "path": "/registry/"
     },
     {
-      "cmd": "npm",
-      "title": "npm",
-      "path": "/packages/npm/",
-      "count": 20
+      "count": 1,
+      "kind": "document",
+      "label": "Control engine doctrine",
+      "path": "/CONTROL_ENGINE.md"
     },
     {
-      "cmd": "pypi",
-      "title": "PyPI",
-      "path": "/packages/pypi/",
-      "count": 2
+      "count": 1,
+      "kind": "document",
+      "label": "System boundary doctrine",
+      "path": "/SYSTEM_BOUNDARY.md"
     },
     {
-      "cmd": "artifacts",
-      "title": "Primitive artifacts",
-      "path": "/artifacts/",
-      "count": 8
+      "count": 8,
+      "family": "cinematicum",
+      "kind": "family",
+      "label": "CINEMATICUM / KAAFFILM ISSUANCE",
+      "path": "/workspace/cinematicum/"
     },
     {
-      "cmd": "json",
-      "title": "Workspace JSON",
-      "path": "/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json",
-      "count": 127
+      "count": 8,
+      "family": "invocorder",
+      "kind": "family",
+      "label": "INVOCORDER EVIDENCE STACK",
+      "path": "/workspace/invocorder/"
     },
     {
-      "cmd": "manifest",
-      "title": "Terminal manifest",
-      "path": "/SPEEDKIT_TERMINAL_MANIFEST.json",
-      "count": 127
+      "count": 14,
+      "family": "qvra",
+      "kind": "family",
+      "label": "QVRA PUBLIC FIELD STACK",
+      "path": "/workspace/qvra/"
     },
     {
-      "cmd": "cinematicum",
-      "title": "CINEMATICUM / KAAFFILM ISSUANCE",
-      "path": "/workspace/cinematicum/",
-      "count": 8
+      "count": 1,
+      "family": "qvro",
+      "kind": "family",
+      "label": "QVRO PUBLIC FIELD STACK",
+      "path": "/workspace/qvro/"
     },
     {
-      "cmd": "invocorder",
-      "title": "INVOCORDER EVIDENCE STACK",
-      "path": "/workspace/invocorder/",
-      "count": 8
+      "count": 1,
+      "family": "qvru",
+      "kind": "family",
+      "label": "QVRU PUBLIC FIELD STACK",
+      "path": "/workspace/qvru/"
     },
     {
-      "cmd": "qvra",
-      "title": "QVRA PUBLIC FIELD STACK",
-      "path": "/workspace/qvra/",
-      "count": 13
+      "count": 1,
+      "family": "qxra",
+      "kind": "family",
+      "label": "QXRA PUBLIC FIELD STACK",
+      "path": "/workspace/qxra/"
     },
     {
-      "cmd": "qvro",
-      "title": "QVRO PUBLIC FIELD STACK",
-      "path": "/workspace/qvro/",
-      "count": 1
+      "count": 3,
+      "family": "qxvi",
+      "kind": "family",
+      "label": "QXVI PUBLIC FIELD STACK",
+      "path": "/workspace/qxvi/"
     },
     {
-      "cmd": "qvru",
-      "title": "QVRU PUBLIC FIELD STACK",
-      "path": "/workspace/qvru/",
-      "count": 1
+      "count": 2,
+      "family": "qxvo",
+      "kind": "family",
+      "label": "QXVO PUBLIC FIELD STACK",
+      "path": "/workspace/qxvo/"
     },
     {
-      "cmd": "qxra",
-      "title": "QXRA PUBLIC FIELD STACK",
-      "path": "/workspace/qxra/",
-      "count": 1
+      "count": 2,
+      "family": "qzro",
+      "kind": "family",
+      "label": "QZRO PUBLIC FIELD STACK",
+      "path": "/workspace/qzro/"
     },
     {
-      "cmd": "qxvi",
-      "title": "QXVI PUBLIC FIELD STACK",
-      "path": "/workspace/qxvi/",
-      "count": 1
+      "count": 1,
+      "family": "qzru",
+      "kind": "family",
+      "label": "QZRU PUBLIC FIELD STACK",
+      "path": "/workspace/qzru/"
     },
     {
-      "cmd": "qxvo",
-      "title": "QXVO PUBLIC FIELD STACK",
-      "path": "/workspace/qxvo/",
-      "count": 2
+      "count": 2,
+      "family": "personal",
+      "kind": "family",
+      "label": "MIDIAKIASAT PERSONAL PUBLIC SURFACE",
+      "path": "/workspace/personal/"
     },
     {
-      "cmd": "qzro",
-      "title": "QZRO PUBLIC FIELD STACK",
-      "path": "/workspace/qzro/",
-      "count": 2
+      "count": 3,
+      "family": "truthframer",
+      "kind": "family",
+      "label": "TRUTHFRAMER MARKET-TRUTH STACK",
+      "path": "/workspace/truthframer/"
     },
     {
-      "cmd": "qzru",
-      "title": "QZRU PUBLIC FIELD STACK",
-      "path": "/workspace/qzru/",
-      "count": 1
+      "count": 28,
+      "family": "vatfix",
+      "kind": "family",
+      "label": "VATFIX COMPLIANCE STACK",
+      "path": "/workspace/vatfix/"
     },
     {
-      "cmd": "personal",
-      "title": "MIDIAKIASAT PERSONAL PUBLIC SURFACE",
-      "path": "/workspace/personal/",
-      "count": 1
+      "count": 4,
+      "family": "antimatterium",
+      "kind": "family",
+      "label": "ANTIMATTERIUM PUBLIC STACK",
+      "path": "/workspace/antimatterium/"
     },
     {
-      "cmd": "truthframer",
-      "title": "TRUTHFRAMER MARKET-TRUTH STACK",
-      "path": "/workspace/truthframer/",
-      "count": 3
+      "count": 14,
+      "family": "verifrax-chambers",
+      "kind": "family",
+      "label": "VERIFRAX SOVEREIGN CHAMBER ORDER",
+      "path": "/workspace/verifrax/chambers/"
     },
     {
-      "cmd": "vatfix",
-      "title": "VATFIX COMPLIANCE STACK",
-      "path": "/workspace/vatfix/",
-      "count": 28
+      "count": 10,
+      "family": "verifrax-governance",
+      "kind": "family",
+      "label": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION",
+      "path": "/workspace/verifrax/governance/"
     },
     {
-      "cmd": "verifrax-chambers",
-      "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
-      "path": "/workspace/verifrax/chambers/",
-      "count": 13
+      "count": 17,
+      "family": "verifrax-verification",
+      "kind": "family",
+      "label": "VERIFRAX VERIFICATION / API / DOCS / SDK",
+      "path": "/workspace/verifrax/verification/"
     },
     {
-      "cmd": "verifrax-governance",
-      "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION",
-      "path": "/workspace/verifrax/governance/",
-      "count": 11
+      "count": 16,
+      "family": "verifrax-primitives",
+      "kind": "family",
+      "label": "VERIFRAX PRIMITIVE COMPONENT ORDER",
+      "path": "/workspace/verifrax/primitives/"
     },
     {
-      "cmd": "verifrax-verification",
-      "title": "VERIFRAX VERIFICATION / API / DOCS / SDK",
-      "path": "/workspace/verifrax/verification/",
-      "count": 17
-    },
-    {
-      "cmd": "verifrax-primitives",
-      "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
-      "path": "/workspace/verifrax/primitives/",
-      "count": 16
-    }
-  ],
-  "families": [
-    {
-      "key": "cinematicum",
-      "title": "CINEMATICUM / KAAFFILM ISSUANCE",
-      "description": "Film issuance, KAAFFILM delivery, MK10-PRO, npm and PyPI package bindings.",
-      "path": "/workspace/cinematicum/",
-      "count": 8
-    },
-    {
-      "key": "invocorder",
-      "title": "INVOCORDER EVIDENCE STACK",
-      "description": "Machine-action evidence records, schemas, hostile fixtures, integrations, and recorder package.",
-      "path": "/workspace/invocorder/",
-      "count": 8
-    },
-    {
-      "key": "qvra",
-      "title": "QVRA PUBLIC FIELD STACK",
-      "description": "QVRA route-first public field surfaces.",
-      "path": "/workspace/qvra/",
-      "count": 13
-    },
-    {
-      "key": "qvro",
-      "title": "QVRO PUBLIC FIELD STACK",
-      "description": "QVRO public workspace surfaces.",
-      "path": "/workspace/qvro/",
-      "count": 1
-    },
-    {
-      "key": "qvru",
-      "title": "QVRU PUBLIC FIELD STACK",
-      "description": "QVRU public workspace surfaces.",
-      "path": "/workspace/qvru/",
-      "count": 1
-    },
-    {
-      "key": "qxra",
-      "title": "QXRA PUBLIC FIELD STACK",
-      "description": "QXRA public workspace surfaces.",
-      "path": "/workspace/qxra/",
-      "count": 1
-    },
-    {
-      "key": "qxvi",
-      "title": "QXVI PUBLIC FIELD STACK",
-      "description": "QXVI public workspace surfaces.",
-      "path": "/workspace/qxvi/",
-      "count": 1
-    },
-    {
-      "key": "qxvo",
-      "title": "QXVO PUBLIC FIELD STACK",
-      "description": "QXVO public workspace surfaces.",
-      "path": "/workspace/qxvo/",
-      "count": 2
-    },
-    {
-      "key": "qzro",
-      "title": "QZRO PUBLIC FIELD STACK",
-      "description": "QZRO public workspace surfaces.",
-      "path": "/workspace/qzro/",
-      "count": 2
-    },
-    {
-      "key": "qzru",
-      "title": "QZRU PUBLIC FIELD STACK",
-      "description": "QZRU public workspace surfaces.",
-      "path": "/workspace/qzru/",
-      "count": 1
-    },
-    {
-      "key": "personal",
-      "title": "MIDIAKIASAT PERSONAL PUBLIC SURFACE",
-      "description": "Public repositories directly under the author account.",
-      "path": "/workspace/personal/",
-      "count": 1
-    },
-    {
-      "key": "truthframer",
-      "title": "TRUTHFRAMER MARKET-TRUTH STACK",
-      "description": "Replayable market-truth object surfaces and organization profile.",
-      "path": "/workspace/truthframer/",
-      "count": 3
-    },
-    {
-      "key": "vatfix",
-      "title": "VATFIX COMPLIANCE STACK",
-      "description": "VAT compliance execution, registry, replay, SDKs, adapters, operations, and web.",
-      "path": "/workspace/vatfix/",
-      "count": 28
-    },
-    {
-      "key": "verifrax-chambers",
-      "title": "VERIFRAX SOVEREIGN CHAMBER ORDER",
-      "description": "Constitutional chamber order and bound package surfaces.",
-      "path": "/workspace/verifrax/chambers/",
-      "count": 13
-    },
-    {
-      "key": "verifrax-governance",
-      "title": "VERIFRAX GOVERNANCE / ADMISSIBILITY / RECOGNITION",
-      "description": "Governance, admissibility, registry, proof, architecture, and enforcement surfaces.",
-      "path": "/workspace/verifrax/governance/",
-      "count": 11
-    },
-    {
-      "key": "verifrax-verification",
-      "title": "VERIFRAX VERIFICATION / API / DOCS / SDK",
-      "description": "Verification protocol, API, docs, profiles, SDKs, samples, status, and package surfaces.",
-      "path": "/workspace/verifrax/verification/",
-      "count": 17
-    },
-    {
-      "key": "verifrax-primitives",
-      "title": "VERIFRAX PRIMITIVE COMPONENT ORDER",
-      "description": "Primitive source repositories and bound package surfaces.",
-      "path": "/workspace/verifrax/primitives/",
-      "count": 16
+      "count": 57,
+      "kind": "family-router",
+      "label": "VERIFRAX router",
+      "path": "/workspace/verifrax/"
     }
   ]
 }

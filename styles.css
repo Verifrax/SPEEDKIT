@@ -46,3 +46,14 @@ h2{font-size:12px;margin:34px 0 12px;letter-spacing:.18em;text-transform:upperca
 .footer{text-align:center;color:var(--dim);border-top:1px solid var(--line);margin-top:40px;padding-top:24px}
 .kicker{color:var(--soft);text-transform:uppercase;letter-spacing:.16em}
 @media(max-width:980px){.header,.engine{grid-template-columns:1fr}.meta,.grid{grid-template-columns:repeat(2,1fr)}.row{grid-template-columns:1fr}.wrap{padding:24px 14px}}
+
+.terminal-grid{display:grid;grid-template-columns:2fr 1fr;gap:1rem;margin:2rem 0}
+.terminal-panel{border:1px solid var(--line,#00ff88);background:rgba(0,255,120,.05);padding:1rem;overflow:auto}
+.screen{white-space:pre-wrap;min-height:18rem;max-height:28rem;overflow:auto}
+.command{display:flex;gap:.5rem;align-items:center;border-top:1px solid var(--line,#00ff88);padding-top:.75rem}
+.command input{flex:1;background:#00180d;color:#00ff88;border:1px solid #00ff88;padding:.7rem;font:inherit}
+.quick{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.quick button{background:#002b16;color:#00ff88;border:1px solid #00ff88;padding:.45rem .6rem;font:inherit;cursor:pointer}
+pre{white-space:pre-wrap;overflow:auto}
+.box{border:1px solid var(--line,#00ff88);background:rgba(0,255,120,.05);padding:1rem;margin:1rem 0}
+

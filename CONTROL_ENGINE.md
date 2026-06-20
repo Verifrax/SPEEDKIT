@@ -23,7 +23,7 @@ These are public surfaces exposed for routing, search, inspection, verification,
 
 They include:
 
-- GitHub organizations
+- GitHub users and organizations
 - GitHub repositories
 - npm packages
 - PyPI packages
@@ -31,7 +31,17 @@ They include:
 - route pages
 - source and distribution surfaces
 
-Current public workspace surface count: 127.
+Current public workspace surface count: 135.
+
+## Current public counts
+
+- GitHub namespaces: 16
+- GitHub repositories: 97
+- npm packages: 20
+- PyPI packages: 2
+- package surfaces: 22
+- workspace families: 18
+- private remaining: 0
 
 ## Boundary rule
 
