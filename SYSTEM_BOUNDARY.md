@@ -17,6 +17,7 @@ Current count: 4.
 
 These are public surfaces, but they are not automatically systems:
 
+- GitHub users
 - GitHub organizations
 - GitHub repositories
 - npm packages
@@ -25,7 +26,7 @@ These are public surfaces, but they are not automatically systems:
 - route pages
 - source/distribution surfaces
 
-Current public surface count: 127.
+Current public surface count: 135.
 
 ## Rule
 
