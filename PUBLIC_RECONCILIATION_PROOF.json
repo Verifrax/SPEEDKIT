@@ -1,0 +1,33 @@
+{
+  "schema": "speedkit.public_reconciliation.proof.v1",
+  "generated_at": "2026-06-20T17:52:14Z",
+  "governed_reconciliation": true,
+  "title": "SPEEDKIT Control Engine",
+  "mode": "PUBLIC_ONLY",
+  "source_manifest": "SPEEDKIT_TERMINAL_MANIFEST.json",
+  "index_sha256": "d4098a39b4e43e8615bc13392b7c6bec4d61d4494929a2c6b30f3f757206512e",
+  "systems": 4,
+  "workspace_entries": 135,
+  "github_namespaces": 16,
+  "github_repositories": 97,
+  "github_surfaces": 113,
+  "npm_packages": 20,
+  "pypi_packages": 2,
+  "package_surfaces": 22,
+  "families": 18,
+  "entry_count": 135,
+  "private_remaining": 0,
+  "private_purged": 14,
+  "antimatterium": {
+    "present": true,
+    "count": 4,
+    "route": "/workspace/antimatterium/"
+  },
+  "boundary": {
+    "systems_layer": "admitted execution systems only",
+    "workspace_layer": "public source, package, namespace, route, and family surfaces",
+    "repository_is_not_automatic_system": true,
+    "organization_is_not_automatic_system": true,
+    "package_is_not_automatic_system": true
+  }
+}

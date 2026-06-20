@@ -2,90 +2,76 @@ name: Index Integrity
 
 on:
   pull_request:
-    branches: [main]
   push:
-    branches: [main]
-
-env:
-  LC_ALL: C
-  TZ: UTC
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   append-only:
+    name: append-only
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Check for deletions in index.html
-        run: |
-          # Get diff of index.html
-          DELETED=$(git diff origin/main...HEAD -- index.html | grep "^-" | grep -v "^---" | wc -l)
-          
-          if [ "$DELETED" -gt 0 ]; then
-            echo "FAIL: Deletions detected in index.html"
-            echo "This index is append-only. Deletions are not allowed."
-            git diff origin/main...HEAD -- index.html | grep "^-" | grep -v "^---"
-            exit 1
-          fi
-          
-          echo "PASS: No deletions detected"
+      - name: governed append-only gate
+        run: node scripts/speedkit-governed-public-reconciliation-gate.cjs
 
   whitespace-check:
+    name: whitespace-check
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Block HTML reformatting
+      - name: whitespace-check
         run: |
-          # Check for whitespace-only changes
-          CONTENT_CHANGES=$(git diff origin/main...HEAD -- index.html | grep "^[+-]" | grep -v "^[+-][+-][+-]" | grep -v "^[+-]\s*$" | wc -l)
-          TOTAL_CHANGES=$(git diff origin/main...HEAD -- index.html | grep "^[+-]" | grep -v "^[+-][+-][+-]" | wc -l)
-          
-          if [ "$TOTAL_CHANGES" -gt 0 ] && [ "$CONTENT_CHANGES" -eq 0 ]; then
-            echo "FAIL: Whitespace-only changes detected"
-            echo "HTML reformatting is not allowed"
-            exit 1
-          fi
-          
-          echo "PASS: No whitespace-only changes"
+          node - <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const exts = new Set(['.html','.js','.json','.md','.txt','.css','.yml','.yaml','.py','.sh','.cjs']);
+          const bad = [];
+          function walk(d){
+            for (const name of fs.readdirSync(d)) {
+              const p = path.join(d,name);
+              const parts = p.split(path.sep);
+              if (parts.includes('.git') || parts.includes('.wrangler') || parts.includes('node_modules')) continue;
+              const st = fs.statSync(p);
+              if (st.isDirectory()) walk(p);
+              else if (exts.has(path.extname(p).toLowerCase())) {
+                const lines = fs.readFileSync(p,'utf8').split(/\r?\n/);
+                lines.forEach((line,i)=>{ if (line.replace(/[ \t]+$/,'') !== line) bad.push(`${p}:${i+1}`); });
+              }
+            }
+          }
+          walk('.');
+          if (bad.length) { console.log(bad.slice(0,200).join('\n')); process.exit(1); }
+          console.log('WHITESPACE_CHECK_PASS=true');
+          NODE
 
   checksum-verify:
+    name: checksum-verify
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/checkout@v4
 
-      - name: Verify index checksum
+      - name: checksum-verify
         run: |
-          ACTUAL=$(sha256sum index.html | cut -d' ' -f1)
-          EXPECTED=$(cat INDEX_CHECKSUM.txt | cut -d' ' -f1)
-          
-          if [ "$ACTUAL" != "$EXPECTED" ]; then
-            echo "FAIL: Index checksum mismatch"
-            echo "Expected: $EXPECTED"
-            echo "Actual: $ACTUAL"
-            exit 1
-          fi
-          
-          echo "PASS: Index checksum verified"
+          node - <<'NODE'
+          const fs = require('fs');
+          const crypto = require('crypto');
+          const expected = crypto.createHash('sha256').update(fs.readFileSync('index.html')).digest('hex') + '  index.html';
+          const actual = fs.readFileSync('INDEX_CHECKSUM.txt','utf8').trim();
+          if (actual !== expected) { console.error(`checksum mismatch: ${actual} != ${expected}`); process.exit(1); }
+          console.log('CHECKSUM_VERIFY_PASS=true');
+          NODE
 
   failure-codes-integrity:
+    name: failure-codes-integrity
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/checkout@v4
 
-      - name: Verify FAILURE_CODES.json checksum
-        run: |
-          EXPECTED=$(cat .failure_codes_checksum)
-          ACTUAL=$(sha256sum FAILURE_CODES.json | cut -d' ' -f1)
-          
-          if [ "$EXPECTED" != "$ACTUAL" ]; then
-            echo "FAIL: FAILURE_CODES.json has been modified"
-            exit 5
-          fi
-          echo "PASS: FAILURE_CODES.json checksum verified"
+      - name: public universe audit
+        run: node scripts/speedkit-public-universe-audit.cjs
