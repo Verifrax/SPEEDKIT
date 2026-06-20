@@ -1,16 +1,11 @@
 # SPEEDKIT Public Universe Proof
 
-- Control surface: SPEEDKIT Control Engine
-- Mode: PUBLIC_ONLY
-- Recognized execution systems: 4
-- Public workspace surfaces: 135
-- GitHub namespaces: 16
-- GitHub repositories: 97
-- npm packages: 20
-- PyPI packages: 2
-- Package surfaces: 22
-- Private remaining: 0
-- ANTIMATTERIUM present: yes
-- ANTIMATTERIUM route: /workspace/antimatterium/
+SYSTEMS=4
+WORKSPACE=135
+PRIVATE=0
+ANTIMATTERIUM=4
 
-Boundary rule: repositories, organizations, packages, and workspace families are public surfaces, not automatic systems.
+HTML proof route: /public-universe-proof.html
+Family route: /workspace/antimatterium/
+
+Repositories, organizations, packages, and workspace families are public surfaces, not automatic systems.
