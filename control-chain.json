@@ -13,46 +13,70 @@
       "step": 2,
       "name": "public_reconciliation_proof",
       "route": "/public-reconciliation-proof.json",
-      "sha256": "0cbac5b260b3b48692ef7a2787306eb9f8e3e9a449d5c1b1d3c2fd2f738acaab"
+      "sha256": "6f905a7e12c73b88108aace33103094e41ab7ce697d5e5d506870eadafeaa013"
     },
     {
       "step": 3,
       "name": "root_projection",
       "route": "/",
-      "sha256": "e7f3986beaa4d78634e42cdeeedb52cd4807a4a01acad3a45f952674c8e0d78c"
+      "sha256": "2ffecd042a13312dc85519ef1101e48f908b5a30d58301ab4ce6ea7065b4ac71"
     },
     {
       "step": 4,
       "name": "marketplace",
       "route": "/marketplace.json",
-      "sha256": "375793d733e7ce4d899788118f0b5a514baf971cfc6a658e5956327287aeb380"
+      "sha256": "b640fd2cf10f4871a89ab4cee018e543c604650853796c50b0c1687f4c9afc48"
     },
     {
       "step": 5,
-      "name": "marketplace_listings",
-      "route": "/marketplace/listings.json",
-      "sha256": "a4b1c35b77e7f251669b85b429f85484a0efdd99b76825201b49370a3d4da1c2"
-    },
-    {
-      "step": 6,
       "name": "marketplace_offers",
       "route": "/marketplace/offers.json",
       "sha256": "961703c62843a14350d9e5f5d448ebb074cc7a6aa3bef750ea7dad2ddcec034a"
     },
     {
-      "step": 7,
+      "step": 6,
       "name": "marketplace_install_manifest",
       "route": "/marketplace/install-manifest.json",
       "sha256": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964"
     },
     {
-      "step": 8,
+      "step": 7,
       "name": "marketplace_offer_ledger",
       "route": "/marketplace/offer-ledger.json",
       "sha256": "25b3b3cc3efe3194b5e7a27fe4b8792552658c3cad9469bdf200a7b7335a9c45"
     },
     {
+      "step": 8,
+      "name": "marketplace_commerce_control",
+      "route": "/marketplace/commerce-control.json",
+      "sha256": "442e03b3e14fc883f3fc33c3fd7f09a811e11e304c460d9f75838733bdff421f"
+    },
+    {
       "step": 9,
+      "name": "marketplace_commercial_catalog",
+      "route": "/marketplace/commercial-catalog.json",
+      "sha256": "ec29f56951e1219768ff6a914ec8ab61c7af4e4c81b348f47a78cd93f26766b3"
+    },
+    {
+      "step": 10,
+      "name": "commerce_checkout_api",
+      "route": "/api/marketplace/checkout",
+      "status": "READY_FAIL_CLOSED"
+    },
+    {
+      "step": 11,
+      "name": "commerce_webhook_api",
+      "route": "/api/marketplace/stripe-webhook",
+      "status": "READY_FAIL_CLOSED"
+    },
+    {
+      "step": 12,
+      "name": "commerce_entitlement_api",
+      "route": "/api/marketplace/entitlement",
+      "status": "READY_FAIL_CLOSED"
+    },
+    {
+      "step": 13,
       "name": "health",
       "route": "/health.json",
       "status": "PASS"
@@ -70,6 +94,8 @@
     "marketplace_offers": 135,
     "marketplace_installable_offers": 135,
     "marketplace_offer_receipts": 135,
-    "marketplace_offer_ledger_status": "CLOSED"
+    "marketplace_offer_ledger_status": "CLOSED",
+    "commerce_status": "INSTALLED_FAIL_CLOSED",
+    "fake_checkout": false
   }
 }

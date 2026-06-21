@@ -1,0 +1,56 @@
+{
+  "schema": "speedkit.commerce_control.v1",
+  "title": "SPEEDKIT Commerce Control Plane",
+  "status": "INSTALLED_FAIL_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "provider": "stripe_checkout",
+  "real_checkout": true,
+  "fake_checkout": false,
+  "transaction_boundary": {
+    "checkout_requires_provider_secrets": true,
+    "checkout_requires_price_ids": true,
+    "webhook_requires_signature_secret": true,
+    "entitlement_requires_kv_binding": true,
+    "no_secret_values_are_public": true
+  },
+  "required_cloudflare_bindings": {
+    "kv": "SPEEDKIT_COMMERCE_KV"
+  },
+  "required_secrets": [
+    "STRIPE_SECRET_KEY",
+    "STRIPE_WEBHOOK_SECRET",
+    "STRIPE_PRICE_SPEEDKIT_STARTER",
+    "STRIPE_PRICE_SPEEDKIT_PRO",
+    "STRIPE_PRICE_SPEEDKIT_ENTERPRISE",
+    "SPEEDKIT_BASE_URL"
+  ],
+  "routes": {
+    "billing": "/marketplace/billing/",
+    "commercial_catalog": "/marketplace/commercial-catalog.json",
+    "commerce_control": "/marketplace/commerce-control.json",
+    "checkout_api": "/api/marketplace/checkout",
+    "webhook_api": "/api/marketplace/stripe-webhook",
+    "entitlement_api": "/api/marketplace/entitlement",
+    "offers": "/marketplace/offers.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json"
+  },
+  "public_counts": {
+    "offers": 135,
+    "installable_offers": 135,
+    "offer_receipts": 135,
+    "npm_rails": 20,
+    "pypi_rails": 2,
+    "git_rails": 113,
+    "open_rails": 0,
+    "private_remaining": 0
+  },
+  "sha256": {
+    "marketplace": "375793d733e7ce4d899788118f0b5a514baf971cfc6a658e5956327287aeb380",
+    "offers": "961703c62843a14350d9e5f5d448ebb074cc7a6aa3bef750ea7dad2ddcec034a",
+    "install_manifest": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964",
+    "offer_ledger": "25b3b3cc3efe3194b5e7a27fe4b8792552658c3cad9469bdf200a7b7335a9c45"
+  }
+}

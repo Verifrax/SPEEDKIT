@@ -2439,5 +2439,15 @@
     "status": "CLOSED",
     "count": 135,
     "route": "/marketplace/offer-ledger.json"
+  },
+  "commerce": {
+    "status": "INSTALLED_FAIL_CLOSED",
+    "provider": "stripe_checkout",
+    "billing": "/marketplace/billing/",
+    "commerce_control": "/marketplace/commerce-control.json",
+    "commercial_catalog": "/marketplace/commercial-catalog.json",
+    "checkout_api": "/api/marketplace/checkout",
+    "webhook_api": "/api/marketplace/stripe-webhook",
+    "entitlement_api": "/api/marketplace/entitlement"
   }
 }

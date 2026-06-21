@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Billing Control · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/marketplace/billing/">Billing Control</a></h1>
+    <p class="sub">Real commerce control plane for provider checkout, webhook verification, entitlement storage, and private order state.</p>
+    <p class="stamp">STATUS=INSTALLED_FAIL_CLOSED · PROVIDER=STRIPE_CHECKOUT · FAKE_CHECKOUT=false</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>OFFERS</span><b>135</b></div>
+    <div class="metric"><span>RECEIPTS</span><b>135</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<div class="seal">REAL COMMERCE CONTROL PLANE<br>CHECKOUT · WEBHOOK · ENTITLEMENT · FAIL CLOSED</div>
+
+<section class="box">
+<h2>Commerce Control</h2>
+<div class="grid">
+<a class="card" href="/marketplace/commerce-control.json"><strong>Commerce control</strong><span>provider requirements</span><b>LIVE</b></a>
+<a class="card" href="/marketplace/commercial-catalog.json"><strong>Commercial catalog</strong><span>plans + checkout payload</span><b>LIVE</b></a>
+<a class="card" href="/api/marketplace/checkout"><strong>Checkout API</strong><span>provider handoff</span><b>FAIL-CLOSED</b></a>
+<a class="card" href="/api/marketplace/entitlement"><strong>Entitlement API</strong><span>private KV state</span><b>FAIL-CLOSED</b></a>
+<a class="card" href="/marketplace/offer-ledger.json"><strong>Offer ledger</strong><span>tamper-evident receipts</span><b>CLOSED</b></a>
+<a class="card" href="/control-chain.json"><strong>Control chain</strong><span>commerce bound</span><b>CLOSED</b></a>
+</div>
+</section>
+
+<section class="box">
+<h2>Checkout Request</h2>
+<pre>curl -X POST https://speedkit.eu/api/marketplace/checkout \
+  -H 'content-type: application/json' \
+  -d '{"plan":"starter","offer_id":"offer-wsp-001"}'</pre>
+<p>This endpoint is real and fail-closed. It will not create fake sessions. It requires real provider secrets and real Stripe price IDs.</p>
+</section>
+
+<section class="box">
+<h2>Required Cloudflare Configuration</h2>
+<pre>npx wrangler pages secret put STRIPE_SECRET_KEY --project-name speedkit
+npx wrangler pages secret put STRIPE_WEBHOOK_SECRET --project-name speedkit
+npx wrangler pages secret put STRIPE_PRICE_SPEEDKIT_STARTER --project-name speedkit
+npx wrangler pages secret put STRIPE_PRICE_SPEEDKIT_PRO --project-name speedkit
+npx wrangler pages secret put STRIPE_PRICE_SPEEDKIT_ENTERPRISE --project-name speedkit
+npx wrangler pages secret put SPEEDKIT_BASE_URL --project-name speedkit</pre>
+<p>Also bind a KV namespace as <strong>SPEEDKIT_COMMERCE_KV</strong> for private order and entitlement records.</p>
+</section>
+
+<section class="box">
+<h2>Boundary</h2>
+<p>No checkout is simulated. No customer data is public. No order is stored in the repository. Orders and entitlements live only in private runtime storage.</p>
+</section>
+
+<footer class="footer">SPEEDKIT BILLING CONTROL · REAL CHECKOUT READY · FAIL CLOSED UNTIL CONFIGURED</footer>
+</main>
+</body>
+</html>
