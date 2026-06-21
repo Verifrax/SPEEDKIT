@@ -1,3 +1,6 @@
+/marketplace/commerce-control.json /marketplace/commerce-control.json 200
+/marketplace/commercial-catalog.json /marketplace/commercial-catalog.json 200
+/marketplace/billing/ /marketplace/billing/index.html 200
 /PUBLIC_RECONCILIATION_PROOF.json /public-reconciliation-proof.json 200
 /public-reconciliation-proof.json /public-reconciliation-proof.json 200
 /reconciliation-proof.json /public-reconciliation-proof.json 200

@@ -77,6 +77,12 @@
     },
     {
       "step": 13,
+      "name": "commerce_runtime_api",
+      "route": "/api/marketplace/runtime",
+      "status": "READY_FAIL_CLOSED"
+    },
+    {
+      "step": 14,
       "name": "health",
       "route": "/health.json",
       "status": "PASS"
@@ -96,6 +102,7 @@
     "marketplace_offer_receipts": 135,
     "marketplace_offer_ledger_status": "CLOSED",
     "commerce_status": "INSTALLED_FAIL_CLOSED",
-    "fake_checkout": false
+    "fake_checkout": false,
+    "commerce_runtime": "READY_FAIL_CLOSED"
   }
 }
