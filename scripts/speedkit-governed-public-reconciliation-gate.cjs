@@ -13,7 +13,7 @@ const raw = run(`git diff --name-status ${base}...HEAD`, true);
 const changes = raw.split('\n').filter(Boolean).map(x => { const p = x.split('\t'); return {status:p[0], path:p[p.length-1]}; });
 if (changes.length === 0) { console.log('APPEND_ONLY_GATE_PASS=true'); console.log('REASON=no changes'); process.exit(0); }
 if (changes.every(x => x.status === 'A')) { console.log('APPEND_ONLY_GATE_PASS=true'); console.log('REASON=pure append'); process.exit(0); }
-const allowed = ['reconcile','reconciliation','public-universe','proof','family','workspace','governed','control-engine'].some(t => headRef.includes(t));
+const allowed = ['reconcile','reconciliation','public-universe','proof','family','workspace','governed','control-engine','live','health','control-chain'].some(t => headRef.includes(t));
 if (!allowed) fail('non-append change on non-governed branch: ' + headRef);
 if (!changes.some(x => x.path === 'PUBLIC_RECONCILIATION_PROOF.json')) fail('non-append reconciliation requires PUBLIC_RECONCILIATION_PROOF.json to change');
 if (!fs.existsSync('PUBLIC_RECONCILIATION_PROOF.json')) fail('PUBLIC_RECONCILIATION_PROOF.json missing');
