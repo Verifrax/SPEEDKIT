@@ -13,16 +13,22 @@
       "step": 2,
       "name": "public_reconciliation_proof",
       "route": "/public-reconciliation-proof.json",
-      "sha256": "945d381e5a8a0362fa63f2bc0a325db147ff44c1073b7c85c06066d8379206fa"
+      "sha256": "a11ff8f034d8176991a34e0db37789a3ede169ebf637c3358f0dff2dc7d1b4a4"
     },
     {
       "step": 3,
       "name": "root_projection",
       "route": "/",
-      "sha256": "eb1f022342f84cd3213dc0bb7b6019f5e86744cb87b1a2750a60b747ce9eac3a"
+      "sha256": "313c66db80c6c27ee516131c4052117961ebfc7cbf241672637e250396f3902c"
     },
     {
       "step": 4,
+      "name": "marketplace",
+      "route": "/marketplace.json",
+      "sha256": "ba954d49e90d981d6273e0a175eac5b9fcdf307d328e5d1e3029c301a7caa9ac"
+    },
+    {
+      "step": 5,
       "name": "health",
       "route": "/health.json",
       "status": "PASS"
@@ -33,6 +39,8 @@
     "systems": 4,
     "private_remaining": 0,
     "antimatterium_count": 4,
-    "workspace_entries": 135
+    "workspace_entries": 135,
+    "marketplace_status": "OPEN",
+    "marketplace_transaction_mode": "CATALOG_ONLY"
   }
 }

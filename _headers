@@ -23,3 +23,7 @@
 /control-chain.json
   Content-Type: application/json; charset=utf-8
   Cache-Control: no-cache, must-revalidate
+
+/marketplace.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: no-cache, must-revalidate
