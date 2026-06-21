@@ -2427,5 +2427,12 @@
     "count": 135,
     "route": "/marketplace/listings/",
     "json": "/marketplace/listings.json"
+  },
+  "offers": {
+    "status": "OPEN",
+    "count": 135,
+    "route": "/marketplace/offers/",
+    "json": "/marketplace/offers.json",
+    "install_manifest": "/marketplace/install-manifest.json"
   }
 }

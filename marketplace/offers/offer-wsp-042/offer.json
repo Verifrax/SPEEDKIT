@@ -1,0 +1,64 @@
+{
+  "schema": "speedkit.marketplace_offer.v1",
+  "offer_id": "offer-wsp-042",
+  "sku": "SPEEDKIT-WSP-042",
+  "title": "midiakiasat",
+  "status": "OFFER_OPEN",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "listing_id": "wsp-042",
+  "listing_route": "/marketplace/listings/wsp-042/",
+  "offer_route": "/marketplace/offers/offer-wsp-042/",
+  "offer_json": "/marketplace/offers/offer-wsp-042/offer.json",
+  "source_route": "https://github.com/midiakiasat",
+  "family": "personal",
+  "kind": "GITHUB-USER",
+  "admission": "WORKSPACE_SURFACE",
+  "private": false,
+  "install": {
+    "rail": "git",
+    "command": "git clone https://github.com/midiakiasat.git",
+    "steps": [
+      {
+        "step": 1,
+        "name": "open_listing",
+        "command": "open https://speedkit.eu/marketplace/listings/wsp-042/",
+        "required": true
+      },
+      {
+        "step": 2,
+        "name": "verify_health",
+        "command": "curl -fsSL https://speedkit.eu/health.json",
+        "required": true
+      },
+      {
+        "step": 3,
+        "name": "verify_control_chain",
+        "command": "curl -fsSL https://speedkit.eu/control-chain.json",
+        "required": true
+      },
+      {
+        "step": 4,
+        "name": "execute_install_rail",
+        "command": "git clone https://github.com/midiakiasat.git",
+        "required": false
+      }
+    ]
+  },
+  "verification": {
+    "proof": "/public-reconciliation-proof.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "marketplace": "/marketplace.json",
+    "listings": "/marketplace/listings.json",
+    "offers": "/marketplace/offers.json",
+    "install_manifest": "/marketplace/install-manifest.json"
+  },
+  "boundary": {
+    "offer_is_not_payment": true,
+    "offer_is_not_system_admission": true,
+    "offer_is_catalog_only": true,
+    "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
+  }
+}

@@ -14,10 +14,21 @@
     "transaction_mode": "CATALOG_ONLY",
     "listings": 135,
     "detail_pages": 135,
+    "offers": 135,
+    "installable_offers": 135,
+    "rails": {
+      "npm": 20,
+      "pypi": 2,
+      "git": 113,
+      "open": 0
+    },
     "route": "/marketplace/",
     "json": "/marketplace.json",
     "listing_index": "/marketplace/listings/",
-    "listing_json": "/marketplace/listings.json"
+    "listing_json": "/marketplace/listings.json",
+    "offers_index": "/marketplace/offers/",
+    "offers_json": "/marketplace/offers.json",
+    "install_manifest": "/marketplace/install-manifest.json"
   },
   "routes": {
     "root": "/",
@@ -26,16 +37,21 @@
     "marketplace_json": "/marketplace.json",
     "marketplace_listings": "/marketplace/listings/",
     "marketplace_listings_json": "/marketplace/listings.json",
+    "marketplace_offers": "/marketplace/offers/",
+    "marketplace_offers_json": "/marketplace/offers.json",
+    "marketplace_install_manifest": "/marketplace/install-manifest.json",
     "manifest": "/SPEEDKIT_TERMINAL_MANIFEST.json",
     "reconciliation_proof": "/public-reconciliation-proof.json",
     "control_chain": "/control-chain.json",
     "health": "/health.json"
   },
   "sha256": {
-    "index_html": "ce3af45ec30f8e0e124534f072b984e65b83d3c6c2e17c6b5f61ab317affcae9",
+    "index_html": "d9ecb2928b38532d96cfb396fea6a67a3cac8a461e6372039d8edbe6c30b504e",
     "manifest": "6bc8a237d186e95bb87734fe297944c6c3161c02f353e0a97c8eaa0bf4b834f6",
-    "reconciliation_proof": "d9d621e5988f0a619f6778e2be5ae61ae145bcea4e1c7dadddb6532f57f56a4c",
-    "marketplace": "ba2f29809803c4b2774df6e71bd4fc4e83a854986059dac8884808800d578e4d",
-    "marketplace_listings": "a4b1c35b77e7f251669b85b429f85484a0efdd99b76825201b49370a3d4da1c2"
+    "reconciliation_proof": "fc75c7bdb0245b9d2e052000d4b16b6f72ac03645aa9074cb3b8ba29119cb90c",
+    "marketplace": "508c9d41166ecb88d7271ed0fb8a06c3253e5052fe5d8ef69bc21f503b9c3472",
+    "marketplace_listings": "a4b1c35b77e7f251669b85b429f85484a0efdd99b76825201b49370a3d4da1c2",
+    "marketplace_offers": "6c567e87aeacb22290115495f0121c4575e7b604d872fded5ec4cf5fac66f94c",
+    "marketplace_install_manifest": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964"
   }
 }
