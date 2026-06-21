@@ -31,7 +31,8 @@
     "json": "/marketplace.json",
     "commerce_control": "/marketplace/commerce-control.json",
     "commercial_catalog": "/marketplace/commercial-catalog.json",
-    "billing": "/marketplace/billing/"
+    "billing": "/marketplace/billing/",
+    "commerce_runtime": "/api/marketplace/runtime"
   },
   "routes": {
     "root": "/",
@@ -50,17 +51,18 @@
     "manifest": "/SPEEDKIT_TERMINAL_MANIFEST.json",
     "reconciliation_proof": "/public-reconciliation-proof.json",
     "control_chain": "/control-chain.json",
-    "health": "/health.json"
+    "health": "/health.json",
+    "marketplace_commerce_runtime": "/api/marketplace/runtime"
   },
   "sha256": {
-    "index_html": "2ffecd042a13312dc85519ef1101e48f908b5a30d58301ab4ce6ea7065b4ac71",
+    "index_html": "a3e14846b980affe9285aa1d87d06e33e271ee2c7a375f99b928280376e10e0f",
     "manifest": "6bc8a237d186e95bb87734fe297944c6c3161c02f353e0a97c8eaa0bf4b834f6",
-    "reconciliation_proof": "6f905a7e12c73b88108aace33103094e41ab7ce697d5e5d506870eadafeaa013",
+    "reconciliation_proof": "8eed577b08072b82d972dab917713273e691864144969db4450792a5596132fc",
     "marketplace": "b640fd2cf10f4871a89ab4cee018e543c604650853796c50b0c1687f4c9afc48",
     "marketplace_offers": "961703c62843a14350d9e5f5d448ebb074cc7a6aa3bef750ea7dad2ddcec034a",
     "marketplace_install_manifest": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964",
     "marketplace_offer_ledger": "25b3b3cc3efe3194b5e7a27fe4b8792552658c3cad9469bdf200a7b7335a9c45",
-    "marketplace_commerce_control": "442e03b3e14fc883f3fc33c3fd7f09a811e11e304c460d9f75838733bdff421f",
-    "marketplace_commercial_catalog": "ec29f56951e1219768ff6a914ec8ab61c7af4e4c81b348f47a78cd93f26766b3"
+    "marketplace_commerce_control": "48f2cf64c1ca3251ad1512f4d6f397e52f5078f08e8f1a05b975d56f9d2dab01",
+    "marketplace_commercial_catalog": "9c4c5b3ce221a2cf22da8f6d9c2ab034dccff4b49091f8b6dbdfc6f6bb12b9ab"
   }
 }

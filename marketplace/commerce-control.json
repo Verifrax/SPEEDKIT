@@ -35,7 +35,8 @@
     "offer_ledger": "/marketplace/offer-ledger.json",
     "install_manifest": "/marketplace/install-manifest.json",
     "health": "/health.json",
-    "control_chain": "/control-chain.json"
+    "control_chain": "/control-chain.json",
+    "runtime_api": "/api/marketplace/runtime"
   },
   "public_counts": {
     "offers": 135,
@@ -52,5 +53,10 @@
     "offers": "961703c62843a14350d9e5f5d448ebb074cc7a6aa3bef750ea7dad2ddcec034a",
     "install_manifest": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964",
     "offer_ledger": "25b3b3cc3efe3194b5e7a27fe4b8792552658c3cad9469bdf200a7b7335a9c45"
+  },
+  "runtime": {
+    "status_endpoint": "/api/marketplace/runtime",
+    "fail_closed_until_configured": true,
+    "fake_checkout": false
   }
 }

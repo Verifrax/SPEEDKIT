@@ -49,5 +49,6 @@
     "checkout_fails_closed_without_real_provider_configuration": true,
     "customer_data_is_not_public": true,
     "orders_live_in_private_kv": true
-  }
+  },
+  "runtime_endpoint": "/api/marketplace/runtime"
 }
