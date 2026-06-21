@@ -27,3 +27,7 @@
 /marketplace.json
   Content-Type: application/json; charset=utf-8
   Cache-Control: no-cache, must-revalidate
+
+/marketplace/listings.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: no-cache, must-revalidate

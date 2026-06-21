@@ -134,7 +134,14 @@
       "route": "https://github.com/CINEMATICUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-001",
+      "detail_route": "/marketplace/listings/wsp-001/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/CINEMATICUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-002",
@@ -144,7 +151,14 @@
       "route": "https://github.com/kaaffilm",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-002",
+      "detail_route": "/marketplace/listings/wsp-002/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/kaaffilm.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-003",
@@ -154,7 +168,14 @@
       "route": "https://github.com/CINEMATICUM/CINEMATICUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-003",
+      "detail_route": "/marketplace/listings/wsp-003/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/CINEMATICUM/CINEMATICUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-004",
@@ -164,7 +185,14 @@
       "route": "https://github.com/kaaffilm/.github",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-004",
+      "detail_route": "/marketplace/listings/wsp-004/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/kaaffilm/.github.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-005",
@@ -174,7 +202,14 @@
       "route": "https://github.com/kaaffilm/CINEMATICUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-005",
+      "detail_route": "/marketplace/listings/wsp-005/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/kaaffilm/CINEMATICUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-006",
@@ -184,7 +219,14 @@
       "route": "https://github.com/kaaffilm/MK10-PRO",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-006",
+      "detail_route": "/marketplace/listings/wsp-006/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/kaaffilm/MK10-PRO.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-007",
@@ -194,7 +236,14 @@
       "route": "https://www.npmjs.com/package/@kaaffilm/mk10-pro",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-007",
+      "detail_route": "/marketplace/listings/wsp-007/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @kaaffilm/mk10-pro",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-008",
@@ -204,7 +253,14 @@
       "route": "https://pypi.org/project/mk10-pro/",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-008",
+      "detail_route": "/marketplace/listings/wsp-008/",
+      "install": {
+        "rail": "pypi",
+        "command": "pip install mk10-pro",
+        "label": "Install with pip"
+      }
     },
     {
       "id": "WSP-009",
@@ -214,7 +270,14 @@
       "route": "https://github.com/INVOCORDER",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-009",
+      "detail_route": "/marketplace/listings/wsp-009/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/INVOCORDER.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-010",
@@ -224,7 +287,14 @@
       "route": "https://github.com/INVOCORDER/.github",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-010",
+      "detail_route": "/marketplace/listings/wsp-010/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/INVOCORDER/.github.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-011",
@@ -234,7 +304,14 @@
       "route": "https://github.com/INVOCORDER/CAPTURE-CONTRACT",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-011",
+      "detail_route": "/marketplace/listings/wsp-011/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/INVOCORDER/CAPTURE-CONTRACT.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-012",
@@ -244,7 +321,14 @@
       "route": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-012",
+      "detail_route": "/marketplace/listings/wsp-012/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/INVOCORDER/EVIDENCE-SCHEMAS.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-013",
@@ -254,7 +338,14 @@
       "route": "https://github.com/INVOCORDER/HOSTILE-FIXTURES",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-013",
+      "detail_route": "/marketplace/listings/wsp-013/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/INVOCORDER/HOSTILE-FIXTURES.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-014",
@@ -264,7 +355,14 @@
       "route": "https://github.com/INVOCORDER/INTEGRATIONS",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-014",
+      "detail_route": "/marketplace/listings/wsp-014/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/INVOCORDER/INTEGRATIONS.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-015",
@@ -274,7 +372,14 @@
       "route": "https://github.com/INVOCORDER/INVOCORDER",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-015",
+      "detail_route": "/marketplace/listings/wsp-015/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/INVOCORDER/INVOCORDER.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-016",
@@ -284,7 +389,14 @@
       "route": "https://www.npmjs.com/package/@invocorder/recorder",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-016",
+      "detail_route": "/marketplace/listings/wsp-016/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @invocorder/recorder",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-017",
@@ -294,7 +406,14 @@
       "route": "https://github.com/qvra",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-017",
+      "detail_route": "/marketplace/listings/wsp-017/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-018",
@@ -304,7 +423,14 @@
       "route": "https://github.com/qvra/.github",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-018",
+      "detail_route": "/marketplace/listings/wsp-018/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/.github.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-019",
@@ -314,7 +440,14 @@
       "route": "https://github.com/qvra/bench",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-019",
+      "detail_route": "/marketplace/listings/wsp-019/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/bench.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-020",
@@ -324,7 +457,14 @@
       "route": "https://github.com/qvra/core",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-020",
+      "detail_route": "/marketplace/listings/wsp-020/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/core.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-021",
@@ -334,7 +474,14 @@
       "route": "https://github.com/qvra/index",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-021",
+      "detail_route": "/marketplace/listings/wsp-021/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/index.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-022",
@@ -344,7 +491,14 @@
       "route": "https://github.com/qvra/kit",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-022",
+      "detail_route": "/marketplace/listings/wsp-022/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/kit.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-023",
@@ -354,7 +508,14 @@
       "route": "https://github.com/qvra/lab",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-023",
+      "detail_route": "/marketplace/listings/wsp-023/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/lab.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-024",
@@ -364,7 +525,14 @@
       "route": "https://github.com/qvra/launch",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-024",
+      "detail_route": "/marketplace/listings/wsp-024/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/launch.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-025",
@@ -374,7 +542,14 @@
       "route": "https://github.com/qvra/meta",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-025",
+      "detail_route": "/marketplace/listings/wsp-025/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/meta.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-026",
@@ -384,7 +559,14 @@
       "route": "https://github.com/qvra/pulse",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-026",
+      "detail_route": "/marketplace/listings/wsp-026/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/pulse.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-027",
@@ -394,7 +576,14 @@
       "route": "https://github.com/qvra/qvra",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-027",
+      "detail_route": "/marketplace/listings/wsp-027/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/qvra.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-028",
@@ -404,7 +593,14 @@
       "route": "https://github.com/qvra/run",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-028",
+      "detail_route": "/marketplace/listings/wsp-028/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/run.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-029",
@@ -414,7 +610,14 @@
       "route": "https://github.com/qvra/show",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-029",
+      "detail_route": "/marketplace/listings/wsp-029/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/show.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-030",
@@ -424,7 +627,14 @@
       "route": "https://github.com/qvra/site",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-030",
+      "detail_route": "/marketplace/listings/wsp-030/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvra/site.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-031",
@@ -434,7 +644,14 @@
       "route": "https://github.com/qvro",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-031",
+      "detail_route": "/marketplace/listings/wsp-031/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvro.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-032",
@@ -444,7 +661,14 @@
       "route": "https://github.com/qvru",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-032",
+      "detail_route": "/marketplace/listings/wsp-032/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qvru.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-033",
@@ -454,7 +678,14 @@
       "route": "https://github.com/qxra",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-033",
+      "detail_route": "/marketplace/listings/wsp-033/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qxra.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-034",
@@ -464,7 +695,14 @@
       "route": "https://github.com/qxvi",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-034",
+      "detail_route": "/marketplace/listings/wsp-034/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qxvi.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-035",
@@ -474,7 +712,14 @@
       "route": "https://github.com/qxvi/.github",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-035",
+      "detail_route": "/marketplace/listings/wsp-035/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qxvi/.github.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-036",
@@ -484,7 +729,14 @@
       "route": "https://github.com/qxvi/BOUNDARYCAM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-036",
+      "detail_route": "/marketplace/listings/wsp-036/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qxvi/BOUNDARYCAM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-037",
@@ -494,7 +746,14 @@
       "route": "https://github.com/qxvo",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-037",
+      "detail_route": "/marketplace/listings/wsp-037/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qxvo.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-038",
@@ -504,7 +763,14 @@
       "route": "https://github.com/qxvo/MAILSIEVE",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-038",
+      "detail_route": "/marketplace/listings/wsp-038/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qxvo/MAILSIEVE.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-039",
@@ -514,7 +780,14 @@
       "route": "https://github.com/qzro",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-039",
+      "detail_route": "/marketplace/listings/wsp-039/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qzro.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-040",
@@ -524,7 +797,14 @@
       "route": "https://github.com/qzro/ADJUTORIX",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-040",
+      "detail_route": "/marketplace/listings/wsp-040/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qzro/ADJUTORIX.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-041",
@@ -534,7 +814,14 @@
       "route": "https://github.com/qzru",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-041",
+      "detail_route": "/marketplace/listings/wsp-041/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/qzru.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-042",
@@ -544,7 +831,14 @@
       "route": "https://github.com/midiakiasat",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-042",
+      "detail_route": "/marketplace/listings/wsp-042/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/midiakiasat.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-043",
@@ -554,7 +848,14 @@
       "route": "https://github.com/midiakiasat/awesome-actions",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-043",
+      "detail_route": "/marketplace/listings/wsp-043/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/midiakiasat/awesome-actions.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-044",
@@ -564,7 +865,14 @@
       "route": "https://github.com/TRUTHFRAMER",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-044",
+      "detail_route": "/marketplace/listings/wsp-044/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/TRUTHFRAMER.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-045",
@@ -574,7 +882,14 @@
       "route": "https://github.com/TRUTHFRAMER/.github",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-045",
+      "detail_route": "/marketplace/listings/wsp-045/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/TRUTHFRAMER/.github.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-046",
@@ -584,7 +899,14 @@
       "route": "https://github.com/TRUTHFRAMER/truthframer-platform",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-046",
+      "detail_route": "/marketplace/listings/wsp-046/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/TRUTHFRAMER/truthframer-platform.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-047",
@@ -594,7 +916,14 @@
       "route": "https://github.com/VATFix",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-047",
+      "detail_route": "/marketplace/listings/wsp-047/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-048",
@@ -604,7 +933,14 @@
       "route": "https://github.com/VATFix/CONSOLE",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-048",
+      "detail_route": "/marketplace/listings/wsp-048/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/CONSOLE.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-049",
@@ -614,7 +950,14 @@
       "route": "https://github.com/VATFix/LEGAL",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-049",
+      "detail_route": "/marketplace/listings/wsp-049/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/LEGAL.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-050",
@@ -624,7 +967,14 @@
       "route": "https://github.com/VATFix/OPS",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-050",
+      "detail_route": "/marketplace/listings/wsp-050/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/OPS.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-051",
@@ -634,7 +984,14 @@
       "route": "https://github.com/VATFix/REGISTRY",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-051",
+      "detail_route": "/marketplace/listings/wsp-051/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/REGISTRY.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-052",
@@ -644,7 +1001,14 @@
       "route": "https://github.com/VATFix/REPLAY",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-052",
+      "detail_route": "/marketplace/listings/wsp-052/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/REPLAY.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-053",
@@ -654,7 +1018,14 @@
       "route": "https://github.com/VATFix/SECTORS",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-053",
+      "detail_route": "/marketplace/listings/wsp-053/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/SECTORS.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-054",
@@ -664,7 +1035,14 @@
       "route": "https://github.com/VATFix/SECURITY",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-054",
+      "detail_route": "/marketplace/listings/wsp-054/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/SECURITY.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-055",
@@ -674,7 +1052,14 @@
       "route": "https://github.com/VATFix/TELEMETRY",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-055",
+      "detail_route": "/marketplace/listings/wsp-055/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/TELEMETRY.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-056",
@@ -684,7 +1069,14 @@
       "route": "https://github.com/VATFix/VATFIX",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-056",
+      "detail_route": "/marketplace/listings/wsp-056/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/VATFIX.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-057",
@@ -694,7 +1086,14 @@
       "route": "https://github.com/VATFix/vatfix-action",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-057",
+      "detail_route": "/marketplace/listings/wsp-057/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-action.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-058",
@@ -704,7 +1103,14 @@
       "route": "https://github.com/VATFix/vatfix-attestations",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-058",
+      "detail_route": "/marketplace/listings/wsp-058/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-attestations.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-059",
@@ -714,7 +1120,14 @@
       "route": "https://github.com/VATFix/vatfix-audit-log-spec",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-059",
+      "detail_route": "/marketplace/listings/wsp-059/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-audit-log-spec.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-060",
@@ -724,7 +1137,14 @@
       "route": "https://github.com/VATFix/vatfix-evidence-model",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-060",
+      "detail_route": "/marketplace/listings/wsp-060/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-evidence-model.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-061",
@@ -734,7 +1154,14 @@
       "route": "https://github.com/VATFix/vatfix-fallback-adapter",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-061",
+      "detail_route": "/marketplace/listings/wsp-061/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-fallback-adapter.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-062",
@@ -744,7 +1171,14 @@
       "route": "https://github.com/VATFix/vatfix-intrastat",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-062",
+      "detail_route": "/marketplace/listings/wsp-062/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-intrastat.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-063",
@@ -754,7 +1188,14 @@
       "route": "https://github.com/VATFix/vatfix-invoice",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-063",
+      "detail_route": "/marketplace/listings/wsp-063/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-invoice.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-064",
@@ -764,7 +1205,14 @@
       "route": "https://github.com/VATFix/VATFix-Master",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-064",
+      "detail_route": "/marketplace/listings/wsp-064/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/VATFix-Master.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-065",
@@ -774,7 +1222,14 @@
       "route": "https://github.com/VATFix/vatfix-oss",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-065",
+      "detail_route": "/marketplace/listings/wsp-065/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-oss.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-066",
@@ -784,7 +1239,14 @@
       "route": "https://github.com/VATFix/vatfix-postman",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-066",
+      "detail_route": "/marketplace/listings/wsp-066/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-postman.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-067",
@@ -794,7 +1256,14 @@
       "route": "https://github.com/VATFix/vatfix-rules-eu",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-067",
+      "detail_route": "/marketplace/listings/wsp-067/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-rules-eu.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-068",
@@ -804,7 +1273,14 @@
       "route": "https://github.com/VATFix/vatfix-sdk-js",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-068",
+      "detail_route": "/marketplace/listings/wsp-068/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-sdk-js.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-069",
@@ -814,7 +1290,14 @@
       "route": "https://github.com/VATFix/vatfix-sdk-python",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-069",
+      "detail_route": "/marketplace/listings/wsp-069/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-sdk-python.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-070",
@@ -824,7 +1307,14 @@
       "route": "https://github.com/VATFix/vatfix-sepa",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-070",
+      "detail_route": "/marketplace/listings/wsp-070/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-sepa.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-071",
@@ -834,7 +1324,14 @@
       "route": "https://github.com/VATFix/vatfix-vies-adapter",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-071",
+      "detail_route": "/marketplace/listings/wsp-071/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-vies-adapter.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-072",
@@ -844,7 +1341,14 @@
       "route": "https://github.com/VATFix/vatfix-xml",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-072",
+      "detail_route": "/marketplace/listings/wsp-072/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-xml.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-073",
@@ -854,7 +1358,14 @@
       "route": "https://github.com/VATFix/vatfix-zapier",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-073",
+      "detail_route": "/marketplace/listings/wsp-073/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix-zapier.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-074",
@@ -864,7 +1375,14 @@
       "route": "https://github.com/VATFix/vatfix.eu",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-074",
+      "detail_route": "/marketplace/listings/wsp-074/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/VATFix/vatfix.eu.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-075",
@@ -874,7 +1392,14 @@
       "route": "https://github.com/ANTIMATTERIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-075",
+      "detail_route": "/marketplace/listings/wsp-075/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/ANTIMATTERIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-076",
@@ -884,7 +1409,14 @@
       "route": "https://github.com/ANTIMATTERIUM/.github",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-076",
+      "detail_route": "/marketplace/listings/wsp-076/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/ANTIMATTERIUM/.github.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-077",
@@ -894,7 +1426,14 @@
       "route": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-077",
+      "detail_route": "/marketplace/listings/wsp-077/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/ANTIMATTERIUM/ANTIMATTERIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-078",
@@ -904,7 +1443,14 @@
       "route": "https://github.com/ANTIMATTERIUM/WWW",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-078",
+      "detail_route": "/marketplace/listings/wsp-078/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/ANTIMATTERIUM/WWW.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-079",
@@ -914,7 +1460,14 @@
       "route": "https://github.com/Verifrax",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-079",
+      "detail_route": "/marketplace/listings/wsp-079/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-080",
@@ -924,7 +1477,14 @@
       "route": "https://github.com/Verifrax/ANAGNORIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-080",
+      "detail_route": "/marketplace/listings/wsp-080/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/ANAGNORIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-081",
@@ -934,7 +1494,14 @@
       "route": "https://github.com/Verifrax/AUCTORISEAL",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-081",
+      "detail_route": "/marketplace/listings/wsp-081/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/AUCTORISEAL.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-082",
@@ -944,7 +1511,14 @@
       "route": "https://github.com/Verifrax/CONSONORIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-082",
+      "detail_route": "/marketplace/listings/wsp-082/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/CONSONORIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-083",
@@ -954,7 +1528,14 @@
       "route": "https://github.com/Verifrax/CORPIFORM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-083",
+      "detail_route": "/marketplace/listings/wsp-083/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/CORPIFORM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-084",
@@ -964,7 +1545,14 @@
       "route": "https://github.com/Verifrax/ORBISTIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-084",
+      "detail_route": "/marketplace/listings/wsp-084/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/ORBISTIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-085",
@@ -974,7 +1562,14 @@
       "route": "https://github.com/Verifrax/REGRESSORIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-085",
+      "detail_route": "/marketplace/listings/wsp-085/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/REGRESSORIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-086",
@@ -984,7 +1579,14 @@
       "route": "https://github.com/Verifrax/SYNTAGMARIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-086",
+      "detail_route": "/marketplace/listings/wsp-086/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/SYNTAGMARIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-087",
@@ -994,7 +1596,14 @@
       "route": "https://github.com/Verifrax/TACHYRIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-087",
+      "detail_route": "/marketplace/listings/wsp-087/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/TACHYRIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-088",
@@ -1004,7 +1613,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-088",
+      "detail_route": "/marketplace/listings/wsp-088/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-089",
@@ -1014,7 +1630,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/auctoriseal",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-089",
+      "detail_route": "/marketplace/listings/wsp-089/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/auctoriseal",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-090",
@@ -1024,7 +1647,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/corpiform",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-090",
+      "detail_route": "/marketplace/listings/wsp-090/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/corpiform",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-091",
@@ -1034,7 +1664,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/root",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-091",
+      "detail_route": "/marketplace/listings/wsp-091/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/root",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-092",
@@ -1044,7 +1681,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/verifrax",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-092",
+      "detail_route": "/marketplace/listings/wsp-092/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/verifrax",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-093",
@@ -1054,7 +1698,14 @@
       "route": "https://github.com/Verifrax/.github",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-093",
+      "detail_route": "/marketplace/listings/wsp-093/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/.github.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-094",
@@ -1064,7 +1715,14 @@
       "route": "https://github.com/Verifrax/ADMISSORIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-094",
+      "detail_route": "/marketplace/listings/wsp-094/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/ADMISSORIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-095",
@@ -1074,7 +1732,14 @@
       "route": "https://github.com/Verifrax/apply",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-095",
+      "detail_route": "/marketplace/listings/wsp-095/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/apply.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-096",
@@ -1084,7 +1749,14 @@
       "route": "https://github.com/Verifrax/ARCHITECTURE",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-096",
+      "detail_route": "/marketplace/listings/wsp-096/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/ARCHITECTURE.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-097",
@@ -1094,7 +1766,14 @@
       "route": "https://github.com/Verifrax/cicullis",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-097",
+      "detail_route": "/marketplace/listings/wsp-097/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/cicullis.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-098",
@@ -1104,7 +1783,14 @@
       "route": "https://github.com/Verifrax/proof",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-098",
+      "detail_route": "/marketplace/listings/wsp-098/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/proof.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-099",
@@ -1114,7 +1800,14 @@
       "route": "https://github.com/Verifrax/SIGILLARIUM",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-099",
+      "detail_route": "/marketplace/listings/wsp-099/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/SIGILLARIUM.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-100",
@@ -1124,7 +1817,14 @@
       "route": "https://github.com/Verifrax/SPEEDKIT",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-100",
+      "detail_route": "/marketplace/listings/wsp-100/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/SPEEDKIT.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-101",
@@ -1134,7 +1834,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/cicullis",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-101",
+      "detail_route": "/marketplace/listings/wsp-101/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/cicullis",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-102",
@@ -1144,7 +1851,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/sigillarium",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-102",
+      "detail_route": "/marketplace/listings/wsp-102/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/sigillarium",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-103",
@@ -1154,7 +1868,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-API",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-103",
+      "detail_route": "/marketplace/listings/wsp-103/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-API.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-104",
@@ -1164,7 +1885,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-CONTROL-VERIFY",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-104",
+      "detail_route": "/marketplace/listings/wsp-104/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-CONTROL-VERIFY.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-105",
@@ -1174,7 +1902,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-DOCS",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-105",
+      "detail_route": "/marketplace/listings/wsp-105/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-DOCS.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-106",
@@ -1184,7 +1919,14 @@
       "route": "https://github.com/Verifrax/verifrax-marketplace-smoke",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-106",
+      "detail_route": "/marketplace/listings/wsp-106/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/verifrax-marketplace-smoke.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-107",
@@ -1194,7 +1936,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-PROFILES",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-107",
+      "detail_route": "/marketplace/listings/wsp-107/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-PROFILES.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-108",
@@ -1204,7 +1953,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-PY",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-108",
+      "detail_route": "/marketplace/listings/wsp-108/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-PY.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-109",
@@ -1214,7 +1970,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-SAMPLES",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-109",
+      "detail_route": "/marketplace/listings/wsp-109/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-SAMPLES.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-110",
@@ -1224,7 +1987,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-SPEC",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-110",
+      "detail_route": "/marketplace/listings/wsp-110/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-SPEC.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-111",
@@ -1234,7 +2004,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-STATUS",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-111",
+      "detail_route": "/marketplace/listings/wsp-111/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-STATUS.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-112",
@@ -1244,7 +2021,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-SURFACE",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-112",
+      "detail_route": "/marketplace/listings/wsp-112/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-SURFACE.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-113",
@@ -1254,7 +2038,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-verify",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-113",
+      "detail_route": "/marketplace/listings/wsp-113/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-verify.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-114",
@@ -1264,7 +2055,14 @@
       "route": "https://github.com/Verifrax/VERIFRAX-WWW",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-114",
+      "detail_route": "/marketplace/listings/wsp-114/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/VERIFRAX-WWW.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-115",
@@ -1274,7 +2072,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/verifrax-api",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-115",
+      "detail_route": "/marketplace/listings/wsp-115/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/verifrax-api",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-116",
@@ -1284,7 +2089,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/verifrax-profiles",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-116",
+      "detail_route": "/marketplace/listings/wsp-116/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/verifrax-profiles",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-117",
@@ -1294,7 +2106,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/verifrax-spec",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-117",
+      "detail_route": "/marketplace/listings/wsp-117/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/verifrax-spec",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-118",
@@ -1304,7 +2123,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/verifrax-verify",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-118",
+      "detail_route": "/marketplace/listings/wsp-118/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/verifrax-verify",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-119",
@@ -1314,7 +2140,14 @@
       "route": "https://pypi.org/project/verifrax/",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-119",
+      "detail_route": "/marketplace/listings/wsp-119/",
+      "install": {
+        "rail": "pypi",
+        "command": "pip install verifrax",
+        "label": "Install with pip"
+      }
     },
     {
       "id": "WSP-120",
@@ -1324,7 +2157,14 @@
       "route": "https://github.com/Verifrax/archicustos",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-120",
+      "detail_route": "/marketplace/listings/wsp-120/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/archicustos.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-121",
@@ -1334,7 +2174,14 @@
       "route": "https://github.com/Verifrax/attestorium",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-121",
+      "detail_route": "/marketplace/listings/wsp-121/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/attestorium.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-122",
@@ -1344,7 +2191,14 @@
       "route": "https://github.com/Verifrax/guillotine",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-122",
+      "detail_route": "/marketplace/listings/wsp-122/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/guillotine.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-123",
@@ -1354,7 +2208,14 @@
       "route": "https://github.com/Verifrax/irrevocull",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-123",
+      "detail_route": "/marketplace/listings/wsp-123/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/irrevocull.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-124",
@@ -1364,7 +2225,14 @@
       "route": "https://github.com/Verifrax/kairoclasp",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-124",
+      "detail_route": "/marketplace/listings/wsp-124/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/kairoclasp.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-125",
@@ -1374,7 +2242,14 @@
       "route": "https://github.com/Verifrax/limenward",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-125",
+      "detail_route": "/marketplace/listings/wsp-125/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/limenward.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-126",
@@ -1384,7 +2259,14 @@
       "route": "https://github.com/Verifrax/originseal",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-126",
+      "detail_route": "/marketplace/listings/wsp-126/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/originseal.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-127",
@@ -1394,7 +2276,14 @@
       "route": "https://github.com/Verifrax/validexor",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-127",
+      "detail_route": "/marketplace/listings/wsp-127/",
+      "install": {
+        "rail": "git",
+        "command": "git clone https://github.com/Verifrax/validexor.git",
+        "label": "Clone source"
+      }
     },
     {
       "id": "WSP-128",
@@ -1404,7 +2293,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/archicustos",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-128",
+      "detail_route": "/marketplace/listings/wsp-128/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/archicustos",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-129",
@@ -1414,7 +2310,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/attestorium",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-129",
+      "detail_route": "/marketplace/listings/wsp-129/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/attestorium",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-130",
@@ -1424,7 +2327,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/guillotine",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-130",
+      "detail_route": "/marketplace/listings/wsp-130/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/guillotine",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-131",
@@ -1434,7 +2344,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/irrevocull",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-131",
+      "detail_route": "/marketplace/listings/wsp-131/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/irrevocull",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-132",
@@ -1444,7 +2361,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/kairoclasp",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-132",
+      "detail_route": "/marketplace/listings/wsp-132/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/kairoclasp",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-133",
@@ -1454,7 +2378,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/limenward",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-133",
+      "detail_route": "/marketplace/listings/wsp-133/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/limenward",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-134",
@@ -1464,7 +2395,14 @@
       "route": "https://www.npmjs.com/package/@verifrax/originseal",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-134",
+      "detail_route": "/marketplace/listings/wsp-134/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/originseal",
+        "label": "Install with npm"
+      }
     },
     {
       "id": "WSP-135",
@@ -1474,7 +2412,20 @@
       "route": "https://www.npmjs.com/package/@verifrax/validexor",
       "status": "PUBLIC_LISTED",
       "admission": "WORKSPACE_SURFACE",
-      "private": false
+      "private": false,
+      "marketplace_listing_id": "wsp-135",
+      "detail_route": "/marketplace/listings/wsp-135/",
+      "install": {
+        "rail": "npm",
+        "command": "npm i @verifrax/validexor",
+        "label": "Install with npm"
+      }
     }
-  ]
+  ],
+  "detail_pages": {
+    "status": "OPEN",
+    "count": 135,
+    "route": "/marketplace/listings/",
+    "json": "/marketplace/listings.json"
+  }
 }
