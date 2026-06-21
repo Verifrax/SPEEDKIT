@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-001",
+  "offer_id": "offer-wsp-001",
+  "sku": "SPEEDKIT-WSP-001",
+  "title": "CINEMATICUM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "cinematicum",
+  "kind": "GITHUB-NAMESPACE",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-001/",
+    "offer_json": "/marketplace/offers/offer-wsp-001/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-001/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-001/",
+    "source": "https://github.com/CINEMATICUM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "835eb91bf0b5bafab47585e1b6a17efaa9b937014bab4d306663e4becfb19a30",
+    "offer_page": "259bb97898b8dfb1361a856a09e5b3ab1436c957bf19052a8644627f02706381",
+    "install_command": "c3ee9e1e1078fe9cba6ba4043e39aeaa5fdaf216819c3b4b83bda61b939ac47a",
+    "install_steps": "227808d44b02ef1221ff443e95e656076015a7702433f5aaf48d705b3133d0a2"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

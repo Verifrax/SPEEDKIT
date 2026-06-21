@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-017",
+  "offer_id": "offer-wsp-017",
+  "sku": "SPEEDKIT-WSP-017",
+  "title": "qvra",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "qvra",
+  "kind": "GITHUB-NAMESPACE",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-017/",
+    "offer_json": "/marketplace/offers/offer-wsp-017/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-017/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-017/",
+    "source": "https://github.com/qvra",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "4d16ad09184050a06ea36b8bcc376e070de853b18790e661fb4889f8a5be1472",
+    "offer_page": "ae76342f318e86918e6d78e98d2a2ac141ed7f19cee17e0a1df6ce7c5b3bfbeb",
+    "install_command": "70e3a4a1e972f6d22b5beb50370bd2e86e60bc695badaaf4f1d0841be5576b2c",
+    "install_steps": "2e96c4b84fee2df34382de7e5f86f2559990b14ffbf817da38d40f999fe8e567"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

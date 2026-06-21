@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-002",
+  "offer_id": "offer-wsp-002",
+  "sku": "SPEEDKIT-WSP-002",
+  "title": "kaaffilm",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "cinematicum",
+  "kind": "GITHUB-NAMESPACE",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-002/",
+    "offer_json": "/marketplace/offers/offer-wsp-002/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-002/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-002/",
+    "source": "https://github.com/kaaffilm",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "07eac8b55c55fd29199ffdb1da1e0a1b760b3442f6422bddfca28d66c1201d04",
+    "offer_page": "ba2b7e9a888c260f238f393bc240f3642d2fb4b121be5666f245b42320551567",
+    "install_command": "5cd73437a4104e9bd86bf1ad18462ea44db3189a05940284a66c2dc0bfeab0fd",
+    "install_steps": "8609bf358286a5e0e8c87f48d9a3416c83433af3e6dec84da626a646abd4fc38"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

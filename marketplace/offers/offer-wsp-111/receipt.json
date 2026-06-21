@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-111",
+  "offer_id": "offer-wsp-111",
+  "sku": "SPEEDKIT-WSP-111",
+  "title": "VERIFRAX-STATUS",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-verification",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-111/",
+    "offer_json": "/marketplace/offers/offer-wsp-111/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-111/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-111/",
+    "source": "https://github.com/Verifrax/VERIFRAX-STATUS",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "63b11f572c761f570ea6863afb4d5386272ec6eeddf7e9ef10a7314318871f77",
+    "offer_page": "0acf65eac79931a6206fd73fcff0ffed8141571b7f0c7a21e2ba3fdceeb30709",
+    "install_command": "3e5d1b241f76727a83b2aa43c4c3d15485b704e1f56ffa4beb7509df71ce5d32",
+    "install_steps": "5b420d45a321d2afbbfe5c9803e3d04b183dd00a3cba0c56fae636f7b118da8f"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-120",
+  "offer_id": "offer-wsp-120",
+  "sku": "SPEEDKIT-WSP-120",
+  "title": "archicustos",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-120/",
+    "offer_json": "/marketplace/offers/offer-wsp-120/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-120/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-120/",
+    "source": "https://github.com/Verifrax/archicustos",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "d91816b159cc849af9768d52d4791e3526c48b4005eb2ed2b2283e8be9714ddc",
+    "offer_page": "809049f032d2b747b5df0ea68998981d6bed1da9892759f2563c1a623934b735",
+    "install_command": "01ccbd1df1941ad55639cfe9c09958540506dbd8f82762963b2859c63e84a992",
+    "install_steps": "5b9207cb819f452b4ab39027c8b3e3ea5d591c5c8361273f242a7c9ffca33f20"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

@@ -13,19 +13,19 @@
       "step": 2,
       "name": "public_reconciliation_proof",
       "route": "/public-reconciliation-proof.json",
-      "sha256": "fc75c7bdb0245b9d2e052000d4b16b6f72ac03645aa9074cb3b8ba29119cb90c"
+      "sha256": "0cbac5b260b3b48692ef7a2787306eb9f8e3e9a449d5c1b1d3c2fd2f738acaab"
     },
     {
       "step": 3,
       "name": "root_projection",
       "route": "/",
-      "sha256": "d9ecb2928b38532d96cfb396fea6a67a3cac8a461e6372039d8edbe6c30b504e"
+      "sha256": "e7f3986beaa4d78634e42cdeeedb52cd4807a4a01acad3a45f952674c8e0d78c"
     },
     {
       "step": 4,
       "name": "marketplace",
       "route": "/marketplace.json",
-      "sha256": "508c9d41166ecb88d7271ed0fb8a06c3253e5052fe5d8ef69bc21f503b9c3472"
+      "sha256": "375793d733e7ce4d899788118f0b5a514baf971cfc6a658e5956327287aeb380"
     },
     {
       "step": 5,
@@ -37,7 +37,7 @@
       "step": 6,
       "name": "marketplace_offers",
       "route": "/marketplace/offers.json",
-      "sha256": "6c567e87aeacb22290115495f0121c4575e7b604d872fded5ec4cf5fac66f94c"
+      "sha256": "961703c62843a14350d9e5f5d448ebb074cc7a6aa3bef750ea7dad2ddcec034a"
     },
     {
       "step": 7,
@@ -47,6 +47,12 @@
     },
     {
       "step": 8,
+      "name": "marketplace_offer_ledger",
+      "route": "/marketplace/offer-ledger.json",
+      "sha256": "25b3b3cc3efe3194b5e7a27fe4b8792552658c3cad9469bdf200a7b7335a9c45"
+    },
+    {
+      "step": 9,
       "name": "health",
       "route": "/health.json",
       "status": "PASS"
@@ -62,6 +68,8 @@
     "marketplace_transaction_mode": "CATALOG_ONLY",
     "marketplace_detail_pages": 135,
     "marketplace_offers": 135,
-    "marketplace_installable_offers": 135
+    "marketplace_installable_offers": 135,
+    "marketplace_offer_receipts": 135,
+    "marketplace_offer_ledger_status": "CLOSED"
   }
 }

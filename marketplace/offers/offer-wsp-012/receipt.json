@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-012",
+  "offer_id": "offer-wsp-012",
+  "sku": "SPEEDKIT-WSP-012",
+  "title": "EVIDENCE-SCHEMAS",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "invocorder",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-012/",
+    "offer_json": "/marketplace/offers/offer-wsp-012/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-012/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-012/",
+    "source": "https://github.com/INVOCORDER/EVIDENCE-SCHEMAS",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "61df33056216bdc5cc61f91a340b777a79c4615b54983ce23a21d3cd0e67ccf7",
+    "offer_page": "d77db38d6c47bac68b9636c5eecf646355f61eba80069bdbd557721bb287d530",
+    "install_command": "732c3d9f5f885014b4d8cce5327aa56e8544936ef71451c4d8b069752f90b6aa",
+    "install_steps": "62703a05362f5fcf88ed9297b6c9d2e88a7059485424df46ffde071a48828603"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

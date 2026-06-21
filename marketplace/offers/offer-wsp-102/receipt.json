@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-102",
+  "offer_id": "offer-wsp-102",
+  "sku": "SPEEDKIT-WSP-102",
+  "title": "@verifrax/sigillarium",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-governance",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-102/",
+    "offer_json": "/marketplace/offers/offer-wsp-102/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-102/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-102/",
+    "source": "https://www.npmjs.com/package/@verifrax/sigillarium",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "354c3c79b7b828d1b12dbaec5bc26447a5db5f72f91b95d544f5611395460596",
+    "offer_page": "e078ae25ce8cb65ae2f9c16cffdd9a573908d2929da393c4dda17ab47069b3d7",
+    "install_command": "f0b95771a281dd423ebb2841a2fe919d61c2572cb49bc9d650262b61287c8a9e",
+    "install_steps": "627a600f0f5c3f829190d67018c2037c1868d1fb71f3d2e7f75dbfe774000354"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

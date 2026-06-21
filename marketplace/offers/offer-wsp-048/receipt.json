@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-048",
+  "offer_id": "offer-wsp-048",
+  "sku": "SPEEDKIT-WSP-048",
+  "title": "CONSOLE",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-048/",
+    "offer_json": "/marketplace/offers/offer-wsp-048/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-048/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-048/",
+    "source": "https://github.com/VATFix/CONSOLE",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "4f7e9ea629fc0ef5d5124ba995856ea29da117c570c7bbcf4d8ec1a232637a0d",
+    "offer_page": "ca44979d5494937a5d0541c68587dd7940b34fc4dfe8d10a758cf5170943f0d1",
+    "install_command": "87fd6c4e4b42e43dee53f60e3a562baa9661d8fdc589791466eedec2c29e7b31",
+    "install_steps": "d97d6537bcd24c7c06ed9fadb0556cca8fbbb768bc799d82baad8b76cb841d8a"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

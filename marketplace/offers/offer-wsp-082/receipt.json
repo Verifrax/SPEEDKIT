@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-082",
+  "offer_id": "offer-wsp-082",
+  "sku": "SPEEDKIT-WSP-082",
+  "title": "CONSONORIUM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-chambers",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-082/",
+    "offer_json": "/marketplace/offers/offer-wsp-082/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-082/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-082/",
+    "source": "https://github.com/Verifrax/CONSONORIUM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "b4d38ce064fd00d386b4fa85e6c8c2206cd77f3aadb5606757d640768e1b1750",
+    "offer_page": "ae73cb9b5aaea148e94fe37f6cbc1de79166d66392cd4ae693edb0bd523934f8",
+    "install_command": "5080f6d1b0bd8f4da184a7bda62de7bd45c8c0072ca65c95279c3a11a21d0445",
+    "install_steps": "f5bd7c8ecb3587ceaab24ddf074055a22bad624034cd4df49100ee99e03cc15c"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

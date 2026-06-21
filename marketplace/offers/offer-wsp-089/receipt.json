@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-089",
+  "offer_id": "offer-wsp-089",
+  "sku": "SPEEDKIT-WSP-089",
+  "title": "@verifrax/auctoriseal",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-chambers",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-089/",
+    "offer_json": "/marketplace/offers/offer-wsp-089/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-089/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-089/",
+    "source": "https://www.npmjs.com/package/@verifrax/auctoriseal",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "780c7511926894de6d9524ba586d00ce637720047ef0c5692ce409d137911c24",
+    "offer_page": "7dedf473c1a1e828901c71a93b05bb9abd37ab3468f36b5b4c4393b63ea29530",
+    "install_command": "71ab893514969f37a696bfbf25570171d06586d2c3a3287cce4749eb49f1a588",
+    "install_steps": "d3e5e00f908be28addedc46f193fb54ad42fa17b916b0e0f8eef0fd0901685dc"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

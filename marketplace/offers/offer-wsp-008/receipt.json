@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-008",
+  "offer_id": "offer-wsp-008",
+  "sku": "SPEEDKIT-WSP-008",
+  "title": "mk10-pro",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "cinematicum",
+  "kind": "PYPI",
+  "install_rail": "pypi",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-008/",
+    "offer_json": "/marketplace/offers/offer-wsp-008/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-008/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-008/",
+    "source": "https://pypi.org/project/mk10-pro/",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "2d5d128f355f093c3aee3a101c4201d3d984cfae20df4a6aa9c275210fe220ba",
+    "offer_page": "50ed2476153d2119e56765cd2c1817ca9e810cb43900ebd43132fa5a3ebd24af",
+    "install_command": "f5247aa0916d496773fefe69b093911284a1d609036fdb49bc2fabca8ca4bbcf",
+    "install_steps": "9321593cc05462942f7316d29bfaf4c0b260e37108ba9a448a16c233ab6e36bb"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

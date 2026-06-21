@@ -16,6 +16,8 @@
     "detail_pages": 135,
     "offers": 135,
     "installable_offers": 135,
+    "offer_receipts": 135,
+    "offer_ledger_status": "CLOSED",
     "rails": {
       "npm": 20,
       "pypi": 2,
@@ -28,7 +30,8 @@
     "listing_json": "/marketplace/listings.json",
     "offers_index": "/marketplace/offers/",
     "offers_json": "/marketplace/offers.json",
-    "install_manifest": "/marketplace/install-manifest.json"
+    "install_manifest": "/marketplace/install-manifest.json",
+    "offer_ledger": "/marketplace/offer-ledger.json"
   },
   "routes": {
     "root": "/",
@@ -40,18 +43,20 @@
     "marketplace_offers": "/marketplace/offers/",
     "marketplace_offers_json": "/marketplace/offers.json",
     "marketplace_install_manifest": "/marketplace/install-manifest.json",
+    "marketplace_offer_ledger": "/marketplace/offer-ledger.json",
     "manifest": "/SPEEDKIT_TERMINAL_MANIFEST.json",
     "reconciliation_proof": "/public-reconciliation-proof.json",
     "control_chain": "/control-chain.json",
     "health": "/health.json"
   },
   "sha256": {
-    "index_html": "d9ecb2928b38532d96cfb396fea6a67a3cac8a461e6372039d8edbe6c30b504e",
+    "index_html": "e7f3986beaa4d78634e42cdeeedb52cd4807a4a01acad3a45f952674c8e0d78c",
     "manifest": "6bc8a237d186e95bb87734fe297944c6c3161c02f353e0a97c8eaa0bf4b834f6",
-    "reconciliation_proof": "fc75c7bdb0245b9d2e052000d4b16b6f72ac03645aa9074cb3b8ba29119cb90c",
-    "marketplace": "508c9d41166ecb88d7271ed0fb8a06c3253e5052fe5d8ef69bc21f503b9c3472",
+    "reconciliation_proof": "0cbac5b260b3b48692ef7a2787306eb9f8e3e9a449d5c1b1d3c2fd2f738acaab",
+    "marketplace": "375793d733e7ce4d899788118f0b5a514baf971cfc6a658e5956327287aeb380",
     "marketplace_listings": "a4b1c35b77e7f251669b85b429f85484a0efdd99b76825201b49370a3d4da1c2",
-    "marketplace_offers": "6c567e87aeacb22290115495f0121c4575e7b604d872fded5ec4cf5fac66f94c",
-    "marketplace_install_manifest": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964"
+    "marketplace_offers": "961703c62843a14350d9e5f5d448ebb074cc7a6aa3bef750ea7dad2ddcec034a",
+    "marketplace_install_manifest": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964",
+    "marketplace_offer_ledger": "25b3b3cc3efe3194b5e7a27fe4b8792552658c3cad9469bdf200a7b7335a9c45"
   }
 }

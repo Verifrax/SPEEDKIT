@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-094",
+  "offer_id": "offer-wsp-094",
+  "sku": "SPEEDKIT-WSP-094",
+  "title": "ADMISSORIUM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-governance",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-094/",
+    "offer_json": "/marketplace/offers/offer-wsp-094/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-094/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-094/",
+    "source": "https://github.com/Verifrax/ADMISSORIUM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "d2564ad4e9b8c881a7da2536cba2c8afda8b0049b21a4e821190568dffc43397",
+    "offer_page": "0e60ab33698297c26d0e80331610230d0847b06acbd1bd8ab42c43c08f72d07c",
+    "install_command": "0ac352c620e33845ff50f6328544a103a9d7558cd7c6dee19f64e24a3795d8dc",
+    "install_steps": "f194e54774e38444993bdc2177cf14ffc762bdbd462a12228e59b827f7c5e302"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

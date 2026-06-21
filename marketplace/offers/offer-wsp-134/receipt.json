@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-134",
+  "offer_id": "offer-wsp-134",
+  "sku": "SPEEDKIT-WSP-134",
+  "title": "@verifrax/originseal",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-134/",
+    "offer_json": "/marketplace/offers/offer-wsp-134/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-134/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-134/",
+    "source": "https://www.npmjs.com/package/@verifrax/originseal",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "55f2a6cd5ca367d3135d8bbd1ece4aa018b0fe7dc4823e744bf2e4151d291808",
+    "offer_page": "f4af32212ca0f88ec61033e4e0412355e17c94cba88b737998b3a250bf0a3455",
+    "install_command": "bbc88269dff37a6d14eff2321d7e398c3a14501b998cc06c4960285539bd3689",
+    "install_steps": "be3848b79863612fe814d86fa63df577d44a13f941857245a9bbfcfaa92cfb03"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

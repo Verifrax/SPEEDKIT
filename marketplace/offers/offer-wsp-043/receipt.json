@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-043",
+  "offer_id": "offer-wsp-043",
+  "sku": "SPEEDKIT-WSP-043",
+  "title": "awesome-actions",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "personal",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-043/",
+    "offer_json": "/marketplace/offers/offer-wsp-043/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-043/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-043/",
+    "source": "https://github.com/midiakiasat/awesome-actions",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "a27eaae59238ff26ea2c722f1ab81596b850d8aea4e169a6bed3d6e28e37580d",
+    "offer_page": "556bbb3759852e069c7a29a402638db13f9e167d99c98ce4b32ae3de455ad987",
+    "install_command": "6b62bedf3eeadb8eda9341b378614ca5fee496ea319b2add617ef6af51d3041a",
+    "install_steps": "797ae8a30206352e4e1d4c622c4a99785c3283485ba69c3c84f4492eecd49ca2"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-016",
+  "offer_id": "offer-wsp-016",
+  "sku": "SPEEDKIT-WSP-016",
+  "title": "@invocorder/recorder",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "invocorder",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-016/",
+    "offer_json": "/marketplace/offers/offer-wsp-016/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-016/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-016/",
+    "source": "https://www.npmjs.com/package/@invocorder/recorder",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "7066d8b08f4823fe752a2a5965bebbbf7ad13528f637532066af106301791c0d",
+    "offer_page": "76a31b38ffd4d496af5f2fef4af8883d339b39a4987279fac050222048b6dd45",
+    "install_command": "4ec388bd758bcff9c9801466028970c3e7985ad99c4d014378148124347f71fc",
+    "install_steps": "0a2a8454c8b8aefa82fae3244abf86991b91288be8a2b6bbd9bff98bd3eebb49"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

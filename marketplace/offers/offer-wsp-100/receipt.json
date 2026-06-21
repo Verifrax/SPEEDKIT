@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-100",
+  "offer_id": "offer-wsp-100",
+  "sku": "SPEEDKIT-WSP-100",
+  "title": "SPEEDKIT",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-governance",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-100/",
+    "offer_json": "/marketplace/offers/offer-wsp-100/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-100/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-100/",
+    "source": "https://github.com/Verifrax/SPEEDKIT",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "88ed7190e210e337b06c2817ff354a4430acec45a19b5eeddcc37a32030b69f5",
+    "offer_page": "96381d8643ab5d82826b02c2605f538f8efa745acd62efd8d44b53f47f9721ce",
+    "install_command": "47701d813d44356e3170b82d2f8bd0a3484ab1f98f670235d8a6e94e48a0a3f2",
+    "install_steps": "3348730a1d6be80ef0d673d517ae0385353d67ef50df19a783e599bd1ac90b65"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

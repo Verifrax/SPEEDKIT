@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-096",
+  "offer_id": "offer-wsp-096",
+  "sku": "SPEEDKIT-WSP-096",
+  "title": "ARCHITECTURE",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-governance",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-096/",
+    "offer_json": "/marketplace/offers/offer-wsp-096/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-096/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-096/",
+    "source": "https://github.com/Verifrax/ARCHITECTURE",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "1da065e813f9d8f276d839fbd5be6eca393050ed8309aa60187bfa86544cffb3",
+    "offer_page": "ac16241f459020eb876b5d8bce76c35bf355e015649d641cff11d143313b4f10",
+    "install_command": "4d517ad0389d22e75a2ae34b22ed26c4d3ba844475649d2f924aab38949393bf",
+    "install_steps": "35789764d2028799457aac9152dfa07ab473ab44a9381c04b53e92c9f0975612"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

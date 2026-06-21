@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-090",
+  "offer_id": "offer-wsp-090",
+  "sku": "SPEEDKIT-WSP-090",
+  "title": "@verifrax/corpiform",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-chambers",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-090/",
+    "offer_json": "/marketplace/offers/offer-wsp-090/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-090/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-090/",
+    "source": "https://www.npmjs.com/package/@verifrax/corpiform",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "22580be32420565aef147e0bb9ecfb89a8854bd007be7cbe33624f31fd4a7e7e",
+    "offer_page": "9380e7b7c12323bef7b0b5344533274b5b164e21d557888d3cd2002ab969b42e",
+    "install_command": "d68dcda8a4484cc0c7b143020bde366fe009488c47f303ba23522ee34d51c428",
+    "install_steps": "7a1555e7276fa781a18c33df62e7c7a8e0cc3ecbf48eb5127e92771eb95919b6"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

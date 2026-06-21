@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-066",
+  "offer_id": "offer-wsp-066",
+  "sku": "SPEEDKIT-WSP-066",
+  "title": "vatfix-postman",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-066/",
+    "offer_json": "/marketplace/offers/offer-wsp-066/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-066/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-066/",
+    "source": "https://github.com/VATFix/vatfix-postman",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "e61ea08a9f4078cf918bd7eda6f59092f8fadfd7c822e7c313432196434dc472",
+    "offer_page": "7e877e32f6aebe2fab2e778a1f788f945febaa543fc50ef318266e2b83ec4913",
+    "install_command": "70cfe6c75476ee4c6933f0dc99aaba46c1b5134ccbc74fc3e34245484dec2773",
+    "install_steps": "8aa5dafe81bb82046bd2493aa69e295fd97ab88df2d9b3b18772fae539cb1982"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

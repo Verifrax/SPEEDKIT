@@ -60,5 +60,10 @@
     "offer_is_not_system_admission": true,
     "offer_is_catalog_only": true,
     "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
+  },
+  "receipt": {
+    "status": "RECEIPT_CLOSED",
+    "receipt_json": "/marketplace/offers/offer-wsp-124/receipt.json",
+    "ledger": "/marketplace/offer-ledger.json"
   }
 }

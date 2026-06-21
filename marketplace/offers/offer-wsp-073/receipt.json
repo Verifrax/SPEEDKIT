@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-073",
+  "offer_id": "offer-wsp-073",
+  "sku": "SPEEDKIT-WSP-073",
+  "title": "vatfix-zapier",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-073/",
+    "offer_json": "/marketplace/offers/offer-wsp-073/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-073/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-073/",
+    "source": "https://github.com/VATFix/vatfix-zapier",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "c5f1245b63b2a049d121d440c80acac2e6def9787cf75c64196d50e95afed065",
+    "offer_page": "30b75118f2ca6783047ff69ad4a3042a8cf1168466ded062fc76db021ecc0887",
+    "install_command": "3e43fca380a4163a9922a642f3f33476034e71c09c4c0e8f8e25080c97881c54",
+    "install_steps": "9f78e4809f6d8f778f899485d905400fad5745f571185e5c284e5fda75f2072b"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

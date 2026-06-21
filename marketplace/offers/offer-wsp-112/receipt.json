@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-112",
+  "offer_id": "offer-wsp-112",
+  "sku": "SPEEDKIT-WSP-112",
+  "title": "VERIFRAX-SURFACE",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-verification",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-112/",
+    "offer_json": "/marketplace/offers/offer-wsp-112/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-112/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-112/",
+    "source": "https://github.com/Verifrax/VERIFRAX-SURFACE",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "77fe7b50cafb65556cb798044368d55e0c1f97b2d26d84ae92e733496de5144d",
+    "offer_page": "79ad46a107f57ee7c77a704deab9a434a7be7be700f381927323040017d084d9",
+    "install_command": "77b5c4d658e98d8003ff9a238a518ca82cf6182008b56f4ac617f59d3c28bfb2",
+    "install_steps": "76d72303e5944a2d1bc03e50da9d212145e40c83f0526798a16fa3b12166e642"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

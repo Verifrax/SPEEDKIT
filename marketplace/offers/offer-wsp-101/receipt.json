@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-101",
+  "offer_id": "offer-wsp-101",
+  "sku": "SPEEDKIT-WSP-101",
+  "title": "@verifrax/cicullis",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-governance",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-101/",
+    "offer_json": "/marketplace/offers/offer-wsp-101/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-101/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-101/",
+    "source": "https://www.npmjs.com/package/@verifrax/cicullis",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "9a18348c2e35a7d1ea5a1404e1f963f7490ffa3ab60886c128cc982b7b6db064",
+    "offer_page": "ca970c246a4a364eaee999c020d987a50dbd970d1f860dbc0bbd76f83d1304b2",
+    "install_command": "2feae389a3d02339732e1fb1b22c9514a09ed4d4e8dfdefe4c66fb3fbdc80835",
+    "install_steps": "b8d88e0fa3f0b77ef097b985fecfbb60191a58eced2998a7e52b2642ce9af0d6"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

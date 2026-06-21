@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-011",
+  "offer_id": "offer-wsp-011",
+  "sku": "SPEEDKIT-WSP-011",
+  "title": "CAPTURE-CONTRACT",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "invocorder",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-011/",
+    "offer_json": "/marketplace/offers/offer-wsp-011/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-011/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-011/",
+    "source": "https://github.com/INVOCORDER/CAPTURE-CONTRACT",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "d3349f61a2a32710f5d987bfeb11fb8a91a116ee1d552446c78ab39bd8293df4",
+    "offer_page": "7616a22136eed592ada627fb4f5c171bf283e85534ec662ac1493ccb31fc558a",
+    "install_command": "9ca9f30722fc3d362a11d6e7f683e8a5ae4b8ab9302cb429ab41c642d67c2471",
+    "install_steps": "027bd7140a8819b05bd61abb3b57e98d9c044e114b71ef3462b3f02794b35147"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

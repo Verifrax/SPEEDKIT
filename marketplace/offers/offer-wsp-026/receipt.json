@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-026",
+  "offer_id": "offer-wsp-026",
+  "sku": "SPEEDKIT-WSP-026",
+  "title": "pulse",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "qvra",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-026/",
+    "offer_json": "/marketplace/offers/offer-wsp-026/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-026/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-026/",
+    "source": "https://github.com/qvra/pulse",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "dc6cc8056b94831da1ffb473fbca2694e7fa58eb5ec26a3a3b78b20bfb7f293e",
+    "offer_page": "c5b81329743bb5730a996659374c6d2b2e8cf97ffd42c5344336a7d8a0c0d55a",
+    "install_command": "33e81781fbfa8cf979a088c55b5186ab55522c6718b4674107bb9a50e6c9db84",
+    "install_steps": "83a0a27b2256fad792068bad30e7f6b16a1994cda911b3084596cca0003f419a"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-099",
+  "offer_id": "offer-wsp-099",
+  "sku": "SPEEDKIT-WSP-099",
+  "title": "SIGILLARIUM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-governance",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-099/",
+    "offer_json": "/marketplace/offers/offer-wsp-099/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-099/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-099/",
+    "source": "https://github.com/Verifrax/SIGILLARIUM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "f3e4d55a0290a40ce4c1e786b3c13f7482e10d354650c961b043878ad17b4ea5",
+    "offer_page": "9f6220c7ef1b4df499bf74c4a54b10c17fc70347e504c13e8f131b938d118305",
+    "install_command": "1f8a8ed780de9cc0c840450a1ccff559d4e42c1416055c413f63bc8e039262a6",
+    "install_steps": "4c87f062e83e82b5b03eadf47b1aa6449adaca695326b8f2cf031bb13bdf80e0"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}
