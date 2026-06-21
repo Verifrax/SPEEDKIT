@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-057",
+  "offer_id": "offer-wsp-057",
+  "sku": "SPEEDKIT-WSP-057",
+  "title": "vatfix-action",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-057/",
+    "offer_json": "/marketplace/offers/offer-wsp-057/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-057/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-057/",
+    "source": "https://github.com/VATFix/vatfix-action",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "4d1ac9da7a717ffbce436fc1e593b712b5ee7aded5aecdcb7fbcc97bda28c9a4",
+    "offer_page": "f2fd9a80619ccfe9206846d340ce6a4af5ab85ebf15a87e394c7bcebd9862efc",
+    "install_command": "f42ca148dbc7b65681f34407bdbb73326cb5bbebb0d2f5a1501e6e2156862f25",
+    "install_steps": "2cb87a539b2f52bf354107f63bc15104a20bf1489620a1538fb0457329b34745"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-131",
+  "offer_id": "offer-wsp-131",
+  "sku": "SPEEDKIT-WSP-131",
+  "title": "@verifrax/irrevocull",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-131/",
+    "offer_json": "/marketplace/offers/offer-wsp-131/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-131/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-131/",
+    "source": "https://www.npmjs.com/package/@verifrax/irrevocull",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "5ee76d3b0a46e24b5837dfa4a2e1035ee40eb8147bebdb0166d5ceb14b5a7e8b",
+    "offer_page": "21073bc7aaf43ed0d9059cd0bee3075e78ef14eae12b4dbd1f22a9ec3f8cb478",
+    "install_command": "410388d482f895c71d0f12a12725fc621782c52122936c649e9f43d0048899f1",
+    "install_steps": "902bedd080b8f0239427c2e28c1e51ac4486c94797c23d6cb9ac040b79ac3e17"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

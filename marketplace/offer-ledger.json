@@ -1,0 +1,2598 @@
+{
+  "schema": "speedkit.marketplace_offer_ledger.v1",
+  "title": "SPEEDKIT Marketplace Offer Ledger",
+  "status": "CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "receipt_count": 135,
+  "private_remaining": 0,
+  "rails": {
+    "npm": 20,
+    "pypi": 2,
+    "git": 113,
+    "open": 0
+  },
+  "routes": {
+    "marketplace": "/marketplace/",
+    "marketplace_json": "/marketplace.json",
+    "offers": "/marketplace/offers/",
+    "offers_json": "/marketplace/offers.json",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "marketplace": "508c9d41166ecb88d7271ed0fb8a06c3253e5052fe5d8ef69bc21f503b9c3472",
+    "offers": "961703c62843a14350d9e5f5d448ebb074cc7a6aa3bef750ea7dad2ddcec034a",
+    "install_manifest": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964",
+    "proof": "fc75c7bdb0245b9d2e052000d4b16b6f72ac03645aa9074cb3b8ba29119cb90c"
+  },
+  "receipts": [
+    {
+      "receipt_id": "receipt-offer-wsp-001",
+      "offer_id": "offer-wsp-001",
+      "sku": "SPEEDKIT-WSP-001",
+      "title": "CINEMATICUM",
+      "family": "cinematicum",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-001/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-001/",
+      "offer_json": "/marketplace/offers/offer-wsp-001/offer.json",
+      "sha256": {
+        "receipt_json": "c8d7af0caca58e319918311b412bf6cb84a0d7be96802dbeca1e9f8757271cbe",
+        "offer_json": "835eb91bf0b5bafab47585e1b6a17efaa9b937014bab4d306663e4becfb19a30",
+        "offer_page": "259bb97898b8dfb1361a856a09e5b3ab1436c957bf19052a8644627f02706381",
+        "install_command": "c3ee9e1e1078fe9cba6ba4043e39aeaa5fdaf216819c3b4b83bda61b939ac47a"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-002",
+      "offer_id": "offer-wsp-002",
+      "sku": "SPEEDKIT-WSP-002",
+      "title": "kaaffilm",
+      "family": "cinematicum",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-002/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-002/",
+      "offer_json": "/marketplace/offers/offer-wsp-002/offer.json",
+      "sha256": {
+        "receipt_json": "a8776e83c80aa580286fa449ba02bd24efd931e948ba5cd8d54e2d9af9a83d66",
+        "offer_json": "07eac8b55c55fd29199ffdb1da1e0a1b760b3442f6422bddfca28d66c1201d04",
+        "offer_page": "ba2b7e9a888c260f238f393bc240f3642d2fb4b121be5666f245b42320551567",
+        "install_command": "5cd73437a4104e9bd86bf1ad18462ea44db3189a05940284a66c2dc0bfeab0fd"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-003",
+      "offer_id": "offer-wsp-003",
+      "sku": "SPEEDKIT-WSP-003",
+      "title": "CINEMATICUM",
+      "family": "cinematicum",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-003/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-003/",
+      "offer_json": "/marketplace/offers/offer-wsp-003/offer.json",
+      "sha256": {
+        "receipt_json": "bc93576ee0f05b7c41f621400572a19f1674ba86d60645c727582449afc13298",
+        "offer_json": "507f1ac52caf711f148c9d3d27a4d8f3139a74b79a8cdf20d2a0a3f279782890",
+        "offer_page": "7656fd7dea4975c53e8ca6bc5a0f0da08156f68fdf158de66ddcaace81c12173",
+        "install_command": "fecd44afb4d4b8db8d213796172660b28d3becd88362ab6e6f4c49e8076f1a05"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-004",
+      "offer_id": "offer-wsp-004",
+      "sku": "SPEEDKIT-WSP-004",
+      "title": ".github",
+      "family": "cinematicum",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-004/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-004/",
+      "offer_json": "/marketplace/offers/offer-wsp-004/offer.json",
+      "sha256": {
+        "receipt_json": "1d8e2db9ba9a23e53207bc548d9c7b1042ba07cdaea381f01077f2ad2902f09e",
+        "offer_json": "ebec6e5c948d9ccca41cd25c9d3994717bcfcfc3fa6fdf542f735198c08273ac",
+        "offer_page": "f41a71e48dc90bb14ae1b94cd5246c6343530542c9bf74a30bb0279b6948c803",
+        "install_command": "53d5a9aa04afef0ba158790c7f463003c38d9469a63198f01ff12ed262d6a996"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-005",
+      "offer_id": "offer-wsp-005",
+      "sku": "SPEEDKIT-WSP-005",
+      "title": "CINEMATICUM",
+      "family": "cinematicum",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-005/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-005/",
+      "offer_json": "/marketplace/offers/offer-wsp-005/offer.json",
+      "sha256": {
+        "receipt_json": "9ead5c21fac9f8d2ecf7cc9c4ed3ef42ba88185d737c8957dc5e730c1657bb68",
+        "offer_json": "1c4b8ca2e0ebec61f345a323cc98fefe18b87e7906ee508dfc28db523517eee4",
+        "offer_page": "4f75d36d188742ec7c4fe611183be73ae4e4d1aa1af3b4a63302b6d88cc02241",
+        "install_command": "cfee66374f71f955b0f4d7b7ff3ac0f4f68cbe44e1d89c5ea43aef1e0137c445"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-006",
+      "offer_id": "offer-wsp-006",
+      "sku": "SPEEDKIT-WSP-006",
+      "title": "MK10-PRO",
+      "family": "cinematicum",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-006/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-006/",
+      "offer_json": "/marketplace/offers/offer-wsp-006/offer.json",
+      "sha256": {
+        "receipt_json": "55dbd422352fbf676b92073b9d7f0d098ab4d81e6637d1fc03defa317593415a",
+        "offer_json": "dca3f25ba1e370469386b1c66ad1f92adb3f8378c7a6a859fa76652cf691c5f1",
+        "offer_page": "208b009033a68dd6724c8f927d2adf910c83daaf72fb76abf03d8d7a2cba645e",
+        "install_command": "0589f8e303382683ec0f0603730a16689f3d63717b35d4282a6ec5a525c9fd95"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-007",
+      "offer_id": "offer-wsp-007",
+      "sku": "SPEEDKIT-WSP-007",
+      "title": "@kaaffilm/mk10-pro",
+      "family": "cinematicum",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-007/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-007/",
+      "offer_json": "/marketplace/offers/offer-wsp-007/offer.json",
+      "sha256": {
+        "receipt_json": "646306124369eb9a744a3a1386c0ff60fbec6b8c757d60ff516b1cf49c9eafde",
+        "offer_json": "ae60a5aa067c9c095eeb3b21cc04f6f34690c70aa96a78691852ebb5e03790db",
+        "offer_page": "d71ad749607e9ac9d59753d7f4bec9c43cdf1b826633c64a3c7f10709ea688a9",
+        "install_command": "56185072f322a152b13c43eeb49cb65753663c94ec7a9169054d28318787e3c1"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-008",
+      "offer_id": "offer-wsp-008",
+      "sku": "SPEEDKIT-WSP-008",
+      "title": "mk10-pro",
+      "family": "cinematicum",
+      "kind": "PYPI",
+      "install_rail": "pypi",
+      "receipt_json": "/marketplace/offers/offer-wsp-008/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-008/",
+      "offer_json": "/marketplace/offers/offer-wsp-008/offer.json",
+      "sha256": {
+        "receipt_json": "50126baf3f3b9d0b6a0158ca9b7bb6c3e6dd08f06eba2cd0f12b8b0aeda51bd8",
+        "offer_json": "2d5d128f355f093c3aee3a101c4201d3d984cfae20df4a6aa9c275210fe220ba",
+        "offer_page": "50ed2476153d2119e56765cd2c1817ca9e810cb43900ebd43132fa5a3ebd24af",
+        "install_command": "f5247aa0916d496773fefe69b093911284a1d609036fdb49bc2fabca8ca4bbcf"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-009",
+      "offer_id": "offer-wsp-009",
+      "sku": "SPEEDKIT-WSP-009",
+      "title": "INVOCORDER",
+      "family": "invocorder",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-009/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-009/",
+      "offer_json": "/marketplace/offers/offer-wsp-009/offer.json",
+      "sha256": {
+        "receipt_json": "ea0d424e8dfff80024df6ce36b6712ce974f5a12de9313e93f6d2be1114b4700",
+        "offer_json": "0a6a0d09af721c833db97cf1ac837e135846ddb4073dde48e4ac5de69ad47ea9",
+        "offer_page": "d4678369894b53b03a119cdf2fe229ed26c625dde355cc71512edaf71a7363ae",
+        "install_command": "43f2dac4ea749b14d74fb515c04d562870b8a12640c7d12b2d2ba8c94b801984"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-010",
+      "offer_id": "offer-wsp-010",
+      "sku": "SPEEDKIT-WSP-010",
+      "title": ".github",
+      "family": "invocorder",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-010/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-010/",
+      "offer_json": "/marketplace/offers/offer-wsp-010/offer.json",
+      "sha256": {
+        "receipt_json": "75aaeefd180627932ee08d70233cde73b2c58e4a57395ab4823b454f3a06df87",
+        "offer_json": "3457529e2a02191b9b93a45a65bb9ab8a59895a168b974d087af12800118f530",
+        "offer_page": "807e7878c7f59963a4b22e7ff7cea578669ca37ac1177fda3fffa8e20126a219",
+        "install_command": "8319baf2585739ba102d241d80714c4cbea4d94ddb9611b67e770b5a13be2727"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-011",
+      "offer_id": "offer-wsp-011",
+      "sku": "SPEEDKIT-WSP-011",
+      "title": "CAPTURE-CONTRACT",
+      "family": "invocorder",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-011/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-011/",
+      "offer_json": "/marketplace/offers/offer-wsp-011/offer.json",
+      "sha256": {
+        "receipt_json": "eae26fc8710fc75afae3cfbe043fec5b5caaed25a7d6a274981703526a827241",
+        "offer_json": "d3349f61a2a32710f5d987bfeb11fb8a91a116ee1d552446c78ab39bd8293df4",
+        "offer_page": "7616a22136eed592ada627fb4f5c171bf283e85534ec662ac1493ccb31fc558a",
+        "install_command": "9ca9f30722fc3d362a11d6e7f683e8a5ae4b8ab9302cb429ab41c642d67c2471"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-012",
+      "offer_id": "offer-wsp-012",
+      "sku": "SPEEDKIT-WSP-012",
+      "title": "EVIDENCE-SCHEMAS",
+      "family": "invocorder",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-012/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-012/",
+      "offer_json": "/marketplace/offers/offer-wsp-012/offer.json",
+      "sha256": {
+        "receipt_json": "d301215a1b592ed026a4308bc69fad6cb87fa6b96dd5feb8d17f72bd51c71136",
+        "offer_json": "61df33056216bdc5cc61f91a340b777a79c4615b54983ce23a21d3cd0e67ccf7",
+        "offer_page": "d77db38d6c47bac68b9636c5eecf646355f61eba80069bdbd557721bb287d530",
+        "install_command": "732c3d9f5f885014b4d8cce5327aa56e8544936ef71451c4d8b069752f90b6aa"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-013",
+      "offer_id": "offer-wsp-013",
+      "sku": "SPEEDKIT-WSP-013",
+      "title": "HOSTILE-FIXTURES",
+      "family": "invocorder",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-013/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-013/",
+      "offer_json": "/marketplace/offers/offer-wsp-013/offer.json",
+      "sha256": {
+        "receipt_json": "34198f988f98ba4249147d4af231f2dcb547c7b74ab06facbb7bc68e985c1e52",
+        "offer_json": "5358aff5177c310db45caee8b2b0429179c524592532b050fa3f0901422c1113",
+        "offer_page": "20b86580fdb36d3cf0028824f28e6c506e247ce8d29db020d8456649f2684ade",
+        "install_command": "6551000b67c342c8e57e15c246ac0a6fc86e8e419c1f2e498a69812f42fd337e"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-014",
+      "offer_id": "offer-wsp-014",
+      "sku": "SPEEDKIT-WSP-014",
+      "title": "INTEGRATIONS",
+      "family": "invocorder",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-014/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-014/",
+      "offer_json": "/marketplace/offers/offer-wsp-014/offer.json",
+      "sha256": {
+        "receipt_json": "ced3303bdfc8e35783280d2b92b3ab61f8017110206a986e81d487e0c26a5ba1",
+        "offer_json": "2a953b27068ebe7bc3246a76991d2e86cbf582b1bedfaeb1727d2918f830bc01",
+        "offer_page": "b54db55abcf0ea9efc3474e807929368ad883ed8f2d9db830a28c0545a1fe805",
+        "install_command": "4f781100a3cb35f9dab1f5de4d72b6814e18a668a838f7ace0c0cfee5abb962c"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-015",
+      "offer_id": "offer-wsp-015",
+      "sku": "SPEEDKIT-WSP-015",
+      "title": "INVOCORDER",
+      "family": "invocorder",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-015/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-015/",
+      "offer_json": "/marketplace/offers/offer-wsp-015/offer.json",
+      "sha256": {
+        "receipt_json": "135c5436cef4b37fcfedf7eea6cb0ff4234e8bd7fca0b60693c8a74b449e5080",
+        "offer_json": "ad0976fbe06d11ef2a21eeaa09bd2ff926208793176bd5922dbb7af73add64cd",
+        "offer_page": "e2e9df20c8bd7dcd7d3ef690332ccfc4c930339f1fb21b1413fc7f6d74ea1075",
+        "install_command": "b0be9e78eb221bccf0b22458205198fd538015f6de08ed543333d014da904502"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-016",
+      "offer_id": "offer-wsp-016",
+      "sku": "SPEEDKIT-WSP-016",
+      "title": "@invocorder/recorder",
+      "family": "invocorder",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-016/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-016/",
+      "offer_json": "/marketplace/offers/offer-wsp-016/offer.json",
+      "sha256": {
+        "receipt_json": "a97725d924d2d33137ba26eab486a482301c101a46912298df55ddbed31ecd10",
+        "offer_json": "7066d8b08f4823fe752a2a5965bebbbf7ad13528f637532066af106301791c0d",
+        "offer_page": "76a31b38ffd4d496af5f2fef4af8883d339b39a4987279fac050222048b6dd45",
+        "install_command": "4ec388bd758bcff9c9801466028970c3e7985ad99c4d014378148124347f71fc"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-017",
+      "offer_id": "offer-wsp-017",
+      "sku": "SPEEDKIT-WSP-017",
+      "title": "qvra",
+      "family": "qvra",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-017/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-017/",
+      "offer_json": "/marketplace/offers/offer-wsp-017/offer.json",
+      "sha256": {
+        "receipt_json": "f0a66bc34851a0b1e8361cafd52d54dd67f118cafaa98ce227b233bf64d411f6",
+        "offer_json": "4d16ad09184050a06ea36b8bcc376e070de853b18790e661fb4889f8a5be1472",
+        "offer_page": "ae76342f318e86918e6d78e98d2a2ac141ed7f19cee17e0a1df6ce7c5b3bfbeb",
+        "install_command": "70e3a4a1e972f6d22b5beb50370bd2e86e60bc695badaaf4f1d0841be5576b2c"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-018",
+      "offer_id": "offer-wsp-018",
+      "sku": "SPEEDKIT-WSP-018",
+      "title": ".github",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-018/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-018/",
+      "offer_json": "/marketplace/offers/offer-wsp-018/offer.json",
+      "sha256": {
+        "receipt_json": "dc5eca392cfb7786917b60a5e404dc4c84dd2e8cf307671d2408571ad6bf0b6b",
+        "offer_json": "2a953729c6169020d8a020032584608f06dd93d6686fa1568e7bb5b8bbed0e98",
+        "offer_page": "b1277378f56f6faa20b3623e16af3fdd460362aa7345b29e064f39bb262cdf1a",
+        "install_command": "b1126698bf6dd63735537a57a2ec6a1fce96f9d17dd3753030d1224d33b76896"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-019",
+      "offer_id": "offer-wsp-019",
+      "sku": "SPEEDKIT-WSP-019",
+      "title": "bench",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-019/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-019/",
+      "offer_json": "/marketplace/offers/offer-wsp-019/offer.json",
+      "sha256": {
+        "receipt_json": "c3f3fa9fe005e3b43c062637fe388e20905868ee8c9f5c5d16591d3f36ec72e5",
+        "offer_json": "310f28a84a2be69be7833af9734e2ba888ca591f28d78f9d53d33e070365189b",
+        "offer_page": "fd794d259f3feda9f111f67570b73d46586aa06f3c27df3af725ee22a6e70ef5",
+        "install_command": "93f06ccf3aa293e2075c4a619d3809fa8e683381e06fc5b9db309a00d8b3b0d4"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-020",
+      "offer_id": "offer-wsp-020",
+      "sku": "SPEEDKIT-WSP-020",
+      "title": "core",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-020/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-020/",
+      "offer_json": "/marketplace/offers/offer-wsp-020/offer.json",
+      "sha256": {
+        "receipt_json": "2c01e7d06951ad7f8f1bfbcd329133d5fb97e06960b9531cf38349fdcd854752",
+        "offer_json": "230aaf151da5c8ac1857818e8032e63fa683ad8da50bcc69d0d297b47f3baf5b",
+        "offer_page": "a01e6f4bd8337c01d47e5d33a14304ecd4a213a70eb8bd0210ed2dbeb1e0b6d0",
+        "install_command": "334913bba8b547c1712ae5a366311a88071dc5e0616a1528abe541390a9bd3e5"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-021",
+      "offer_id": "offer-wsp-021",
+      "sku": "SPEEDKIT-WSP-021",
+      "title": "index",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-021/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-021/",
+      "offer_json": "/marketplace/offers/offer-wsp-021/offer.json",
+      "sha256": {
+        "receipt_json": "69402b2d11e59ce6f80be17bf24ad81bc4d96a75196136e93cb0580bfac1b3f7",
+        "offer_json": "ee61f4f5d2b548e1493a4461e607f52490d53b055f4a66aa436ff5ac12233bc7",
+        "offer_page": "6ee04734dd9571ea250ac0102acba3e8c89e032dafe21f31346f5de4610d5f38",
+        "install_command": "eea3f15e72a9cf369278901c79145571c6582e87a3d913f8b24b294f9f7965fe"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-022",
+      "offer_id": "offer-wsp-022",
+      "sku": "SPEEDKIT-WSP-022",
+      "title": "kit",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-022/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-022/",
+      "offer_json": "/marketplace/offers/offer-wsp-022/offer.json",
+      "sha256": {
+        "receipt_json": "89c1ae4c1eb2f1f88c5cd55dd32e56fd7a4630d1c81c25f42c9b44d8bcc2a2b0",
+        "offer_json": "dec87ab73c2182e83f5baa6e9d61700f05c0eeeb8a5d7c3102bcc3be8e5553e4",
+        "offer_page": "2013cac01507d6afd87e6279e1e71bf467991c0510f29ad2fc6090c5b2ebebfc",
+        "install_command": "11ebcb9dbdb97a7f4d0fba3462a4bd7bc10e7ed2f57d90ad53d6dd48b76d3c21"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-023",
+      "offer_id": "offer-wsp-023",
+      "sku": "SPEEDKIT-WSP-023",
+      "title": "lab",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-023/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-023/",
+      "offer_json": "/marketplace/offers/offer-wsp-023/offer.json",
+      "sha256": {
+        "receipt_json": "595193f07c6aa15bfc6597c9dab90cfb99a0e7f27c0d22a5956ae79aff834d29",
+        "offer_json": "254726ec2d93e909b792e041a4999a3be2a3838692f3b1a06dc734951af89eb1",
+        "offer_page": "86d4f8ff265105031d45c52525a6890981240a7a8f47238fadb05479184a4ab7",
+        "install_command": "70dd5f84978a3c12154bcabbbb5e7aabaa0e0846d9d61b06b1973cfeae56a898"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-024",
+      "offer_id": "offer-wsp-024",
+      "sku": "SPEEDKIT-WSP-024",
+      "title": "launch",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-024/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-024/",
+      "offer_json": "/marketplace/offers/offer-wsp-024/offer.json",
+      "sha256": {
+        "receipt_json": "b6b94cf9f3eb6f141288aeb62dafd429726317e10bd54c2a0e1f36b64c745096",
+        "offer_json": "05f632f01d2a4b118f82c6c1a1dc2b3be862ecd881feed9f2f01e7a47d1a37e6",
+        "offer_page": "8b4d04311ce52a1123f5d152a6b0911fe6e9a285e328aa3bdf6bcde62cf6f30b",
+        "install_command": "7b54de14c5b65fed08c41c29c06f4947cb77bd7a1d77c02a2f6b2567c0a0b5e9"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-025",
+      "offer_id": "offer-wsp-025",
+      "sku": "SPEEDKIT-WSP-025",
+      "title": "meta",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-025/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-025/",
+      "offer_json": "/marketplace/offers/offer-wsp-025/offer.json",
+      "sha256": {
+        "receipt_json": "b7762846d8fe9b5d4241397225ec5a3c49ee967518bc9c4bcb1b26593e5ec1a3",
+        "offer_json": "0e46bdffd5203207623285ce58626b8abb9b076fd8e17fd7366df784a74b3db2",
+        "offer_page": "280f3d46d934b0c68b608ea5dfa8f9111b09ee2c7881dda952816b97e5902ed7",
+        "install_command": "9200c53f24ca8b23bc8cd02538f52f81da008216e320c470a5f8dda04f2947b7"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-026",
+      "offer_id": "offer-wsp-026",
+      "sku": "SPEEDKIT-WSP-026",
+      "title": "pulse",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-026/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-026/",
+      "offer_json": "/marketplace/offers/offer-wsp-026/offer.json",
+      "sha256": {
+        "receipt_json": "b10b4240b34f3000be8a9c56073e9c93a5d3423803289b27a60b61da472943a0",
+        "offer_json": "dc6cc8056b94831da1ffb473fbca2694e7fa58eb5ec26a3a3b78b20bfb7f293e",
+        "offer_page": "c5b81329743bb5730a996659374c6d2b2e8cf97ffd42c5344336a7d8a0c0d55a",
+        "install_command": "33e81781fbfa8cf979a088c55b5186ab55522c6718b4674107bb9a50e6c9db84"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-027",
+      "offer_id": "offer-wsp-027",
+      "sku": "SPEEDKIT-WSP-027",
+      "title": "qvra",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-027/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-027/",
+      "offer_json": "/marketplace/offers/offer-wsp-027/offer.json",
+      "sha256": {
+        "receipt_json": "c7c261dce841f3db46b7b5137ffc2a350997ed86f9acdbd8374652a83dd7e170",
+        "offer_json": "1a726cf259ee49460057e53667bc2358ce5ecde10b80353268e721b6be9f9dcb",
+        "offer_page": "2baa33d305f8ea74f38f1070ce0957527662f0980bd9b51a9743361b382d4143",
+        "install_command": "9543e2d8e15e7fec017e78d324a0e58b3dc4d7b3efe7a205c56cda26e3be638d"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-028",
+      "offer_id": "offer-wsp-028",
+      "sku": "SPEEDKIT-WSP-028",
+      "title": "run",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-028/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-028/",
+      "offer_json": "/marketplace/offers/offer-wsp-028/offer.json",
+      "sha256": {
+        "receipt_json": "ce6f268acc0a085501afd3651b8749a8b87e361d9bac224077db32692e2643d8",
+        "offer_json": "2eac2f0df6aa99939f0fd5a534144bfc215cc97de6ecadf165aa299478c0c7e3",
+        "offer_page": "394cc9ecc33cb2235fd4be3949cb048dec3d30b165592fe26a9afc3d62fe7d14",
+        "install_command": "23e2832bf687cab7837ccdcd2f58b365149f2c3592ccb3fafc3cfb8cdddbb358"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-029",
+      "offer_id": "offer-wsp-029",
+      "sku": "SPEEDKIT-WSP-029",
+      "title": "show",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-029/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-029/",
+      "offer_json": "/marketplace/offers/offer-wsp-029/offer.json",
+      "sha256": {
+        "receipt_json": "ccad5e57730217370fb4bcb6a6b04ee16f3a8dc19005dea896b891f4bbb05abc",
+        "offer_json": "2ec7286a6a1ea52c4c2ae267ddfb7f10012e3b89466390094b58f31d1cc3025d",
+        "offer_page": "ce6b25282ca4923f2e0a8deb1b87350f06e288d60307d38d24174a2d7adeeacf",
+        "install_command": "5f6b66402a150b0f243c4398f1a3d5b9a2c1cd29012c74ceb519b911a746b377"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-030",
+      "offer_id": "offer-wsp-030",
+      "sku": "SPEEDKIT-WSP-030",
+      "title": "site",
+      "family": "qvra",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-030/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-030/",
+      "offer_json": "/marketplace/offers/offer-wsp-030/offer.json",
+      "sha256": {
+        "receipt_json": "4dc2ec8ce8ffd6d800e150129b61502058889ba435d432b514d7f97056ba4ddc",
+        "offer_json": "c737c70062aea694fe4a9c90650d11eab0c9dd9f1885bdca8778fbacdd181247",
+        "offer_page": "4ec61d5b9d602ff09d87900d896c950c39e9861c5d6249d55d942d7c8b8f724e",
+        "install_command": "2a9ff2d757c8fb9f2e32c343997ac3063b30f9fc8805b3f36863fb5a928813aa"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-031",
+      "offer_id": "offer-wsp-031",
+      "sku": "SPEEDKIT-WSP-031",
+      "title": "qvro",
+      "family": "qvro",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-031/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-031/",
+      "offer_json": "/marketplace/offers/offer-wsp-031/offer.json",
+      "sha256": {
+        "receipt_json": "352e0609a87869dc182b1886aac6d7d7f173b02dc133308cf10f6502390c6866",
+        "offer_json": "162cd2454b3f1c695963061df2f5b12fd96d08832cc86fd2b329e08d9016e5fa",
+        "offer_page": "688a8902e8d68a27469fcc05299f6674c6a513fcff868c6ac939566a1d5c5e0f",
+        "install_command": "60dbaa5a410a6d2e7c58db273918fe61fe4c0747d9bd8ad149de724bb52e55ce"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-032",
+      "offer_id": "offer-wsp-032",
+      "sku": "SPEEDKIT-WSP-032",
+      "title": "qvru",
+      "family": "qvru",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-032/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-032/",
+      "offer_json": "/marketplace/offers/offer-wsp-032/offer.json",
+      "sha256": {
+        "receipt_json": "50a5d1baeca77336958c15d24f0e27946f63fd8ce047c6d2afdda29bfdb11d81",
+        "offer_json": "2a9e8f5ba5db9b1b02278ead1154900c7f5798e0ece901314194ebe7f7209785",
+        "offer_page": "353e94a1dcbaa8ae263ef801f24ad6ef5a7841d33cf021ab92e2f40b072d51bf",
+        "install_command": "fa0e5924475c5a51e3a4e508de40f689a237dbfcb449cafa7e458f415b18996b"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-033",
+      "offer_id": "offer-wsp-033",
+      "sku": "SPEEDKIT-WSP-033",
+      "title": "qxra",
+      "family": "qxra",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-033/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-033/",
+      "offer_json": "/marketplace/offers/offer-wsp-033/offer.json",
+      "sha256": {
+        "receipt_json": "8924e4fa20b051d888df3a060d98cf9bf7a051f60cdd312987a07eebe7bfd462",
+        "offer_json": "e7920c50ddb8db24550873aaf2cb7b290208bf26974f9bf0229ca28ea8927810",
+        "offer_page": "39780ac68615b790435dceec0df1934383a15c74cd2a04282c1d7969c1f68aa0",
+        "install_command": "0a7b6f05709bb17bc0d403e53845f7db41576e40bf1800d681f974db6244e9a9"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-034",
+      "offer_id": "offer-wsp-034",
+      "sku": "SPEEDKIT-WSP-034",
+      "title": "qxvi",
+      "family": "qxvi",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-034/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-034/",
+      "offer_json": "/marketplace/offers/offer-wsp-034/offer.json",
+      "sha256": {
+        "receipt_json": "ba7ec27943d490b6eab2abd069f374ee62491a68746eebc64d942110e5e66f9b",
+        "offer_json": "8a90e14b7214c7effba4dac5eb0b506c95293044607cf622d875055a68cb694b",
+        "offer_page": "8826afdac4a203d86b4403918c0593fc7bb047344e96663fac9eceb5f4574e28",
+        "install_command": "b224442d5b0177fa461130ad8815edf4b681434e2dbb562e07a36403003255f6"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-035",
+      "offer_id": "offer-wsp-035",
+      "sku": "SPEEDKIT-WSP-035",
+      "title": ".github",
+      "family": "qxvi",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-035/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-035/",
+      "offer_json": "/marketplace/offers/offer-wsp-035/offer.json",
+      "sha256": {
+        "receipt_json": "38ee5f851f45f57ccf44a45a230ff42973feeb4c4488bb4bd42d4d6dfd3bc2b3",
+        "offer_json": "01d0656c862bd9af6988e67252d0552acdb4bbec95104ae8e93c67b061743f77",
+        "offer_page": "072383a80a348ba57e8f26dfb875bb638e81a61f69c5fd0a777b69da988d3866",
+        "install_command": "cb4215eee1b57044b1759fc092a6f1d32f3eaf78dc93751c5ad1ece70a4ed93d"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-036",
+      "offer_id": "offer-wsp-036",
+      "sku": "SPEEDKIT-WSP-036",
+      "title": "BOUNDARYCAM",
+      "family": "qxvi",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-036/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-036/",
+      "offer_json": "/marketplace/offers/offer-wsp-036/offer.json",
+      "sha256": {
+        "receipt_json": "45963590666603c9d86e31879600c4fdff46ed4f146896cec3edaa77b68077bb",
+        "offer_json": "9ba151b3c8fb31bdec2f3a364116613c85c31f9a81f14fd0c03b14d74a421e8e",
+        "offer_page": "a5d68696a53526adc939a489c96c462920a77053c8a0277c804fb305d5bdb375",
+        "install_command": "34497de8c833127a2d3db8b077f8e1bb43509b4473652864db6def66d56a2028"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-037",
+      "offer_id": "offer-wsp-037",
+      "sku": "SPEEDKIT-WSP-037",
+      "title": "qxvo",
+      "family": "qxvo",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-037/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-037/",
+      "offer_json": "/marketplace/offers/offer-wsp-037/offer.json",
+      "sha256": {
+        "receipt_json": "50ae901e64d8b20f3e987a8d0221e0ecf1f3dbba44e45aa74cccd334c4c38ef6",
+        "offer_json": "11f12a9faa859c16cf744cca1bedf5fef4a6215472a4338db7ce346c4fbd31c9",
+        "offer_page": "0d01cf9d450f7ac6c3f2a731708bdd0c0ceb06efacbfe8775b00b2ba9d2ee8e7",
+        "install_command": "658cf8df5d789c74dbb3c6f580b626655e24bf4dd96fee31750af34a8ccb3980"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-038",
+      "offer_id": "offer-wsp-038",
+      "sku": "SPEEDKIT-WSP-038",
+      "title": "MAILSIEVE",
+      "family": "qxvo",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-038/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-038/",
+      "offer_json": "/marketplace/offers/offer-wsp-038/offer.json",
+      "sha256": {
+        "receipt_json": "090b9635fcc53bff641356c550fa7dc787877ca2393213ba1f128e4d04942227",
+        "offer_json": "fd07dedc81bb9aa75de819ba0f428f907c1f930d01bbcef83b5c3b9ea4ed157c",
+        "offer_page": "eaef4347438b6c55a71c3e37cd240199b984b641b54991efefa9cbbfa3225a2a",
+        "install_command": "3124072870f0aa27b61911057212e74dbeb056be67b880c7eba9782c020fb49d"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-039",
+      "offer_id": "offer-wsp-039",
+      "sku": "SPEEDKIT-WSP-039",
+      "title": "qzro",
+      "family": "qzro",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-039/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-039/",
+      "offer_json": "/marketplace/offers/offer-wsp-039/offer.json",
+      "sha256": {
+        "receipt_json": "6319a253f640d2a2e7655b71ba80fd8781a4e41a78282ff204ed7b66723f6a55",
+        "offer_json": "821dfb6f22123bf1192c31625cb996c06476e2360cde23ba354f893fb8cefa15",
+        "offer_page": "d05d0b281da1f0ad768f14fe7b5ca4bf63cdcfedf87d2e848da612da657f9863",
+        "install_command": "828182d1982f4a19dcd6f433361de7d61b27ebfce5b45086783c6cb1a7e18f72"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-040",
+      "offer_id": "offer-wsp-040",
+      "sku": "SPEEDKIT-WSP-040",
+      "title": "ADJUTORIX",
+      "family": "qzro",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-040/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-040/",
+      "offer_json": "/marketplace/offers/offer-wsp-040/offer.json",
+      "sha256": {
+        "receipt_json": "5b1588d8d7b41e435c039064abd47b76948511a59f5f83b2aed452d185ece57b",
+        "offer_json": "5302102f8103ecee3b113838b5574dfdb3320f093f2fe31cc9c90df9354995f4",
+        "offer_page": "5a8729c8777c9b64ee8ae5a935d0fe2a14b1921e4947c08a3589ffeada7c2393",
+        "install_command": "dc4bb6f7b62f69ab6c77bda20a86589b41219c9cfbd4f4f8a4d52ca1dddc3f62"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-041",
+      "offer_id": "offer-wsp-041",
+      "sku": "SPEEDKIT-WSP-041",
+      "title": "qzru",
+      "family": "qzru",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-041/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-041/",
+      "offer_json": "/marketplace/offers/offer-wsp-041/offer.json",
+      "sha256": {
+        "receipt_json": "967e2e45b59a34788687f31ade913286e5a443f2f55715a5d8d6e9d89c0d6854",
+        "offer_json": "4ccfc707601c4da44b2858c1e4b3d0e0b9e933306c4401c74fc1ca03cd91bdb0",
+        "offer_page": "3846bbe0e7acc7e83a7e498a16bed942c438bdd32af30148a5c4a41a00686463",
+        "install_command": "4838333661e5ce047c6ed4f79b34048faa074bdceaee31463c3dba0552fe5c73"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-042",
+      "offer_id": "offer-wsp-042",
+      "sku": "SPEEDKIT-WSP-042",
+      "title": "midiakiasat",
+      "family": "personal",
+      "kind": "GITHUB-USER",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-042/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-042/",
+      "offer_json": "/marketplace/offers/offer-wsp-042/offer.json",
+      "sha256": {
+        "receipt_json": "cf42f8563251c9144378e1888c2a15d5e3fb6c29c8c26690fd0ef874f3b95375",
+        "offer_json": "800d73346f7e5613afc268061050dc1db51282893f8ab9c043f67e6bd54f1aa4",
+        "offer_page": "6ba9b1721b744d05b983f06c267a8474d13696eddc04da8e71f55e3d7393a86f",
+        "install_command": "036579594e2c8de45f91bcdca7160ed28997135c6b5b034a6a70d4f528ed1338"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-043",
+      "offer_id": "offer-wsp-043",
+      "sku": "SPEEDKIT-WSP-043",
+      "title": "awesome-actions",
+      "family": "personal",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-043/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-043/",
+      "offer_json": "/marketplace/offers/offer-wsp-043/offer.json",
+      "sha256": {
+        "receipt_json": "fec14d0f3d739ec9feb67dd42117ff549c4b9f0d909ae2fd0de3512a738f51a6",
+        "offer_json": "a27eaae59238ff26ea2c722f1ab81596b850d8aea4e169a6bed3d6e28e37580d",
+        "offer_page": "556bbb3759852e069c7a29a402638db13f9e167d99c98ce4b32ae3de455ad987",
+        "install_command": "6b62bedf3eeadb8eda9341b378614ca5fee496ea319b2add617ef6af51d3041a"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-044",
+      "offer_id": "offer-wsp-044",
+      "sku": "SPEEDKIT-WSP-044",
+      "title": "TRUTHFRAMER",
+      "family": "truthframer",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-044/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-044/",
+      "offer_json": "/marketplace/offers/offer-wsp-044/offer.json",
+      "sha256": {
+        "receipt_json": "0a90890feacf804c0f5d4b6ddff644aad911018b4b6d8ad026bca0067c5ac354",
+        "offer_json": "77bd02c654cf4465bf8e0041d18b2f4bf33edf3a7f0b7735bb96c09fe9d26e54",
+        "offer_page": "8cfe8e2323c843fcce174d9d11d74ed16468d6988c0e20221baa96fa5f1fcd82",
+        "install_command": "837a190334c27cb0ab87326802f95b7f2c3e8e25897b38a7229fe569b0187cf4"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-045",
+      "offer_id": "offer-wsp-045",
+      "sku": "SPEEDKIT-WSP-045",
+      "title": ".github",
+      "family": "truthframer",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-045/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-045/",
+      "offer_json": "/marketplace/offers/offer-wsp-045/offer.json",
+      "sha256": {
+        "receipt_json": "2a7e2cbb65a671c978dec267a1cfb3b1207df12bdaa2d462a695b8d1515e9544",
+        "offer_json": "040518de4c5ce0caea74a5649552740326275bca005c6d0642cb6186ddf90550",
+        "offer_page": "2ade590c5207a0dc25bb1d8ea66b53381c5e11985967a09de1a895064adb12ee",
+        "install_command": "f298d43d3ab7ca004d81be936c346fd4ea443c1561ada8d68dcee84e41155ee8"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-046",
+      "offer_id": "offer-wsp-046",
+      "sku": "SPEEDKIT-WSP-046",
+      "title": "truthframer-platform",
+      "family": "truthframer",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-046/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-046/",
+      "offer_json": "/marketplace/offers/offer-wsp-046/offer.json",
+      "sha256": {
+        "receipt_json": "4fe7e40ba9885ee2062fc3a03a2bceb95768e02c170058c10b9c0b737ab9c470",
+        "offer_json": "cc80939405d85122c693cca557f62df16e10d71e6233a14c069f31d582b78e2b",
+        "offer_page": "b647fbfd693254816a7b0f92652e2bca6c66400af3cccf36bba6d9a8b0958494",
+        "install_command": "83c728e5a35fedb23be19c1fb9fb67be8c37a01e1e8125fb32e2f79213d48f18"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-047",
+      "offer_id": "offer-wsp-047",
+      "sku": "SPEEDKIT-WSP-047",
+      "title": "VATFix",
+      "family": "vatfix",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-047/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-047/",
+      "offer_json": "/marketplace/offers/offer-wsp-047/offer.json",
+      "sha256": {
+        "receipt_json": "29f4ba507624bd137679935c31cf587d7e01aedcb4348c7cd8e6c6e8cb2ffb4b",
+        "offer_json": "a74835203bb839fb1b35e78e569352c86a4fcc0e6a35d7ef5980c45c0d3b1d25",
+        "offer_page": "15f91541e81246c751a3b03eaea2e47b61da15330c6e189e63cdb9278e549181",
+        "install_command": "8ea470eb22d958a6498686102184153710b4efe027f79555937498f890308987"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-048",
+      "offer_id": "offer-wsp-048",
+      "sku": "SPEEDKIT-WSP-048",
+      "title": "CONSOLE",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-048/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-048/",
+      "offer_json": "/marketplace/offers/offer-wsp-048/offer.json",
+      "sha256": {
+        "receipt_json": "bd38f2b0e91dd738efc78998b16fbb60e8d98efb6b30ba3b33216eb9e166b755",
+        "offer_json": "4f7e9ea629fc0ef5d5124ba995856ea29da117c570c7bbcf4d8ec1a232637a0d",
+        "offer_page": "ca44979d5494937a5d0541c68587dd7940b34fc4dfe8d10a758cf5170943f0d1",
+        "install_command": "87fd6c4e4b42e43dee53f60e3a562baa9661d8fdc589791466eedec2c29e7b31"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-049",
+      "offer_id": "offer-wsp-049",
+      "sku": "SPEEDKIT-WSP-049",
+      "title": "LEGAL",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-049/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-049/",
+      "offer_json": "/marketplace/offers/offer-wsp-049/offer.json",
+      "sha256": {
+        "receipt_json": "3a588bfdbfc4df1a3eaa1762e17fd936448e7e767df24bb7c730f286bb2d5e7b",
+        "offer_json": "ed5d30d8b4e389d782c15bf3769c7cd0d59a964867ad88bf73bf4231c5bc0048",
+        "offer_page": "7ebbd385d753a697e1b9176aa88607a6f82a54618dd9c30df6ec1a742fd9bbac",
+        "install_command": "c8dd2767f9ae5894f85dba1186b1af94d282e8380d583d38ffab9fe02195d28f"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-050",
+      "offer_id": "offer-wsp-050",
+      "sku": "SPEEDKIT-WSP-050",
+      "title": "OPS",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-050/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-050/",
+      "offer_json": "/marketplace/offers/offer-wsp-050/offer.json",
+      "sha256": {
+        "receipt_json": "cd79e1d03f9c19e83e4e7649194f6e81a70f32675e7d702976466bfc623c1364",
+        "offer_json": "b670116f2e0e4139e22cbae367c6788ec5583e8c11cf6da1e4ff5140468e2591",
+        "offer_page": "0b452e0a70ee071d94b1bb0300c7d30ace2f714a16c30a4d612d68c71f8e548b",
+        "install_command": "241e92323b51892889d4e81b8fb3639ddab8a2938ecf55b53eec6f3971d59814"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-051",
+      "offer_id": "offer-wsp-051",
+      "sku": "SPEEDKIT-WSP-051",
+      "title": "REGISTRY",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-051/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-051/",
+      "offer_json": "/marketplace/offers/offer-wsp-051/offer.json",
+      "sha256": {
+        "receipt_json": "c9f4f899df3705173a1d4e659ed23858914af7aa7370e967dec692e4a1b778f6",
+        "offer_json": "c28ede9e8d973d93205a68b82cd48c0cb8193f434aba8b44a6a5bf1f8ccea74d",
+        "offer_page": "9b2a91977f879f7a20ab8d8b7f4a1537966f47611edd65b12f56af45b2162181",
+        "install_command": "aa4e1264e540e100fe7d523c47cf1d854465e4d16ef87c4d1edbea096eeebb5b"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-052",
+      "offer_id": "offer-wsp-052",
+      "sku": "SPEEDKIT-WSP-052",
+      "title": "REPLAY",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-052/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-052/",
+      "offer_json": "/marketplace/offers/offer-wsp-052/offer.json",
+      "sha256": {
+        "receipt_json": "8728f68874bf9733703a89423ca4fd30de4dbf3adde8c98b9cf6a37f6a863427",
+        "offer_json": "893e18f2ef50d705d18b1a1b988197864d5e2d6b4a76e21cf28c1b0000197dc9",
+        "offer_page": "22dd23521ff8c360407ba1e1fe9c57d8d94c2208435ed06aa5d9ed770dac7d2b",
+        "install_command": "f9f7da4569739958a0c5c19caae87d2b22444a708c7c0a467676e3fe4c2612b4"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-053",
+      "offer_id": "offer-wsp-053",
+      "sku": "SPEEDKIT-WSP-053",
+      "title": "SECTORS",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-053/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-053/",
+      "offer_json": "/marketplace/offers/offer-wsp-053/offer.json",
+      "sha256": {
+        "receipt_json": "0690ce404387c26086f0ff9b659585ecd10485d5c450495b9d1ccb2639183228",
+        "offer_json": "9addd7161c97f76de980b5e629d0ad41dee78f20308502703d3fb940aa013066",
+        "offer_page": "d408eab80bf36e3c3e1a06d5291a35b79d5f710bf7eac89a45b6580e2ff0574f",
+        "install_command": "60e6f3b25635eb29775cc45717c5461f354a472981b21baf48f65768a502fde1"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-054",
+      "offer_id": "offer-wsp-054",
+      "sku": "SPEEDKIT-WSP-054",
+      "title": "SECURITY",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-054/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-054/",
+      "offer_json": "/marketplace/offers/offer-wsp-054/offer.json",
+      "sha256": {
+        "receipt_json": "0ef6d15a0ac6aa623fefaa160219264ae0645cffc57c4b5b5e93390c62aa4948",
+        "offer_json": "781fc0134b40cdf233c58e291928bce8361f70ee847c7be97439dea7f73e2ddc",
+        "offer_page": "2159dcc59b203322ee7254b2eb0da08a7ca0d8a12b9c2cd23210f2971bd2db45",
+        "install_command": "2fe70809290e0537468a737dd764c15569bae1fed5abf7a36e68a558df59251b"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-055",
+      "offer_id": "offer-wsp-055",
+      "sku": "SPEEDKIT-WSP-055",
+      "title": "TELEMETRY",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-055/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-055/",
+      "offer_json": "/marketplace/offers/offer-wsp-055/offer.json",
+      "sha256": {
+        "receipt_json": "1cf552d1bf0d70d459a603dc762630af89fa10edebd163179fdf09ba90f07f4d",
+        "offer_json": "28441d67be7a4293f49629b2c24f82eecff67284c41d5484e0eebb6e2fa143c5",
+        "offer_page": "9efeb26ebcb3b0229384cb26ff6f783dfa99d23475877d581fef1f4f453b2add",
+        "install_command": "5a552215bb488e1726f14b4e50090feb1afea7a91b71858322a2340c576a92f2"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-056",
+      "offer_id": "offer-wsp-056",
+      "sku": "SPEEDKIT-WSP-056",
+      "title": "VATFIX",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-056/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-056/",
+      "offer_json": "/marketplace/offers/offer-wsp-056/offer.json",
+      "sha256": {
+        "receipt_json": "d14eae8091aaec1c221ffb378fed4f65ba7666e07f32c1189231384581837c7f",
+        "offer_json": "8f259ae60ad606e7aec8e94f6bf98c491923f30cd88e253742d1ce2ef9099a17",
+        "offer_page": "158714e7ff9d8c8203943d11881ae141d972cd324c5bfc01d62ff61dc8c9d95c",
+        "install_command": "85b19fd3ec15016a967b4e0ab7657e36741b45a9a18be4441300612eecd2c080"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-057",
+      "offer_id": "offer-wsp-057",
+      "sku": "SPEEDKIT-WSP-057",
+      "title": "vatfix-action",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-057/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-057/",
+      "offer_json": "/marketplace/offers/offer-wsp-057/offer.json",
+      "sha256": {
+        "receipt_json": "42df923e7043abe6006b8b303aefaba963f126a84d699380eb7ffabb882630ee",
+        "offer_json": "4d1ac9da7a717ffbce436fc1e593b712b5ee7aded5aecdcb7fbcc97bda28c9a4",
+        "offer_page": "f2fd9a80619ccfe9206846d340ce6a4af5ab85ebf15a87e394c7bcebd9862efc",
+        "install_command": "f42ca148dbc7b65681f34407bdbb73326cb5bbebb0d2f5a1501e6e2156862f25"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-058",
+      "offer_id": "offer-wsp-058",
+      "sku": "SPEEDKIT-WSP-058",
+      "title": "vatfix-attestations",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-058/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-058/",
+      "offer_json": "/marketplace/offers/offer-wsp-058/offer.json",
+      "sha256": {
+        "receipt_json": "cdc0159a951d03c843746e2b2d37bee1f953f46807a49c3de5fdf51eb2cf75db",
+        "offer_json": "5c88c037996da6f56956d5c06a44af10dd46c7018331ad3a48842ec529753bd9",
+        "offer_page": "037c64c360fa09a816de8b9659608f2cd896f5aefa0874d6533c634e794860c8",
+        "install_command": "d00f433da9835a62b15eae039433e3ebb7fa998070c6355660eae5ffb22bf4d4"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-059",
+      "offer_id": "offer-wsp-059",
+      "sku": "SPEEDKIT-WSP-059",
+      "title": "vatfix-audit-log-spec",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-059/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-059/",
+      "offer_json": "/marketplace/offers/offer-wsp-059/offer.json",
+      "sha256": {
+        "receipt_json": "ffe294554dca4650e7779d05f981cffbcc6eb0a16bc4985f4dc60e84b7219429",
+        "offer_json": "6a7eb43478e1d2b9c89ed836b13a589f7a6b6ce4cead88821a4d5487e814c89f",
+        "offer_page": "27591e804758323abfad105c803bab4753d76392ed378d81385b799612a5259a",
+        "install_command": "3ef019b68a0aa1f50216fd38e763d148522a4ddd6bca45c328e3b2c479a49f95"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-060",
+      "offer_id": "offer-wsp-060",
+      "sku": "SPEEDKIT-WSP-060",
+      "title": "vatfix-evidence-model",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-060/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-060/",
+      "offer_json": "/marketplace/offers/offer-wsp-060/offer.json",
+      "sha256": {
+        "receipt_json": "c1ea930a8038c4dd1eb7367e0d1ef8a0f271c97b8de0515ca94b53520a37e909",
+        "offer_json": "02708ca8eebc6d5d69c98f89ff7a8f6956172e7d6c50093ab74f4b2020239129",
+        "offer_page": "2ed446b64e7ba64794d2cae02582026189acdffc9bcf6364ad71c2fb5fbfc7c4",
+        "install_command": "d6b98fc033350d3a88892e4c9ff3681bdbdc17ea9e1876ed107b0abef914e517"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-061",
+      "offer_id": "offer-wsp-061",
+      "sku": "SPEEDKIT-WSP-061",
+      "title": "vatfix-fallback-adapter",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-061/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-061/",
+      "offer_json": "/marketplace/offers/offer-wsp-061/offer.json",
+      "sha256": {
+        "receipt_json": "3c3d99009a75ed86efbd024c8a6be61242250dcbd84920f8d2f50a5212576fdb",
+        "offer_json": "9386e71d2ccbd012ecb597b0736ff8b96164bb4f19bab7b6c56ebc57902d55c9",
+        "offer_page": "a3a64aede765f1b4d92ea572b4fa866660670dd021a157c7d4ed2cc69bcf8a74",
+        "install_command": "31ca9587b5cb60bae0b855b2cbd0afeee69c6c0d47ec9f758b368d6bb05b7dd5"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-062",
+      "offer_id": "offer-wsp-062",
+      "sku": "SPEEDKIT-WSP-062",
+      "title": "vatfix-intrastat",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-062/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-062/",
+      "offer_json": "/marketplace/offers/offer-wsp-062/offer.json",
+      "sha256": {
+        "receipt_json": "0a96384ed9f9f5a14e70f1a05fb8de3944ed8a5316eb7ce4071471931c7f2c07",
+        "offer_json": "18608034162003a828029f138244026c34586cdd9c7b02b56da5088bcdc843d1",
+        "offer_page": "88cfb02c143f26f6dcbf147019aaec60e7e85827ee7cd72d8afe973cc0da658d",
+        "install_command": "711ae5564b3c626613f16f64d7e27a53786872ad7efa2dbc006238472dcded97"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-063",
+      "offer_id": "offer-wsp-063",
+      "sku": "SPEEDKIT-WSP-063",
+      "title": "vatfix-invoice",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-063/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-063/",
+      "offer_json": "/marketplace/offers/offer-wsp-063/offer.json",
+      "sha256": {
+        "receipt_json": "11850cf60a1e076a76d2a6aaf8e64424444c2527692a834ea7bd2c36f0cdccc8",
+        "offer_json": "686c8e1b3d447d21c92fc2389f520d05f5f61f203409bd9f01c89c7890263254",
+        "offer_page": "31148e78518ef45f257e524bea4d3dce76a5ec42caed1e0867edb4f013bffe99",
+        "install_command": "0fce4c7b06ddc7d92ae7d1c90ede18c77a4e0d34ce36ba5ace633a1f2a488514"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-064",
+      "offer_id": "offer-wsp-064",
+      "sku": "SPEEDKIT-WSP-064",
+      "title": "VATFix-Master",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-064/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-064/",
+      "offer_json": "/marketplace/offers/offer-wsp-064/offer.json",
+      "sha256": {
+        "receipt_json": "282400b096ae2ce442587902bea302d36b3b78e9a34b4be000526bf60f5cbb13",
+        "offer_json": "36a1264e66a4939f43cf7efbb31b69837760f6522a2b8d0b443c10e262f4936d",
+        "offer_page": "0337c30b1841807b0029e50ef282ce97dc5a00f8134b6b9a97440220e964c748",
+        "install_command": "38e0ca4f382c2121280eb2dd5a59a757dfc5214e8d039ea0a14ec12a0d14080f"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-065",
+      "offer_id": "offer-wsp-065",
+      "sku": "SPEEDKIT-WSP-065",
+      "title": "vatfix-oss",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-065/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-065/",
+      "offer_json": "/marketplace/offers/offer-wsp-065/offer.json",
+      "sha256": {
+        "receipt_json": "8ac0b0e31ca1bbea21d9e59e20c35a830b58464e69f21aabe4edfe046dc5c10d",
+        "offer_json": "656a62999d87aa92c8bcff280e0006dfa56fcd900106a0abd73d95439904bb84",
+        "offer_page": "4b78877d26f2f8d9353a34cf17c4c7c241c18b347812d74031b7a92431ae13b2",
+        "install_command": "aa97822921a32c6b144639bd8c830e69a44c51357a0d211da271c399e07276ef"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-066",
+      "offer_id": "offer-wsp-066",
+      "sku": "SPEEDKIT-WSP-066",
+      "title": "vatfix-postman",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-066/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-066/",
+      "offer_json": "/marketplace/offers/offer-wsp-066/offer.json",
+      "sha256": {
+        "receipt_json": "2078bcd5b4c49f4c1111c77bb1199769639ad6f7d897b5852fb6e7890200c3be",
+        "offer_json": "e61ea08a9f4078cf918bd7eda6f59092f8fadfd7c822e7c313432196434dc472",
+        "offer_page": "7e877e32f6aebe2fab2e778a1f788f945febaa543fc50ef318266e2b83ec4913",
+        "install_command": "70cfe6c75476ee4c6933f0dc99aaba46c1b5134ccbc74fc3e34245484dec2773"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-067",
+      "offer_id": "offer-wsp-067",
+      "sku": "SPEEDKIT-WSP-067",
+      "title": "vatfix-rules-eu",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-067/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-067/",
+      "offer_json": "/marketplace/offers/offer-wsp-067/offer.json",
+      "sha256": {
+        "receipt_json": "6a74bd3aa70675f61e525163d60dc6a3e0356672f7a100d52fb4b51c4fd4599e",
+        "offer_json": "51159dd20982357ee4e612159b4fdd448c13dc4e98d50c1523d8956ff8cf5893",
+        "offer_page": "86b1e957f51b7dd8c68f1409b972ea45475be629f3b58022bb5d4699a66331f3",
+        "install_command": "464eb827a2bba9866d8ba52b4c26a459f7bbeeb345f6670c17ff2a4bcfb6197c"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-068",
+      "offer_id": "offer-wsp-068",
+      "sku": "SPEEDKIT-WSP-068",
+      "title": "vatfix-sdk-js",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-068/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-068/",
+      "offer_json": "/marketplace/offers/offer-wsp-068/offer.json",
+      "sha256": {
+        "receipt_json": "ab50bcf83cebf92f0d6e845ff2532ab7e0c39f080393183a0f2f384304db2349",
+        "offer_json": "627641bc3e0869f4ac18e1d6f3b26eec49aeb1fe406397f005fdcb6f449eb418",
+        "offer_page": "a2e23e884729aeb96b24ca54517347319ba061877f66b728477c6503f349afe3",
+        "install_command": "cdd7d5c51573dc7b70a4a5d7011029ea11eff06ec9cf18dafb48f3280b45038e"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-069",
+      "offer_id": "offer-wsp-069",
+      "sku": "SPEEDKIT-WSP-069",
+      "title": "vatfix-sdk-python",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-069/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-069/",
+      "offer_json": "/marketplace/offers/offer-wsp-069/offer.json",
+      "sha256": {
+        "receipt_json": "f87cab36ee5dbe5e4880c3e767f88a4232c82f370fb743787593d1d303f04f8b",
+        "offer_json": "c374e49ac9f03bef47a139ce3db057fe570a401f08bdc7b494d267dceca8fd5d",
+        "offer_page": "e8d987bb58c789353f44007160f10e1d9013571b67ce34396d3605512e164d36",
+        "install_command": "ea275b081ab1c64668eb43b9665ada21b3aeb6b8eb425160253e02cf9ad30a76"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-070",
+      "offer_id": "offer-wsp-070",
+      "sku": "SPEEDKIT-WSP-070",
+      "title": "vatfix-sepa",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-070/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-070/",
+      "offer_json": "/marketplace/offers/offer-wsp-070/offer.json",
+      "sha256": {
+        "receipt_json": "6fb4aa9c4628b16318c597c5dc675b7d9b2206f7c4ac8705f6703fa6883a1c60",
+        "offer_json": "59559cd4687f97a2add8e83d1d5509686ed895a215c690c279c2d9e74a482cee",
+        "offer_page": "5d12df2b877b7d3348afde1fa8af66cd3d6e166edfad52215a99d0c5e2a9f605",
+        "install_command": "38a1e79cb8cab73d620052527596c96bd8e4400c6cce5dc2d3f123fc2aa9d88b"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-071",
+      "offer_id": "offer-wsp-071",
+      "sku": "SPEEDKIT-WSP-071",
+      "title": "vatfix-vies-adapter",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-071/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-071/",
+      "offer_json": "/marketplace/offers/offer-wsp-071/offer.json",
+      "sha256": {
+        "receipt_json": "bdbbfd23a87205774385e714975a07337dee097d68a6d9d86dce19317fb5f448",
+        "offer_json": "73c30226951f29d4ed7887ada5e8ab61edd066b7b47acfe0bf3b87d171f5c1cb",
+        "offer_page": "4f0f7d34eb75046bd3077de8314bc82233c5a21a2de67e0b2e9bff937fdbe531",
+        "install_command": "0c812fc94dabe3d8c350798deee1039ccf038d1fab435c1afafa396bb449f088"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-072",
+      "offer_id": "offer-wsp-072",
+      "sku": "SPEEDKIT-WSP-072",
+      "title": "vatfix-xml",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-072/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-072/",
+      "offer_json": "/marketplace/offers/offer-wsp-072/offer.json",
+      "sha256": {
+        "receipt_json": "ddfcd910475b97b9e69196fada245d4c2d15f1e3a421249cb195b95294558c87",
+        "offer_json": "223dfefd45e669d9c87edac7cc20838c89257ab452e6fe25c67902b338ddec06",
+        "offer_page": "4733d7823949072d0f9c56645ab1bc1991dbe609275a1630ff1dfa611e0c6705",
+        "install_command": "dc79e7bbfe043693cfa94bdd2848d58b10def31054c200e628c47c9506118e88"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-073",
+      "offer_id": "offer-wsp-073",
+      "sku": "SPEEDKIT-WSP-073",
+      "title": "vatfix-zapier",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-073/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-073/",
+      "offer_json": "/marketplace/offers/offer-wsp-073/offer.json",
+      "sha256": {
+        "receipt_json": "999759d9ee66135b685d6bb55cdd83fb0d4371493b60c27374d8525ba7aba146",
+        "offer_json": "c5f1245b63b2a049d121d440c80acac2e6def9787cf75c64196d50e95afed065",
+        "offer_page": "30b75118f2ca6783047ff69ad4a3042a8cf1168466ded062fc76db021ecc0887",
+        "install_command": "3e43fca380a4163a9922a642f3f33476034e71c09c4c0e8f8e25080c97881c54"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-074",
+      "offer_id": "offer-wsp-074",
+      "sku": "SPEEDKIT-WSP-074",
+      "title": "vatfix.eu",
+      "family": "vatfix",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-074/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-074/",
+      "offer_json": "/marketplace/offers/offer-wsp-074/offer.json",
+      "sha256": {
+        "receipt_json": "6994688b681548038d49ddb01d01b7833b16ea3a78021a1271b5ec5fe4e7ed47",
+        "offer_json": "26d676349c88eacccc303d926d83db5fb2907c65d133d04f9b21c6b9c8b7d738",
+        "offer_page": "2c4126d569718d60c4b7d77eafba9c43d6398d2a62227e5a2011f66206925449",
+        "install_command": "a18812a81fa25347119354be4e5709016d8329e077c1bd8b3c70c0b10f5f1974"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-075",
+      "offer_id": "offer-wsp-075",
+      "sku": "SPEEDKIT-WSP-075",
+      "title": "ANTIMATTERIUM",
+      "family": "antimatterium",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-075/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-075/",
+      "offer_json": "/marketplace/offers/offer-wsp-075/offer.json",
+      "sha256": {
+        "receipt_json": "cfd58ad8b93c9276e25611941b89a293abf345f3feb2518fcb18a2942bc5d481",
+        "offer_json": "d79448f07b663e50d1f56abd0ed22b99a0236d6f7e52b0d56bb230ee26c6ac19",
+        "offer_page": "14bb1b60d5b86a1671c5730bcd9c70d99beb5e57caa156f4b84c92705161bf47",
+        "install_command": "748887d81c107d2fbe196004eb065ccc9df2c1559da4fa0552985ca73544c51e"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-076",
+      "offer_id": "offer-wsp-076",
+      "sku": "SPEEDKIT-WSP-076",
+      "title": ".github",
+      "family": "antimatterium",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-076/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-076/",
+      "offer_json": "/marketplace/offers/offer-wsp-076/offer.json",
+      "sha256": {
+        "receipt_json": "38219f0e8696b6c7be258b94d0b00c2972c6ba48ed62bbf8a1c3ca04fd7ce828",
+        "offer_json": "be378e286d49dc65dfb885f466174fc933490651c4c2807e8d490c63adfc4713",
+        "offer_page": "05ed442a565da2a2d8efca817dc8f597f26d202fecc5a02ce7c17723ba307ef8",
+        "install_command": "192d2c35bfebae730e34f62e26834f1ef0b25602f7736b4ab067c0044b3829b6"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-077",
+      "offer_id": "offer-wsp-077",
+      "sku": "SPEEDKIT-WSP-077",
+      "title": "ANTIMATTERIUM",
+      "family": "antimatterium",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-077/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-077/",
+      "offer_json": "/marketplace/offers/offer-wsp-077/offer.json",
+      "sha256": {
+        "receipt_json": "3ebfbb2c845e6ebc5a1c577733382a73e10a43f6a8a47d6dce68113a604071b2",
+        "offer_json": "278520f6630a05b2c561547926132c9e2b401ad6ec84cd12fc34903237ded8d4",
+        "offer_page": "38353f45b539d9a566a5a9de044d72a0debab0ca0b70e67953da338613f9ffd3",
+        "install_command": "c2fbe40c8090d06c41238e52f0ad412e50e77a51f1585b88f663183abae2cf0f"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-078",
+      "offer_id": "offer-wsp-078",
+      "sku": "SPEEDKIT-WSP-078",
+      "title": "WWW",
+      "family": "antimatterium",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-078/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-078/",
+      "offer_json": "/marketplace/offers/offer-wsp-078/offer.json",
+      "sha256": {
+        "receipt_json": "24a9dce2cbe6189c657efd5660643598c463878b1025bcc710d4b890391a3ee8",
+        "offer_json": "b30ca7c2078ccce72c46053b920e04bb4a26edec5264390911a5d3c67c490a56",
+        "offer_page": "809be8d92b60615d0b850d7190c2068f4e1064dad5375fbc221ac4d80f6feefe",
+        "install_command": "295982ef49a4405bef2b487b190491589a52826be81efe0203476a30645804be"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-079",
+      "offer_id": "offer-wsp-079",
+      "sku": "SPEEDKIT-WSP-079",
+      "title": "Verifrax",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB-NAMESPACE",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-079/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-079/",
+      "offer_json": "/marketplace/offers/offer-wsp-079/offer.json",
+      "sha256": {
+        "receipt_json": "b6e4a62bef733c9fdc3746434160f991575293fde897ae5407c0dbcffb118dba",
+        "offer_json": "bf23a4fb9b587eed25209e884218ae1fb4aec178c1bd71a0f0ef607f79e0ec71",
+        "offer_page": "48f07fb036539f0fa801096c151f4c4eacc5fbbb35ec68f77b230fa3875b388c",
+        "install_command": "783b519005b1e079eb1530f0846da167d4cb94331e290cfb352f10cf10a3d075"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-080",
+      "offer_id": "offer-wsp-080",
+      "sku": "SPEEDKIT-WSP-080",
+      "title": "ANAGNORIUM",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-080/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-080/",
+      "offer_json": "/marketplace/offers/offer-wsp-080/offer.json",
+      "sha256": {
+        "receipt_json": "a8801a83ff6810412f410cb58e80090f6ef18be5b905a0409f43d0bc9ac29a34",
+        "offer_json": "d1161284ab65df45fa58e1eb1a5e7adf5b4b69a211fab464dc2e9901fef1955d",
+        "offer_page": "d798a211e217eaee128b26ae4e2fe488b2e2c72e55daf560b27a12abc00c25d1",
+        "install_command": "2b9da91ee3dcd09ecfa4694f67ce1b8054081afbecea90ddeb3dcd35c0bf9d36"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-081",
+      "offer_id": "offer-wsp-081",
+      "sku": "SPEEDKIT-WSP-081",
+      "title": "AUCTORISEAL",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-081/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-081/",
+      "offer_json": "/marketplace/offers/offer-wsp-081/offer.json",
+      "sha256": {
+        "receipt_json": "51e2c25166cd32c548aa6f811ec8a035255d334bf7c1913326031305950b665d",
+        "offer_json": "c5ba4783f0144d97e46449b3c9973b1a4cf57e01234c1f5312368c8ab28fd208",
+        "offer_page": "39cfd70366fedbfd60f945bfc797ae6d2fde68a883d8c2e674f91bb86295eae6",
+        "install_command": "6cff4fa23b9979f93d8c0032bb779e10e7f2a2ef0497fc44d4784c0cb64b5019"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-082",
+      "offer_id": "offer-wsp-082",
+      "sku": "SPEEDKIT-WSP-082",
+      "title": "CONSONORIUM",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-082/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-082/",
+      "offer_json": "/marketplace/offers/offer-wsp-082/offer.json",
+      "sha256": {
+        "receipt_json": "22f46d243fa2b16e8d1f4a6e5d0a8a168945a2ebb483f64204158cd395aa4c3d",
+        "offer_json": "b4d38ce064fd00d386b4fa85e6c8c2206cd77f3aadb5606757d640768e1b1750",
+        "offer_page": "ae73cb9b5aaea148e94fe37f6cbc1de79166d66392cd4ae693edb0bd523934f8",
+        "install_command": "5080f6d1b0bd8f4da184a7bda62de7bd45c8c0072ca65c95279c3a11a21d0445"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-083",
+      "offer_id": "offer-wsp-083",
+      "sku": "SPEEDKIT-WSP-083",
+      "title": "CORPIFORM",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-083/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-083/",
+      "offer_json": "/marketplace/offers/offer-wsp-083/offer.json",
+      "sha256": {
+        "receipt_json": "68ca2f4682156d7f96426b3ca742bec5b50ad249eea241712aea462131ee80fa",
+        "offer_json": "c3d84c5ffdb18846800428b164d1b8ff32edb44243a83da1ece93e3a288fce4e",
+        "offer_page": "8abc7e65f7d396f308def96587baf2f94ac3f6fbbe49e2254885a16a9eba5eaf",
+        "install_command": "05e8bac5855dcd5df1d128088cdcaa4b5578add0868452dbe080cb06f36d18a6"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-084",
+      "offer_id": "offer-wsp-084",
+      "sku": "SPEEDKIT-WSP-084",
+      "title": "ORBISTIUM",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-084/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-084/",
+      "offer_json": "/marketplace/offers/offer-wsp-084/offer.json",
+      "sha256": {
+        "receipt_json": "447c836a359eba86e6ed427553234f5ad336bf333bde324a812f38f4583a1d5a",
+        "offer_json": "647057adda8118f7a4da842cba90b6079c606b7d453a846db294a27a561459e2",
+        "offer_page": "983ea0b254563a646bdaf637c1844282979526ffb41988e0fb01c43ef5360ce2",
+        "install_command": "b3366ff0c17308f7f4dde4987c33ed40efd25b4fa59788367152fe7a123f0b4e"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-085",
+      "offer_id": "offer-wsp-085",
+      "sku": "SPEEDKIT-WSP-085",
+      "title": "REGRESSORIUM",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-085/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-085/",
+      "offer_json": "/marketplace/offers/offer-wsp-085/offer.json",
+      "sha256": {
+        "receipt_json": "c942e0696e485c353213d4d78070988537720baaae9dfbb1e9b9a85d2bebd8cd",
+        "offer_json": "136dd75635b36da8b71c83bd8a6e2adefd020b18a68d60a0bbcfaaa2905373c8",
+        "offer_page": "5741f89d9575033a10add67aaebe50911989edd7b087f0e2920b8688eb5207e0",
+        "install_command": "d71d8f79cc781c3ea8ad310b2ce06685745ce1877da25d5f9ece244b3a308d67"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-086",
+      "offer_id": "offer-wsp-086",
+      "sku": "SPEEDKIT-WSP-086",
+      "title": "SYNTAGMARIUM",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-086/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-086/",
+      "offer_json": "/marketplace/offers/offer-wsp-086/offer.json",
+      "sha256": {
+        "receipt_json": "cda0a0433ea9aaa144c2043ffc1aaed423e8c862db08ce7d82c0ae191a68327b",
+        "offer_json": "f82eb2a3cf49dce6434d6d611893d9da757e09d715ebeaddcd27ab6fc9f42498",
+        "offer_page": "e12d9bd3e2305ccf289cf6400441a5c3a9fa25e1523d6cd586d172e5bc7284b4",
+        "install_command": "c71e7a96da994d3133696f3bdeb0fa5acf908bac16533bfe987a86ddeacfe645"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-087",
+      "offer_id": "offer-wsp-087",
+      "sku": "SPEEDKIT-WSP-087",
+      "title": "TACHYRIUM",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-087/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-087/",
+      "offer_json": "/marketplace/offers/offer-wsp-087/offer.json",
+      "sha256": {
+        "receipt_json": "8c62766bcd7232825a3a5e3c18f52346c79594a2d540268f4e8e1b530da937d8",
+        "offer_json": "8d56620945f4024e1fa820e713d41caa9a371fd9afb9ba22ee9216ebc94d286e",
+        "offer_page": "25f6d7efabde686035a1185b6d41722d13bd7b23dcf4887fca83107d15c857f5",
+        "install_command": "2617952f320bf9bd9fe9ae6ea653458a11115e92a4476c64548b1af981097bd5"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-088",
+      "offer_id": "offer-wsp-088",
+      "sku": "SPEEDKIT-WSP-088",
+      "title": "VERIFRAX",
+      "family": "verifrax-chambers",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-088/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-088/",
+      "offer_json": "/marketplace/offers/offer-wsp-088/offer.json",
+      "sha256": {
+        "receipt_json": "e705ff93a6d583ef610052b075a13316c704a3e01b96c1454a5408ebf2324939",
+        "offer_json": "827a2de328a4a02d826b30d974ba059183c183ec05c16578043bd0bfab7167d4",
+        "offer_page": "2336036f458a9a328e790219ab49e4083214b9eeabdef69ff3990d3bac79f197",
+        "install_command": "d3c56fb50799bc9d785e0497562ad1a643239219b21e4f9f8defcb1323b8fe26"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-089",
+      "offer_id": "offer-wsp-089",
+      "sku": "SPEEDKIT-WSP-089",
+      "title": "@verifrax/auctoriseal",
+      "family": "verifrax-chambers",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-089/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-089/",
+      "offer_json": "/marketplace/offers/offer-wsp-089/offer.json",
+      "sha256": {
+        "receipt_json": "1f0ff2aa47ab9d228b9f4e102dc5d9b4ad8aaafd5079b2b630e012747cc702ce",
+        "offer_json": "780c7511926894de6d9524ba586d00ce637720047ef0c5692ce409d137911c24",
+        "offer_page": "7dedf473c1a1e828901c71a93b05bb9abd37ab3468f36b5b4c4393b63ea29530",
+        "install_command": "71ab893514969f37a696bfbf25570171d06586d2c3a3287cce4749eb49f1a588"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-090",
+      "offer_id": "offer-wsp-090",
+      "sku": "SPEEDKIT-WSP-090",
+      "title": "@verifrax/corpiform",
+      "family": "verifrax-chambers",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-090/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-090/",
+      "offer_json": "/marketplace/offers/offer-wsp-090/offer.json",
+      "sha256": {
+        "receipt_json": "4ee72f0bcf3ef658fa363baa1ffb117b1245c0c16432b1543f8e21f264265d55",
+        "offer_json": "22580be32420565aef147e0bb9ecfb89a8854bd007be7cbe33624f31fd4a7e7e",
+        "offer_page": "9380e7b7c12323bef7b0b5344533274b5b164e21d557888d3cd2002ab969b42e",
+        "install_command": "d68dcda8a4484cc0c7b143020bde366fe009488c47f303ba23522ee34d51c428"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-091",
+      "offer_id": "offer-wsp-091",
+      "sku": "SPEEDKIT-WSP-091",
+      "title": "@verifrax/root",
+      "family": "verifrax-chambers",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-091/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-091/",
+      "offer_json": "/marketplace/offers/offer-wsp-091/offer.json",
+      "sha256": {
+        "receipt_json": "b620b98ce27d1d2738eb2888f0b0e1d0d98d3539e67004f94557f9390fafd013",
+        "offer_json": "2a84293bd93ed36c5955c1127a67d5e3345f8a3a582ac52d7e30ba808eaff32e",
+        "offer_page": "9a88d5ff05937ceead1426ba4e343f298054a32aee27d5320a32555c4764e89a",
+        "install_command": "262c4f0990cd6c231526b8d54096369d44e09636d78ed4bbee795ff9c0b35e5b"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-092",
+      "offer_id": "offer-wsp-092",
+      "sku": "SPEEDKIT-WSP-092",
+      "title": "@verifrax/verifrax",
+      "family": "verifrax-chambers",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-092/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-092/",
+      "offer_json": "/marketplace/offers/offer-wsp-092/offer.json",
+      "sha256": {
+        "receipt_json": "64d8f3ba054e2630cb442cf4abf934add81d6daaf2133348f5c87bcc508f1ee3",
+        "offer_json": "4b5e5e2e252f981f4a6f61bce944764607373801bb2288dbba9892af34cc0682",
+        "offer_page": "8639c4ba43ed97400e608a153e91325337bc1c34a81a1f05d1292305ae5036f8",
+        "install_command": "a28289c07331453c260b893732ebd99bd8f3bf910fa2e60122abc48ee4d59f69"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-093",
+      "offer_id": "offer-wsp-093",
+      "sku": "SPEEDKIT-WSP-093",
+      "title": ".github",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-093/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-093/",
+      "offer_json": "/marketplace/offers/offer-wsp-093/offer.json",
+      "sha256": {
+        "receipt_json": "f9179b76178d3271494a9c60fdc4972daccbf91f34857506f2f828e92ae13061",
+        "offer_json": "16e74cce71c3d61126fdab8102897c75b6f358ef2d9ae313d0d316082c344593",
+        "offer_page": "20c647c6cdd8a0400aa8c8accbc84cd133f8099843a2d4484ba38fe03f6e75da",
+        "install_command": "e32ce66c0b7570967a26f846ba0ea188f9c320404bca3a9496da64b004b7433e"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-094",
+      "offer_id": "offer-wsp-094",
+      "sku": "SPEEDKIT-WSP-094",
+      "title": "ADMISSORIUM",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-094/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-094/",
+      "offer_json": "/marketplace/offers/offer-wsp-094/offer.json",
+      "sha256": {
+        "receipt_json": "3f7e71c8714db8eb99cf5df050011ab1b74cd6f6ece9e111b03a6f0e6276c91d",
+        "offer_json": "d2564ad4e9b8c881a7da2536cba2c8afda8b0049b21a4e821190568dffc43397",
+        "offer_page": "0e60ab33698297c26d0e80331610230d0847b06acbd1bd8ab42c43c08f72d07c",
+        "install_command": "0ac352c620e33845ff50f6328544a103a9d7558cd7c6dee19f64e24a3795d8dc"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-095",
+      "offer_id": "offer-wsp-095",
+      "sku": "SPEEDKIT-WSP-095",
+      "title": "apply",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-095/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-095/",
+      "offer_json": "/marketplace/offers/offer-wsp-095/offer.json",
+      "sha256": {
+        "receipt_json": "ee2b21694d745c34e3c383c46c46a9b5667a1ee6b8065d76e6921778c8cfbfad",
+        "offer_json": "9e8f295a974d93c8fe1fe0989c8bb735d9121274a91f8cd8f2cae1e9c43877e6",
+        "offer_page": "1a7d2f47dc3e1e4c08d2a56b761296791daf9cadbef5add2d99dfcdf5cde1b77",
+        "install_command": "cd1129c89dfa4b548028bdc5c658989d92ebeeabbad1f2723fb65801cb26cd80"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-096",
+      "offer_id": "offer-wsp-096",
+      "sku": "SPEEDKIT-WSP-096",
+      "title": "ARCHITECTURE",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-096/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-096/",
+      "offer_json": "/marketplace/offers/offer-wsp-096/offer.json",
+      "sha256": {
+        "receipt_json": "7fa040d2f4e331218fd24207896276e36d9cf0cfd7fa2ad3658ad49389a341de",
+        "offer_json": "1da065e813f9d8f276d839fbd5be6eca393050ed8309aa60187bfa86544cffb3",
+        "offer_page": "ac16241f459020eb876b5d8bce76c35bf355e015649d641cff11d143313b4f10",
+        "install_command": "4d517ad0389d22e75a2ae34b22ed26c4d3ba844475649d2f924aab38949393bf"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-097",
+      "offer_id": "offer-wsp-097",
+      "sku": "SPEEDKIT-WSP-097",
+      "title": "cicullis",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-097/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-097/",
+      "offer_json": "/marketplace/offers/offer-wsp-097/offer.json",
+      "sha256": {
+        "receipt_json": "0c7f8e289ad3d5948a544b4390da992187b69c3b145965d4a6527e290ba7ee04",
+        "offer_json": "be18a0a575a137965645deeb964f8f0a051cb15ae73585ed3389996be7017cbf",
+        "offer_page": "141f61a8d50333d80bfb0ed5d1fe87cd22a5cf0aea26d155285f072fd3a97e04",
+        "install_command": "6024e1ac3368bf8e0ca76b7cb220105e7480806045ffdeff5ca491d3e8b0edb8"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-098",
+      "offer_id": "offer-wsp-098",
+      "sku": "SPEEDKIT-WSP-098",
+      "title": "proof",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-098/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-098/",
+      "offer_json": "/marketplace/offers/offer-wsp-098/offer.json",
+      "sha256": {
+        "receipt_json": "98d61a9992151f847c646c6e02a8f2a6331ae94efd6ff79307846ae94aa79b17",
+        "offer_json": "e09a2e935ee455fa78bbe90d24e364e05e77a2a19bcc6991b432ea161bd05ba4",
+        "offer_page": "cc5ccd3fafac91c5d130ee735c6df9780842eb8a48763e90649a5810e9fbfcc1",
+        "install_command": "8a6cf025a067c0952e8a12c6e6721ab4f79b52c83d68ce59939c597c93ed4fae"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-099",
+      "offer_id": "offer-wsp-099",
+      "sku": "SPEEDKIT-WSP-099",
+      "title": "SIGILLARIUM",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-099/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-099/",
+      "offer_json": "/marketplace/offers/offer-wsp-099/offer.json",
+      "sha256": {
+        "receipt_json": "99c05e767465c5c3694b7c2241049fcc95838ae4483bf3518961cb4bb910f4e6",
+        "offer_json": "f3e4d55a0290a40ce4c1e786b3c13f7482e10d354650c961b043878ad17b4ea5",
+        "offer_page": "9f6220c7ef1b4df499bf74c4a54b10c17fc70347e504c13e8f131b938d118305",
+        "install_command": "1f8a8ed780de9cc0c840450a1ccff559d4e42c1416055c413f63bc8e039262a6"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-100",
+      "offer_id": "offer-wsp-100",
+      "sku": "SPEEDKIT-WSP-100",
+      "title": "SPEEDKIT",
+      "family": "verifrax-governance",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-100/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-100/",
+      "offer_json": "/marketplace/offers/offer-wsp-100/offer.json",
+      "sha256": {
+        "receipt_json": "82c0fbd27b42a34cbedb805219c5b6ea778e5f9e975e65f9dc1871556061d6b2",
+        "offer_json": "88ed7190e210e337b06c2817ff354a4430acec45a19b5eeddcc37a32030b69f5",
+        "offer_page": "96381d8643ab5d82826b02c2605f538f8efa745acd62efd8d44b53f47f9721ce",
+        "install_command": "47701d813d44356e3170b82d2f8bd0a3484ab1f98f670235d8a6e94e48a0a3f2"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-101",
+      "offer_id": "offer-wsp-101",
+      "sku": "SPEEDKIT-WSP-101",
+      "title": "@verifrax/cicullis",
+      "family": "verifrax-governance",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-101/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-101/",
+      "offer_json": "/marketplace/offers/offer-wsp-101/offer.json",
+      "sha256": {
+        "receipt_json": "73c10d5ac6133e794e9c5378f5ccb8970a6da729c7ebf613c661d0ff5651f601",
+        "offer_json": "9a18348c2e35a7d1ea5a1404e1f963f7490ffa3ab60886c128cc982b7b6db064",
+        "offer_page": "ca970c246a4a364eaee999c020d987a50dbd970d1f860dbc0bbd76f83d1304b2",
+        "install_command": "2feae389a3d02339732e1fb1b22c9514a09ed4d4e8dfdefe4c66fb3fbdc80835"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-102",
+      "offer_id": "offer-wsp-102",
+      "sku": "SPEEDKIT-WSP-102",
+      "title": "@verifrax/sigillarium",
+      "family": "verifrax-governance",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-102/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-102/",
+      "offer_json": "/marketplace/offers/offer-wsp-102/offer.json",
+      "sha256": {
+        "receipt_json": "9d09cdeeb525865f41e18ca5589944cf5c55bda2624830a4d8c7e7b051b4703f",
+        "offer_json": "354c3c79b7b828d1b12dbaec5bc26447a5db5f72f91b95d544f5611395460596",
+        "offer_page": "e078ae25ce8cb65ae2f9c16cffdd9a573908d2929da393c4dda17ab47069b3d7",
+        "install_command": "f0b95771a281dd423ebb2841a2fe919d61c2572cb49bc9d650262b61287c8a9e"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-103",
+      "offer_id": "offer-wsp-103",
+      "sku": "SPEEDKIT-WSP-103",
+      "title": "VERIFRAX-API",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-103/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-103/",
+      "offer_json": "/marketplace/offers/offer-wsp-103/offer.json",
+      "sha256": {
+        "receipt_json": "f038a189116b33328b46ed023c1ce84a674910924a538e7cdffe2c472f47503f",
+        "offer_json": "d48eee38556eb7129c557e63645de8be2176a42b72ea7fcb686520ba8f026db2",
+        "offer_page": "fa06bc695bf0bd31bb55cc6ae8b741f87db4ec0ac8189cce67b1cd9fed9431e3",
+        "install_command": "e662b8ac4114732aedd419059ad1b5ba83c91d2762fb8018f7db000824d7f4f6"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-104",
+      "offer_id": "offer-wsp-104",
+      "sku": "SPEEDKIT-WSP-104",
+      "title": "VERIFRAX-CONTROL-VERIFY",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-104/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-104/",
+      "offer_json": "/marketplace/offers/offer-wsp-104/offer.json",
+      "sha256": {
+        "receipt_json": "850a0fffad7c42ef5d15d5dca72f9b7632bc5908255ddbb4add19298cd86b364",
+        "offer_json": "90daa890cea1a0877dab85d6f3aa955abbfa1309c7b6c30a67d20614da6c3bee",
+        "offer_page": "755382b811f0baaadde8311e98ba50441bf89e7d48ae63bde274e353a19e53b0",
+        "install_command": "b566596a01baf6282ed685892f10f2b7ed8fcc791964c2cf3b0c1ca7c5dd64f0"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-105",
+      "offer_id": "offer-wsp-105",
+      "sku": "SPEEDKIT-WSP-105",
+      "title": "VERIFRAX-DOCS",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-105/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-105/",
+      "offer_json": "/marketplace/offers/offer-wsp-105/offer.json",
+      "sha256": {
+        "receipt_json": "01d2e77d6f9721f75ccee88c8da5c410c64c897f0efb65150df1e7c50696dc16",
+        "offer_json": "6271a9a8f4cf6ef6ea81070bd5307c5c41f28f391de1321372eee7e654e1f57e",
+        "offer_page": "250aa12f04b9c11feb524a7ad976b8938842454cece64727a798c1cae3b1c489",
+        "install_command": "055b502b9c9800d0d94402b325f0239c1ef1dddb78f30d06c125d1f25f6dcb38"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-106",
+      "offer_id": "offer-wsp-106",
+      "sku": "SPEEDKIT-WSP-106",
+      "title": "verifrax-marketplace-smoke",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-106/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-106/",
+      "offer_json": "/marketplace/offers/offer-wsp-106/offer.json",
+      "sha256": {
+        "receipt_json": "0065b330623ad444ed205c0287370cf2bc5ad54a4009d190253b56711c3f9fa6",
+        "offer_json": "61cd91eb92c044256cf36c4168de86a890132becc94379e11ca4ac15eeb22150",
+        "offer_page": "f7bf7d3c8919c14caf5352c4a37d42a056229a3b2cf88196007f8b65a57a4970",
+        "install_command": "162f7e0dd1043e71b2d4b0dc9cf83323c04b336b6584a6a8b0b25697b0fedb08"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-107",
+      "offer_id": "offer-wsp-107",
+      "sku": "SPEEDKIT-WSP-107",
+      "title": "VERIFRAX-PROFILES",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-107/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-107/",
+      "offer_json": "/marketplace/offers/offer-wsp-107/offer.json",
+      "sha256": {
+        "receipt_json": "ecea4171b335a0c68d3f8aaa4a4deaad26b92bb07cd3d665f0d6104cb72a1b4a",
+        "offer_json": "8db6ec5a0b73a0776753151a604db7108403cfb943065173369d46bf3c9a107c",
+        "offer_page": "faafd74e776a92126fefc4ad008cac050dd6e3c79ef0c9d3a7146547e3d9107d",
+        "install_command": "9b7b6966d1b54f3f018ef1a6c5d1022f0f32bc310da4a33509e4b65a8586b6c0"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-108",
+      "offer_id": "offer-wsp-108",
+      "sku": "SPEEDKIT-WSP-108",
+      "title": "VERIFRAX-PY",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-108/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-108/",
+      "offer_json": "/marketplace/offers/offer-wsp-108/offer.json",
+      "sha256": {
+        "receipt_json": "2445389835b1eaeb8b77f125e6cc3ed3adb0a1e88134827d756014a8384ccb2e",
+        "offer_json": "5f5ed00a8611c4dc62cac73f080b60d14e6ac1ae867143a5ca95c2ab4ab3d926",
+        "offer_page": "8c88484c0dc63e4cb6578f72fc80fbb688285044e015c89a7cfdcee1c0d28440",
+        "install_command": "a41f6ea70da296bcdced5066be83d73ac94927cc6ac91da50cbf727354fb6e19"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-109",
+      "offer_id": "offer-wsp-109",
+      "sku": "SPEEDKIT-WSP-109",
+      "title": "VERIFRAX-SAMPLES",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-109/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-109/",
+      "offer_json": "/marketplace/offers/offer-wsp-109/offer.json",
+      "sha256": {
+        "receipt_json": "b290388dd5dbc5819f496f386539c5bdb3b4b0697f1253b40edfa17b9cc683e8",
+        "offer_json": "4507066e69d2e06b9b1d724e94fadb1631b31b4b8ebecee381be3edb99de901c",
+        "offer_page": "6a95a1631dc469ebfe08d7f77f9a65113901f31bb0a271d1eea1d17470f6ea26",
+        "install_command": "9d3c732a72193dfc213164126c78f52d9e2ded72c15fac60bd24aae4b6e701f5"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-110",
+      "offer_id": "offer-wsp-110",
+      "sku": "SPEEDKIT-WSP-110",
+      "title": "VERIFRAX-SPEC",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-110/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-110/",
+      "offer_json": "/marketplace/offers/offer-wsp-110/offer.json",
+      "sha256": {
+        "receipt_json": "49e6f9f931438631995a8e6b92b259b4d3101b0ca9fe38a839c794c5461b1e4e",
+        "offer_json": "64cafb41671ee0bfe51d25531defea0129b627bc4494608f5c5d01a6c9819d2f",
+        "offer_page": "2068abb888f874bfc23f16ccf7379a5de2f561e02d4418146126e52afe3cf683",
+        "install_command": "d73345282014806d80f2847e5f43fd1befe5aa8ec88c436acb96ca269cb50d14"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-111",
+      "offer_id": "offer-wsp-111",
+      "sku": "SPEEDKIT-WSP-111",
+      "title": "VERIFRAX-STATUS",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-111/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-111/",
+      "offer_json": "/marketplace/offers/offer-wsp-111/offer.json",
+      "sha256": {
+        "receipt_json": "b16ee7fd022908821d3049951ba5384c857396f08848819146a906f3388c4277",
+        "offer_json": "63b11f572c761f570ea6863afb4d5386272ec6eeddf7e9ef10a7314318871f77",
+        "offer_page": "0acf65eac79931a6206fd73fcff0ffed8141571b7f0c7a21e2ba3fdceeb30709",
+        "install_command": "3e5d1b241f76727a83b2aa43c4c3d15485b704e1f56ffa4beb7509df71ce5d32"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-112",
+      "offer_id": "offer-wsp-112",
+      "sku": "SPEEDKIT-WSP-112",
+      "title": "VERIFRAX-SURFACE",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-112/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-112/",
+      "offer_json": "/marketplace/offers/offer-wsp-112/offer.json",
+      "sha256": {
+        "receipt_json": "9675a550f4ca75be0ce5f8e7fd68a9a60e5bfe9a11bc4e71f375b43d790ba08f",
+        "offer_json": "77fe7b50cafb65556cb798044368d55e0c1f97b2d26d84ae92e733496de5144d",
+        "offer_page": "79ad46a107f57ee7c77a704deab9a434a7be7be700f381927323040017d084d9",
+        "install_command": "77b5c4d658e98d8003ff9a238a518ca82cf6182008b56f4ac617f59d3c28bfb2"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-113",
+      "offer_id": "offer-wsp-113",
+      "sku": "SPEEDKIT-WSP-113",
+      "title": "VERIFRAX-verify",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-113/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-113/",
+      "offer_json": "/marketplace/offers/offer-wsp-113/offer.json",
+      "sha256": {
+        "receipt_json": "c462edfb6d90b55eb4e1c915adbae8b7671975ba9d624be33b4309e988dfa42b",
+        "offer_json": "02855ba00d78bd80e6459914b92c87b78aaea306da452e7e9fc99e3f424c8d24",
+        "offer_page": "00beb174e565c767668713dd8c578e30fda121b9a15887b0a197fbd32a44a325",
+        "install_command": "e29788721a163faf7622db9b7ae2043267ed456b1074258030b3b2cdb242d9cf"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-114",
+      "offer_id": "offer-wsp-114",
+      "sku": "SPEEDKIT-WSP-114",
+      "title": "VERIFRAX-WWW",
+      "family": "verifrax-verification",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-114/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-114/",
+      "offer_json": "/marketplace/offers/offer-wsp-114/offer.json",
+      "sha256": {
+        "receipt_json": "a87b29477def393cf449fdd30b83a3bc3b3c610423e46b44d31474882d5d3930",
+        "offer_json": "b4c0515bfb8dfa92738586739a2d1dbf844024d2cba3a7c54902c66b75765f3d",
+        "offer_page": "35a5e14d87286cb42c579b90c06658bc913d18b10d8c2bba0bf50dac0c2a9b9b",
+        "install_command": "0d55ef0d2e79f62e4862044caa4af768cfb6716fdd70bd6d6f4a0d68ff4fedb2"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-115",
+      "offer_id": "offer-wsp-115",
+      "sku": "SPEEDKIT-WSP-115",
+      "title": "@verifrax/verifrax-api",
+      "family": "verifrax-verification",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-115/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-115/",
+      "offer_json": "/marketplace/offers/offer-wsp-115/offer.json",
+      "sha256": {
+        "receipt_json": "5a4a1ae07e49f514e4527ea736c09b852244cdfc01d0db085db10b9e084173e0",
+        "offer_json": "2c18b026e26138326f88497a8ad8acae0d4abcb1bac38010afdeb6a9b31f6bee",
+        "offer_page": "cb9003a14f93f9e7417e8981cd7f932dff5a27dbc363544d26b58f0c278d71a7",
+        "install_command": "153562b5938aea3183ad921a4ed980ea5c1aaf8a0e185573df8ea326c18885f1"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-116",
+      "offer_id": "offer-wsp-116",
+      "sku": "SPEEDKIT-WSP-116",
+      "title": "@verifrax/verifrax-profiles",
+      "family": "verifrax-verification",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-116/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-116/",
+      "offer_json": "/marketplace/offers/offer-wsp-116/offer.json",
+      "sha256": {
+        "receipt_json": "731c1ff8fa3758c77dee85c7313ecde0a3321e55f351991c61fb0efe02343999",
+        "offer_json": "cea9e5e75ccfb6e9d7c33f18540332842b54a790bcb39c260b04ed1ba0b876f8",
+        "offer_page": "e245a2f15c80f96291e60d754683dc321e36ec2721dbf02c3b9b908a0c621c56",
+        "install_command": "5901ac9e18cb5750a7de50e82add47ed1e3f468c74cc697c33a6a5478b0cfafe"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-117",
+      "offer_id": "offer-wsp-117",
+      "sku": "SPEEDKIT-WSP-117",
+      "title": "@verifrax/verifrax-spec",
+      "family": "verifrax-verification",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-117/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-117/",
+      "offer_json": "/marketplace/offers/offer-wsp-117/offer.json",
+      "sha256": {
+        "receipt_json": "b10fbc50db46977a4ee80cf39dffe93850d8f657da015e39cde90b1f54510e02",
+        "offer_json": "a726bb8882c971c48398a5911895ee83a36b86c225f3925fa2e8ad9021ac46e3",
+        "offer_page": "9b54258d8ac9f2fb21b038637bcb35753154f7f3fd66d9b3cf2429522d8b42e2",
+        "install_command": "9661c7d8b3cd88148aeebb60c84058671acb4cc5b40748a691ec1f86262686a1"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-118",
+      "offer_id": "offer-wsp-118",
+      "sku": "SPEEDKIT-WSP-118",
+      "title": "@verifrax/verifrax-verify",
+      "family": "verifrax-verification",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-118/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-118/",
+      "offer_json": "/marketplace/offers/offer-wsp-118/offer.json",
+      "sha256": {
+        "receipt_json": "6ab0a4fb8411a45d5fa4aa474677e6a3b841ca385ac744808b99895e7e5fe2e5",
+        "offer_json": "f6244b43b7be57d69dcaf9c9e7fd5c59464e56d49aa7f22b16d97548be62951a",
+        "offer_page": "409d67a22525596597a4a93139349e116a718f53acd38f026d1eb917a94a5ee1",
+        "install_command": "c1f1467404bd69e6b71f1defe95bc325ad0e484b5c77e3b03917dac99855e9da"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-119",
+      "offer_id": "offer-wsp-119",
+      "sku": "SPEEDKIT-WSP-119",
+      "title": "verifrax",
+      "family": "verifrax-verification",
+      "kind": "PYPI",
+      "install_rail": "pypi",
+      "receipt_json": "/marketplace/offers/offer-wsp-119/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-119/",
+      "offer_json": "/marketplace/offers/offer-wsp-119/offer.json",
+      "sha256": {
+        "receipt_json": "20279cb99ca3f8e7cff8ed7b426b41182da0ebdcb75e976dd5b2673cf3ddcb5f",
+        "offer_json": "a557c734a4e9b86cb04dcbff8a89436caefbb6cd535ab7daa362194da808e263",
+        "offer_page": "4878b36656581169b72503123b4edf5b90472bee1d24e3110b1e5e90897e8811",
+        "install_command": "6dba95f85e5bbb31279c2078006edee6add7adbd13077945c644d6db9298dc52"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-120",
+      "offer_id": "offer-wsp-120",
+      "sku": "SPEEDKIT-WSP-120",
+      "title": "archicustos",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-120/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-120/",
+      "offer_json": "/marketplace/offers/offer-wsp-120/offer.json",
+      "sha256": {
+        "receipt_json": "be91dc1df8f497e6c6e210adda4b4e39f475d2fc0e27534913e30e908bcbf7c4",
+        "offer_json": "d91816b159cc849af9768d52d4791e3526c48b4005eb2ed2b2283e8be9714ddc",
+        "offer_page": "809049f032d2b747b5df0ea68998981d6bed1da9892759f2563c1a623934b735",
+        "install_command": "01ccbd1df1941ad55639cfe9c09958540506dbd8f82762963b2859c63e84a992"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-121",
+      "offer_id": "offer-wsp-121",
+      "sku": "SPEEDKIT-WSP-121",
+      "title": "attestorium",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-121/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-121/",
+      "offer_json": "/marketplace/offers/offer-wsp-121/offer.json",
+      "sha256": {
+        "receipt_json": "f29702d087d534eaa9baf76f4108ae192e10f0b59357b2d48547aa2b9f619e2c",
+        "offer_json": "cc3434005191d0837a091af699a26d58b2055d972eea64717c463057baec9125",
+        "offer_page": "29ebeadf014073eba3866cdadef87c521a58ea7b53c4f855300e9c25fd7f1880",
+        "install_command": "ac69de18fda25e34d5018e8314ea25ec61925f48b16d0ea1d11923e94dc37d6a"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-122",
+      "offer_id": "offer-wsp-122",
+      "sku": "SPEEDKIT-WSP-122",
+      "title": "guillotine",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-122/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-122/",
+      "offer_json": "/marketplace/offers/offer-wsp-122/offer.json",
+      "sha256": {
+        "receipt_json": "6f5a2fedf969c4079027214f9724fe14cad8ae14c96a7bfe2f78bd4b77c4dc0f",
+        "offer_json": "a028c0dfaad5063eb80e9ffa02e2e0425e6326bbbdf7d22a12f29dd6e92b2bd5",
+        "offer_page": "7de332ca12f34327fdcc1d39dbb3937cc9ffab7eb4da2b678b45b68937f80f4c",
+        "install_command": "7268142273f357889f3eb3a4553eba9bc527ada7529668cfa1162ec73ec4d1ac"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-123",
+      "offer_id": "offer-wsp-123",
+      "sku": "SPEEDKIT-WSP-123",
+      "title": "irrevocull",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-123/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-123/",
+      "offer_json": "/marketplace/offers/offer-wsp-123/offer.json",
+      "sha256": {
+        "receipt_json": "f0f2d76540da2c3039d22705720657d23e12d02a48f58a8adb26d7266fe076af",
+        "offer_json": "a6d70365b9a6dd0b5c73f4c25f91de75c85eb81c675d881f66367635dd6d2722",
+        "offer_page": "e6373822f4f378165152c746c6043b9c17958ea21ae2c6942e3e432907052cf1",
+        "install_command": "f5b980c8da1e69bea6862926ebff77dc19e2fd899a7fdbcef74f96934630ded6"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-124",
+      "offer_id": "offer-wsp-124",
+      "sku": "SPEEDKIT-WSP-124",
+      "title": "kairoclasp",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-124/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-124/",
+      "offer_json": "/marketplace/offers/offer-wsp-124/offer.json",
+      "sha256": {
+        "receipt_json": "ee5c6411b3af15d6a8151a581ff466273dd72ecbba0c1d6f27e2bc89b8ad8289",
+        "offer_json": "38aa0266d0f912545309e0fe267bcde91800aa27006e8914de44839484d7b898",
+        "offer_page": "0c8550aed2861781e442fedd8db9ecd29896c46a0f836977d2ae665f0b173ea7",
+        "install_command": "d846b7d771c8d4cf20982c8e1f8930dce92bfdd302cd2679f6eff10132abb2b4"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-125",
+      "offer_id": "offer-wsp-125",
+      "sku": "SPEEDKIT-WSP-125",
+      "title": "limenward",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-125/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-125/",
+      "offer_json": "/marketplace/offers/offer-wsp-125/offer.json",
+      "sha256": {
+        "receipt_json": "adce6fed14ce6938ab073ee3a25e02bffae848c908b038cd0ba95ed40ceead98",
+        "offer_json": "5c94deefd2d1223f1ead264cafdb35f8e25a2857f3da504aaf6b82cbdbf23c57",
+        "offer_page": "e7dc81c493bb59f4e9ea2ae3a144bfbac47e680a4ca464047c5aa562a1a7b534",
+        "install_command": "7205867a33bb75091653aedb9e304f7ed2d001a7d20fe9405ba19877d61ce26f"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-126",
+      "offer_id": "offer-wsp-126",
+      "sku": "SPEEDKIT-WSP-126",
+      "title": "originseal",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-126/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-126/",
+      "offer_json": "/marketplace/offers/offer-wsp-126/offer.json",
+      "sha256": {
+        "receipt_json": "b377fa0539d062c972167d65afc6cae5639627ce4892cbe762f42eb0d3c51652",
+        "offer_json": "4703950627e68c5194d15f7a0ed5525951ed1d0518117c70a63d57d0b28900b1",
+        "offer_page": "c2171651d25ceb2b192e216d5b55fd79338cb3ccce1d6bc9fc1b1a6d4acd15db",
+        "install_command": "085b33fd2dd07479c1bd69af558bba87dc47109c52fdcfc96b0f2f9decc102aa"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-127",
+      "offer_id": "offer-wsp-127",
+      "sku": "SPEEDKIT-WSP-127",
+      "title": "validexor",
+      "family": "verifrax-primitives",
+      "kind": "GITHUB",
+      "install_rail": "git",
+      "receipt_json": "/marketplace/offers/offer-wsp-127/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-127/",
+      "offer_json": "/marketplace/offers/offer-wsp-127/offer.json",
+      "sha256": {
+        "receipt_json": "c06811edc3b10f9a9c2cd964fe955b3cabb6ab5f0ff7764b2b47892094724fb6",
+        "offer_json": "144856034d1c098f1d5e41098eac7d7bcf4863ecb4eb30906bc6d682333f29c0",
+        "offer_page": "daeddfe9e0af8853fd64135659ca9e406a30d2c549cf3b0ddb985b5a76281daf",
+        "install_command": "addd0abdc98fb415c3e92d4ed53e7178eec24f8357dafcbc12b47a6e7e621f49"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-128",
+      "offer_id": "offer-wsp-128",
+      "sku": "SPEEDKIT-WSP-128",
+      "title": "@verifrax/archicustos",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-128/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-128/",
+      "offer_json": "/marketplace/offers/offer-wsp-128/offer.json",
+      "sha256": {
+        "receipt_json": "601301ac36a1e652098e37e8fa19a397c16aac529b576cf81452ae3cbd8fbb1e",
+        "offer_json": "0ea4dacb5eae5a06772ef4a258f3475270628a1c68b895d33e700b7d3a0d730d",
+        "offer_page": "bbe02cea29e12b9bb5f793a6da8ccff32e05cdcb2089217d54d75de4d7a04a60",
+        "install_command": "2b41f3e1ac218ba60f969cd8afb336c1046f2aff8cf5e8ced409a1683bf7a998"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-129",
+      "offer_id": "offer-wsp-129",
+      "sku": "SPEEDKIT-WSP-129",
+      "title": "@verifrax/attestorium",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-129/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-129/",
+      "offer_json": "/marketplace/offers/offer-wsp-129/offer.json",
+      "sha256": {
+        "receipt_json": "481969ded5c5d4accd22f9a71cc3d0e7293b5960ee587235dff234a6adb61da3",
+        "offer_json": "584b01537557793f3a7a7431e681b1677123191da24ea8e1435965304f8d0a4b",
+        "offer_page": "4c011da24397a1651f747250112b6217adf8fa282d1aaec9a6c97ac942efd91f",
+        "install_command": "65318a7d0733abbfd4a1e12ad234733e5f00c36be79f431c7706247659680155"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-130",
+      "offer_id": "offer-wsp-130",
+      "sku": "SPEEDKIT-WSP-130",
+      "title": "@verifrax/guillotine",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-130/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-130/",
+      "offer_json": "/marketplace/offers/offer-wsp-130/offer.json",
+      "sha256": {
+        "receipt_json": "adfa75b3dfeb25e7fb0ab8fdd2a6b8a0b2fa30655d74dfdc49aa204ba7d2de1c",
+        "offer_json": "c7909f83ee4b0e0ee9276de51c82c52243178082eecb9e44c678dfe7af82aff7",
+        "offer_page": "ff6ba2afd937e30a4099df49a0ecce94548d9a6ca2965769658b7a4fc4bbf245",
+        "install_command": "43357ae8354555a05e912cfd1aa03c96e4b5fbbd344e1d56259423631f49df21"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-131",
+      "offer_id": "offer-wsp-131",
+      "sku": "SPEEDKIT-WSP-131",
+      "title": "@verifrax/irrevocull",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-131/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-131/",
+      "offer_json": "/marketplace/offers/offer-wsp-131/offer.json",
+      "sha256": {
+        "receipt_json": "596a2951d3a9010adef5449bab224ed07755cb71dd188342ba7d8f37996632d6",
+        "offer_json": "5ee76d3b0a46e24b5837dfa4a2e1035ee40eb8147bebdb0166d5ceb14b5a7e8b",
+        "offer_page": "21073bc7aaf43ed0d9059cd0bee3075e78ef14eae12b4dbd1f22a9ec3f8cb478",
+        "install_command": "410388d482f895c71d0f12a12725fc621782c52122936c649e9f43d0048899f1"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-132",
+      "offer_id": "offer-wsp-132",
+      "sku": "SPEEDKIT-WSP-132",
+      "title": "@verifrax/kairoclasp",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-132/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-132/",
+      "offer_json": "/marketplace/offers/offer-wsp-132/offer.json",
+      "sha256": {
+        "receipt_json": "0b1e5288b38a9d84d88cbdbbf416ccb7f63ec46c98893c577d030dbc19cdac14",
+        "offer_json": "4026c95b34bf1ebfc59fc15736a090ea085e8e2980ca782bbcfbb69de471ada7",
+        "offer_page": "d199e4e0b342ffb1b9045d888b5ea6035900a5588ef501dc4054f0fcc0970edf",
+        "install_command": "4df9dee70b99afa24db6afd734c42e7cee68012d9a60c128dae23149695f6628"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-133",
+      "offer_id": "offer-wsp-133",
+      "sku": "SPEEDKIT-WSP-133",
+      "title": "@verifrax/limenward",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-133/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-133/",
+      "offer_json": "/marketplace/offers/offer-wsp-133/offer.json",
+      "sha256": {
+        "receipt_json": "64928b8a99d8ce25451f289ee617ab5c873d1eaa3ae64cb3728b76ba7b10d643",
+        "offer_json": "8596117b4c0c532835e814fce6d7c784f764b89d8115263b4850e43a47190660",
+        "offer_page": "9225316ca4eed53ccea40baaf5c777837b70041624526f65fcca669d608ac2f9",
+        "install_command": "09a5fe613a543bd970ddea6344919b694e29594da77c3c5603e7810881043e71"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-134",
+      "offer_id": "offer-wsp-134",
+      "sku": "SPEEDKIT-WSP-134",
+      "title": "@verifrax/originseal",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-134/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-134/",
+      "offer_json": "/marketplace/offers/offer-wsp-134/offer.json",
+      "sha256": {
+        "receipt_json": "9805d2f7caf15657ba07cdcb26df1cc7c845a1be519535c6bc9b172185950da3",
+        "offer_json": "55f2a6cd5ca367d3135d8bbd1ece4aa018b0fe7dc4823e744bf2e4151d291808",
+        "offer_page": "f4af32212ca0f88ec61033e4e0412355e17c94cba88b737998b3a250bf0a3455",
+        "install_command": "bbc88269dff37a6d14eff2321d7e398c3a14501b998cc06c4960285539bd3689"
+      },
+      "status": "RECEIPT_CLOSED"
+    },
+    {
+      "receipt_id": "receipt-offer-wsp-135",
+      "offer_id": "offer-wsp-135",
+      "sku": "SPEEDKIT-WSP-135",
+      "title": "@verifrax/validexor",
+      "family": "verifrax-primitives",
+      "kind": "NPM",
+      "install_rail": "npm",
+      "receipt_json": "/marketplace/offers/offer-wsp-135/receipt.json",
+      "offer_route": "/marketplace/offers/offer-wsp-135/",
+      "offer_json": "/marketplace/offers/offer-wsp-135/offer.json",
+      "sha256": {
+        "receipt_json": "c6ef12c7da0d4b73c02890ec030b14b637bda8a5b5b7b9ee2ad092c9a180a318",
+        "offer_json": "72d2b4353400430ff126a4c4c67a9415c6036a596b40702e02781a94ed3f97fb",
+        "offer_page": "0a7082e34a2ee46f4e9b69af20ca80975a4e6927bd6b8cf4cf6d855333ed0c87",
+        "install_command": "d36dddbba9e04f5636ed1776ae9efc847d7e5717ca8a4460d60e3943ea322d84"
+      },
+      "status": "RECEIPT_CLOSED"
+    }
+  ]
+}

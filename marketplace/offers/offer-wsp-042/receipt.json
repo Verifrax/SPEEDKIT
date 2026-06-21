@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-042",
+  "offer_id": "offer-wsp-042",
+  "sku": "SPEEDKIT-WSP-042",
+  "title": "midiakiasat",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "personal",
+  "kind": "GITHUB-USER",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-042/",
+    "offer_json": "/marketplace/offers/offer-wsp-042/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-042/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-042/",
+    "source": "https://github.com/midiakiasat",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "800d73346f7e5613afc268061050dc1db51282893f8ab9c043f67e6bd54f1aa4",
+    "offer_page": "6ba9b1721b744d05b983f06c267a8474d13696eddc04da8e71f55e3d7393a86f",
+    "install_command": "036579594e2c8de45f91bcdca7160ed28997135c6b5b034a6a70d4f528ed1338",
+    "install_steps": "d7251e26c1dbe5af3e27acdfcf3ae27996ee8a398dc014ace7b1d6b77b6d69fe"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

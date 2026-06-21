@@ -2434,5 +2434,10 @@
     "route": "/marketplace/offers/",
     "json": "/marketplace/offers.json",
     "install_manifest": "/marketplace/install-manifest.json"
+  },
+  "offer_ledger": {
+    "status": "CLOSED",
+    "count": 135,
+    "route": "/marketplace/offer-ledger.json"
   }
 }

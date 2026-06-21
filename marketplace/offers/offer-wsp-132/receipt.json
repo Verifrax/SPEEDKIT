@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-132",
+  "offer_id": "offer-wsp-132",
+  "sku": "SPEEDKIT-WSP-132",
+  "title": "@verifrax/kairoclasp",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-132/",
+    "offer_json": "/marketplace/offers/offer-wsp-132/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-132/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-132/",
+    "source": "https://www.npmjs.com/package/@verifrax/kairoclasp",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "4026c95b34bf1ebfc59fc15736a090ea085e8e2980ca782bbcfbb69de471ada7",
+    "offer_page": "d199e4e0b342ffb1b9045d888b5ea6035900a5588ef501dc4054f0fcc0970edf",
+    "install_command": "4df9dee70b99afa24db6afd734c42e7cee68012d9a60c128dae23149695f6628",
+    "install_steps": "3a6430de5a2090a24d0bf85f2aca6d6f7c92059848825d2b622937f251f40d3b"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

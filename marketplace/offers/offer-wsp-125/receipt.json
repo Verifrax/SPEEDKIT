@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-125",
+  "offer_id": "offer-wsp-125",
+  "sku": "SPEEDKIT-WSP-125",
+  "title": "limenward",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-125/",
+    "offer_json": "/marketplace/offers/offer-wsp-125/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-125/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-125/",
+    "source": "https://github.com/Verifrax/limenward",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "5c94deefd2d1223f1ead264cafdb35f8e25a2857f3da504aaf6b82cbdbf23c57",
+    "offer_page": "e7dc81c493bb59f4e9ea2ae3a144bfbac47e680a4ca464047c5aa562a1a7b534",
+    "install_command": "7205867a33bb75091653aedb9e304f7ed2d001a7d20fe9405ba19877d61ce26f",
+    "install_steps": "a5b0a5b165cf200a7c718081df7fdbc992677d29625a0ebac7d803641aebdf0a"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

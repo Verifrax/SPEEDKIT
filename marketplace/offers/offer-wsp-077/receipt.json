@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-077",
+  "offer_id": "offer-wsp-077",
+  "sku": "SPEEDKIT-WSP-077",
+  "title": "ANTIMATTERIUM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "antimatterium",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-077/",
+    "offer_json": "/marketplace/offers/offer-wsp-077/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-077/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-077/",
+    "source": "https://github.com/ANTIMATTERIUM/ANTIMATTERIUM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "278520f6630a05b2c561547926132c9e2b401ad6ec84cd12fc34903237ded8d4",
+    "offer_page": "38353f45b539d9a566a5a9de044d72a0debab0ca0b70e67953da338613f9ffd3",
+    "install_command": "c2fbe40c8090d06c41238e52f0ad412e50e77a51f1585b88f663183abae2cf0f",
+    "install_steps": "d994dc6382e0782104244cba76aae8bbafa9d8e8e75b5ca3263f373ff21b3777"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

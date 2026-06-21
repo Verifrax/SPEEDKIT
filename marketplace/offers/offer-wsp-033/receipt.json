@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-033",
+  "offer_id": "offer-wsp-033",
+  "sku": "SPEEDKIT-WSP-033",
+  "title": "qxra",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "qxra",
+  "kind": "GITHUB-NAMESPACE",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-033/",
+    "offer_json": "/marketplace/offers/offer-wsp-033/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-033/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-033/",
+    "source": "https://github.com/qxra",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "e7920c50ddb8db24550873aaf2cb7b290208bf26974f9bf0229ca28ea8927810",
+    "offer_page": "39780ac68615b790435dceec0df1934383a15c74cd2a04282c1d7969c1f68aa0",
+    "install_command": "0a7b6f05709bb17bc0d403e53845f7db41576e40bf1800d681f974db6244e9a9",
+    "install_steps": "3209697a39fefd7331c2681470354d43bab717916fab695c1122f3b4db03276d"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-036",
+  "offer_id": "offer-wsp-036",
+  "sku": "SPEEDKIT-WSP-036",
+  "title": "BOUNDARYCAM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "qxvi",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-036/",
+    "offer_json": "/marketplace/offers/offer-wsp-036/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-036/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-036/",
+    "source": "https://github.com/qxvi/BOUNDARYCAM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "9ba151b3c8fb31bdec2f3a364116613c85c31f9a81f14fd0c03b14d74a421e8e",
+    "offer_page": "a5d68696a53526adc939a489c96c462920a77053c8a0277c804fb305d5bdb375",
+    "install_command": "34497de8c833127a2d3db8b077f8e1bb43509b4473652864db6def66d56a2028",
+    "install_steps": "42da8c8960d87fc37ef2dfd5e0c0d2c23b9ba8b87eca491b0da74d82bf8a5d75"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

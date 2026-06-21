@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-079",
+  "offer_id": "offer-wsp-079",
+  "sku": "SPEEDKIT-WSP-079",
+  "title": "Verifrax",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-chambers",
+  "kind": "GITHUB-NAMESPACE",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-079/",
+    "offer_json": "/marketplace/offers/offer-wsp-079/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-079/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-079/",
+    "source": "https://github.com/Verifrax",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "bf23a4fb9b587eed25209e884218ae1fb4aec178c1bd71a0f0ef607f79e0ec71",
+    "offer_page": "48f07fb036539f0fa801096c151f4c4eacc5fbbb35ec68f77b230fa3875b388c",
+    "install_command": "783b519005b1e079eb1530f0846da167d4cb94331e290cfb352f10cf10a3d075",
+    "install_steps": "db6408b859e221a46ec8714957492aa2b099c4cdaf9cd72af5e8a6a1d94d0d35"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

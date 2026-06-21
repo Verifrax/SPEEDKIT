@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-127",
+  "offer_id": "offer-wsp-127",
+  "sku": "SPEEDKIT-WSP-127",
+  "title": "validexor",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-127/",
+    "offer_json": "/marketplace/offers/offer-wsp-127/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-127/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-127/",
+    "source": "https://github.com/Verifrax/validexor",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "144856034d1c098f1d5e41098eac7d7bcf4863ecb4eb30906bc6d682333f29c0",
+    "offer_page": "daeddfe9e0af8853fd64135659ca9e406a30d2c549cf3b0ddb985b5a76281daf",
+    "install_command": "addd0abdc98fb415c3e92d4ed53e7178eec24f8357dafcbc12b47a6e7e621f49",
+    "install_steps": "8025e9f14a2b1d2b854fa2cbab67fb9cb5ed9b4d03fecd080ecf85f5a5645586"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

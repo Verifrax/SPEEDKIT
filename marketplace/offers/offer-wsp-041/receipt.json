@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-041",
+  "offer_id": "offer-wsp-041",
+  "sku": "SPEEDKIT-WSP-041",
+  "title": "qzru",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "qzru",
+  "kind": "GITHUB-NAMESPACE",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-041/",
+    "offer_json": "/marketplace/offers/offer-wsp-041/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-041/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-041/",
+    "source": "https://github.com/qzru",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "4ccfc707601c4da44b2858c1e4b3d0e0b9e933306c4401c74fc1ca03cd91bdb0",
+    "offer_page": "3846bbe0e7acc7e83a7e498a16bed942c438bdd32af30148a5c4a41a00686463",
+    "install_command": "4838333661e5ce047c6ed4f79b34048faa074bdceaee31463c3dba0552fe5c73",
+    "install_steps": "2956cca6fd2eda9bb2de0c87b04573f51c93102fcef56efc3bae7dceeee9c6d4"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

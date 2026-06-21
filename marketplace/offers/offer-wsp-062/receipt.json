@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-062",
+  "offer_id": "offer-wsp-062",
+  "sku": "SPEEDKIT-WSP-062",
+  "title": "vatfix-intrastat",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-062/",
+    "offer_json": "/marketplace/offers/offer-wsp-062/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-062/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-062/",
+    "source": "https://github.com/VATFix/vatfix-intrastat",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "18608034162003a828029f138244026c34586cdd9c7b02b56da5088bcdc843d1",
+    "offer_page": "88cfb02c143f26f6dcbf147019aaec60e7e85827ee7cd72d8afe973cc0da658d",
+    "install_command": "711ae5564b3c626613f16f64d7e27a53786872ad7efa2dbc006238472dcded97",
+    "install_steps": "bc4314e315a783498901bcf156467b9ef105e78cc90111b6070418ba78a2c14b"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-045",
+  "offer_id": "offer-wsp-045",
+  "sku": "SPEEDKIT-WSP-045",
+  "title": ".github",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "truthframer",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-045/",
+    "offer_json": "/marketplace/offers/offer-wsp-045/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-045/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-045/",
+    "source": "https://github.com/TRUTHFRAMER/.github",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "040518de4c5ce0caea74a5649552740326275bca005c6d0642cb6186ddf90550",
+    "offer_page": "2ade590c5207a0dc25bb1d8ea66b53381c5e11985967a09de1a895064adb12ee",
+    "install_command": "f298d43d3ab7ca004d81be936c346fd4ea443c1561ada8d68dcee84e41155ee8",
+    "install_steps": "7a0cb39cd3f40bff1d02f85c2111fd4e6e728a58307f544a21e853d628b123a7"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

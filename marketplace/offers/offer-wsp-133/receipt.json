@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-133",
+  "offer_id": "offer-wsp-133",
+  "sku": "SPEEDKIT-WSP-133",
+  "title": "@verifrax/limenward",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-133/",
+    "offer_json": "/marketplace/offers/offer-wsp-133/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-133/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-133/",
+    "source": "https://www.npmjs.com/package/@verifrax/limenward",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "8596117b4c0c532835e814fce6d7c784f764b89d8115263b4850e43a47190660",
+    "offer_page": "9225316ca4eed53ccea40baaf5c777837b70041624526f65fcca669d608ac2f9",
+    "install_command": "09a5fe613a543bd970ddea6344919b694e29594da77c3c5603e7810881043e71",
+    "install_steps": "69440bcbc851f4c2f02e91aca5dba898cf1a4590527b897e49fc3f7065ba5197"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

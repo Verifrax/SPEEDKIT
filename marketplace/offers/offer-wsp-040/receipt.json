@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-040",
+  "offer_id": "offer-wsp-040",
+  "sku": "SPEEDKIT-WSP-040",
+  "title": "ADJUTORIX",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "qzro",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-040/",
+    "offer_json": "/marketplace/offers/offer-wsp-040/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-040/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-040/",
+    "source": "https://github.com/qzro/ADJUTORIX",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "5302102f8103ecee3b113838b5574dfdb3320f093f2fe31cc9c90df9354995f4",
+    "offer_page": "5a8729c8777c9b64ee8ae5a935d0fe2a14b1921e4947c08a3589ffeada7c2393",
+    "install_command": "dc4bb6f7b62f69ab6c77bda20a86589b41219c9cfbd4f4f8a4d52ca1dddc3f62",
+    "install_steps": "92affb9d0f3e07c7d599e42ebb9d0c5c6222c9832333eab2f430cf725acb4850"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

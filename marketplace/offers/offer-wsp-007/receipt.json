@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-007",
+  "offer_id": "offer-wsp-007",
+  "sku": "SPEEDKIT-WSP-007",
+  "title": "@kaaffilm/mk10-pro",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "cinematicum",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-007/",
+    "offer_json": "/marketplace/offers/offer-wsp-007/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-007/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-007/",
+    "source": "https://www.npmjs.com/package/@kaaffilm/mk10-pro",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "ae60a5aa067c9c095eeb3b21cc04f6f34690c70aa96a78691852ebb5e03790db",
+    "offer_page": "d71ad749607e9ac9d59753d7f4bec9c43cdf1b826633c64a3c7f10709ea688a9",
+    "install_command": "56185072f322a152b13c43eeb49cb65753663c94ec7a9169054d28318787e3c1",
+    "install_steps": "6909c86cffb15fe5a85b35fd030a3418d13db394d4f01dc6d4c418ee5c522fc3"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

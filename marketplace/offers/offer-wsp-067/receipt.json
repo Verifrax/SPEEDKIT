@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-067",
+  "offer_id": "offer-wsp-067",
+  "sku": "SPEEDKIT-WSP-067",
+  "title": "vatfix-rules-eu",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-067/",
+    "offer_json": "/marketplace/offers/offer-wsp-067/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-067/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-067/",
+    "source": "https://github.com/VATFix/vatfix-rules-eu",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "51159dd20982357ee4e612159b4fdd448c13dc4e98d50c1523d8956ff8cf5893",
+    "offer_page": "86b1e957f51b7dd8c68f1409b972ea45475be629f3b58022bb5d4699a66331f3",
+    "install_command": "464eb827a2bba9866d8ba52b4c26a459f7bbeeb345f6670c17ff2a4bcfb6197c",
+    "install_steps": "e1d753853019685cd1836d4016ea96c61fb56ca86bed10b3aa46733beb5cae75"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

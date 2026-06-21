@@ -78,7 +78,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-001/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -142,7 +144,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-002/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -206,7 +210,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-003/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -270,7 +276,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-004/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -334,7 +342,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-005/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -398,7 +408,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-006/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -462,7 +474,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-007/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -526,7 +540,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-008/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -590,7 +606,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-009/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -654,7 +672,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-010/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -718,7 +738,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-011/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -782,7 +804,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-012/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -846,7 +870,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-013/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -910,7 +936,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-014/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -974,7 +1002,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-015/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1038,7 +1068,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-016/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1102,7 +1134,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-017/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1166,7 +1200,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-018/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1230,7 +1266,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-019/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1294,7 +1332,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-020/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1358,7 +1398,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-021/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1422,7 +1464,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-022/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1486,7 +1530,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-023/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1550,7 +1596,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-024/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1614,7 +1662,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-025/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1678,7 +1728,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-026/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1742,7 +1794,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-027/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1806,7 +1860,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-028/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1870,7 +1926,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-029/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1934,7 +1992,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-030/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -1998,7 +2058,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-031/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2062,7 +2124,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-032/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2126,7 +2190,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-033/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2190,7 +2256,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-034/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2254,7 +2322,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-035/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2318,7 +2388,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-036/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2382,7 +2454,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-037/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2446,7 +2520,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-038/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2510,7 +2586,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-039/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2574,7 +2652,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-040/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2638,7 +2718,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-041/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2702,7 +2784,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-042/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2766,7 +2850,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-043/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2830,7 +2916,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-044/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2894,7 +2982,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-045/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -2958,7 +3048,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-046/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3022,7 +3114,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-047/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3086,7 +3180,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-048/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3150,7 +3246,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-049/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3214,7 +3312,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-050/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3278,7 +3378,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-051/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3342,7 +3444,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-052/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3406,7 +3510,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-053/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3470,7 +3576,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-054/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3534,7 +3642,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-055/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3598,7 +3708,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-056/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3662,7 +3774,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-057/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3726,7 +3840,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-058/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3790,7 +3906,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-059/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3854,7 +3972,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-060/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3918,7 +4038,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-061/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -3982,7 +4104,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-062/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4046,7 +4170,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-063/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4110,7 +4236,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-064/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4174,7 +4302,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-065/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4238,7 +4368,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-066/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4302,7 +4434,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-067/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4366,7 +4500,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-068/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4430,7 +4566,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-069/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4494,7 +4632,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-070/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4558,7 +4698,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-071/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4622,7 +4764,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-072/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4686,7 +4830,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-073/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4750,7 +4896,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-074/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4814,7 +4962,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-075/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4878,7 +5028,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-076/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -4942,7 +5094,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-077/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5006,7 +5160,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-078/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5070,7 +5226,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-079/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5134,7 +5292,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-080/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5198,7 +5358,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-081/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5262,7 +5424,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-082/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5326,7 +5490,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-083/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5390,7 +5556,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-084/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5454,7 +5622,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-085/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5518,7 +5688,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-086/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5582,7 +5754,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-087/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5646,7 +5820,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-088/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5710,7 +5886,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-089/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5774,7 +5952,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-090/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5838,7 +6018,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-091/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5902,7 +6084,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-092/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -5966,7 +6150,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-093/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6030,7 +6216,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-094/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6094,7 +6282,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-095/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6158,7 +6348,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-096/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6222,7 +6414,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-097/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6286,7 +6480,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-098/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6350,7 +6546,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-099/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6414,7 +6612,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-100/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6478,7 +6678,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-101/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6542,7 +6744,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-102/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6606,7 +6810,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-103/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6670,7 +6876,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-104/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6734,7 +6942,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-105/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6798,7 +7008,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-106/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6862,7 +7074,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-107/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6926,7 +7140,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-108/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -6990,7 +7206,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-109/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7054,7 +7272,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-110/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7118,7 +7338,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-111/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7182,7 +7404,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-112/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7246,7 +7470,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-113/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7310,7 +7536,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-114/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7374,7 +7602,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-115/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7438,7 +7668,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-116/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7502,7 +7734,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-117/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7566,7 +7800,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-118/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7630,7 +7866,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-119/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7694,7 +7932,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-120/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7758,7 +7998,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-121/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7822,7 +8064,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-122/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7886,7 +8130,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-123/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -7950,7 +8196,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-124/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8014,7 +8262,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-125/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8078,7 +8328,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-126/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8142,7 +8394,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-127/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8206,7 +8460,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-128/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8270,7 +8526,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-129/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8334,7 +8592,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-130/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8398,7 +8658,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-131/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8462,7 +8724,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-132/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8526,7 +8790,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-133/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8590,7 +8856,9 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-134/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     },
     {
       "schema": "speedkit.marketplace_offer.v1",
@@ -8654,7 +8922,14 @@
         "offer_is_not_system_admission": true,
         "offer_is_catalog_only": true,
         "system_admission_requires_execution_identity_boundary_registry_verification_public_control_surface": true
-      }
+      },
+      "receipt_json": "/marketplace/offers/offer-wsp-135/receipt.json",
+      "ledger": "/marketplace/offer-ledger.json"
     }
-  ]
+  ],
+  "receipts": {
+    "status": "CLOSED",
+    "count": 135,
+    "ledger": "/marketplace/offer-ledger.json"
+  }
 }

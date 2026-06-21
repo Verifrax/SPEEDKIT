@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-013",
+  "offer_id": "offer-wsp-013",
+  "sku": "SPEEDKIT-WSP-013",
+  "title": "HOSTILE-FIXTURES",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "invocorder",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-013/",
+    "offer_json": "/marketplace/offers/offer-wsp-013/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-013/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-013/",
+    "source": "https://github.com/INVOCORDER/HOSTILE-FIXTURES",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "5358aff5177c310db45caee8b2b0429179c524592532b050fa3f0901422c1113",
+    "offer_page": "20b86580fdb36d3cf0028824f28e6c506e247ce8d29db020d8456649f2684ade",
+    "install_command": "6551000b67c342c8e57e15c246ac0a6fc86e8e419c1f2e498a69812f42fd337e",
+    "install_steps": "a9c8f3f22a25913cdaecf5ec0e82e6bae6fcef1f368f9df77877581c4f846fcf"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

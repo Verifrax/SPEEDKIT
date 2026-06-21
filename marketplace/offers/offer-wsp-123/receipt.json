@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-123",
+  "offer_id": "offer-wsp-123",
+  "sku": "SPEEDKIT-WSP-123",
+  "title": "irrevocull",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-123/",
+    "offer_json": "/marketplace/offers/offer-wsp-123/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-123/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-123/",
+    "source": "https://github.com/Verifrax/irrevocull",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "a6d70365b9a6dd0b5c73f4c25f91de75c85eb81c675d881f66367635dd6d2722",
+    "offer_page": "e6373822f4f378165152c746c6043b9c17958ea21ae2c6942e3e432907052cf1",
+    "install_command": "f5b980c8da1e69bea6862926ebff77dc19e2fd899a7fdbcef74f96934630ded6",
+    "install_steps": "26d4816aebdd9650be2c28a85b2f6fd347bb5e61d32b4c35aa63ab26cb123d90"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

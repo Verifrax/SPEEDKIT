@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-064",
+  "offer_id": "offer-wsp-064",
+  "sku": "SPEEDKIT-WSP-064",
+  "title": "VATFix-Master",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-064/",
+    "offer_json": "/marketplace/offers/offer-wsp-064/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-064/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-064/",
+    "source": "https://github.com/VATFix/VATFix-Master",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "36a1264e66a4939f43cf7efbb31b69837760f6522a2b8d0b443c10e262f4936d",
+    "offer_page": "0337c30b1841807b0029e50ef282ce97dc5a00f8134b6b9a97440220e964c748",
+    "install_command": "38e0ca4f382c2121280eb2dd5a59a757dfc5214e8d039ea0a14ec12a0d14080f",
+    "install_steps": "25addcedca635de4c0c490ca92c9b4f2d6e9a277ed20c0733001b20f5d5d1ea1"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

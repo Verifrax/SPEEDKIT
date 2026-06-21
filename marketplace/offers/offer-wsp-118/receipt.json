@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-118",
+  "offer_id": "offer-wsp-118",
+  "sku": "SPEEDKIT-WSP-118",
+  "title": "@verifrax/verifrax-verify",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-verification",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-118/",
+    "offer_json": "/marketplace/offers/offer-wsp-118/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-118/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-118/",
+    "source": "https://www.npmjs.com/package/@verifrax/verifrax-verify",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "f6244b43b7be57d69dcaf9c9e7fd5c59464e56d49aa7f22b16d97548be62951a",
+    "offer_page": "409d67a22525596597a4a93139349e116a718f53acd38f026d1eb917a94a5ee1",
+    "install_command": "c1f1467404bd69e6b71f1defe95bc325ad0e484b5c77e3b03917dac99855e9da",
+    "install_steps": "b03f224fd7356d3c81286cdbe8af312fcbf583e6fa805dc2436b6a651d4bdeec"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

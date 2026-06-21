@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-069",
+  "offer_id": "offer-wsp-069",
+  "sku": "SPEEDKIT-WSP-069",
+  "title": "vatfix-sdk-python",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "vatfix",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-069/",
+    "offer_json": "/marketplace/offers/offer-wsp-069/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-069/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-069/",
+    "source": "https://github.com/VATFix/vatfix-sdk-python",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "c374e49ac9f03bef47a139ce3db057fe570a401f08bdc7b494d267dceca8fd5d",
+    "offer_page": "e8d987bb58c789353f44007160f10e1d9013571b67ce34396d3605512e164d36",
+    "install_command": "ea275b081ab1c64668eb43b9665ada21b3aeb6b8eb425160253e02cf9ad30a76",
+    "install_steps": "a37bd8b2edc5e7fb42ce23c4a9daa74697430ff192d752f7e5cd6d5d9cfd3dca"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

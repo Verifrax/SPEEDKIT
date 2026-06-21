@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-128",
+  "offer_id": "offer-wsp-128",
+  "sku": "SPEEDKIT-WSP-128",
+  "title": "@verifrax/archicustos",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-primitives",
+  "kind": "NPM",
+  "install_rail": "npm",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-128/",
+    "offer_json": "/marketplace/offers/offer-wsp-128/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-128/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-128/",
+    "source": "https://www.npmjs.com/package/@verifrax/archicustos",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "0ea4dacb5eae5a06772ef4a258f3475270628a1c68b895d33e700b7d3a0d730d",
+    "offer_page": "bbe02cea29e12b9bb5f793a6da8ccff32e05cdcb2089217d54d75de4d7a04a60",
+    "install_command": "2b41f3e1ac218ba60f969cd8afb336c1046f2aff8cf5e8ced409a1683bf7a998",
+    "install_steps": "23a12243e1c34865b03c49264bad9e86ee9f6565817c8f33d81ecc846250295a"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

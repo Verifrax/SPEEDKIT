@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-080",
+  "offer_id": "offer-wsp-080",
+  "sku": "SPEEDKIT-WSP-080",
+  "title": "ANAGNORIUM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-chambers",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-080/",
+    "offer_json": "/marketplace/offers/offer-wsp-080/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-080/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-080/",
+    "source": "https://github.com/Verifrax/ANAGNORIUM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "d1161284ab65df45fa58e1eb1a5e7adf5b4b69a211fab464dc2e9901fef1955d",
+    "offer_page": "d798a211e217eaee128b26ae4e2fe488b2e2c72e55daf560b27a12abc00c25d1",
+    "install_command": "2b9da91ee3dcd09ecfa4694f67ce1b8054081afbecea90ddeb3dcd35c0bf9d36",
+    "install_steps": "1a97009420d735d61758dc3e39cbd3539d1ff6e45f6310b8560247f407bcded4"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

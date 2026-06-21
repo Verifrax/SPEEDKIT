@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-009",
+  "offer_id": "offer-wsp-009",
+  "sku": "SPEEDKIT-WSP-009",
+  "title": "INVOCORDER",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "invocorder",
+  "kind": "GITHUB-NAMESPACE",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-009/",
+    "offer_json": "/marketplace/offers/offer-wsp-009/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-009/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-009/",
+    "source": "https://github.com/INVOCORDER",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "0a6a0d09af721c833db97cf1ac837e135846ddb4073dde48e4ac5de69ad47ea9",
+    "offer_page": "d4678369894b53b03a119cdf2fe229ed26c625dde355cc71512edaf71a7363ae",
+    "install_command": "43f2dac4ea749b14d74fb515c04d562870b8a12640c7d12b2d2ba8c94b801984",
+    "install_steps": "f9f87af88d18e4b4d7d8e0d507245c058ce627ffda3b6833d60e2f6a4657ab0c"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

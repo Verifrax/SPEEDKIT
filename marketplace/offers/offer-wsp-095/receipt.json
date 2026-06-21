@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-095",
+  "offer_id": "offer-wsp-095",
+  "sku": "SPEEDKIT-WSP-095",
+  "title": "apply",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-governance",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-095/",
+    "offer_json": "/marketplace/offers/offer-wsp-095/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-095/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-095/",
+    "source": "https://github.com/Verifrax/apply",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "9e8f295a974d93c8fe1fe0989c8bb735d9121274a91f8cd8f2cae1e9c43877e6",
+    "offer_page": "1a7d2f47dc3e1e4c08d2a56b761296791daf9cadbef5add2d99dfcdf5cde1b77",
+    "install_command": "cd1129c89dfa4b548028bdc5c658989d92ebeeabbad1f2723fb65801cb26cd80",
+    "install_steps": "9b1fef515ea6f7ced315fb14817f98819d9c2b2a46280548cb189f1b674e59b9"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}

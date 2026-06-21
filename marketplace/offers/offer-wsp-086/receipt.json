@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.marketplace_offer_receipt.v1",
+  "receipt_id": "receipt-offer-wsp-086",
+  "offer_id": "offer-wsp-086",
+  "sku": "SPEEDKIT-WSP-086",
+  "title": "SYNTAGMARIUM",
+  "status": "RECEIPT_CLOSED",
+  "mode": "PUBLIC_ONLY",
+  "transaction_mode": "CATALOG_ONLY",
+  "commercial_state": "NO_CHECKOUT",
+  "family": "verifrax-chambers",
+  "kind": "GITHUB",
+  "install_rail": "git",
+  "routes": {
+    "offer": "/marketplace/offers/offer-wsp-086/",
+    "offer_json": "/marketplace/offers/offer-wsp-086/offer.json",
+    "offer_receipt": "/marketplace/offers/offer-wsp-086/receipt.json",
+    "offer_ledger": "/marketplace/offer-ledger.json",
+    "listing": "/marketplace/listings/wsp-086/",
+    "source": "https://github.com/Verifrax/SYNTAGMARIUM",
+    "install_manifest": "/marketplace/install-manifest.json",
+    "marketplace": "/marketplace.json",
+    "offers": "/marketplace/offers.json",
+    "health": "/health.json",
+    "control_chain": "/control-chain.json",
+    "proof": "/public-reconciliation-proof.json"
+  },
+  "sha256": {
+    "offer_json": "f82eb2a3cf49dce6434d6d611893d9da757e09d715ebeaddcd27ab6fc9f42498",
+    "offer_page": "e12d9bd3e2305ccf289cf6400441a5c3a9fa25e1523d6cd586d172e5bc7284b4",
+    "install_command": "c71e7a96da994d3133696f3bdeb0fa5acf908bac16533bfe987a86ddeacfe645",
+    "install_steps": "2040fa93b609ccbd957a26e3bcbc4bb1b8e2f625974dd7bdca98a7a1e5691b33"
+  },
+  "boundary": {
+    "receipt_is_not_payment": true,
+    "receipt_is_not_checkout": true,
+    "receipt_is_not_license_activation": true,
+    "receipt_is_catalog_control_evidence": true,
+    "private_remaining": 0
+  }
+}
