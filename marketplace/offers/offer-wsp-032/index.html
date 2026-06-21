@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>qvru · SPEEDKIT Offer</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE OFFER</div>
+    <h1><a href="/marketplace/offers/offer-wsp-032/">qvru</a></h1>
+    <p class="sub">Catalog-only public marketplace offer with install manifest, proof route, health route, and control-chain route.</p>
+    <p class="stamp">OFFER=offer-wsp-032 · SKU=SPEEDKIT-WSP-032 · MODE=PUBLIC_ONLY · TRANSACTION=CATALOG_ONLY</p>
+  </div>
+  <div class="meta"><div class="metric"><span>STATUS</span><b>OPEN</b></div><div class="metric"><span>PRIVATE</span><b>0</b></div><div class="metric"><span>RAIL</span><b>git</b></div></div>
+</header>
+
+<div class="seal">VERIFIED MARKETPLACE OFFER<br>OFFER JSON · INSTALL MANIFEST · PROOF BOUND</div>
+
+<section class="box">
+<h2>Offer Control</h2>
+<div class="grid">
+<a class="card" href="/marketplace/offers/offer-wsp-032/offer.json"><strong>Offer JSON</strong><span>machine-readable offer</span><b>LIVE</b></a>
+<a class="card" href="/marketplace/listings/wsp-032/"><strong>Listing</strong><span>marketplace detail</span><b>OPEN</b></a>
+<a class="card" href="https://github.com/qvru"><strong>Source surface</strong><span>public route</span><b>OPEN</b></a>
+<a class="card" href="/marketplace/install-manifest.json"><strong>Install manifest</strong><span>all offers</span><b>LIVE</b></a>
+<a class="card" href="/public-reconciliation-proof.json"><strong>Proof</strong><span>governed reconciliation</span><b>LIVE</b></a>
+<a class="card" href="/control-chain.json"><strong>Control chain</strong><span>offer bound</span><b>CLOSED</b></a>
+</div>
+</section>
+
+<section class="box">
+<h2>Install Manifest</h2>
+<p><strong>git</strong></p>
+<pre>git clone https://github.com/qvru.git</pre>
+<div class="table slim">
+<a class="row" href="#"><span>1</span><span>open_listing</span><span>required</span><span>open https://speedkit.eu/marketplace/listings/wsp-032/</span><span>install</span><span class="status">DEFINED</span></a><a class="row" href="#"><span>2</span><span>verify_health</span><span>required</span><span>curl -fsSL https://speedkit.eu/health.json</span><span>install</span><span class="status">DEFINED</span></a><a class="row" href="#"><span>3</span><span>verify_control_chain</span><span>required</span><span>curl -fsSL https://speedkit.eu/control-chain.json</span><span>install</span><span class="status">DEFINED</span></a><a class="row" href="#"><span>4</span><span>execute_install_rail</span><span>optional</span><span>git clone https://github.com/qvru.git</span><span>install</span><span class="status">DEFINED</span></a>
+</div>
+</section>
+
+<section class="box">
+<h2>Transaction Boundary</h2>
+<p>This is a catalog-only offer. It is not payment, checkout, account creation, license activation, or systems admission.</p>
+</section>
+
+<footer class="footer">SPEEDKIT OFFER · PUBLIC_ONLY · CATALOG_ONLY · INSTALL MANIFEST LIVE</footer>
+</main>
+</body>
+</html>

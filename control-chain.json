@@ -13,19 +13,19 @@
       "step": 2,
       "name": "public_reconciliation_proof",
       "route": "/public-reconciliation-proof.json",
-      "sha256": "d9d621e5988f0a619f6778e2be5ae61ae145bcea4e1c7dadddb6532f57f56a4c"
+      "sha256": "fc75c7bdb0245b9d2e052000d4b16b6f72ac03645aa9074cb3b8ba29119cb90c"
     },
     {
       "step": 3,
       "name": "root_projection",
       "route": "/",
-      "sha256": "ce3af45ec30f8e0e124534f072b984e65b83d3c6c2e17c6b5f61ab317affcae9"
+      "sha256": "d9ecb2928b38532d96cfb396fea6a67a3cac8a461e6372039d8edbe6c30b504e"
     },
     {
       "step": 4,
       "name": "marketplace",
       "route": "/marketplace.json",
-      "sha256": "ba2f29809803c4b2774df6e71bd4fc4e83a854986059dac8884808800d578e4d"
+      "sha256": "508c9d41166ecb88d7271ed0fb8a06c3253e5052fe5d8ef69bc21f503b9c3472"
     },
     {
       "step": 5,
@@ -35,6 +35,18 @@
     },
     {
       "step": 6,
+      "name": "marketplace_offers",
+      "route": "/marketplace/offers.json",
+      "sha256": "6c567e87aeacb22290115495f0121c4575e7b604d872fded5ec4cf5fac66f94c"
+    },
+    {
+      "step": 7,
+      "name": "marketplace_install_manifest",
+      "route": "/marketplace/install-manifest.json",
+      "sha256": "4ce4a8c1d9bbff75240aad8c417ae08ed315456d1736ea1a44365d261a4e0964"
+    },
+    {
+      "step": 8,
       "name": "health",
       "route": "/health.json",
       "status": "PASS"
@@ -48,6 +60,8 @@
     "workspace_entries": 135,
     "marketplace_status": "OPEN",
     "marketplace_transaction_mode": "CATALOG_ONLY",
-    "marketplace_detail_pages": 135
+    "marketplace_detail_pages": 135,
+    "marketplace_offers": 135,
+    "marketplace_installable_offers": 135
   }
 }

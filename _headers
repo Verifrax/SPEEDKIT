@@ -31,3 +31,15 @@
 /marketplace/listings.json
   Content-Type: application/json; charset=utf-8
   Cache-Control: no-cache, must-revalidate
+
+/marketplace/offers.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: no-cache, must-revalidate
+
+/marketplace/install-manifest.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: no-cache, must-revalidate
+
+/marketplace/offers/*/offer.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: no-cache, must-revalidate
