@@ -1,3 +1,5 @@
+/marketplace/post-payment-proof.json /marketplace/post-payment-proof.json 200
+/marketplace/entitlement /marketplace/entitlement/ 301
 /marketplace/cancel /marketplace/cancel/ 301
 /marketplace/success /marketplace/success/ 301
 /marketplace/pricing.json /marketplace/pricing.json 200

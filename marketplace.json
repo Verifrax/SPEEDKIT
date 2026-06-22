@@ -2473,5 +2473,8 @@
       "interval": "month",
       "sku": "SPEEDKIT-ENTERPRISE"
     }
-  ]
+  ],
+  "post_payment_proof_status": "LIVE",
+  "entitlement_proof_page": "/marketplace/entitlement/",
+  "post_payment_proof_json": "/marketplace/post-payment-proof.json"
 }

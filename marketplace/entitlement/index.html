@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Entitlement Proof · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Entitlement Proof</a></h1>
+    <p class="sub">Verify a Stripe Checkout session, reconcile paid entitlement into KV, and read SPEEDKIT receipt proof.</p>
+    <p class="stamp">SESSION_VERIFY · ENTITLEMENT_RECONCILE · RECEIPT_PROOF · FAKE_CHECKOUT=false</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>COMMERCE</span><b>READY</b></div>
+    <div class="metric"><span>KV</span><b>BOUND</b></div>
+    <div class="metric"><span>PRICES</span><b>3</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Lookup session</h2>
+  <p>Paste a Stripe Checkout session ID after payment.</p>
+  <div class="command"><span class="prompt">session_id</span><input id="speedkit-session-id" autocomplete="off" placeholder="cs_live_..." /></div>
+  <p><button class="speedkit-buy-button" id="speedkit-entitlement-check" type="button">Verify entitlement</button></p>
+  <pre id="speedkit-entitlement-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Endpoints</h2>
+  <p><a href="/api/marketplace/runtime">Runtime</a> · <a href="/api/marketplace/stripe-webhook">Webhook</a> · <a href="/marketplace/pricing.json">Pricing JSON</a> · <a href="/pricing/">Pricing</a></p>
+</section>
+
+<footer class="footer">SPEEDKIT ENTITLEMENT PROOF · STATE IS NOT SUBJECT TO INTERPRETATION</footer>
+</main>
+<script src="/marketplace/entitlement.js"></script>
+</body>
+</html>

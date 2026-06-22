@@ -64,5 +64,11 @@
   "pricing_url": "/pricing/",
   "pricing_json": "/marketplace/pricing.json",
   "success_url": "/marketplace/success/",
-  "cancel_url": "/marketplace/cancel/"
+  "cancel_url": "/marketplace/cancel/",
+  "post_payment_proof_status": "LIVE",
+  "session_probe_endpoint": "/api/marketplace/session",
+  "entitlement_reconcile_endpoint": "/api/marketplace/entitlement-reconcile",
+  "receipt_endpoint": "/api/marketplace/receipt",
+  "entitlement_proof_page": "/marketplace/entitlement/",
+  "post_payment_proof_json": "/marketplace/post-payment-proof.json"
 }

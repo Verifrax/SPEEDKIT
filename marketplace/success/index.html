@@ -12,8 +12,8 @@
   <div>
     <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
     <h1><a href="/">Checkout Success</a></h1>
-    <p class="sub">Stripe checkout returned to SPEEDKIT. This page reads entitlement state from the live entitlement endpoint.</p>
-    <p class="stamp">WEBHOOK_BOUND · KV_ENTITLEMENT_STORAGE=true · FAKE_CHECKOUT=false</p>
+    <p class="sub">Stripe checkout returned to SPEEDKIT. This page reads Stripe session state, reconciles paid entitlement into KV, then displays entitlement and receipt proof.</p>
+    <p class="stamp">SESSION_VERIFY · WEBHOOK_BOUND · KV_ENTITLEMENT_STORAGE=true · FAKE_CHECKOUT=false</p>
   </div>
 </header>
 <section class="box">
