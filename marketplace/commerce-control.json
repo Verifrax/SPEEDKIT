@@ -70,5 +70,9 @@
   "entitlement_reconcile_endpoint": "/api/marketplace/entitlement-reconcile",
   "receipt_endpoint": "/api/marketplace/receipt",
   "entitlement_proof_page": "/marketplace/entitlement/",
-  "post_payment_proof_json": "/marketplace/post-payment-proof.json"
+  "post_payment_proof_json": "/marketplace/post-payment-proof.json",
+  "product_control_os_status": "LIVE",
+  "product_control_os_page": "/marketplace/control/",
+  "control_api": "/api/marketplace/control",
+  "plan_api": "/api/marketplace/plan"
 }

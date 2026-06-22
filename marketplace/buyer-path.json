@@ -1,0 +1,51 @@
+{
+  "schema": "speedkit.buyer_path.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-22T20:08:00.762Z",
+  "stages": [
+    {
+      "id": "discover",
+      "title": "Discover public control surface",
+      "route": "/",
+      "proof": "PUBLIC_ONLY=true"
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect marketplace offer",
+      "route": "/marketplace/",
+      "proof": "offer/listing/receipt rails visible"
+    },
+    {
+      "id": "price",
+      "title": "Select commercial plan",
+      "route": "/pricing/",
+      "proof": "pricing JSON and buy rail live"
+    },
+    {
+      "id": "checkout",
+      "title": "Open Stripe Checkout",
+      "route": "/api/marketplace/checkout",
+      "proof": "fake_checkout=false"
+    },
+    {
+      "id": "post_payment",
+      "title": "Verify Stripe session",
+      "route": "/api/marketplace/session",
+      "proof": "SESSION_RETRIEVED"
+    },
+    {
+      "id": "entitlement",
+      "title": "Bind entitlement to KV",
+      "route": "/api/marketplace/entitlement-reconcile",
+      "proof": "ENTITLEMENT_ACTIVE after paid session"
+    },
+    {
+      "id": "receipt",
+      "title": "Expose receipt proof",
+      "route": "/api/marketplace/receipt",
+      "proof": "RECEIPT_FOUND after paid session"
+    }
+  ]
+}

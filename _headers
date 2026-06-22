@@ -65,3 +65,15 @@
 
 /marketplace/post-payment-proof.json
   content-type: application/json; charset=utf-8
+
+/marketplace/product-os.json
+  content-type: application/json; charset=utf-8
+
+/marketplace/plan-matrix.json
+  content-type: application/json; charset=utf-8
+
+/marketplace/route-map.json
+  content-type: application/json; charset=utf-8
+
+/marketplace/buyer-path.json
+  content-type: application/json; charset=utf-8

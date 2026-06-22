@@ -1,0 +1,109 @@
+{
+  "schema": "speedkit.product_control_os.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-22T20:08:00.762Z",
+  "title": "SPEEDKIT Product Control OS",
+  "position": "Marketplace command tower for public control, pricing, checkout, entitlement, receipts, install manifests, and proof routing.",
+  "live_state": {
+    "commerce": "COMMERCE_READY",
+    "pricing": "LIVE",
+    "buy_buttons": "LIVE",
+    "checkout": "STRIPE_CHECKOUT_LIVE",
+    "webhook": "READY",
+    "kv_entitlement_storage": "BOUND",
+    "post_payment_proof": "LIVE",
+    "private_remaining": 0,
+    "recognized_execution_systems": 4,
+    "workspace_entries": 135,
+    "package_surfaces": 22
+  },
+  "rails": {
+    "public_control": [
+      "/",
+      "/health.json",
+      "/control-chain.json",
+      "/public-reconciliation-proof.json"
+    ],
+    "marketplace": [
+      "/marketplace/",
+      "/marketplace/offers.json",
+      "/marketplace/listings.json",
+      "/marketplace/offer-ledger.json"
+    ],
+    "commerce": [
+      "/pricing/",
+      "/marketplace/pricing.json",
+      "/api/marketplace/checkout",
+      "/api/marketplace/runtime"
+    ],
+    "post_payment": [
+      "/api/marketplace/session",
+      "/api/marketplace/entitlement-reconcile",
+      "/api/marketplace/entitlement",
+      "/api/marketplace/receipt",
+      "/marketplace/entitlement/"
+    ],
+    "product_os": [
+      "/marketplace/control/",
+      "/marketplace/product-os.json",
+      "/marketplace/plan-matrix.json",
+      "/marketplace/route-map.json",
+      "/api/marketplace/control"
+    ]
+  },
+  "plans": [
+    {
+      "id": "starter",
+      "name": "SPEEDKIT Starter",
+      "price_eur_month": 49,
+      "sku": "SPEEDKIT-STARTER",
+      "buyer": "founder / builder / solo operator",
+      "commercial_boundary": "single operator public-control access",
+      "entitlement_level": 1,
+      "capabilities": [
+        "public marketplace access",
+        "offer and listing proof",
+        "install manifest access",
+        "receipt proof",
+        "entitlement lookup",
+        "public verification surface"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "SPEEDKIT Pro",
+      "price_eur_month": 199,
+      "sku": "SPEEDKIT-PRO",
+      "buyer": "team / agency / technical operator",
+      "commercial_boundary": "team and commercial operator access",
+      "entitlement_level": 2,
+      "capabilities": [
+        "all starter capabilities",
+        "commercial use boundary",
+        "priority surface review",
+        "proof packaging guidance",
+        "team onboarding path",
+        "higher support priority"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "name": "SPEEDKIT Enterprise",
+      "price_eur_month": 999,
+      "sku": "SPEEDKIT-ENTERPRISE",
+      "buyer": "company / institution / compliance-heavy buyer",
+      "commercial_boundary": "institutional control access",
+      "entitlement_level": 3,
+      "capabilities": [
+        "all pro capabilities",
+        "custom entitlement rail",
+        "custom proof rail",
+        "integration review",
+        "manual onboarding",
+        "commercial support boundary"
+      ]
+    }
+  ]
+}

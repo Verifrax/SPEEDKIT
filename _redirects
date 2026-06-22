@@ -1,3 +1,8 @@
+/marketplace/buyer-path.json /marketplace/buyer-path.json 200
+/marketplace/route-map.json /marketplace/route-map.json 200
+/marketplace/plan-matrix.json /marketplace/plan-matrix.json 200
+/marketplace/product-os.json /marketplace/product-os.json 200
+/marketplace/control /marketplace/control/ 301
 /marketplace/post-payment-proof.json /marketplace/post-payment-proof.json 200
 /marketplace/entitlement /marketplace/entitlement/ 301
 /marketplace/cancel /marketplace/cancel/ 301
