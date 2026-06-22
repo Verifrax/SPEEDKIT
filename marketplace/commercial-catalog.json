@@ -12,28 +12,25 @@
   "private_remaining": 0,
   "plans": [
     {
-      "plan_id": "starter",
-      "sku": "SPEEDKIT-STARTER",
+      "id": "starter",
       "name": "SPEEDKIT Starter",
-      "mode": "subscription",
-      "stripe_price_env": "STRIPE_PRICE_SPEEDKIT_STARTER",
-      "entitlement_scope": "marketplace_read_install_verify"
+      "amount_eur": 49,
+      "interval": "month",
+      "sku": "SPEEDKIT-STARTER"
     },
     {
-      "plan_id": "pro",
-      "sku": "SPEEDKIT-PRO",
+      "id": "pro",
       "name": "SPEEDKIT Pro",
-      "mode": "subscription",
-      "stripe_price_env": "STRIPE_PRICE_SPEEDKIT_PRO",
-      "entitlement_scope": "marketplace_read_install_verify_support"
+      "amount_eur": 199,
+      "interval": "month",
+      "sku": "SPEEDKIT-PRO"
     },
     {
-      "plan_id": "enterprise",
-      "sku": "SPEEDKIT-ENTERPRISE",
+      "id": "enterprise",
       "name": "SPEEDKIT Enterprise",
-      "mode": "subscription",
-      "stripe_price_env": "STRIPE_PRICE_SPEEDKIT_ENTERPRISE",
-      "entitlement_scope": "marketplace_read_install_verify_support_enterprise"
+      "amount_eur": 999,
+      "interval": "month",
+      "sku": "SPEEDKIT-ENTERPRISE"
     }
   ],
   "checkout_payload": {
@@ -50,5 +47,8 @@
     "customer_data_is_not_public": true,
     "orders_live_in_private_kv": true
   },
-  "runtime_endpoint": "/api/marketplace/runtime"
+  "runtime_endpoint": "/api/marketplace/runtime",
+  "pricing_status": "LIVE",
+  "pricing_url": "/pricing/",
+  "pricing_json": "/marketplace/pricing.json"
 }

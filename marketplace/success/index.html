@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Checkout Success · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Checkout Success</a></h1>
+    <p class="sub">Stripe checkout returned to SPEEDKIT. This page reads entitlement state from the live entitlement endpoint.</p>
+    <p class="stamp">WEBHOOK_BOUND · KV_ENTITLEMENT_STORAGE=true · FAKE_CHECKOUT=false</p>
+  </div>
+</header>
+<section class="box">
+  <h2>Entitlement Proof</h2>
+  <p id="speedkit-success-status">Reading session...</p>
+  <pre id="speedkit-entitlement-proof">{}</pre>
+  <p><a href="/marketplace/">Marketplace</a> · <a href="/pricing/">Pricing</a> · <a href="/marketplace/pricing.json">Pricing JSON</a></p>
+</section>
+<footer class="footer">SPEEDKIT CHECKOUT SUCCESS · ENTITLEMENT PROOF</footer>
+</main>
+<script src="/marketplace/success.js"></script>
+</body>
+</html>

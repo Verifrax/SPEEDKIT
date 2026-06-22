@@ -1,0 +1,70 @@
+{
+  "schema": "speedkit.pricing.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "currency": "EUR",
+  "billing_interval": "month",
+  "last_reconciled": "2026-06-22T19:03:20.178Z",
+  "checkout_endpoint": "/api/marketplace/checkout",
+  "runtime_endpoint": "/api/marketplace/runtime",
+  "webhook_endpoint": "/api/marketplace/stripe-webhook",
+  "entitlement_endpoint": "/api/marketplace/entitlement",
+  "default_offer_id": "offer-wsp-001",
+  "plans": [
+    {
+      "id": "starter",
+      "name": "SPEEDKIT Starter",
+      "price": "€49",
+      "amount_eur": 49,
+      "interval": "month",
+      "stripe_secret": "STRIPE_PRICE_SPEEDKIT_STARTER",
+      "sku": "SPEEDKIT-STARTER",
+      "line": "Founder access to SPEEDKIT public marketplace control.",
+      "bullets": [
+        "Public offer access",
+        "Install manifest rail",
+        "Receipt and ledger proof",
+        "Checkout runtime",
+        "Webhook-bound entitlement storage",
+        "Public-only verification surface"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "SPEEDKIT Pro",
+      "price": "€199",
+      "amount_eur": 199,
+      "interval": "month",
+      "stripe_secret": "STRIPE_PRICE_SPEEDKIT_PRO",
+      "sku": "SPEEDKIT-PRO",
+      "line": "Commercial operator access for teams and builders.",
+      "bullets": [
+        "Everything in Starter",
+        "Commercial use boundary",
+        "Priority surface review",
+        "Proof packaging guidance",
+        "Team onboarding path",
+        "Higher support priority"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "name": "SPEEDKIT Enterprise",
+      "price": "€999",
+      "amount_eur": 999,
+      "interval": "month",
+      "stripe_secret": "STRIPE_PRICE_SPEEDKIT_ENTERPRISE",
+      "sku": "SPEEDKIT-ENTERPRISE",
+      "line": "Institutional control access for serious integrations.",
+      "bullets": [
+        "Everything in Pro",
+        "Custom entitlement and proof rails",
+        "Integration review",
+        "Manual onboarding",
+        "Commercial support boundary",
+        "Institutional verification posture"
+      ]
+    }
+  ]
+}

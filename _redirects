@@ -1,3 +1,7 @@
+/marketplace/cancel /marketplace/cancel/ 301
+/marketplace/success /marketplace/success/ 301
+/marketplace/pricing.json /marketplace/pricing.json 200
+/pricing /pricing/ 301
 /marketplace/commerce-control.json /marketplace/commerce-control.json 200
 /marketplace/commercial-catalog.json /marketplace/commercial-catalog.json 200
 /marketplace/billing/ /marketplace/billing/index.html 200

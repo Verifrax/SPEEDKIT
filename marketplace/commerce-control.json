@@ -1,7 +1,7 @@
 {
   "schema": "speedkit.commerce_control.v1",
   "title": "SPEEDKIT Commerce Control Plane",
-  "status": "INSTALLED_FAIL_CLOSED",
+  "status": "COMMERCE_READY",
   "mode": "PUBLIC_ONLY",
   "provider": "stripe_checkout",
   "real_checkout": true,
@@ -58,5 +58,11 @@
     "status_endpoint": "/api/marketplace/runtime",
     "fail_closed_until_configured": true,
     "fake_checkout": false
-  }
+  },
+  "pricing_status": "LIVE",
+  "public_buy_rail": true,
+  "pricing_url": "/pricing/",
+  "pricing_json": "/marketplace/pricing.json",
+  "success_url": "/marketplace/success/",
+  "cancel_url": "/marketplace/cancel/"
 }

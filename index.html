@@ -72,6 +72,44 @@
 </section>
 <!-- SPEEDKIT_SINGLE_FAMILY_RAIL_END -->
 
+<!-- SPEEDKIT_PUBLIC_BUY_RAIL_START -->
+
+<section class="box speedkit-pricing-rail">
+  <h2>SPEEDKIT Pricing</h2>
+  <p><strong>Commerce is live.</strong> Stripe Checkout is active, webhook storage is KV-bound, fake checkout is false, and entitlement proof is routed through the marketplace runtime.</p>
+  <div class="speedkit-plan-grid">
+    
+    <article class="speedkit-plan">
+      <div class="speedkit-plan-kicker">SPEEDKIT-STARTER</div>
+      <h3>SPEEDKIT Starter</h3>
+      <div class="speedkit-price">€49<span> / month</span></div>
+      <p>Founder access to SPEEDKIT public marketplace control.</p>
+      <ul><li>Public offer access</li><li>Install manifest rail</li><li>Receipt and ledger proof</li><li>Checkout runtime</li><li>Webhook-bound entitlement storage</li><li>Public-only verification surface</li></ul>
+      <button class="speedkit-buy-button" type="button" data-speedkit-checkout data-plan="starter" data-offer-id="offer-wsp-001">Buy STARTER</button>
+    </article>
+
+    <article class="speedkit-plan">
+      <div class="speedkit-plan-kicker">SPEEDKIT-PRO</div>
+      <h3>SPEEDKIT Pro</h3>
+      <div class="speedkit-price">€199<span> / month</span></div>
+      <p>Commercial operator access for teams and builders.</p>
+      <ul><li>Everything in Starter</li><li>Commercial use boundary</li><li>Priority surface review</li><li>Proof packaging guidance</li><li>Team onboarding path</li><li>Higher support priority</li></ul>
+      <button class="speedkit-buy-button" type="button" data-speedkit-checkout data-plan="pro" data-offer-id="offer-wsp-001">Buy PRO</button>
+    </article>
+
+    <article class="speedkit-plan">
+      <div class="speedkit-plan-kicker">SPEEDKIT-ENTERPRISE</div>
+      <h3>SPEEDKIT Enterprise</h3>
+      <div class="speedkit-price">€999<span> / month</span></div>
+      <p>Institutional control access for serious integrations.</p>
+      <ul><li>Everything in Pro</li><li>Custom entitlement and proof rails</li><li>Integration review</li><li>Manual onboarding</li><li>Commercial support boundary</li><li>Institutional verification posture</li></ul>
+      <button class="speedkit-buy-button" type="button" data-speedkit-checkout data-plan="enterprise" data-offer-id="offer-wsp-001">Buy ENTERPRISE</button>
+    </article>
+  </div>
+  <p class="speedkit-commerce-note">PUBLIC_ONLY=true · COMMERCE_READY · FAKE_CHECKOUT=false · KV_ENTITLEMENT_STORAGE=true</p>
+  <p><a href="/marketplace/pricing.json">Open pricing JSON</a> · <a href="/marketplace/billing/">Open billing control</a> · <a href="/marketplace/">Open marketplace</a></p>
+</section>
+<!-- SPEEDKIT_PUBLIC_BUY_RAIL_END -->
 <h2>Core Surfaces</h2><div class="grid"><a class="card" href="/terminal/"><strong>Control terminal</strong><span>terminal</span><b>LIVE</b></a><a class="card" href="/systems/"><strong>Recognized execution systems</strong><span>admitted systems only</span><b>4</b></a><a class="card" href="/surfaces/"><strong>All public surfaces</strong><span>surfaces</span><b>135</b></a><a class="card" href="/workspace/"><strong>Workspace families</strong><span>workspace</span><b>135</b></a><a class="card" href="/github/"><strong>GitHub source</strong><span>github</span><b>113</b></a><a class="card" href="/github/#namespaces"><strong>GitHub namespaces</strong><span>users + orgs</span><b>16</b></a><a class="card" href="/github/#repositories"><strong>GitHub repositories</strong><span>repositories</span><b>97</b></a><a class="card" href="/packages/"><strong>Packages</strong><span>distribution surfaces</span><b>22</b></a><a class="card" href="/packages/npm/"><strong>npm</strong><span>npm rail</span><b>20</b></a><a class="card" href="/packages/pypi/"><strong>PyPI</strong><span>python rail</span><b>2</b></a><a class="card" href="/AUTHOR_WORKSPACE_REPOSITORY_SURFACE.json"><strong>Workspace JSON</strong><span>public universe</span><b>135</b></a><a class="card" href="/SPEEDKIT_TERMINAL_MANIFEST.json"><strong>Terminal manifest</strong><span>control manifest</span><b>135</b></a><a class="card" href="/public-reconciliation-proof.json"><strong>Reconciliation proof</strong><span>governed public rebuild gate</span><b>LIVE</b></a><a class="card" href="/health.json"><strong>Health</strong><span>live invariant status</span><b>PASS</b></a><a class="card" href="/control-chain.json"><strong>Control chain</strong><span>manifest · proof · projection</span><b>CLOSED</b></a><a class="card" href="/marketplace/"><strong>Marketplace</strong><span>offers · receipts · checkout runtime</span><b>135</b></a></div>
 
 
@@ -94,5 +132,6 @@ Repository/package existence is not systems admission.
 <footer class="footer">REGISTERED · ROUTED · PUBLIC-ONLY · SEARCHABLE · INSPECTABLE · EXPORTABLE<br><br>contact@speedkit.eu<br><br>STATE IS NOT SUBJECT TO INTERPRETATION</footer>
 </main>
 <script src="/speedkit-engine.js"></script>
+<script src="/marketplace/checkout.js"></script>
 </body>
 </html>
