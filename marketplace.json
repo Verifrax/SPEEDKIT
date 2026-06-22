@@ -2486,5 +2486,9 @@
   "capability_bundles_status": "LIVE",
   "capabilities_json": "/marketplace/capabilities.json",
   "capabilities_page": "/marketplace/capabilities/",
-  "capability_api": "/api/marketplace/capability"
+  "capability_api": "/api/marketplace/capability",
+  "access_policy_status": "LIVE",
+  "access_policy_json": "/marketplace/access-policy.json",
+  "access_policy_page": "/marketplace/access/",
+  "access_check_api": "/api/marketplace/access-check"
 }

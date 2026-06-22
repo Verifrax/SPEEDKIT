@@ -24,6 +24,12 @@
       "proof": "CAPABILITY_BUNDLES=LIVE"
     },
     {
+      "id": "access_policy",
+      "title": "Check capability access",
+      "route": "/api/marketplace/access-check",
+      "proof": "ACCESS_ALLOWED or ACCESS_DENIED"
+    },
+    {
       "id": "price",
       "title": "Select commercial plan",
       "route": "/pricing/",
@@ -54,5 +60,6 @@
       "proof": "RECEIPT_FOUND after paid session"
     }
   ],
-  "capability_bundles_status": "LIVE"
+  "capability_bundles_status": "LIVE",
+  "access_policy_status": "LIVE"
 }

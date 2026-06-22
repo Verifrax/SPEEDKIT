@@ -123,5 +123,8 @@
   "capability_bundles_status": "LIVE",
   "capability_count": 3,
   "capabilities_json": "/marketplace/capabilities.json",
-  "capability_api": "/api/marketplace/capability"
+  "capability_api": "/api/marketplace/capability",
+  "access_policy_status": "LIVE",
+  "access_policy_json": "/marketplace/access-policy.json",
+  "access_check_api": "/api/marketplace/access-check"
 }

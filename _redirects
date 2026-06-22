@@ -1,3 +1,5 @@
+/marketplace/access-policy.json /marketplace/access-policy.json 200
+/marketplace/access /marketplace/access/ 301
 /marketplace/capabilities.json /marketplace/capabilities.json 200
 /marketplace/capabilities /marketplace/capabilities/ 301
 /marketplace/buyer-path.json /marketplace/buyer-path.json 200

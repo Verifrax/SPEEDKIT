@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 27,
+  "route_count": 30,
   "routes": [
     {
       "route": "/",
@@ -139,7 +139,23 @@
       "route": "/api/marketplace/capability",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/access/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/access-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/access-check",
+      "class": "api",
+      "public": true
     }
   ],
-  "capability_routes_status": "LIVE"
+  "capability_routes_status": "LIVE",
+  "access_policy_routes_status": "LIVE"
 }
