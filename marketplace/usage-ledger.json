@@ -1,0 +1,40 @@
+{
+  "schema": "speedkit.usage_ledger.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-22T21:00:02.663Z",
+  "title": "SPEEDKIT Usage Ledger",
+  "rule": {
+    "allowed_usage_is_hash_chained": true,
+    "denied_usage_is_not_recorded_as_consumption": true,
+    "previous_hash_required_after_genesis": true,
+    "ledger_is_session_scoped": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "usage_policy": "/marketplace/usage-policy.json",
+    "usage_api": "/api/marketplace/usage",
+    "access_policy": "/marketplace/access-policy.json",
+    "access_check_api": "/api/marketplace/access-check",
+    "usage_ledger_api": "/api/marketplace/usage-ledger",
+    "usage_ledger_page": "/marketplace/usage-ledger/"
+  },
+  "ledger_model": {
+    "genesis_previous_hash": "GENESIS",
+    "hash_algorithm": "SHA-256",
+    "hash_input": "canonical ledger entry JSON without entry_hash",
+    "stored_in": "SPEEDKIT_COMMERCE_KV",
+    "keys": [
+      "usage-ledger:session:{session_id}",
+      "usage-ledger:event:{event_id}"
+    ]
+  },
+  "response_statuses": [
+    "USAGE_LEDGER_RECORDED",
+    "USAGE_LEDGER_READ",
+    "USAGE_NOT_RECORDED_BY_POLICY",
+    "SESSION_ID_REQUIRED"
+  ]
+}

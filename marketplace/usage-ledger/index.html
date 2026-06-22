@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Usage Ledger · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Usage Ledger</a></h1>
+    <p class="sub">Hash-chained consumption evidence for allowed usage events. Metered usage becomes replayable ledger proof.</p>
+    <p class="stamp">USAGE_LEDGER=LIVE · HASH_CHAIN=SHA-256 · KV=BOUND · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>HASH</span><b>SHA</b></div>
+    <div class="metric"><span>KV</span><b>BOUND</b></div>
+    <div class="metric"><span>GENESIS</span><b>YES</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Record Ledgered Usage</h2>
+  <p>This calls the usage meter, then writes a hash-chained usage ledger entry when policy allows the event.</p>
+  <div class="command"><span class="prompt">session</span><input id="speedkit-ledger-session" autocomplete="off" value="ledger-demo-session" /></div>
+  <div class="command"><span class="prompt">plan</span><input id="speedkit-ledger-plan" autocomplete="off" value="starter" /></div>
+  <div class="command"><span class="prompt">capability</span><input id="speedkit-ledger-capability" autocomplete="off" value="receipt_lookup" /></div>
+  <p>
+    <button class="speedkit-buy-button" id="speedkit-ledger-record" type="button">Record ledgered usage</button>
+    <button class="speedkit-buy-button" id="speedkit-ledger-read" type="button">Read ledger</button>
+  </p>
+  <pre id="speedkit-ledger-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Ledger Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/usage-ledger.json"><strong>Usage Ledger JSON</strong><span>ledger model</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/usage-ledger"><strong>Usage Ledger API</strong><span>record + read hash chain</span><b>KV</b></a>
+    <a class="card" href="/marketplace/usage/"><strong>Usage Metering</strong><span>raw meter</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/access/"><strong>Access Policy</strong><span>allow before meter</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT USAGE LEDGER · CONSUMPTION EVIDENCE LIVE</footer>
+</main>
+<script src="/marketplace/usage-ledger.js"></script>
+</body>
+</html>

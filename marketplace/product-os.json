@@ -22,7 +22,9 @@
     "access_policy": "LIVE",
     "capability_enforcement": "LIVE",
     "usage_metering": "LIVE",
-    "kv_usage_storage": "BOUND"
+    "kv_usage_storage": "BOUND",
+    "usage_ledger": "LIVE",
+    "hash_chained_usage": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -71,6 +73,11 @@
       "/marketplace/usage/",
       "/marketplace/usage-policy.json",
       "/api/marketplace/usage"
+    ],
+    "usage_ledger": [
+      "/marketplace/usage-ledger/",
+      "/marketplace/usage-ledger.json",
+      "/api/marketplace/usage-ledger"
     ]
   },
   "plans": [
@@ -138,5 +145,9 @@
   "usage_metering_status": "LIVE",
   "usage_policy_json": "/marketplace/usage-policy.json",
   "usage_page": "/marketplace/usage/",
-  "usage_api": "/api/marketplace/usage"
+  "usage_api": "/api/marketplace/usage",
+  "usage_ledger_status": "LIVE",
+  "usage_ledger_json": "/marketplace/usage-ledger.json",
+  "usage_ledger_page": "/marketplace/usage-ledger/",
+  "usage_ledger_api": "/api/marketplace/usage-ledger"
 }
