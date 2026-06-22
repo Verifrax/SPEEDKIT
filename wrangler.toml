@@ -1,0 +1,15 @@
+name = "speedkit"
+pages_build_output_dir = "."
+compatibility_date = "2026-06-22"
+
+[[kv_namespaces]]
+binding = "SPEEDKIT_COMMERCE_KV"
+id = "aa7b79f7150d4a3581fd69b0713b0bd3"
+
+[[env.production.kv_namespaces]]
+binding = "SPEEDKIT_COMMERCE_KV"
+id = "aa7b79f7150d4a3581fd69b0713b0bd3"
+
+[[env.preview.kv_namespaces]]
+binding = "SPEEDKIT_COMMERCE_KV"
+id = "aa7b79f7150d4a3581fd69b0713b0bd3"
