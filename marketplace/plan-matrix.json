@@ -22,7 +22,10 @@
         "receipt proof",
         "entitlement lookup",
         "public verification surface"
-      ]
+      ],
+      "capability_bundle_id": "starter-public-control",
+      "capability_bundle": "Starter Public Control Bundle",
+      "capability_api": "/api/marketplace/capability?plan=starter"
     },
     {
       "id": "pro",
@@ -39,7 +42,10 @@
         "proof packaging guidance",
         "team onboarding path",
         "higher support priority"
-      ]
+      ],
+      "capability_bundle_id": "pro-commercial-operator",
+      "capability_bundle": "Pro Commercial Operator Bundle",
+      "capability_api": "/api/marketplace/capability?plan=pro"
     },
     {
       "id": "enterprise",
@@ -56,7 +62,10 @@
         "integration review",
         "manual onboarding",
         "commercial support boundary"
-      ]
+      ],
+      "capability_bundle_id": "enterprise-institutional-control",
+      "capability_bundle": "Enterprise Institutional Control Bundle",
+      "capability_api": "/api/marketplace/capability?plan=enterprise"
     }
   ],
   "rule": {
@@ -64,5 +73,8 @@
     "private_repository_access_included": false,
     "paid_access_buys_control_layer": true,
     "entitlement_required_for_commercial_boundary": true
-  }
+  },
+  "capability_bundles_status": "LIVE",
+  "capabilities_json": "/marketplace/capabilities.json",
+  "capabilities_page": "/marketplace/capabilities/"
 }

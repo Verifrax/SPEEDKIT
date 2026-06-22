@@ -126,3 +126,12 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_PRODUCT_OS_STYLE_END */
+
+/* SPEEDKIT_CAPABILITY_STYLE_START */
+.speedkit-capability-rail {
+  border-style: ridge;
+}
+.speedkit-capability-rail .card b {
+  letter-spacing: .04em;
+}
+/* SPEEDKIT_CAPABILITY_STYLE_END */

@@ -18,6 +18,12 @@
       "proof": "offer/listing/receipt rails visible"
     },
     {
+      "id": "capability",
+      "title": "Select capability bundle",
+      "route": "/marketplace/capabilities/",
+      "proof": "CAPABILITY_BUNDLES=LIVE"
+    },
+    {
       "id": "price",
       "title": "Select commercial plan",
       "route": "/pricing/",
@@ -47,5 +53,6 @@
       "route": "/api/marketplace/receipt",
       "proof": "RECEIPT_FOUND after paid session"
     }
-  ]
+  ],
+  "capability_bundles_status": "LIVE"
 }

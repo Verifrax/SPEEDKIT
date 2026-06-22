@@ -77,3 +77,6 @@
 
 /marketplace/buyer-path.json
   content-type: application/json; charset=utf-8
+
+/marketplace/capabilities.json
+  content-type: application/json; charset=utf-8

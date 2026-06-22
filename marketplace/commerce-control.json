@@ -74,5 +74,9 @@
   "product_control_os_status": "LIVE",
   "product_control_os_page": "/marketplace/control/",
   "control_api": "/api/marketplace/control",
-  "plan_api": "/api/marketplace/plan"
+  "plan_api": "/api/marketplace/plan",
+  "capability_bundles_status": "LIVE",
+  "capabilities_json": "/marketplace/capabilities.json",
+  "capabilities_page": "/marketplace/capabilities/",
+  "capability_api": "/api/marketplace/capability"
 }
