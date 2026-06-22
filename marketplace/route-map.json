@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 24,
+  "route_count": 27,
   "routes": [
     {
       "route": "/",
@@ -124,6 +124,22 @@
       "route": "/api/marketplace/plan",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/capabilities/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/capabilities.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/capability",
+      "class": "api",
+      "public": true
     }
-  ]
+  ],
+  "capability_routes_status": "LIVE"
 }

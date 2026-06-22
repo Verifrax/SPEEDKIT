@@ -119,5 +119,9 @@
   "product_control_os_json": "/marketplace/product-os.json",
   "plan_matrix_json": "/marketplace/plan-matrix.json",
   "route_map_json": "/marketplace/route-map.json",
-  "buyer_path_json": "/marketplace/buyer-path.json"
+  "buyer_path_json": "/marketplace/buyer-path.json",
+  "capability_bundles_status": "LIVE",
+  "capability_count": 3,
+  "capabilities_json": "/marketplace/capabilities.json",
+  "capability_api": "/api/marketplace/capability"
 }

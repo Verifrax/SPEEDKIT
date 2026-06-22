@@ -75,5 +75,8 @@
   "receipt_endpoint": "/api/marketplace/receipt",
   "product_control_os_status": "LIVE",
   "product_control_os_page": "/marketplace/control/",
-  "marketplace_control_api": "/api/marketplace/control"
+  "marketplace_control_api": "/api/marketplace/control",
+  "capability_bundles_status": "LIVE",
+  "capability_count": 3,
+  "capability_api": "/api/marketplace/capability"
 }

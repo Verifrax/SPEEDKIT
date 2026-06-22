@@ -17,7 +17,8 @@
     "private_remaining": 0,
     "recognized_execution_systems": 4,
     "workspace_entries": 135,
-    "package_surfaces": 22
+    "package_surfaces": 22,
+    "capability_bundles": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -51,6 +52,11 @@
       "/marketplace/plan-matrix.json",
       "/marketplace/route-map.json",
       "/api/marketplace/control"
+    ],
+    "capabilities": [
+      "/marketplace/capabilities/",
+      "/marketplace/capabilities.json",
+      "/api/marketplace/capability"
     ]
   },
   "plans": [
@@ -105,5 +111,10 @@
         "commercial support boundary"
       ]
     }
-  ]
+  ],
+  "capability_bundles_status": "LIVE",
+  "capability_count": 3,
+  "capabilities_json": "/marketplace/capabilities.json",
+  "capabilities_page": "/marketplace/capabilities/",
+  "capability_api": "/api/marketplace/capability"
 }

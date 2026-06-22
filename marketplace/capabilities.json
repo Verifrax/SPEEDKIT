@@ -1,0 +1,117 @@
+{
+  "schema": "speedkit.capability_bundles.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-22T20:27:40.625Z",
+  "title": "SPEEDKIT Capability Bundles",
+  "rule": {
+    "pricing_is_not_the_product": true,
+    "payment_is_only_the_money_rail": true,
+    "capability_bundle_is_the_product_package": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "count": 3,
+  "bundles": [
+    {
+      "id": "starter-public-control",
+      "plan": "starter",
+      "sku": "SPEEDKIT-STARTER",
+      "level": 1,
+      "name": "Starter Public Control Bundle",
+      "price_eur_month": 49,
+      "badge": "PUBLIC CONTROL",
+      "buyer": "founder / builder / solo operator",
+      "unlocks": [
+        "Public marketplace access",
+        "Offer and listing proof",
+        "Install manifest rail",
+        "Receipt proof lookup",
+        "Entitlement lookup by session",
+        "Public verification surface"
+      ],
+      "boundaries": [
+        "No private repository access",
+        "No enterprise customization",
+        "Single operator commercial boundary",
+        "Public-only proof surfaces"
+      ],
+      "routes": [
+        "/pricing/",
+        "/marketplace/",
+        "/marketplace/offers.json",
+        "/marketplace/install-manifest.json",
+        "/marketplace/entitlement/",
+        "/api/marketplace/checkout",
+        "/api/marketplace/entitlement"
+      ]
+    },
+    {
+      "id": "pro-commercial-operator",
+      "plan": "pro",
+      "sku": "SPEEDKIT-PRO",
+      "level": 2,
+      "name": "Pro Commercial Operator Bundle",
+      "price_eur_month": 199,
+      "badge": "COMMERCIAL OPERATOR",
+      "buyer": "team / agency / technical operator",
+      "unlocks": [
+        "Everything in Starter",
+        "Commercial use boundary",
+        "Priority surface review",
+        "Proof packaging guidance",
+        "Team onboarding path",
+        "Higher support priority"
+      ],
+      "boundaries": [
+        "No private repository access",
+        "No enterprise custom rail unless upgraded",
+        "Team commercial operator boundary",
+        "Public-only proof surfaces"
+      ],
+      "routes": [
+        "/pricing/",
+        "/marketplace/control/",
+        "/marketplace/plan-matrix.json",
+        "/marketplace/route-map.json",
+        "/api/marketplace/control",
+        "/api/marketplace/plan",
+        "/api/marketplace/capability"
+      ]
+    },
+    {
+      "id": "enterprise-institutional-control",
+      "plan": "enterprise",
+      "sku": "SPEEDKIT-ENTERPRISE",
+      "level": 3,
+      "name": "Enterprise Institutional Control Bundle",
+      "price_eur_month": 999,
+      "badge": "INSTITUTIONAL CONTROL",
+      "buyer": "company / institution / compliance-heavy buyer",
+      "unlocks": [
+        "Everything in Pro",
+        "Custom entitlement rail",
+        "Custom proof rail",
+        "Integration review",
+        "Manual onboarding",
+        "Commercial support boundary"
+      ],
+      "boundaries": [
+        "Private repo access is still not automatic",
+        "Custom work requires explicit scoped admission",
+        "Institutional commercial boundary",
+        "Public proof remains separated from private delivery"
+      ],
+      "routes": [
+        "/marketplace/control/",
+        "/marketplace/product-os.json",
+        "/marketplace/buyer-path.json",
+        "/marketplace/post-payment-proof.json",
+        "/api/marketplace/control",
+        "/api/marketplace/entitlement-reconcile",
+        "/api/marketplace/receipt"
+      ]
+    }
+  ]
+}
