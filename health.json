@@ -85,5 +85,9 @@
   "usage_metering_status": "LIVE",
   "usage_policy_json": "/marketplace/usage-policy.json",
   "usage_page": "/marketplace/usage/",
-  "usage_api": "/api/marketplace/usage"
+  "usage_api": "/api/marketplace/usage",
+  "usage_ledger_status": "LIVE",
+  "usage_ledger_json": "/marketplace/usage-ledger.json",
+  "usage_ledger_page": "/marketplace/usage-ledger/",
+  "usage_ledger_api": "/api/marketplace/usage-ledger"
 }

@@ -86,3 +86,6 @@
 
 /marketplace/usage-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/usage-ledger.json
+  content-type: application/json; charset=utf-8

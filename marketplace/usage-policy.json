@@ -87,5 +87,9 @@
       "usage:capability:{capability}:{yyyy-mm}",
       "usage:event:{event_id}"
     ]
-  }
+  },
+  "usage_ledger_status": "LIVE",
+  "usage_ledger_json": "/marketplace/usage-ledger.json",
+  "usage_ledger_page": "/marketplace/usage-ledger/",
+  "usage_ledger_api": "/api/marketplace/usage-ledger"
 }

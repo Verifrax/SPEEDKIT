@@ -155,3 +155,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_USAGE_METERING_STYLE_END */
+
+/* SPEEDKIT_USAGE_LEDGER_STYLE_START */
+.speedkit-usage-ledger-rail {
+  border-style: inset;
+}
+#speedkit-ledger-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_USAGE_LEDGER_STYLE_END */

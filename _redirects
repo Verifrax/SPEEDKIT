@@ -1,3 +1,5 @@
+/marketplace/usage-ledger.json /marketplace/usage-ledger.json 200
+/marketplace/usage-ledger /marketplace/usage-ledger/ 301
 /marketplace/usage-policy.json /marketplace/usage-policy.json 200
 /marketplace/usage /marketplace/usage/ 301
 /marketplace/access-policy.json /marketplace/access-policy.json 200

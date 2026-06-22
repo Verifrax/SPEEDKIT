@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 33,
+  "route_count": 36,
   "routes": [
     {
       "route": "/",
@@ -169,9 +169,25 @@
       "route": "/api/marketplace/usage",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/usage-ledger/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/usage-ledger.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/usage-ledger",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
   "access_policy_routes_status": "LIVE",
-  "usage_metering_routes_status": "LIVE"
+  "usage_metering_routes_status": "LIVE",
+  "usage_ledger_routes_status": "LIVE"
 }

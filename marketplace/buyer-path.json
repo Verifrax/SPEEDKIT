@@ -64,9 +64,16 @@
       "title": "Record metered usage",
       "route": "/api/marketplace/usage",
       "proof": "USAGE_RECORDED after ACCESS_ALLOWED"
+    },
+    {
+      "id": "usage_ledger",
+      "title": "Write usage ledger proof",
+      "route": "/api/marketplace/usage-ledger",
+      "proof": "USAGE_LEDGER_RECORDED with SHA-256 entry hash"
     }
   ],
   "capability_bundles_status": "LIVE",
   "access_policy_status": "LIVE",
-  "usage_metering_status": "LIVE"
+  "usage_metering_status": "LIVE",
+  "usage_ledger_status": "LIVE"
 }
