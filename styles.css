@@ -115,3 +115,14 @@ pre{white-space:pre-wrap;overflow:auto}
 }
 /* SPEEDKIT_PUBLIC_BUY_RAIL_END */
 
+
+/* SPEEDKIT_PRODUCT_OS_STYLE_START */
+.speedkit-product-os-rail {
+  border-style: double;
+}
+.speedkit-control-os pre,
+#speedkit-control-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_PRODUCT_OS_STYLE_END */

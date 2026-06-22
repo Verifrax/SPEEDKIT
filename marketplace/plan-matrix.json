@@ -1,0 +1,68 @@
+{
+  "schema": "speedkit.plan_matrix.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-22T20:08:00.762Z",
+  "currency": "EUR",
+  "interval": "month",
+  "plans": [
+    {
+      "id": "starter",
+      "name": "SPEEDKIT Starter",
+      "price_eur_month": 49,
+      "sku": "SPEEDKIT-STARTER",
+      "buyer": "founder / builder / solo operator",
+      "commercial_boundary": "single operator public-control access",
+      "entitlement_level": 1,
+      "capabilities": [
+        "public marketplace access",
+        "offer and listing proof",
+        "install manifest access",
+        "receipt proof",
+        "entitlement lookup",
+        "public verification surface"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "SPEEDKIT Pro",
+      "price_eur_month": 199,
+      "sku": "SPEEDKIT-PRO",
+      "buyer": "team / agency / technical operator",
+      "commercial_boundary": "team and commercial operator access",
+      "entitlement_level": 2,
+      "capabilities": [
+        "all starter capabilities",
+        "commercial use boundary",
+        "priority surface review",
+        "proof packaging guidance",
+        "team onboarding path",
+        "higher support priority"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "name": "SPEEDKIT Enterprise",
+      "price_eur_month": 999,
+      "sku": "SPEEDKIT-ENTERPRISE",
+      "buyer": "company / institution / compliance-heavy buyer",
+      "commercial_boundary": "institutional control access",
+      "entitlement_level": 3,
+      "capabilities": [
+        "all pro capabilities",
+        "custom entitlement rail",
+        "custom proof rail",
+        "integration review",
+        "manual onboarding",
+        "commercial support boundary"
+      ]
+    }
+  ],
+  "rule": {
+    "public_surfaces_remain_public": true,
+    "private_repository_access_included": false,
+    "paid_access_buys_control_layer": true,
+    "entitlement_required_for_commercial_boundary": true
+  }
+}

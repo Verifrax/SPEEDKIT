@@ -2476,5 +2476,11 @@
   ],
   "post_payment_proof_status": "LIVE",
   "entitlement_proof_page": "/marketplace/entitlement/",
-  "post_payment_proof_json": "/marketplace/post-payment-proof.json"
+  "post_payment_proof_json": "/marketplace/post-payment-proof.json",
+  "product_control_os_status": "LIVE",
+  "product_control_os_page": "/marketplace/control/",
+  "product_control_os_json": "/marketplace/product-os.json",
+  "plan_matrix_json": "/marketplace/plan-matrix.json",
+  "route_map_json": "/marketplace/route-map.json",
+  "buyer_path_json": "/marketplace/buyer-path.json"
 }

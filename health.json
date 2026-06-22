@@ -72,5 +72,8 @@
   "post_payment_proof_status": "LIVE",
   "session_probe_endpoint": "/api/marketplace/session",
   "entitlement_reconcile_endpoint": "/api/marketplace/entitlement-reconcile",
-  "receipt_endpoint": "/api/marketplace/receipt"
+  "receipt_endpoint": "/api/marketplace/receipt",
+  "product_control_os_status": "LIVE",
+  "product_control_os_page": "/marketplace/control/",
+  "marketplace_control_api": "/api/marketplace/control"
 }

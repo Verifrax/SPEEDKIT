@@ -1,0 +1,129 @@
+{
+  "schema": "speedkit.marketplace_route_map.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "generated_at": "2026-06-22T20:08:00.762Z",
+  "route_count": 24,
+  "routes": [
+    {
+      "route": "/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/pricing/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/pricing.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/commerce-control.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/commercial-catalog.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/post-payment-proof.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/install-manifest.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/offer-ledger.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/offers.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/listings.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/marketplace/billing/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/entitlement/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/success/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/cancel/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/runtime",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/checkout",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/stripe-webhook",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/session",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/entitlement-reconcile",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/entitlement",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/receipt",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control",
+      "class": "api",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/plan",
+      "class": "api",
+      "public": true
+    }
+  ]
+}
