@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Access Policy · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Access Policy Engine</a></h1>
+    <p class="sub">Plan-bound capability enforcement. Pricing is the money rail; entitlement level is the authority.</p>
+    <p class="stamp">ACCESS_POLICY=LIVE · CAPABILITY_ENFORCEMENT=LIVE · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>PLANS</span><b>3</b></div>
+    <div class="metric"><span>CAPS</span><b>16</b></div>
+    <div class="metric"><span>MODEL</span><b>LEVEL</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Access Check</h2>
+  <p>Check whether a plan can use a capability.</p>
+  <div class="command"><span class="prompt">plan</span><input id="speedkit-plan-input" autocomplete="off" placeholder="starter / pro / enterprise" value="starter" /></div>
+  <div class="command"><span class="prompt">capability</span><input id="speedkit-capability-input" autocomplete="off" placeholder="custom_entitlement_rail" value="custom_entitlement_rail" /></div>
+  <p><button class="speedkit-buy-button" id="speedkit-access-check" type="button">Run access check</button></p>
+  <pre id="speedkit-access-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Capability Policy</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/access-policy.json"><strong>Access Policy JSON</strong><span>plan-bound permissions</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/access-check?plan=starter&capability=custom_entitlement_rail"><strong>Starter denied example</strong><span>custom rail denied</span><b>DENY</b></a>
+    <a class="card" href="/api/marketplace/access-check?plan=enterprise&capability=custom_entitlement_rail"><strong>Enterprise allowed example</strong><span>custom rail allowed</span><b>ALLOW</b></a>
+    <a class="card" href="/marketplace/capabilities/"><strong>Capability Bundles</strong><span>product packages</span><b>3</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT ACCESS POLICY ENGINE · STATE IS NOT SUBJECT TO INTERPRETATION</footer>
+</main>
+<script src="/marketplace/access.js"></script>
+</body>
+</html>

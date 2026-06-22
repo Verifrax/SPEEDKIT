@@ -1,0 +1,181 @@
+{
+  "schema": "speedkit.access_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-22T20:33:05.143Z",
+  "title": "SPEEDKIT Access Policy Engine",
+  "rule": {
+    "payment_is_not_authority": true,
+    "entitlement_level_is_authority": true,
+    "capability_min_level_enforced": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "plans": [
+    {
+      "id": "starter",
+      "level": 1,
+      "sku": "SPEEDKIT-STARTER",
+      "price_eur_month": 49,
+      "allowed_capabilities": [
+        "public_marketplace_access",
+        "offer_listing_proof",
+        "install_manifest_access",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "public_verification_surface"
+      ],
+      "denied_capabilities": [
+        "commercial_use_boundary",
+        "priority_surface_review",
+        "proof_packaging_guidance",
+        "team_onboarding_path",
+        "higher_support_priority",
+        "custom_entitlement_rail",
+        "custom_proof_rail",
+        "integration_review",
+        "manual_onboarding",
+        "commercial_support_boundary"
+      ]
+    },
+    {
+      "id": "pro",
+      "level": 2,
+      "sku": "SPEEDKIT-PRO",
+      "price_eur_month": 199,
+      "allowed_capabilities": [
+        "public_marketplace_access",
+        "offer_listing_proof",
+        "install_manifest_access",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "public_verification_surface",
+        "commercial_use_boundary",
+        "priority_surface_review",
+        "proof_packaging_guidance",
+        "team_onboarding_path",
+        "higher_support_priority"
+      ],
+      "denied_capabilities": [
+        "custom_entitlement_rail",
+        "custom_proof_rail",
+        "integration_review",
+        "manual_onboarding",
+        "commercial_support_boundary"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "level": 3,
+      "sku": "SPEEDKIT-ENTERPRISE",
+      "price_eur_month": 999,
+      "allowed_capabilities": [
+        "public_marketplace_access",
+        "offer_listing_proof",
+        "install_manifest_access",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "public_verification_surface",
+        "commercial_use_boundary",
+        "priority_surface_review",
+        "proof_packaging_guidance",
+        "team_onboarding_path",
+        "higher_support_priority",
+        "custom_entitlement_rail",
+        "custom_proof_rail",
+        "integration_review",
+        "manual_onboarding",
+        "commercial_support_boundary"
+      ],
+      "denied_capabilities": []
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "public_marketplace_access",
+      "label": "Public marketplace access",
+      "min_level": 1
+    },
+    {
+      "id": "offer_listing_proof",
+      "label": "Offer and listing proof",
+      "min_level": 1
+    },
+    {
+      "id": "install_manifest_access",
+      "label": "Install manifest access",
+      "min_level": 1
+    },
+    {
+      "id": "receipt_lookup",
+      "label": "Receipt proof lookup",
+      "min_level": 1
+    },
+    {
+      "id": "entitlement_lookup",
+      "label": "Entitlement lookup by session",
+      "min_level": 1
+    },
+    {
+      "id": "public_verification_surface",
+      "label": "Public verification surface",
+      "min_level": 1
+    },
+    {
+      "id": "commercial_use_boundary",
+      "label": "Commercial use boundary",
+      "min_level": 2
+    },
+    {
+      "id": "priority_surface_review",
+      "label": "Priority surface review",
+      "min_level": 2
+    },
+    {
+      "id": "proof_packaging_guidance",
+      "label": "Proof packaging guidance",
+      "min_level": 2
+    },
+    {
+      "id": "team_onboarding_path",
+      "label": "Team onboarding path",
+      "min_level": 2
+    },
+    {
+      "id": "higher_support_priority",
+      "label": "Higher support priority",
+      "min_level": 2
+    },
+    {
+      "id": "custom_entitlement_rail",
+      "label": "Custom entitlement rail",
+      "min_level": 3
+    },
+    {
+      "id": "custom_proof_rail",
+      "label": "Custom proof rail",
+      "min_level": 3
+    },
+    {
+      "id": "integration_review",
+      "label": "Integration review",
+      "min_level": 3
+    },
+    {
+      "id": "manual_onboarding",
+      "label": "Manual onboarding",
+      "min_level": 3
+    },
+    {
+      "id": "commercial_support_boundary",
+      "label": "Commercial support boundary",
+      "min_level": 3
+    }
+  ],
+  "decision_model": {
+    "input": "plan + capability",
+    "allowed_when": "plan.entitlement_level >= capability.min_level",
+    "denied_when": "plan.entitlement_level < capability.min_level"
+  }
+}

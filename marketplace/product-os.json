@@ -18,7 +18,9 @@
     "recognized_execution_systems": 4,
     "workspace_entries": 135,
     "package_surfaces": 22,
-    "capability_bundles": "LIVE"
+    "capability_bundles": "LIVE",
+    "access_policy": "LIVE",
+    "capability_enforcement": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -57,6 +59,11 @@
       "/marketplace/capabilities/",
       "/marketplace/capabilities.json",
       "/api/marketplace/capability"
+    ],
+    "access_policy": [
+      "/marketplace/access/",
+      "/marketplace/access-policy.json",
+      "/api/marketplace/access-check"
     ]
   },
   "plans": [
@@ -116,5 +123,9 @@
   "capability_count": 3,
   "capabilities_json": "/marketplace/capabilities.json",
   "capabilities_page": "/marketplace/capabilities/",
-  "capability_api": "/api/marketplace/capability"
+  "capability_api": "/api/marketplace/capability",
+  "access_policy_status": "LIVE",
+  "access_policy_json": "/marketplace/access-policy.json",
+  "access_policy_page": "/marketplace/access/",
+  "access_check_api": "/api/marketplace/access-check"
 }

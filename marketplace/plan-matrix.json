@@ -25,7 +25,28 @@
       ],
       "capability_bundle_id": "starter-public-control",
       "capability_bundle": "Starter Public Control Bundle",
-      "capability_api": "/api/marketplace/capability?plan=starter"
+      "capability_api": "/api/marketplace/capability?plan=starter",
+      "allowed_capabilities": [
+        "public_marketplace_access",
+        "offer_listing_proof",
+        "install_manifest_access",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "public_verification_surface"
+      ],
+      "denied_capabilities": [
+        "commercial_use_boundary",
+        "priority_surface_review",
+        "proof_packaging_guidance",
+        "team_onboarding_path",
+        "higher_support_priority",
+        "custom_entitlement_rail",
+        "custom_proof_rail",
+        "integration_review",
+        "manual_onboarding",
+        "commercial_support_boundary"
+      ],
+      "access_check_api": "/api/marketplace/access-check?plan=starter&capability=receipt_lookup"
     },
     {
       "id": "pro",
@@ -45,7 +66,28 @@
       ],
       "capability_bundle_id": "pro-commercial-operator",
       "capability_bundle": "Pro Commercial Operator Bundle",
-      "capability_api": "/api/marketplace/capability?plan=pro"
+      "capability_api": "/api/marketplace/capability?plan=pro",
+      "allowed_capabilities": [
+        "public_marketplace_access",
+        "offer_listing_proof",
+        "install_manifest_access",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "public_verification_surface",
+        "commercial_use_boundary",
+        "priority_surface_review",
+        "proof_packaging_guidance",
+        "team_onboarding_path",
+        "higher_support_priority"
+      ],
+      "denied_capabilities": [
+        "custom_entitlement_rail",
+        "custom_proof_rail",
+        "integration_review",
+        "manual_onboarding",
+        "commercial_support_boundary"
+      ],
+      "access_check_api": "/api/marketplace/access-check?plan=pro&capability=receipt_lookup"
     },
     {
       "id": "enterprise",
@@ -65,7 +107,27 @@
       ],
       "capability_bundle_id": "enterprise-institutional-control",
       "capability_bundle": "Enterprise Institutional Control Bundle",
-      "capability_api": "/api/marketplace/capability?plan=enterprise"
+      "capability_api": "/api/marketplace/capability?plan=enterprise",
+      "allowed_capabilities": [
+        "public_marketplace_access",
+        "offer_listing_proof",
+        "install_manifest_access",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "public_verification_surface",
+        "commercial_use_boundary",
+        "priority_surface_review",
+        "proof_packaging_guidance",
+        "team_onboarding_path",
+        "higher_support_priority",
+        "custom_entitlement_rail",
+        "custom_proof_rail",
+        "integration_review",
+        "manual_onboarding",
+        "commercial_support_boundary"
+      ],
+      "denied_capabilities": [],
+      "access_check_api": "/api/marketplace/access-check?plan=enterprise&capability=receipt_lookup"
     }
   ],
   "rule": {
@@ -76,5 +138,8 @@
   },
   "capability_bundles_status": "LIVE",
   "capabilities_json": "/marketplace/capabilities.json",
-  "capabilities_page": "/marketplace/capabilities/"
+  "capabilities_page": "/marketplace/capabilities/",
+  "access_policy_status": "LIVE",
+  "access_policy_json": "/marketplace/access-policy.json",
+  "access_check_api": "/api/marketplace/access-check"
 }

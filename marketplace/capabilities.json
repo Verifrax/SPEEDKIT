@@ -113,5 +113,9 @@
         "/api/marketplace/receipt"
       ]
     }
-  ]
+  ],
+  "access_policy_status": "LIVE",
+  "access_policy_json": "/marketplace/access-policy.json",
+  "access_policy_page": "/marketplace/access/",
+  "access_check_api": "/api/marketplace/access-check"
 }

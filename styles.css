@@ -135,3 +135,13 @@ pre{white-space:pre-wrap;overflow:auto}
   letter-spacing: .04em;
 }
 /* SPEEDKIT_CAPABILITY_STYLE_END */
+
+/* SPEEDKIT_ACCESS_POLICY_STYLE_START */
+.speedkit-access-policy-rail {
+  border-style: groove;
+}
+#speedkit-access-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_ACCESS_POLICY_STYLE_END */

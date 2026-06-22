@@ -92,6 +92,20 @@
   </div>
 </section>
 <!-- SPEEDKIT_CAPABILITY_RAIL_END -->
+<!-- SPEEDKIT_ACCESS_POLICY_RAIL_START -->
+
+<section class="box speedkit-access-policy-rail">
+  <h2>SPEEDKIT Access Policy Engine</h2>
+  <p><strong>Capability enforcement is live.</strong> Plans now have allowed and denied capability sets, and the access-check API returns deterministic ALLOW/DENY decisions.</p>
+  <div class="grid">
+    <a class="card" href="/marketplace/access/"><strong>Access Policy Engine</strong><span>interactive decision surface</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/access-policy.json"><strong>Access Policy JSON</strong><span>plan permissions</span><b>16</b></a>
+    <a class="card" href="/api/marketplace/access-check?plan=starter&capability=receipt_lookup"><strong>Starter receipt check</strong><span>allowed example</span><b>ALLOW</b></a>
+    <a class="card" href="/api/marketplace/access-check?plan=starter&capability=custom_entitlement_rail"><strong>Starter custom rail</strong><span>denied example</span><b>DENY</b></a>
+    <a class="card" href="/api/marketplace/access-check?plan=enterprise&capability=custom_entitlement_rail"><strong>Enterprise custom rail</strong><span>allowed example</span><b>ALLOW</b></a>
+  </div>
+</section>
+<!-- SPEEDKIT_ACCESS_POLICY_RAIL_END -->
 </main>
 <script src="/marketplace/checkout.js"></script>
 </body>
