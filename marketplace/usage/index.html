@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Usage Metering · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Usage Metering</a></h1>
+    <p class="sub">Plan/capability/session usage recording. Access policy decides ALLOW/DENY before usage is recorded.</p>
+    <p class="stamp">USAGE_METERING=LIVE · KV=BOUND · ACCESS_POLICY=LIVE · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>STARTER</span><b>100</b></div>
+    <div class="metric"><span>PRO</span><b>1000</b></div>
+    <div class="metric"><span>ENT</span><b>10000</b></div>
+    <div class="metric"><span>KV</span><b>BOUND</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Record Usage Event</h2>
+  <p>Allowed usage writes to KV. Denied usage returns ACCESS_DENIED and does not write.</p>
+  <div class="command"><span class="prompt">session</span><input id="speedkit-usage-session" autocomplete="off" value="usage-demo-session" /></div>
+  <div class="command"><span class="prompt">plan</span><input id="speedkit-usage-plan" autocomplete="off" value="starter" /></div>
+  <div class="command"><span class="prompt">capability</span><input id="speedkit-usage-capability" autocomplete="off" value="receipt_lookup" /></div>
+  <p><button class="speedkit-buy-button" id="speedkit-usage-record" type="button">Record usage</button></p>
+  <pre id="speedkit-usage-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Usage Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/usage-policy.json"><strong>Usage Policy JSON</strong><span>plan limits + meter rules</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/usage"><strong>Usage API</strong><span>record + read usage</span><b>KV</b></a>
+    <a class="card" href="/marketplace/access/"><strong>Access Policy</strong><span>allow/deny authority</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/control/"><strong>Product Control OS</strong><span>control tower</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT USAGE METERING · STATE IS NOT SUBJECT TO INTERPRETATION</footer>
+</main>
+<script src="/marketplace/usage.js"></script>
+</body>
+</html>

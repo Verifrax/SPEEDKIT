@@ -58,8 +58,15 @@
       "title": "Expose receipt proof",
       "route": "/api/marketplace/receipt",
       "proof": "RECEIPT_FOUND after paid session"
+    },
+    {
+      "id": "usage_metering",
+      "title": "Record metered usage",
+      "route": "/api/marketplace/usage",
+      "proof": "USAGE_RECORDED after ACCESS_ALLOWED"
     }
   ],
   "capability_bundles_status": "LIVE",
-  "access_policy_status": "LIVE"
+  "access_policy_status": "LIVE",
+  "usage_metering_status": "LIVE"
 }
