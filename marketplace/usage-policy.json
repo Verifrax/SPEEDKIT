@@ -1,0 +1,91 @@
+{
+  "schema": "speedkit.usage_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-22T20:44:45.906Z",
+  "title": "SPEEDKIT Usage Metering Policy",
+  "rule": {
+    "usage_is_metered_after_policy_check": true,
+    "denied_capability_is_not_metered": true,
+    "entitlement_billing_is_not_modified_by_usage_meter": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "access_policy": "/marketplace/access-policy.json",
+    "access_check_api": "/api/marketplace/access-check",
+    "usage_api": "/api/marketplace/usage",
+    "usage_page": "/marketplace/usage/"
+  },
+  "plan_policies": [
+    {
+      "plan": "starter",
+      "sku": "SPEEDKIT-STARTER",
+      "entitlement_level": 1,
+      "monthly_event_limit": 100,
+      "monthly_unit_limit": 1000,
+      "meter_scope": "single_operator",
+      "allowed_meter_classes": [
+        "public_control",
+        "proof_read",
+        "receipt_lookup",
+        "entitlement_lookup"
+      ]
+    },
+    {
+      "plan": "pro",
+      "sku": "SPEEDKIT-PRO",
+      "entitlement_level": 2,
+      "monthly_event_limit": 1000,
+      "monthly_unit_limit": 10000,
+      "meter_scope": "team_operator",
+      "allowed_meter_classes": [
+        "public_control",
+        "proof_read",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "commercial_review",
+        "proof_packaging"
+      ]
+    },
+    {
+      "plan": "enterprise",
+      "sku": "SPEEDKIT-ENTERPRISE",
+      "entitlement_level": 3,
+      "monthly_event_limit": 10000,
+      "monthly_unit_limit": 100000,
+      "meter_scope": "institutional_operator",
+      "allowed_meter_classes": [
+        "public_control",
+        "proof_read",
+        "receipt_lookup",
+        "entitlement_lookup",
+        "commercial_review",
+        "proof_packaging",
+        "custom_entitlement",
+        "integration_review"
+      ]
+    }
+  ],
+  "event_model": {
+    "required": [
+      "session_id",
+      "plan",
+      "capability"
+    ],
+    "optional": [
+      "event",
+      "units",
+      "metadata"
+    ],
+    "default_units": 1,
+    "stored_in": "SPEEDKIT_COMMERCE_KV",
+    "keys": [
+      "usage:session:{session_id}",
+      "usage:plan:{plan}:{yyyy-mm}",
+      "usage:capability:{capability}:{yyyy-mm}",
+      "usage:event:{event_id}"
+    ]
+  }
+}

@@ -145,3 +145,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_ACCESS_POLICY_STYLE_END */
+
+/* SPEEDKIT_USAGE_METERING_STYLE_START */
+.speedkit-usage-metering-rail {
+  border-style: outset;
+}
+#speedkit-usage-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_USAGE_METERING_STYLE_END */

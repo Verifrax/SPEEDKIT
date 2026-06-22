@@ -20,7 +20,9 @@
     "package_surfaces": 22,
     "capability_bundles": "LIVE",
     "access_policy": "LIVE",
-    "capability_enforcement": "LIVE"
+    "capability_enforcement": "LIVE",
+    "usage_metering": "LIVE",
+    "kv_usage_storage": "BOUND"
   },
   "rails": {
     "public_control": [
@@ -64,6 +66,11 @@
       "/marketplace/access/",
       "/marketplace/access-policy.json",
       "/api/marketplace/access-check"
+    ],
+    "usage_metering": [
+      "/marketplace/usage/",
+      "/marketplace/usage-policy.json",
+      "/api/marketplace/usage"
     ]
   },
   "plans": [
@@ -127,5 +134,9 @@
   "access_policy_status": "LIVE",
   "access_policy_json": "/marketplace/access-policy.json",
   "access_policy_page": "/marketplace/access/",
-  "access_check_api": "/api/marketplace/access-check"
+  "access_check_api": "/api/marketplace/access-check",
+  "usage_metering_status": "LIVE",
+  "usage_policy_json": "/marketplace/usage-policy.json",
+  "usage_page": "/marketplace/usage/",
+  "usage_api": "/api/marketplace/usage"
 }

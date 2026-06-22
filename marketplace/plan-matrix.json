@@ -46,7 +46,11 @@
         "manual_onboarding",
         "commercial_support_boundary"
       ],
-      "access_check_api": "/api/marketplace/access-check?plan=starter&capability=receipt_lookup"
+      "access_check_api": "/api/marketplace/access-check?plan=starter&capability=receipt_lookup",
+      "monthly_event_limit": 100,
+      "monthly_unit_limit": 1000,
+      "usage_policy": "/marketplace/usage-policy.json",
+      "usage_api": "/api/marketplace/usage"
     },
     {
       "id": "pro",
@@ -87,7 +91,11 @@
         "manual_onboarding",
         "commercial_support_boundary"
       ],
-      "access_check_api": "/api/marketplace/access-check?plan=pro&capability=receipt_lookup"
+      "access_check_api": "/api/marketplace/access-check?plan=pro&capability=receipt_lookup",
+      "monthly_event_limit": 1000,
+      "monthly_unit_limit": 10000,
+      "usage_policy": "/marketplace/usage-policy.json",
+      "usage_api": "/api/marketplace/usage"
     },
     {
       "id": "enterprise",
@@ -127,7 +135,11 @@
         "commercial_support_boundary"
       ],
       "denied_capabilities": [],
-      "access_check_api": "/api/marketplace/access-check?plan=enterprise&capability=receipt_lookup"
+      "access_check_api": "/api/marketplace/access-check?plan=enterprise&capability=receipt_lookup",
+      "monthly_event_limit": 10000,
+      "monthly_unit_limit": 100000,
+      "usage_policy": "/marketplace/usage-policy.json",
+      "usage_api": "/api/marketplace/usage"
     }
   ],
   "rule": {
@@ -141,5 +153,8 @@
   "capabilities_page": "/marketplace/capabilities/",
   "access_policy_status": "LIVE",
   "access_policy_json": "/marketplace/access-policy.json",
-  "access_check_api": "/api/marketplace/access-check"
+  "access_check_api": "/api/marketplace/access-check",
+  "usage_metering_status": "LIVE",
+  "usage_policy_json": "/marketplace/usage-policy.json",
+  "usage_api": "/api/marketplace/usage"
 }
