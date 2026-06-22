@@ -62,3 +62,6 @@
 
 /marketplace/pricing.json
   content-type: application/json; charset=utf-8
+
+/marketplace/post-payment-proof.json
+  content-type: application/json; charset=utf-8

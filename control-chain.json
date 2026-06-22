@@ -108,5 +108,10 @@
   "pricing_status": "LIVE",
   "public_buy_rail": true,
   "pricing_json": "/marketplace/pricing.json",
-  "pricing_page": "/pricing/"
+  "pricing_page": "/pricing/",
+  "post_payment_proof_status": "LIVE",
+  "session_probe_endpoint": "/api/marketplace/session",
+  "entitlement_reconcile_endpoint": "/api/marketplace/entitlement-reconcile",
+  "receipt_endpoint": "/api/marketplace/receipt",
+  "post_payment_proof_json": "/marketplace/post-payment-proof.json"
 }

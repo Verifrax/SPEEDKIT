@@ -68,5 +68,9 @@
   "commerce_runtime_status": "COMMERCE_READY",
   "pricing_status": "LIVE",
   "public_buy_rail": true,
-  "fake_checkout": false
+  "fake_checkout": false,
+  "post_payment_proof_status": "LIVE",
+  "session_probe_endpoint": "/api/marketplace/session",
+  "entitlement_reconcile_endpoint": "/api/marketplace/entitlement-reconcile",
+  "receipt_endpoint": "/api/marketplace/receipt"
 }

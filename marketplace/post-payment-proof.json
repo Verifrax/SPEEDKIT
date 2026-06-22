@@ -1,0 +1,22 @@
+{
+  "schema": "speedkit.post_payment_proof.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "last_reconciled": "2026-06-22T19:10:53.032Z",
+  "endpoints": {
+    "session_probe": "/api/marketplace/session",
+    "entitlement_reconcile": "/api/marketplace/entitlement-reconcile",
+    "entitlement_lookup": "/api/marketplace/entitlement",
+    "receipt_lookup": "/api/marketplace/receipt",
+    "success_page": "/marketplace/success/",
+    "entitlement_page": "/marketplace/entitlement/"
+  },
+  "proof_chain": [
+    "Stripe Checkout creates session",
+    "Stripe returns session_id",
+    "SPEEDKIT retrieves Checkout Session",
+    "If paid or complete, SPEEDKIT writes entitlement to KV",
+    "SPEEDKIT exposes entitlement and receipt proof by session_id"
+  ]
+}
