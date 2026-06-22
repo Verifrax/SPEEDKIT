@@ -64,5 +64,9 @@
     "marketplace_offer_ledger": "25b3b3cc3efe3194b5e7a27fe4b8792552658c3cad9469bdf200a7b7335a9c45",
     "marketplace_commerce_control": "48f2cf64c1ca3251ad1512f4d6f397e52f5078f08e8f1a05b975d56f9d2dab01",
     "marketplace_commercial_catalog": "9c4c5b3ce221a2cf22da8f6d9c2ab034dccff4b49091f8b6dbdfc6f6bb12b9ab"
-  }
+  },
+  "commerce_runtime_status": "COMMERCE_READY",
+  "pricing_status": "LIVE",
+  "public_buy_rail": true,
+  "fake_checkout": false
 }

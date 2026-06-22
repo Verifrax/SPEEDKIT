@@ -2449,5 +2449,29 @@
     "checkout_api": "/api/marketplace/checkout",
     "webhook_api": "/api/marketplace/stripe-webhook",
     "entitlement_api": "/api/marketplace/entitlement"
-  }
+  },
+  "pricing_status": "LIVE",
+  "checkout_visibility": "PUBLIC_BUY_BUTTONS_LIVE",
+  "pricing_url": "/pricing/",
+  "pricing_json": "/marketplace/pricing.json",
+  "pricing_plans": [
+    {
+      "id": "starter",
+      "price": "€49",
+      "interval": "month",
+      "sku": "SPEEDKIT-STARTER"
+    },
+    {
+      "id": "pro",
+      "price": "€199",
+      "interval": "month",
+      "sku": "SPEEDKIT-PRO"
+    },
+    {
+      "id": "enterprise",
+      "price": "€999",
+      "interval": "month",
+      "sku": "SPEEDKIT-ENTERPRISE"
+    }
+  ]
 }

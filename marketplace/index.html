@@ -49,6 +49,45 @@ Marketplace listing is not system admission. A system still requires execution i
 </section>
 
 <footer class="footer">SPEEDKIT MARKETPLACE · PUBLIC_ONLY · CATALOG_ONLY · DETAIL PAGES LIVE</footer>
+<!-- SPEEDKIT_PUBLIC_BUY_RAIL_START -->
+
+<section class="box speedkit-pricing-rail">
+  <h2>SPEEDKIT Pricing</h2>
+  <p><strong>Commerce is live.</strong> Stripe Checkout is active, webhook storage is KV-bound, fake checkout is false, and entitlement proof is routed through the marketplace runtime.</p>
+  <div class="speedkit-plan-grid">
+    
+    <article class="speedkit-plan">
+      <div class="speedkit-plan-kicker">SPEEDKIT-STARTER</div>
+      <h3>SPEEDKIT Starter</h3>
+      <div class="speedkit-price">€49<span> / month</span></div>
+      <p>Founder access to SPEEDKIT public marketplace control.</p>
+      <ul><li>Public offer access</li><li>Install manifest rail</li><li>Receipt and ledger proof</li><li>Checkout runtime</li><li>Webhook-bound entitlement storage</li><li>Public-only verification surface</li></ul>
+      <button class="speedkit-buy-button" type="button" data-speedkit-checkout data-plan="starter" data-offer-id="offer-wsp-001">Buy STARTER</button>
+    </article>
+
+    <article class="speedkit-plan">
+      <div class="speedkit-plan-kicker">SPEEDKIT-PRO</div>
+      <h3>SPEEDKIT Pro</h3>
+      <div class="speedkit-price">€199<span> / month</span></div>
+      <p>Commercial operator access for teams and builders.</p>
+      <ul><li>Everything in Starter</li><li>Commercial use boundary</li><li>Priority surface review</li><li>Proof packaging guidance</li><li>Team onboarding path</li><li>Higher support priority</li></ul>
+      <button class="speedkit-buy-button" type="button" data-speedkit-checkout data-plan="pro" data-offer-id="offer-wsp-001">Buy PRO</button>
+    </article>
+
+    <article class="speedkit-plan">
+      <div class="speedkit-plan-kicker">SPEEDKIT-ENTERPRISE</div>
+      <h3>SPEEDKIT Enterprise</h3>
+      <div class="speedkit-price">€999<span> / month</span></div>
+      <p>Institutional control access for serious integrations.</p>
+      <ul><li>Everything in Pro</li><li>Custom entitlement and proof rails</li><li>Integration review</li><li>Manual onboarding</li><li>Commercial support boundary</li><li>Institutional verification posture</li></ul>
+      <button class="speedkit-buy-button" type="button" data-speedkit-checkout data-plan="enterprise" data-offer-id="offer-wsp-001">Buy ENTERPRISE</button>
+    </article>
+  </div>
+  <p class="speedkit-commerce-note">PUBLIC_ONLY=true · COMMERCE_READY · FAKE_CHECKOUT=false · KV_ENTITLEMENT_STORAGE=true</p>
+  <p><a href="/marketplace/pricing.json">Open pricing JSON</a> · <a href="/marketplace/billing/">Open billing control</a> · <a href="/marketplace/">Open marketplace</a></p>
+</section>
+<!-- SPEEDKIT_PUBLIC_BUY_RAIL_END -->
 </main>
+<script src="/marketplace/checkout.js"></script>
 </body>
 </html>

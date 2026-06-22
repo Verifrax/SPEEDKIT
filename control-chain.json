@@ -104,5 +104,9 @@
     "commerce_status": "INSTALLED_FAIL_CLOSED",
     "fake_checkout": false,
     "commerce_runtime": "READY_FAIL_CLOSED"
-  }
+  },
+  "pricing_status": "LIVE",
+  "public_buy_rail": true,
+  "pricing_json": "/marketplace/pricing.json",
+  "pricing_page": "/pricing/"
 }
