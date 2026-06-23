@@ -285,3 +285,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_CONTROL_CHAIN_CERTIFICATE_VERIFY_STYLE_END */
+
+/* SPEEDKIT_CONTROL_CHAIN_SEAL_STYLE_START */
+.speedkit-control-chain-seal-rail {
+  border-style: ridge;
+}
+#speedkit-control-chain-seal-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_CONTROL_CHAIN_SEAL_STYLE_END */

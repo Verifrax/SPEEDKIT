@@ -142,6 +142,12 @@
       "title": "Verify public control chain certificate",
       "route": "/api/marketplace/control-chain-certificate-verify",
       "proof": "PUBLIC_CONTROL_CHAIN_CERTIFICATE_VERIFIED recomputes the certificate hash and confirms the verified chain certificate"
+    },
+    {
+      "id": "public_control_chain_seal",
+      "title": "Read public control chain seal",
+      "route": "/api/marketplace/control-chain-seal",
+      "proof": "PUBLIC_CONTROL_CHAIN_SEALED binds the verified certificate into a final public chain seal"
     }
   ],
   "capability_bundles_status": "LIVE",
@@ -159,5 +165,6 @@
   "public_control_chain_index_status": "LIVE",
   "public_control_chain_verifier_status": "LIVE",
   "public_control_chain_certificate_status": "LIVE",
-  "public_control_chain_certificate_verifier_status": "LIVE"
+  "public_control_chain_certificate_verifier_status": "LIVE",
+  "public_control_chain_seal_status": "LIVE"
 }

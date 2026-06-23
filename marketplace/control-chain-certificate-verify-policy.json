@@ -38,5 +38,9 @@
   "verification_statuses": [
     "PUBLIC_CONTROL_CHAIN_CERTIFICATE_VERIFIED",
     "PUBLIC_CONTROL_CHAIN_CERTIFICATE_VERIFY_FAILED"
-  ]
+  ],
+  "public_control_chain_seal_status": "LIVE",
+  "public_control_chain_seal_policy_json": "/marketplace/control-chain-seal-policy.json",
+  "public_control_chain_seal_page": "/marketplace/control-chain-seal/",
+  "public_control_chain_seal_api": "/api/marketplace/control-chain-seal"
 }
