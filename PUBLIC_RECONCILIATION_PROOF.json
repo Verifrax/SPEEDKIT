@@ -1,6 +1,6 @@
 {
   "schema": "speedkit.public_reconciliation.proof.v1",
-  "generated_at": "2026-06-23T19:36:09Z",
+  "generated_at": "2026-06-23T19:50:50Z",
   "governed_reconciliation": true,
   "title": "SPEEDKIT Control Engine",
   "mode": "PUBLIC_ONLY",

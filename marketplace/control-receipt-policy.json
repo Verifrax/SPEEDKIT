@@ -3,8 +3,8 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "fake_checkout": false,
-  "generated_at": "2026-06-23T19:36:09.085Z",
-  "source_base_commit": "2d50087",
+  "generated_at": "2026-06-23T19:50:49.957Z",
+  "source_base_commit": "339cf00",
   "title": "SPEEDKIT Public Control Receipt",
   "rule": {
     "receipt_binds_public_control_digest": true,
