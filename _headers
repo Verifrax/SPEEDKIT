@@ -104,3 +104,6 @@
 
 /marketplace/control-closure-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/control-digest-policy.json
+  content-type: application/json; charset=utf-8

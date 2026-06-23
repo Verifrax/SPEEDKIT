@@ -215,3 +215,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_CONTROL_CLOSURE_STYLE_END */
+
+/* SPEEDKIT_CONTROL_DIGEST_STYLE_START */
+.speedkit-control-digest-rail {
+  border-style: double;
+}
+#speedkit-control-digest-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_CONTROL_DIGEST_STYLE_END */

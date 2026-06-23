@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Digest · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Digest</a></h1>
+    <p class="sub">Canonical SHA-256 digest for the live SPEEDKIT Marketplace OS state.</p>
+    <p class="stamp">PUBLIC_CONTROL_DIGEST=LIVE · SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>DIGEST</span><b>SHA</b></div>
+    <div class="metric"><span>OS</span><b>LIVE</b></div>
+    <div class="metric"><span>ROUTES</span><b>51+</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Read Public Digest</h2>
+  <p>The digest is computed from canonical public control surfaces: Product OS, route map, closure policy, buyer control, entitlement usage, quota, usage ledger, ledger verification, runtime, and control closure.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-digest-run" type="button">Read control digest</button></p>
+  <pre id="speedkit-control-digest-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Digest Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-digest-policy.json"><strong>Digest Policy</strong><span>canonical material list</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-digest"><strong>Digest API</strong><span>public SHA-256 seal</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/control-closure/"><strong>Control Closure</strong><span>marketplace OS capsule</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/product-os.json"><strong>Product OS</strong><span>live control state</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL DIGEST · ONE HASH FOR THE MARKETPLACE OS</footer>
+</main>
+<script src="/marketplace/control-digest.js"></script>
+</body>
+</html>

@@ -35,7 +35,9 @@
     "buyer_control": "LIVE",
     "session_evidence_capsule": "LIVE",
     "control_closure": "LIVE",
-    "marketplace_os_consolidated": "LIVE"
+    "marketplace_os_consolidated": "LIVE",
+    "public_control_digest": "LIVE",
+    "marketplace_os_digest": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -114,6 +116,11 @@
       "/marketplace/control-closure/",
       "/marketplace/control-closure-policy.json",
       "/api/marketplace/control-closure"
+    ],
+    "public_control_digest": [
+      "/marketplace/control-digest/",
+      "/marketplace/control-digest-policy.json",
+      "/api/marketplace/control-digest"
     ]
   },
   "plans": [
@@ -205,5 +212,9 @@
   "control_closure_status": "LIVE",
   "control_closure_policy_json": "/marketplace/control-closure-policy.json",
   "control_closure_page": "/marketplace/control-closure/",
-  "control_closure_api": "/api/marketplace/control-closure"
+  "control_closure_api": "/api/marketplace/control-closure",
+  "public_control_digest_status": "LIVE",
+  "public_control_digest_policy_json": "/marketplace/control-digest-policy.json",
+  "public_control_digest_page": "/marketplace/control-digest/",
+  "public_control_digest_api": "/api/marketplace/control-digest"
 }

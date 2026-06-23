@@ -1,0 +1,53 @@
+{
+  "schema": "speedkit.public_control_digest_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T19:27:59.784Z",
+  "title": "SPEEDKIT Public Control Digest",
+  "rule": {
+    "digest_is_canonical": true,
+    "digest_algorithm": "SHA-256",
+    "marketplace_os_surfaces_attached": true,
+    "control_closure_attached": true,
+    "product_os_attached": true,
+    "route_map_attached": true,
+    "buyer_control_attached": true,
+    "entitlement_usage_attached": true,
+    "quota_policy_attached": true,
+    "usage_ledger_attached": true,
+    "ledger_verification_attached": true,
+    "digest_excludes_private_repositories": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_digest_api": "/api/marketplace/control-digest",
+    "public_control_digest_page": "/marketplace/control-digest/",
+    "public_control_digest_policy": "/marketplace/control-digest-policy.json",
+    "control_closure_api": "/api/marketplace/control-closure",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  },
+  "digest_material": [
+    "/marketplace/product-os.json",
+    "/marketplace/route-map.json",
+    "/marketplace/control-closure-policy.json",
+    "/marketplace/buyer-control-policy.json",
+    "/marketplace/entitlement-usage-policy.json",
+    "/marketplace/quota-policy.json",
+    "/marketplace/ledger-verify.json",
+    "/marketplace/usage-ledger.json",
+    "/marketplace/usage-policy.json",
+    "/marketplace/access-policy.json",
+    "/marketplace/capabilities.json",
+    "/marketplace/commerce-control.json",
+    "/marketplace.json",
+    "/api/marketplace/runtime",
+    "/api/marketplace/control",
+    "/api/marketplace/control-closure"
+  ],
+  "response_statuses": [
+    "PUBLIC_CONTROL_DIGEST_READY",
+    "PUBLIC_CONTROL_DIGEST_DEGRADED"
+  ]
+}

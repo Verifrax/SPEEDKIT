@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 51,
+  "route_count": 54,
   "routes": [
     {
       "route": "/",
@@ -259,6 +259,21 @@
       "route": "/api/marketplace/control-closure",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/control-digest/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/control-digest-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control-digest",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
@@ -269,5 +284,6 @@
   "ledger_verification_routes_status": "LIVE",
   "entitlement_usage_routes_status": "LIVE",
   "buyer_control_routes_status": "LIVE",
-  "control_closure_routes_status": "LIVE"
+  "control_closure_routes_status": "LIVE",
+  "public_control_digest_routes_status": "LIVE"
 }
