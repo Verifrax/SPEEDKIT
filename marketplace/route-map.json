@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 57,
+  "route_count": 60,
   "routes": [
     {
       "route": "/",
@@ -289,6 +289,21 @@
       "route": "/api/marketplace/control-receipt",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/control-receipt-verify/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/control-receipt-verify-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control-receipt-verify",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
@@ -301,5 +316,6 @@
   "buyer_control_routes_status": "LIVE",
   "control_closure_routes_status": "LIVE",
   "public_control_digest_routes_status": "LIVE",
-  "public_control_receipt_routes_status": "LIVE"
+  "public_control_receipt_routes_status": "LIVE",
+  "public_control_receipt_verifier_routes_status": "LIVE"
 }

@@ -48,5 +48,9 @@
   "public_control_receipt_status": "LIVE",
   "public_control_receipt_policy_json": "/marketplace/control-receipt-policy.json",
   "public_control_receipt_page": "/marketplace/control-receipt/",
-  "public_control_receipt_api": "/api/marketplace/control-receipt"
+  "public_control_receipt_api": "/api/marketplace/control-receipt",
+  "public_control_receipt_verifier_status": "LIVE",
+  "public_control_receipt_verifier_policy_json": "/marketplace/control-receipt-verify-policy.json",
+  "public_control_receipt_verifier_page": "/marketplace/control-receipt-verify/",
+  "public_control_receipt_verifier_api": "/api/marketplace/control-receipt-verify"
 }

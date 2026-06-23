@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Receipt Verify · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Receipt Verifier</a></h1>
+    <p class="sub">External replay verifier for the SPEEDKIT Marketplace OS receipt.</p>
+    <p class="stamp">RECEIPT_VERIFY=LIVE · RECOMPUTE_HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>VERIFY</span><b>LIVE</b></div>
+    <div class="metric"><span>REPLAY</span><b>HASH</b></div>
+    <div class="metric"><span>SYSTEMS</span><b>4</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Verify Public Control Receipt</h2>
+  <p>The verifier fetches the receipt, recomputes the SHA-256 receipt hash from receipt_material, verifies digest match, and confirms public-only invariants.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-receipt-verify-run" type="button">Verify receipt</button></p>
+  <pre id="speedkit-control-receipt-verify-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Verifier Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-receipt-verify-policy.json"><strong>Verifier Policy</strong><span>external replay contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-receipt-verify"><strong>Verifier API</strong><span>recompute receipt hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-receipt"><strong>Receipt API</strong><span>issued receipt</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-digest"><strong>Digest API</strong><span>public OS digest</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL RECEIPT VERIFIER · EXTERNAL REPLAY</footer>
+</main>
+<script src="/marketplace/control-receipt-verify.js"></script>
+</body>
+</html>

@@ -290,6 +290,19 @@ Repository/package existence is not systems admission.
   </div>
 </section>
 <!-- SPEEDKIT_CONTROL_RECEIPT_RAIL_END -->
+<!-- SPEEDKIT_CONTROL_RECEIPT_VERIFY_RAIL_START -->
+
+<section class="box speedkit-control-receipt-verify-rail">
+  <h2>SPEEDKIT Public Control Receipt Verifier</h2>
+  <p><strong>The public receipt now has external replay.</strong> The verifier recomputes the receipt hash from receipt_material, confirms digest match, and validates private_remaining=0, systems=4, and workspace=135.</p>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-receipt-verify/"><strong>Receipt Verifier</strong><span>external replay verifier</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/control-receipt-verify-policy.json"><strong>Verifier Policy</strong><span>verification contract</span><b>SHA-256</b></a>
+    <a class="card" href="/api/marketplace/control-receipt-verify"><strong>Verifier API</strong><span>recompute receipt hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-receipt"><strong>Receipt API</strong><span>issued receipt</span><b>LIVE</b></a>
+  </div>
+</section>
+<!-- SPEEDKIT_CONTROL_RECEIPT_VERIFY_RAIL_END -->
 </main>
 <script src="/speedkit-engine.js"></script>
 <script src="/marketplace/checkout.js"></script>
