@@ -1,0 +1,35 @@
+{
+  "schema": "speedkit.public_control_receipt_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T19:36:09.085Z",
+  "source_base_commit": "2d50087",
+  "title": "SPEEDKIT Public Control Receipt",
+  "rule": {
+    "receipt_binds_public_control_digest": true,
+    "receipt_hash_algorithm": "SHA-256",
+    "receipt_hash_excludes_issued_at": true,
+    "receipt_includes_digest_value": true,
+    "receipt_includes_route_count": true,
+    "receipt_includes_workspace_count": true,
+    "receipt_includes_private_remaining_zero": true,
+    "receipt_includes_recognized_execution_system_count": true,
+    "receipt_includes_marketplace_os_state": true,
+    "digest_excludes_private_repositories": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_receipt_api": "/api/marketplace/control-receipt",
+    "public_control_receipt_page": "/marketplace/control-receipt/",
+    "public_control_receipt_policy": "/marketplace/control-receipt-policy.json",
+    "public_control_digest_api": "/api/marketplace/control-digest",
+    "control_closure_api": "/api/marketplace/control-closure",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  },
+  "receipt_statuses": [
+    "PUBLIC_CONTROL_RECEIPT_ISSUED",
+    "PUBLIC_CONTROL_RECEIPT_DEGRADED"
+  ]
+}

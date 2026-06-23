@@ -1,3 +1,4 @@
+import * as ControlReceiptApi from "./control-receipt.js";
 import * as ControlDigestApi from "./control-digest.js";
 import * as ControlClosureApi from "./control-closure.js";
 import * as BuyerControlApi from "./buyer-control.js";
@@ -445,6 +446,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/control-digest") {
     return ControlDigestApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-receipt") {
+    return ControlReceiptApi.onRequest({ request, env });
   }
 
   return json({
