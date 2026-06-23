@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Ledger Verify · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Ledger Verification</a></h1>
+    <p class="sub">Cold replay for SPEEDKIT usage-ledger sessions. Recomputes entry hashes and validates previous-hash continuity.</p>
+    <p class="stamp">LEDGER_VERIFY=LIVE · COLD_REPLAY=LIVE · HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>VERIFY</span><b>LIVE</b></div>
+    <div class="metric"><span>HASH</span><b>SHA</b></div>
+    <div class="metric"><span>GENESIS</span><b>YES</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Verify Ledger Session</h2>
+  <p>Enter a usage-ledger session id. The API recomputes every visible entry hash and validates the chain.</p>
+  <div class="command"><span class="prompt">session</span><input id="speedkit-ledger-verify-session" autocomplete="off" value="ledger-demo-session" /></div>
+  <p><button class="speedkit-buy-button" id="speedkit-ledger-verify-run" type="button">Verify ledger</button></p>
+  <pre id="speedkit-ledger-verify-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Verification Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/ledger-verify.json"><strong>Ledger Verify JSON</strong><span>verification model</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/usage-ledger-verify"><strong>Verify API</strong><span>cold replay endpoint</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/usage-ledger/"><strong>Usage Ledger</strong><span>hash-chain source</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/quota/"><strong>Quota Enforcement</strong><span>blocks invalid writes</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT LEDGER VERIFICATION · COLD REPLAY LIVE</footer>
+</main>
+<script src="/marketplace/ledger-verify.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "schema": "speedkit.ledger_verify.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T19:02:40.205Z",
+  "title": "SPEEDKIT Ledger Verification",
+  "rule": {
+    "ledger_entries_are_replayed": true,
+    "entry_hash_is_recomputed": true,
+    "previous_hash_links_are_checked": true,
+    "genesis_previous_hash_required_for_first_entry": true,
+    "latest_hash_must_match_last_entry": true,
+    "quota_blocks_must_not_create_ledger_entries": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "usage_ledger_json": "/marketplace/usage-ledger.json",
+    "usage_ledger_api": "/api/marketplace/usage-ledger",
+    "ledger_verify_api": "/api/marketplace/usage-ledger-verify",
+    "ledger_verify_page": "/marketplace/ledger-verify/",
+    "quota_policy": "/marketplace/quota-policy.json"
+  },
+  "verification_model": {
+    "hash_algorithm": "SHA-256",
+    "hash_input": "canonical ledger entry JSON without entry_hash",
+    "first_previous_hash": "GENESIS",
+    "valid_status": "USAGE_LEDGER_VERIFIED",
+    "invalid_status": "USAGE_LEDGER_INVALID"
+  }
+}
