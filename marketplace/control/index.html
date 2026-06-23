@@ -101,6 +101,19 @@
   </div>
 </section>
 <!-- SPEEDKIT_USAGE_LEDGER_RAIL_END -->
+<!-- SPEEDKIT_QUOTA_ENFORCEMENT_RAIL_START -->
+
+<section class="box speedkit-quota-enforcement-rail">
+  <h2>SPEEDKIT Quota Enforcement</h2>
+  <p><strong>Usage writes are now quota-gated.</strong> Access must pass first; then monthly plan capacity must exist; only then can usage or ledger evidence be written.</p>
+  <div class="grid">
+    <a class="card" href="/marketplace/quota/"><strong>Quota Enforcement</strong><span>interactive quota surface</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/quota-policy.json"><strong>Quota Policy JSON</strong><span>plan limits</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/quota?plan=starter"><strong>Quota API</strong><span>current capacity</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/usage"><strong>Usage API</strong><span>quota-gated write</span><b>429</b></a>
+  </div>
+</section>
+<!-- SPEEDKIT_QUOTA_ENFORCEMENT_RAIL_END -->
 </main>
 <script src="/marketplace/control.js"></script>
 </body>

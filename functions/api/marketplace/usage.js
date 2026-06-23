@@ -24,11 +24,12 @@ function toUnits(value) {
 }
 
 async function loadPolicy(origin) {
-  const [accessPolicy, usagePolicy] = await Promise.all([
+  const [accessPolicy, usagePolicy, quotaPolicy] = await Promise.all([
     fetch(origin + "/marketplace/access-policy.json?t=" + Date.now()).then(r => r.json()),
-    fetch(origin + "/marketplace/usage-policy.json?t=" + Date.now()).then(r => r.json())
+    fetch(origin + "/marketplace/usage-policy.json?t=" + Date.now()).then(r => r.json()),
+    fetch(origin + "/marketplace/quota-policy.json?t=" + Date.now()).then(r => r.json())
   ]);
-  return { accessPolicy, usagePolicy };
+  return { accessPolicy, usagePolicy, quotaPolicy };
 }
 
 function decide(accessPolicy, planId, capabilityId) {
@@ -39,6 +40,7 @@ function decide(accessPolicy, planId, capabilityId) {
   if (!capability) return { ok: false, status: "CAPABILITY_NOT_FOUND", plan };
 
   const allowed = plan.level >= capability.min_level;
+
   return {
     ok: true,
     allowed,
@@ -46,6 +48,72 @@ function decide(accessPolicy, planId, capabilityId) {
     plan,
     capability,
     reason: allowed ? "PLAN_ENTITLEMENT_LEVEL_MEETS_CAPABILITY_MINIMUM" : "PLAN_ENTITLEMENT_LEVEL_BELOW_CAPABILITY_MINIMUM"
+  };
+}
+
+async function getPlanUsage(env, planId, month) {
+  const key = "usage:plan:" + planId + ":" + month;
+  const value = await env.SPEEDKIT_COMMERCE_KV.get(key, "json");
+  return value || {
+    schema: "speedkit.usage_plan_month.v1",
+    plan: planId,
+    month,
+    total_events: 0,
+    total_units: 0
+  };
+}
+
+function quotaLimitFor(quotaPolicy, usagePolicy, planId) {
+  const quota = Array.isArray(quotaPolicy.plan_quotas) ? quotaPolicy.plan_quotas.find(q => q.plan === planId) : null;
+  if (quota) return quota;
+
+  const fallback = Array.isArray(usagePolicy.plan_policies) ? usagePolicy.plan_policies.find(q => q.plan === planId) : null;
+  if (fallback) return fallback;
+
+  return null;
+}
+
+function checkQuota(quota, planUsage, requestedUnits) {
+  if (!quota) {
+    return {
+      ok: false,
+      status: "QUOTA_PLAN_NOT_FOUND",
+      allowed: false
+    };
+  }
+
+  const currentEvents = Number(planUsage.total_events || 0);
+  const currentUnits = Number(planUsage.total_units || 0);
+  const nextEvents = currentEvents + 1;
+  const nextUnits = currentUnits + requestedUnits;
+
+  const monthlyEventLimit = Number(quota.monthly_event_limit || 0);
+  const monthlyUnitLimit = Number(quota.monthly_unit_limit || 0);
+
+  const eventAllowed = nextEvents <= monthlyEventLimit;
+  const unitAllowed = nextUnits <= monthlyUnitLimit;
+  const allowed = eventAllowed && unitAllowed;
+
+  return {
+    ok: true,
+    status: allowed ? "QUOTA_AVAILABLE" : "USAGE_QUOTA_EXCEEDED",
+    allowed,
+    plan: quota.plan,
+    month: planUsage.month,
+    current_events: currentEvents,
+    current_units: currentUnits,
+    requested_events: 1,
+    requested_units: requestedUnits,
+    next_events: nextEvents,
+    next_units: nextUnits,
+    monthly_event_limit: monthlyEventLimit,
+    monthly_unit_limit: monthlyUnitLimit,
+    remaining_events_before: Math.max(0, monthlyEventLimit - currentEvents),
+    remaining_units_before: Math.max(0, monthlyUnitLimit - currentUnits),
+    exceeded: {
+      events: !eventAllowed,
+      units: !unitAllowed
+    }
   };
 }
 
@@ -65,7 +133,7 @@ async function readUsage(env, sessionId) {
   };
 }
 
-async function writeUsage(env, sessionId, planId, capabilityId, eventName, units, decision, metadata) {
+async function writeUsage(env, sessionId, planId, capabilityId, eventName, units, decision, metadata, quotaDecision) {
   const month = ym();
   const eventId = crypto.randomUUID();
   const now = new Date().toISOString();
@@ -99,6 +167,7 @@ async function writeUsage(env, sessionId, planId, capabilityId, eventName, units
     units,
     month,
     decision,
+    quota_decision: quotaDecision,
     metadata: metadata && typeof metadata === "object" ? metadata : {},
     created_at: now
   };
@@ -110,8 +179,8 @@ async function writeUsage(env, sessionId, planId, capabilityId, eventName, units
     total_events: 0,
     total_units: 0
   };
-  planUsage.total_events += 1;
-  planUsage.total_units += units;
+  planUsage.total_events = Number(planUsage.total_events || 0) + 1;
+  planUsage.total_units = Number(planUsage.total_units || 0) + units;
   planUsage.updated_at = now;
 
   const capabilityUsage = await env.SPEEDKIT_COMMERCE_KV.get(capabilityKey, "json") || {
@@ -121,8 +190,8 @@ async function writeUsage(env, sessionId, planId, capabilityId, eventName, units
     total_events: 0,
     total_units: 0
   };
-  capabilityUsage.total_events += 1;
-  capabilityUsage.total_units += units;
+  capabilityUsage.total_events = Number(capabilityUsage.total_events || 0) + 1;
+  capabilityUsage.total_units = Number(capabilityUsage.total_units || 0) + units;
   capabilityUsage.updated_at = now;
 
   await Promise.all([
@@ -198,7 +267,7 @@ export async function onRequestPost(context) {
     }, 400);
   }
 
-  const { accessPolicy, usagePolicy } = await loadPolicy(url.origin);
+  const { accessPolicy, usagePolicy, quotaPolicy } = await loadPolicy(url.origin);
   const decision = decide(accessPolicy, planId, capabilityId);
 
   if (!decision.ok) {
@@ -219,6 +288,7 @@ export async function onRequestPost(context) {
       mode: "PUBLIC_ONLY",
       fake_checkout: false,
       recorded: false,
+      quota_checked: false,
       decision: {
         status: decision.status,
         allowed: false,
@@ -231,9 +301,37 @@ export async function onRequestPost(context) {
       },
       authority: {
         access_policy: "/marketplace/access-policy.json",
-        usage_policy: "/marketplace/usage-policy.json"
+        usage_policy: "/marketplace/usage-policy.json",
+        quota_policy: "/marketplace/quota-policy.json"
       }
     }, 403);
+  }
+
+  const month = ym();
+  const planUsage = await getPlanUsage(env, planId, month);
+  const quotaLimit = quotaLimitFor(quotaPolicy, usagePolicy, planId);
+  const quotaDecision = checkQuota(quotaLimit, planUsage, units);
+
+  if (!quotaDecision.allowed) {
+    return json({
+      schema: "speedkit.usage_response.v1",
+      status: "USAGE_QUOTA_EXCEEDED",
+      mode: "PUBLIC_ONLY",
+      fake_checkout: false,
+      recorded: false,
+      quota_checked: true,
+      decision: {
+        status: decision.status,
+        allowed: true,
+        reason: decision.reason
+      },
+      quota_decision: quotaDecision,
+      authority: {
+        access_policy: "/marketplace/access-policy.json",
+        usage_policy: "/marketplace/usage-policy.json",
+        quota_policy: "/marketplace/quota-policy.json"
+      }
+    }, 429);
   }
 
   const written = await writeUsage(env, sessionId, planId, capabilityId, eventName, units, {
@@ -242,7 +340,7 @@ export async function onRequestPost(context) {
     reason: decision.reason,
     plan_level: decision.plan.level,
     capability_min_level: decision.capability.min_level
-  }, metadata);
+  }, metadata, quotaDecision);
 
   return json({
     schema: "speedkit.usage_response.v1",
@@ -250,6 +348,7 @@ export async function onRequestPost(context) {
     mode: "PUBLIC_ONLY",
     fake_checkout: false,
     recorded: true,
+    quota_checked: true,
     plan: planId,
     capability: capabilityId,
     units,
@@ -259,9 +358,14 @@ export async function onRequestPost(context) {
       allowed: true,
       reason: decision.reason
     },
+    quota_decision: quotaDecision,
     usage_policy: {
       schema: usagePolicy.schema,
       status: usagePolicy.status
+    },
+    quota_policy: {
+      schema: quotaPolicy.schema,
+      status: quotaPolicy.status
     },
     usage: written.session_usage
   });

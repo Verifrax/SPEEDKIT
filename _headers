@@ -89,3 +89,6 @@
 
 /marketplace/usage-ledger.json
   content-type: application/json; charset=utf-8
+
+/marketplace/quota-policy.json
+  content-type: application/json; charset=utf-8
