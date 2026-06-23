@@ -109,9 +109,12 @@ function pickSurface(id, payload) {
 function acceptedStatus(status) {
   return [
     "LIVE",
+    "OPEN",
+    "READY",
     "COMMERCE_READY",
     "PRODUCT_CONTROL_OS_READY",
-    "CONTROL_CLOSURE_READY"
+    "CONTROL_CLOSURE_READY",
+    "PUBLIC_CONTROL_DIGEST_READY"
   ].includes(status);
 }
 
