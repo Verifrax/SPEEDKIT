@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Chain Seal · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Chain Seal</a></h1>
+    <p class="sub">Final public seal over the verified SPEEDKIT Marketplace OS control chain certificate.</p>
+    <p class="stamp">CONTROL_CHAIN_SEAL=LIVE · SEAL_HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>SEAL</span><b>LIVE</b></div>
+    <div class="metric"><span>CERT</span><b>VERIFIED</b></div>
+    <div class="metric"><span>SYSTEMS</span><b>4</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Read Public Control Chain Seal</h2>
+  <p>The seal binds the certificate verifier hash, certificate hash, chain hash, digest, route count, workspace count, systems count, and private_remaining=0.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-chain-seal-run" type="button">Read seal</button></p>
+  <pre id="speedkit-control-chain-seal-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Seal Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-chain-seal-policy.json"><strong>Seal Policy</strong><span>seal material contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-seal"><strong>Seal API</strong><span>issued seal hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-certificate-verify"><strong>Certificate Verifier</strong><span>external certificate replay</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-certificate"><strong>Certificate API</strong><span>issued certificate</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL CHAIN SEAL · MARKETPLACE OS FINAL CHAIN SEAL</footer>
+</main>
+<script src="/marketplace/control-chain-seal.js"></script>
+</body>
+</html>

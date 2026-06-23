@@ -125,3 +125,6 @@
 
 /marketplace/control-chain-certificate-verify-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/control-chain-seal-policy.json
+  content-type: application/json; charset=utf-8
