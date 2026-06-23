@@ -201,5 +201,9 @@
   "buyer_control_status": "LIVE",
   "buyer_control_policy_json": "/marketplace/buyer-control-policy.json",
   "buyer_control_page": "/marketplace/buyer-control/",
-  "buyer_control_api": "/api/marketplace/buyer-control"
+  "buyer_control_api": "/api/marketplace/buyer-control",
+  "control_closure_status": "LIVE",
+  "control_closure_policy_json": "/marketplace/control-closure-policy.json",
+  "control_closure_page": "/marketplace/control-closure/",
+  "control_closure_api": "/api/marketplace/control-closure"
 }

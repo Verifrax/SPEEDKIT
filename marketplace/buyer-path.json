@@ -94,6 +94,12 @@
       "title": "Read buyer control capsule",
       "route": "/api/marketplace/buyer-control",
       "proof": "BUYER_CONTROL_PENDING or BUYER_CONTROL_READY exposes session authority, quota, ledger, and verification state"
+    },
+    {
+      "id": "control_closure_capsule",
+      "title": "Read marketplace control closure",
+      "route": "/api/marketplace/control-closure",
+      "proof": "CONTROL_CLOSURE_READY exposes the consolidated marketplace OS state"
     }
   ],
   "capability_bundles_status": "LIVE",
@@ -103,5 +109,6 @@
   "quota_enforcement_status": "LIVE",
   "ledger_verification_status": "LIVE",
   "entitlement_usage_status": "LIVE",
-  "buyer_control_status": "LIVE"
+  "buyer_control_status": "LIVE",
+  "control_closure_status": "LIVE"
 }
