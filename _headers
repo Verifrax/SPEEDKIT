@@ -119,3 +119,6 @@
 
 /marketplace/control-chain-verify-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/control-chain-certificate-policy.json
+  content-type: application/json; charset=utf-8
