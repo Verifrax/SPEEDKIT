@@ -1,3 +1,5 @@
+/marketplace/quota-policy.json /marketplace/quota-policy.json 200
+/marketplace/quota /marketplace/quota/ 301
 /marketplace/usage-ledger.json /marketplace/usage-ledger.json 200
 /marketplace/usage-ledger /marketplace/usage-ledger/ 301
 /marketplace/usage-policy.json /marketplace/usage-policy.json 200

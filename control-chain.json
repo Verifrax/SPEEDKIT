@@ -132,5 +132,8 @@
   "usage_api": "/api/marketplace/usage",
   "usage_ledger_status": "LIVE",
   "usage_ledger_json": "/marketplace/usage-ledger.json",
-  "usage_ledger_api": "/api/marketplace/usage-ledger"
+  "usage_ledger_api": "/api/marketplace/usage-ledger",
+  "quota_enforcement_status": "LIVE",
+  "quota_policy_json": "/marketplace/quota-policy.json",
+  "quota_api": "/api/marketplace/quota"
 }

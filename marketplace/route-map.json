@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 36,
+  "route_count": 39,
   "routes": [
     {
       "route": "/",
@@ -184,10 +184,26 @@
       "route": "/api/marketplace/usage-ledger",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/quota/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/quota-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/quota",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
   "access_policy_routes_status": "LIVE",
   "usage_metering_routes_status": "LIVE",
-  "usage_ledger_routes_status": "LIVE"
+  "usage_ledger_routes_status": "LIVE",
+  "quota_enforcement_routes_status": "LIVE"
 }

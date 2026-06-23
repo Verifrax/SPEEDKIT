@@ -165,3 +165,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_USAGE_LEDGER_STYLE_END */
+
+/* SPEEDKIT_QUOTA_ENFORCEMENT_STYLE_START */
+.speedkit-quota-enforcement-rail {
+  border-style: double;
+}
+#speedkit-quota-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_QUOTA_ENFORCEMENT_STYLE_END */

@@ -50,7 +50,10 @@
       "monthly_event_limit": 100,
       "monthly_unit_limit": 1000,
       "usage_policy": "/marketplace/usage-policy.json",
-      "usage_api": "/api/marketplace/usage"
+      "usage_api": "/api/marketplace/usage",
+      "quota_policy": "/marketplace/quota-policy.json",
+      "quota_api": "/api/marketplace/quota?plan=starter",
+      "quota_enforcement": "BLOCK_ON_LIMIT"
     },
     {
       "id": "pro",
@@ -95,7 +98,10 @@
       "monthly_event_limit": 1000,
       "monthly_unit_limit": 10000,
       "usage_policy": "/marketplace/usage-policy.json",
-      "usage_api": "/api/marketplace/usage"
+      "usage_api": "/api/marketplace/usage",
+      "quota_policy": "/marketplace/quota-policy.json",
+      "quota_api": "/api/marketplace/quota?plan=pro",
+      "quota_enforcement": "BLOCK_ON_LIMIT"
     },
     {
       "id": "enterprise",
@@ -139,7 +145,10 @@
       "monthly_event_limit": 10000,
       "monthly_unit_limit": 100000,
       "usage_policy": "/marketplace/usage-policy.json",
-      "usage_api": "/api/marketplace/usage"
+      "usage_api": "/api/marketplace/usage",
+      "quota_policy": "/marketplace/quota-policy.json",
+      "quota_api": "/api/marketplace/quota?plan=enterprise",
+      "quota_enforcement": "BLOCK_ON_LIMIT"
     }
   ],
   "rule": {
@@ -160,5 +169,9 @@
   "usage_ledger_status": "LIVE",
   "usage_ledger_json": "/marketplace/usage-ledger.json",
   "usage_ledger_page": "/marketplace/usage-ledger/",
-  "usage_ledger_api": "/api/marketplace/usage-ledger"
+  "usage_ledger_api": "/api/marketplace/usage-ledger",
+  "quota_enforcement_status": "LIVE",
+  "quota_policy_json": "/marketplace/quota-policy.json",
+  "quota_page": "/marketplace/quota/",
+  "quota_api": "/api/marketplace/quota"
 }

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Quota Enforcement · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Quota Enforcement</a></h1>
+    <p class="sub">Monthly plan limits are enforced before usage is written. Quota failure blocks consumption and ledger creation.</p>
+    <p class="stamp">QUOTA_ENFORCEMENT=LIVE · USAGE_QUOTA_EXCEEDED=BLOCK · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>STARTER</span><b>100</b></div>
+    <div class="metric"><span>PRO</span><b>1000</b></div>
+    <div class="metric"><span>ENT</span><b>10000</b></div>
+    <div class="metric"><span>BLOCK</span><b>429</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Read Quota State</h2>
+  <p>Reads current monthly usage against plan limits.</p>
+  <div class="command"><span class="prompt">plan</span><input id="speedkit-quota-plan" autocomplete="off" value="starter" /></div>
+  <p><button class="speedkit-buy-button" id="speedkit-quota-read" type="button">Read quota</button></p>
+  <pre id="speedkit-quota-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Quota Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/quota-policy.json"><strong>Quota Policy JSON</strong><span>plan limits</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/quota?plan=starter"><strong>Quota API</strong><span>current plan capacity</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/usage/"><strong>Usage Metering</strong><span>quota-gated writes</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/usage-ledger/"><strong>Usage Ledger</strong><span>quota-gated evidence</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT QUOTA ENFORCEMENT · LIMITS ARE CONTROLLED BEFORE WRITE</footer>
+</main>
+<script src="/marketplace/quota.js"></script>
+</body>
+</html>

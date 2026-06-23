@@ -36,5 +36,9 @@
     "USAGE_LEDGER_READ",
     "USAGE_NOT_RECORDED_BY_POLICY",
     "SESSION_ID_REQUIRED"
-  ]
+  ],
+  "quota_enforcement_status": "LIVE",
+  "quota_policy_json": "/marketplace/quota-policy.json",
+  "quota_page": "/marketplace/quota/",
+  "quota_api": "/api/marketplace/quota"
 }

@@ -1,0 +1,59 @@
+{
+  "schema": "speedkit.quota_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T16:50:07.546Z",
+  "title": "SPEEDKIT Quota Enforcement Policy",
+  "rule": {
+    "usage_write_requires_quota_capacity": true,
+    "quota_checked_after_access_policy": true,
+    "quota_checked_before_usage_write": true,
+    "quota_exceeded_does_not_write_usage": true,
+    "quota_exceeded_does_not_write_ledger": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "access_policy": "/marketplace/access-policy.json",
+    "usage_policy": "/marketplace/usage-policy.json",
+    "quota_policy": "/marketplace/quota-policy.json",
+    "quota_api": "/api/marketplace/quota",
+    "usage_api": "/api/marketplace/usage",
+    "usage_ledger_api": "/api/marketplace/usage-ledger"
+  },
+  "plan_quotas": [
+    {
+      "plan": "starter",
+      "sku": "SPEEDKIT-STARTER",
+      "entitlement_level": 1,
+      "monthly_event_limit": 100,
+      "monthly_unit_limit": 1000,
+      "enforcement": "BLOCK_ON_LIMIT",
+      "overage_status": "USAGE_QUOTA_EXCEEDED"
+    },
+    {
+      "plan": "pro",
+      "sku": "SPEEDKIT-PRO",
+      "entitlement_level": 2,
+      "monthly_event_limit": 1000,
+      "monthly_unit_limit": 10000,
+      "enforcement": "BLOCK_ON_LIMIT",
+      "overage_status": "USAGE_QUOTA_EXCEEDED"
+    },
+    {
+      "plan": "enterprise",
+      "sku": "SPEEDKIT-ENTERPRISE",
+      "entitlement_level": 3,
+      "monthly_event_limit": 10000,
+      "monthly_unit_limit": 100000,
+      "enforcement": "BLOCK_ON_LIMIT",
+      "overage_status": "USAGE_QUOTA_EXCEEDED"
+    }
+  ],
+  "decision_model": {
+    "allowed_when": "current_month_events + 1 <= monthly_event_limit AND current_month_units + requested_units <= monthly_unit_limit",
+    "denied_when": "event limit or unit limit would be exceeded",
+    "denial_status": "USAGE_QUOTA_EXCEEDED"
+  }
+}
