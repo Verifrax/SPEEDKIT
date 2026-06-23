@@ -1,0 +1,42 @@
+{
+  "schema": "speedkit.public_control_chain_certificate_verifier_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T20:33:17.384Z",
+  "title": "SPEEDKIT Public Control Chain Certificate Verifier",
+  "rule": {
+    "verifier_recomputes_certificate_hash": true,
+    "verifier_uses_certificate_material": true,
+    "verifier_hash_algorithm": "SHA-256",
+    "verifier_confirms_certificate_issued": true,
+    "verifier_confirms_chain_verified": true,
+    "verifier_confirms_chain_index_ready": true,
+    "verifier_confirms_receipt_verified": true,
+    "verifier_confirms_receipt_issued": true,
+    "verifier_confirms_digest_ready": true,
+    "verifier_confirms_private_remaining_zero": true,
+    "verifier_confirms_system_count_four": true,
+    "verifier_confirms_workspace_count_135": true,
+    "verifier_confirms_route_count_floor": true,
+    "verifier_uses_public_material_only": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_chain_certificate_verify_api": "/api/marketplace/control-chain-certificate-verify",
+    "public_control_chain_certificate_verify_page": "/marketplace/control-chain-certificate-verify/",
+    "public_control_chain_certificate_verify_policy": "/marketplace/control-chain-certificate-verify-policy.json",
+    "public_control_chain_certificate_api": "/api/marketplace/control-chain-certificate",
+    "public_control_chain_verify_api": "/api/marketplace/control-chain-verify",
+    "public_control_chain_index_api": "/api/marketplace/control-chain-index",
+    "public_control_receipt_verify_api": "/api/marketplace/control-receipt-verify",
+    "public_control_receipt_api": "/api/marketplace/control-receipt",
+    "public_control_digest_api": "/api/marketplace/control-digest",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  },
+  "verification_statuses": [
+    "PUBLIC_CONTROL_CHAIN_CERTIFICATE_VERIFIED",
+    "PUBLIC_CONTROL_CHAIN_CERTIFICATE_VERIFY_FAILED"
+  ]
+}

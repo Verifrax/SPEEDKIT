@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 69,
+  "route_count": 72,
   "routes": [
     {
       "route": "/",
@@ -349,6 +349,21 @@
       "route": "/api/marketplace/control-chain-certificate",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/control-chain-certificate-verify/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/control-chain-certificate-verify-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control-chain-certificate-verify",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
@@ -365,5 +380,6 @@
   "public_control_receipt_verifier_routes_status": "LIVE",
   "public_control_chain_index_routes_status": "LIVE",
   "public_control_chain_verifier_routes_status": "LIVE",
-  "public_control_chain_certificate_routes_status": "LIVE"
+  "public_control_chain_certificate_routes_status": "LIVE",
+  "public_control_chain_certificate_verifier_routes_status": "LIVE"
 }
