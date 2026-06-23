@@ -1,3 +1,13 @@
+import * as SessionApi from "./session.js";
+import * as EntitlementReconcileApi from "./entitlement-reconcile.js";
+import * as ReceiptApi from "./receipt.js";
+import * as ControlApi from "./control.js";
+import * as PlanApi from "./plan.js";
+import * as CapabilityApi from "./capability.js";
+import * as AccessCheckApi from "./access-check.js";
+import * as UsageApi from "./usage.js";
+import * as UsageLedgerApi from "./usage-ledger.js";
+
 const PLANS = {
   starter: {
     plan_id: "starter",
@@ -362,6 +372,43 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/entitlement" && request.method === "GET") {
     return entitlementGet(request, env);
+  }
+
+
+  if (path === "/api/marketplace/session") {
+    return SessionApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/entitlement-reconcile") {
+    return EntitlementReconcileApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/receipt") {
+    return ReceiptApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/control") {
+    return ControlApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/plan") {
+    return PlanApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/capability") {
+    return CapabilityApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/access-check") {
+    return AccessCheckApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/usage") {
+    return UsageApi.onRequest({ request, env });
+  }
+
+  if (path === "/api/marketplace/usage-ledger") {
+    return UsageLedgerApi.onRequest({ request, env });
   }
 
   return json({
