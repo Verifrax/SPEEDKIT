@@ -28,5 +28,9 @@
     "first_previous_hash": "GENESIS",
     "valid_status": "USAGE_LEDGER_VERIFIED",
     "invalid_status": "USAGE_LEDGER_INVALID"
-  }
+  },
+  "entitlement_usage_status": "LIVE",
+  "entitlement_usage_policy_json": "/marketplace/entitlement-usage-policy.json",
+  "entitlement_usage_page": "/marketplace/entitlement-usage/",
+  "entitlement_usage_api": "/api/marketplace/entitlement-usage"
 }

@@ -185,3 +185,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_LEDGER_VERIFY_STYLE_END */
+
+/* SPEEDKIT_ENTITLEMENT_USAGE_STYLE_START */
+.speedkit-entitlement-usage-rail {
+  border-style: ridge;
+}
+#speedkit-entitlement-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_ENTITLEMENT_USAGE_STYLE_END */
