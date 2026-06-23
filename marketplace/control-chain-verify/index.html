@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Chain Verify · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Chain Verifier</a></h1>
+    <p class="sub">External replay verifier for the SPEEDKIT Marketplace OS public control chain.</p>
+    <p class="stamp">CONTROL_CHAIN_VERIFY=LIVE · RECOMPUTE_CHAIN_HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>VERIFY</span><b>LIVE</b></div>
+    <div class="metric"><span>CHAIN</span><b>HASH</b></div>
+    <div class="metric"><span>SYSTEMS</span><b>4</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Verify Public Control Chain</h2>
+  <p>The verifier fetches the chain index, recomputes the SHA-256 chain hash from chain_material, verifies node acceptance, and confirms public-only invariants.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-chain-verify-run" type="button">Verify chain</button></p>
+  <pre id="speedkit-control-chain-verify-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Verifier Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-chain-verify-policy.json"><strong>Chain Verifier Policy</strong><span>external replay contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-verify"><strong>Chain Verifier API</strong><span>recompute chain hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-index"><strong>Chain Index API</strong><span>issued chain hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-receipt-verify"><strong>Receipt Verifier</strong><span>receipt replay</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL CHAIN VERIFIER · EXTERNAL CHAIN REPLAY</footer>
+</main>
+<script src="/marketplace/control-chain-verify.js"></script>
+</body>
+</html>

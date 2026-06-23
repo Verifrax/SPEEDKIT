@@ -1,3 +1,4 @@
+import * as ControlChainVerifyApi from "./control-chain-verify.js";
 import * as ControlChainIndexApi from "./control-chain-index.js";
 import * as ControlReceiptVerifyApi from "./control-receipt-verify.js";
 import * as ControlReceiptApi from "./control-receipt.js";
@@ -463,6 +464,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/control-chain-index") {
     return ControlChainIndexApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-chain-verify") {
+    return ControlChainVerifyApi.onRequest({ request, env });
   }
 
   return json({
