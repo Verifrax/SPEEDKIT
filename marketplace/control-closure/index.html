@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Closure · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Control Closure Capsule</a></h1>
+    <p class="sub">One marketplace operating capsule: runtime, checkout, buyer control, quota, usage, ledger, and cold replay.</p>
+    <p class="stamp">CONTROL_CLOSURE=LIVE · MARKETPLACE_OS=CONSOLIDATED · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>ROUTES</span><b>ALL</b></div>
+    <div class="metric"><span>BUYER</span><b>LIVE</b></div>
+    <div class="metric"><span>LEDGER</span><b>LIVE</b></div>
+    <div class="metric"><span>VERIFY</span><b>LIVE</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Read Control Closure</h2>
+  <p>Optional session id attaches buyer/session evidence. Without a session, the API returns platform closure state.</p>
+  <div class="command"><span class="prompt">session_id</span><input id="speedkit-control-closure-session" autocomplete="off" value="" placeholder="optional cs_live_..." /></div>
+  <p><button class="speedkit-buy-button" id="speedkit-control-closure-run" type="button">Read control closure</button></p>
+  <pre id="speedkit-control-closure-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Closure Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-closure-policy.json"><strong>Closure Policy</strong><span>control closure contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-closure"><strong>Closure API</strong><span>full marketplace capsule</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/buyer-control/"><strong>Buyer Control</strong><span>session evidence capsule</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/control/"><strong>Product Control OS</strong><span>control tower</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT CONTROL CLOSURE · MARKETPLACE OS CONSOLIDATED</footer>
+</main>
+<script src="/marketplace/control-closure.js"></script>
+</body>
+</html>

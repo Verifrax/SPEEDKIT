@@ -1,3 +1,4 @@
+import * as ControlClosureApi from "./control-closure.js";
 import * as BuyerControlApi from "./buyer-control.js";
 import * as EntitlementUsageApi from "./entitlement-usage.js";
 import * as UsageLedgerVerifyApi from "./usage-ledger-verify.js";
@@ -433,6 +434,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/buyer-control") {
     return BuyerControlApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-closure") {
+    return ControlClosureApi.onRequest({ request, env });
   }
 
   return json({

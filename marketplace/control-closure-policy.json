@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.control_closure_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T19:18:23.770Z",
+  "title": "SPEEDKIT Marketplace Control Closure Capsule",
+  "rule": {
+    "marketplace_control_is_single_capsule": true,
+    "checkout_readiness_attached": true,
+    "buyer_control_attached": true,
+    "entitlement_usage_attached": true,
+    "quota_enforcement_attached": true,
+    "usage_metering_attached": true,
+    "usage_ledger_attached": true,
+    "ledger_verification_attached": true,
+    "route_map_attached": true,
+    "product_os_attached": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "control_closure_api": "/api/marketplace/control-closure",
+    "control_closure_page": "/marketplace/control-closure/",
+    "product_os_json": "/marketplace/product-os.json",
+    "marketplace_control_api": "/api/marketplace/control",
+    "runtime_api": "/api/marketplace/runtime",
+    "buyer_control_api": "/api/marketplace/buyer-control",
+    "entitlement_usage_api": "/api/marketplace/entitlement-usage",
+    "quota_api": "/api/marketplace/quota",
+    "usage_api": "/api/marketplace/usage",
+    "usage_ledger_api": "/api/marketplace/usage-ledger",
+    "ledger_verify_api": "/api/marketplace/usage-ledger-verify",
+    "checkout_api": "/api/marketplace/checkout"
+  },
+  "closure_statuses": [
+    "CONTROL_CLOSURE_READY",
+    "CONTROL_CLOSURE_DEGRADED",
+    "CONTROL_CLOSURE_PENDING_SESSION"
+  ]
+}
