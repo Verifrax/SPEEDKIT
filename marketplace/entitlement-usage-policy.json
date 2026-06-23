@@ -38,5 +38,9 @@
   ],
   "success_statuses": [
     "ENTITLEMENT_USAGE_LEDGER_RECORDED"
-  ]
+  ],
+  "buyer_control_status": "LIVE",
+  "buyer_control_policy_json": "/marketplace/buyer-control-policy.json",
+  "buyer_control_page": "/marketplace/buyer-control/",
+  "buyer_control_api": "/api/marketplace/buyer-control"
 }

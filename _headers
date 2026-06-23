@@ -98,3 +98,6 @@
 
 /marketplace/entitlement-usage-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/buyer-control-policy.json
+  content-type: application/json; charset=utf-8

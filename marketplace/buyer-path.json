@@ -88,6 +88,12 @@
       "title": "Use entitlement-bound usage",
       "route": "/api/marketplace/entitlement-usage",
       "proof": "ENTITLEMENT_USAGE_PENDING blocks unpaid sessions; paid sessions write quota-gated ledger usage"
+    },
+    {
+      "id": "buyer_control_capsule",
+      "title": "Read buyer control capsule",
+      "route": "/api/marketplace/buyer-control",
+      "proof": "BUYER_CONTROL_PENDING or BUYER_CONTROL_READY exposes session authority, quota, ledger, and verification state"
     }
   ],
   "capability_bundles_status": "LIVE",
@@ -96,5 +102,6 @@
   "usage_ledger_status": "LIVE",
   "quota_enforcement_status": "LIVE",
   "ledger_verification_status": "LIVE",
-  "entitlement_usage_status": "LIVE"
+  "entitlement_usage_status": "LIVE",
+  "buyer_control_status": "LIVE"
 }

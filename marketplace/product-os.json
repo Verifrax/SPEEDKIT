@@ -31,7 +31,9 @@
     "cold_replay": "LIVE",
     "entitlement_usage": "LIVE",
     "session_bound_usage": "LIVE",
-    "caller_plan_not_authority": true
+    "caller_plan_not_authority": true,
+    "buyer_control": "LIVE",
+    "session_evidence_capsule": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -100,6 +102,11 @@
       "/marketplace/entitlement-usage/",
       "/marketplace/entitlement-usage-policy.json",
       "/api/marketplace/entitlement-usage"
+    ],
+    "buyer_control": [
+      "/marketplace/buyer-control/",
+      "/marketplace/buyer-control-policy.json",
+      "/api/marketplace/buyer-control"
     ]
   },
   "plans": [
@@ -183,5 +190,9 @@
   "entitlement_usage_status": "LIVE",
   "entitlement_usage_policy_json": "/marketplace/entitlement-usage-policy.json",
   "entitlement_usage_page": "/marketplace/entitlement-usage/",
-  "entitlement_usage_api": "/api/marketplace/entitlement-usage"
+  "entitlement_usage_api": "/api/marketplace/entitlement-usage",
+  "buyer_control_status": "LIVE",
+  "buyer_control_policy_json": "/marketplace/buyer-control-policy.json",
+  "buyer_control_page": "/marketplace/buyer-control/",
+  "buyer_control_api": "/api/marketplace/buyer-control"
 }
