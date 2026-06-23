@@ -55,10 +55,10 @@ export async function onRequestGet(context) {
   const policyPayload = policy.payload || {};
 
   const digestValue = digestPayload.digest ? digestPayload.digest.value : null;
-  const routeCount = Number(routePayload.route_count || closurePayload.route_count || 0);
-  const workspaceEntries = Number(liveStateValue(osPayload, "workspace_entries") || 0);
-  const privateRemaining = Number(liveStateValue(osPayload, "private_remaining") || -1);
-  const systems = Number(liveStateValue(osPayload, "recognized_execution_systems") || 0);
+  const routeCount = Number(routePayload.route_count ?? closurePayload.route_count ?? 0);
+  const workspaceEntries = Number(liveStateValue(osPayload, "workspace_entries") ?? 0);
+  const privateRemaining = Number(liveStateValue(osPayload, "private_remaining") ?? -1);
+  const systems = Number(liveStateValue(osPayload, "recognized_execution_systems") ?? 0);
 
   const ready =
     digestPayload.status === "PUBLIC_CONTROL_DIGEST_READY" &&
