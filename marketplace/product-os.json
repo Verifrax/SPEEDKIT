@@ -37,7 +37,9 @@
     "control_closure": "LIVE",
     "marketplace_os_consolidated": "LIVE",
     "public_control_digest": "LIVE",
-    "marketplace_os_digest": "LIVE"
+    "marketplace_os_digest": "LIVE",
+    "public_control_receipt": "LIVE",
+    "marketplace_os_receipt": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -121,6 +123,11 @@
       "/marketplace/control-digest/",
       "/marketplace/control-digest-policy.json",
       "/api/marketplace/control-digest"
+    ],
+    "public_control_receipt": [
+      "/marketplace/control-receipt/",
+      "/marketplace/control-receipt-policy.json",
+      "/api/marketplace/control-receipt"
     ]
   },
   "plans": [
@@ -216,5 +223,9 @@
   "public_control_digest_status": "LIVE",
   "public_control_digest_policy_json": "/marketplace/control-digest-policy.json",
   "public_control_digest_page": "/marketplace/control-digest/",
-  "public_control_digest_api": "/api/marketplace/control-digest"
+  "public_control_digest_api": "/api/marketplace/control-digest",
+  "public_control_receipt_status": "LIVE",
+  "public_control_receipt_policy_json": "/marketplace/control-receipt-policy.json",
+  "public_control_receipt_page": "/marketplace/control-receipt/",
+  "public_control_receipt_api": "/api/marketplace/control-receipt"
 }

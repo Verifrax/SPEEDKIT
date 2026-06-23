@@ -225,3 +225,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_CONTROL_DIGEST_STYLE_END */
+
+/* SPEEDKIT_CONTROL_RECEIPT_STYLE_START */
+.speedkit-control-receipt-rail {
+  border-style: outset;
+}
+#speedkit-control-receipt-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_CONTROL_RECEIPT_STYLE_END */

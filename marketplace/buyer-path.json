@@ -106,6 +106,12 @@
       "title": "Read public control digest",
       "route": "/api/marketplace/control-digest",
       "proof": "PUBLIC_CONTROL_DIGEST_READY emits one canonical SHA-256 seal for the marketplace OS"
+    },
+    {
+      "id": "public_control_receipt",
+      "title": "Read public control receipt",
+      "route": "/api/marketplace/control-receipt",
+      "proof": "PUBLIC_CONTROL_RECEIPT_ISSUED binds the marketplace OS digest to the public receipt hash"
     }
   ],
   "capability_bundles_status": "LIVE",
@@ -117,5 +123,6 @@
   "entitlement_usage_status": "LIVE",
   "buyer_control_status": "LIVE",
   "control_closure_status": "LIVE",
-  "public_control_digest_status": "LIVE"
+  "public_control_digest_status": "LIVE",
+  "public_control_receipt_status": "LIVE"
 }

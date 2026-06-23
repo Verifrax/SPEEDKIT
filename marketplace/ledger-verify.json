@@ -44,5 +44,9 @@
   "public_control_digest_status": "LIVE",
   "public_control_digest_policy_json": "/marketplace/control-digest-policy.json",
   "public_control_digest_page": "/marketplace/control-digest/",
-  "public_control_digest_api": "/api/marketplace/control-digest"
+  "public_control_digest_api": "/api/marketplace/control-digest",
+  "public_control_receipt_status": "LIVE",
+  "public_control_receipt_policy_json": "/marketplace/control-receipt-policy.json",
+  "public_control_receipt_page": "/marketplace/control-receipt/",
+  "public_control_receipt_api": "/api/marketplace/control-receipt"
 }

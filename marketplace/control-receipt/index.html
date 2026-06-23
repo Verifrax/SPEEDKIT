@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Receipt · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Receipt</a></h1>
+    <p class="sub">Receipt seal for the live SPEEDKIT Marketplace OS digest.</p>
+    <p class="stamp">PUBLIC_CONTROL_RECEIPT=LIVE · RECEIPT_HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>RECEIPT</span><b>LIVE</b></div>
+    <div class="metric"><span>DIGEST</span><b>SHA</b></div>
+    <div class="metric"><span>SYSTEMS</span><b>4</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Read Public Control Receipt</h2>
+  <p>The receipt binds the current public control digest to route count, workspace count, systems count, and public-only state.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-receipt-run" type="button">Read control receipt</button></p>
+  <pre id="speedkit-control-receipt-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Receipt Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-receipt-policy.json"><strong>Receipt Policy</strong><span>receipt contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-receipt"><strong>Receipt API</strong><span>public receipt seal</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-digest"><strong>Control Digest</strong><span>canonical OS digest</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/control-closure/"><strong>Control Closure</strong><span>marketplace OS capsule</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL RECEIPT · DIGEST RECEIPT SEAL</footer>
+</main>
+<script src="/marketplace/control-receipt.js"></script>
+</body>
+</html>
