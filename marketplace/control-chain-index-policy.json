@@ -42,5 +42,9 @@
   "chain_statuses": [
     "PUBLIC_CONTROL_CHAIN_INDEX_READY",
     "PUBLIC_CONTROL_CHAIN_INDEX_DEGRADED"
-  ]
+  ],
+  "public_control_chain_verifier_status": "LIVE",
+  "public_control_chain_verifier_policy_json": "/marketplace/control-chain-verify-policy.json",
+  "public_control_chain_verifier_page": "/marketplace/control-chain-verify/",
+  "public_control_chain_verifier_api": "/api/marketplace/control-chain-verify"
 }
