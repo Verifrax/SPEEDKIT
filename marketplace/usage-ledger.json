@@ -88,5 +88,9 @@
   "public_control_chain_seal_status": "LIVE",
   "public_control_chain_seal_policy_json": "/marketplace/control-chain-seal-policy.json",
   "public_control_chain_seal_page": "/marketplace/control-chain-seal/",
-  "public_control_chain_seal_api": "/api/marketplace/control-chain-seal"
+  "public_control_chain_seal_api": "/api/marketplace/control-chain-seal",
+  "public_control_chain_seal_verifier_status": "LIVE",
+  "public_control_chain_seal_verifier_policy_json": "/marketplace/control-chain-seal-verify-policy.json",
+  "public_control_chain_seal_verifier_page": "/marketplace/control-chain-seal-verify/",
+  "public_control_chain_seal_verifier_api": "/api/marketplace/control-chain-seal-verify"
 }
