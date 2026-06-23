@@ -1,3 +1,4 @@
+import * as ControlChainSealVerifyApi from "./control-chain-seal-verify.js";
 import * as ControlChainSealApi from "./control-chain-seal.js";
 import * as ControlChainCertificateVerifyApi from "./control-chain-certificate-verify.js";
 import * as ControlChainCertificateApi from "./control-chain-certificate.js";
@@ -487,6 +488,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/control-chain-seal") {
     return ControlChainSealApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-chain-seal-verify") {
+    return ControlChainSealVerifyApi.onRequest({ request, env });
   }
 
   return json({

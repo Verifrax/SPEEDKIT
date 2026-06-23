@@ -295,3 +295,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_CONTROL_CHAIN_SEAL_STYLE_END */
+
+/* SPEEDKIT_CONTROL_CHAIN_SEAL_VERIFY_STYLE_START */
+.speedkit-control-chain-seal-verify-rail {
+  border-style: groove;
+}
+#speedkit-control-chain-seal-verify-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_CONTROL_CHAIN_SEAL_VERIFY_STYLE_END */
