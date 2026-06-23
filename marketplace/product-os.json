@@ -39,7 +39,9 @@
     "public_control_digest": "LIVE",
     "marketplace_os_digest": "LIVE",
     "public_control_receipt": "LIVE",
-    "marketplace_os_receipt": "LIVE"
+    "marketplace_os_receipt": "LIVE",
+    "public_control_receipt_verifier": "LIVE",
+    "receipt_external_replay": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -128,6 +130,11 @@
       "/marketplace/control-receipt/",
       "/marketplace/control-receipt-policy.json",
       "/api/marketplace/control-receipt"
+    ],
+    "public_control_receipt_verifier": [
+      "/marketplace/control-receipt-verify/",
+      "/marketplace/control-receipt-verify-policy.json",
+      "/api/marketplace/control-receipt-verify"
     ]
   },
   "plans": [
@@ -227,5 +234,9 @@
   "public_control_receipt_status": "LIVE",
   "public_control_receipt_policy_json": "/marketplace/control-receipt-policy.json",
   "public_control_receipt_page": "/marketplace/control-receipt/",
-  "public_control_receipt_api": "/api/marketplace/control-receipt"
+  "public_control_receipt_api": "/api/marketplace/control-receipt",
+  "public_control_receipt_verifier_status": "LIVE",
+  "public_control_receipt_verifier_policy_json": "/marketplace/control-receipt-verify-policy.json",
+  "public_control_receipt_verifier_page": "/marketplace/control-receipt-verify/",
+  "public_control_receipt_verifier_api": "/api/marketplace/control-receipt-verify"
 }

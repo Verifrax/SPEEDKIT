@@ -31,5 +31,9 @@
   "receipt_statuses": [
     "PUBLIC_CONTROL_RECEIPT_ISSUED",
     "PUBLIC_CONTROL_RECEIPT_DEGRADED"
-  ]
+  ],
+  "public_control_receipt_verifier_status": "LIVE",
+  "public_control_receipt_verifier_policy_json": "/marketplace/control-receipt-verify-policy.json",
+  "public_control_receipt_verifier_page": "/marketplace/control-receipt-verify/",
+  "public_control_receipt_verifier_api": "/api/marketplace/control-receipt-verify"
 }
