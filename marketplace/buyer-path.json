@@ -118,6 +118,12 @@
       "title": "Verify public control receipt",
       "route": "/api/marketplace/control-receipt-verify",
       "proof": "PUBLIC_CONTROL_RECEIPT_VERIFIED recomputes the receipt hash and confirms digest match"
+    },
+    {
+      "id": "public_control_chain_index",
+      "title": "Read public control chain index",
+      "route": "/api/marketplace/control-chain-index",
+      "proof": "PUBLIC_CONTROL_CHAIN_INDEX_READY binds digest, receipt, verifier, closure, Product OS, and route map"
     }
   ],
   "capability_bundles_status": "LIVE",
@@ -131,5 +137,6 @@
   "control_closure_status": "LIVE",
   "public_control_digest_status": "LIVE",
   "public_control_receipt_status": "LIVE",
-  "public_control_receipt_verifier_status": "LIVE"
+  "public_control_receipt_verifier_status": "LIVE",
+  "public_control_chain_index_status": "LIVE"
 }
