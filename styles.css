@@ -275,3 +275,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_CONTROL_CHAIN_CERTIFICATE_STYLE_END */
+
+/* SPEEDKIT_CONTROL_CHAIN_CERTIFICATE_VERIFY_STYLE_START */
+.speedkit-control-chain-certificate-verify-rail {
+  border-style: dashed;
+}
+#speedkit-control-chain-certificate-verify-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_CONTROL_CHAIN_CERTIFICATE_VERIFY_STYLE_END */

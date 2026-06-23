@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Chain Certificate Verify · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Chain Certificate Verifier</a></h1>
+    <p class="sub">External replay verifier for the SPEEDKIT Marketplace OS public chain certificate.</p>
+    <p class="stamp">CHAIN_CERTIFICATE_VERIFY=LIVE · RECOMPUTE_CERTIFICATE_HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>VERIFY</span><b>LIVE</b></div>
+    <div class="metric"><span>CERT</span><b>HASH</b></div>
+    <div class="metric"><span>SYSTEMS</span><b>4</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Verify Public Control Chain Certificate</h2>
+  <p>The verifier fetches the certificate, recomputes the SHA-256 certificate hash from certificate_material, confirms the verified chain, and validates public-only invariants.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-chain-certificate-verify-run" type="button">Verify certificate</button></p>
+  <pre id="speedkit-control-chain-certificate-verify-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Verifier Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-chain-certificate-verify-policy.json"><strong>Certificate Verifier Policy</strong><span>certificate replay contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-certificate-verify"><strong>Certificate Verifier API</strong><span>recompute certificate hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-certificate"><strong>Certificate API</strong><span>issued certificate</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-verify"><strong>Chain Verifier</strong><span>verified chain</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL CHAIN CERTIFICATE VERIFIER · CERTIFICATE REPLAY</footer>
+</main>
+<script src="/marketplace/control-chain-certificate-verify.js"></script>
+</body>
+</html>
