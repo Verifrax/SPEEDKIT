@@ -197,5 +197,9 @@
   "entitlement_usage_status": "LIVE",
   "entitlement_usage_policy_json": "/marketplace/entitlement-usage-policy.json",
   "entitlement_usage_page": "/marketplace/entitlement-usage/",
-  "entitlement_usage_api": "/api/marketplace/entitlement-usage"
+  "entitlement_usage_api": "/api/marketplace/entitlement-usage",
+  "buyer_control_status": "LIVE",
+  "buyer_control_policy_json": "/marketplace/buyer-control-policy.json",
+  "buyer_control_page": "/marketplace/buyer-control/",
+  "buyer_control_api": "/api/marketplace/buyer-control"
 }

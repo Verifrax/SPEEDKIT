@@ -1,0 +1,36 @@
+{
+  "schema": "speedkit.buyer_control_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T19:14:57.167Z",
+  "title": "SPEEDKIT Buyer Control Capsule",
+  "rule": {
+    "buyer_control_requires_checkout_session": true,
+    "plan_authority_is_checkout_session_metadata": true,
+    "caller_selected_plan_is_not_authority": true,
+    "unpaid_session_returns_pending_control": true,
+    "paid_session_returns_ready_control": true,
+    "quota_state_is_attached": true,
+    "usage_ledger_state_is_attached": true,
+    "ledger_verification_state_is_attached": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "buyer_control_api": "/api/marketplace/buyer-control",
+    "buyer_control_page": "/marketplace/buyer-control/",
+    "session_probe_api": "/api/marketplace/session",
+    "entitlement_usage_api": "/api/marketplace/entitlement-usage",
+    "quota_api": "/api/marketplace/quota",
+    "usage_ledger_api": "/api/marketplace/usage-ledger",
+    "ledger_verify_api": "/api/marketplace/usage-ledger-verify"
+  },
+  "response_statuses": [
+    "BUYER_CONTROL_PENDING",
+    "BUYER_CONTROL_READY",
+    "BUYER_CONTROL_SESSION_NOT_FOUND",
+    "BUYER_CONTROL_PLAN_NOT_RESOLVED",
+    "SESSION_ID_REQUIRED"
+  ]
+}

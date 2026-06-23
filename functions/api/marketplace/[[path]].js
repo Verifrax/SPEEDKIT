@@ -1,3 +1,4 @@
+import * as BuyerControlApi from "./buyer-control.js";
 import * as EntitlementUsageApi from "./entitlement-usage.js";
 import * as UsageLedgerVerifyApi from "./usage-ledger-verify.js";
 import * as QuotaApi from "./quota.js";
@@ -427,6 +428,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/entitlement-usage") {
     return EntitlementUsageApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/buyer-control") {
+    return BuyerControlApi.onRequest({ request, env });
   }
 
   return json({
