@@ -37,5 +37,9 @@
     "CONTROL_CLOSURE_READY",
     "CONTROL_CLOSURE_DEGRADED",
     "CONTROL_CLOSURE_PENDING_SESSION"
-  ]
+  ],
+  "public_control_digest_status": "LIVE",
+  "public_control_digest_policy_json": "/marketplace/control-digest-policy.json",
+  "public_control_digest_page": "/marketplace/control-digest/",
+  "public_control_digest_api": "/api/marketplace/control-digest"
 }

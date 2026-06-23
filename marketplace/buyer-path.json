@@ -100,6 +100,12 @@
       "title": "Read marketplace control closure",
       "route": "/api/marketplace/control-closure",
       "proof": "CONTROL_CLOSURE_READY exposes the consolidated marketplace OS state"
+    },
+    {
+      "id": "public_control_digest",
+      "title": "Read public control digest",
+      "route": "/api/marketplace/control-digest",
+      "proof": "PUBLIC_CONTROL_DIGEST_READY emits one canonical SHA-256 seal for the marketplace OS"
     }
   ],
   "capability_bundles_status": "LIVE",
@@ -110,5 +116,6 @@
   "ledger_verification_status": "LIVE",
   "entitlement_usage_status": "LIVE",
   "buyer_control_status": "LIVE",
-  "control_closure_status": "LIVE"
+  "control_closure_status": "LIVE",
+  "public_control_digest_status": "LIVE"
 }
