@@ -1,3 +1,5 @@
+/marketplace/entitlement-usage-policy.json /marketplace/entitlement-usage-policy.json 200
+/marketplace/entitlement-usage /marketplace/entitlement-usage/ 301
 /marketplace/ledger-verify.json /marketplace/ledger-verify.json 200
 /marketplace/ledger-verify /marketplace/ledger-verify/ 301
 /marketplace/quota-policy.json /marketplace/quota-policy.json 200

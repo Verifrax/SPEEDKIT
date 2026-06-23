@@ -1,0 +1,42 @@
+{
+  "schema": "speedkit.entitlement_usage_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T19:06:59.748Z",
+  "title": "SPEEDKIT Entitlement-Bound Usage Policy",
+  "rule": {
+    "public_buyer_usage_requires_checkout_session": true,
+    "plan_is_resolved_from_session_metadata": true,
+    "caller_selected_plan_is_not_authority": true,
+    "unpaid_checkout_session_cannot_write_usage": true,
+    "unpaid_checkout_session_cannot_write_ledger": true,
+    "paid_or_complete_session_required_before_usage_write": true,
+    "quota_checked_before_usage_write": true,
+    "ledger_verification_available_after_write": true,
+    "private_repository_access_included": false,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "session_probe_api": "/api/marketplace/session",
+    "entitlement_reconcile_api": "/api/marketplace/entitlement-reconcile",
+    "entitlement_usage_api": "/api/marketplace/entitlement-usage",
+    "usage_api": "/api/marketplace/usage",
+    "usage_ledger_api": "/api/marketplace/usage-ledger",
+    "ledger_verify_api": "/api/marketplace/usage-ledger-verify",
+    "quota_api": "/api/marketplace/quota"
+  },
+  "accepted_session_status": {
+    "paid_payment_status": "paid",
+    "complete_checkout_status": "complete"
+  },
+  "blocked_statuses": [
+    "ENTITLEMENT_USAGE_PENDING",
+    "ENTITLEMENT_USAGE_SESSION_NOT_FOUND",
+    "ENTITLEMENT_USAGE_SESSION_PROBE_FAILED",
+    "SESSION_ID_AND_CAPABILITY_REQUIRED"
+  ],
+  "success_statuses": [
+    "ENTITLEMENT_USAGE_LEDGER_RECORDED"
+  ]
+}

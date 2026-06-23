@@ -194,6 +194,19 @@ npx wrangler pages secret put SPEEDKIT_BASE_URL --project-name speedkit</pre>
   </div>
 </section>
 <!-- SPEEDKIT_LEDGER_VERIFY_RAIL_END -->
+<!-- SPEEDKIT_ENTITLEMENT_USAGE_RAIL_START -->
+
+<section class="box speedkit-entitlement-usage-rail">
+  <h2>SPEEDKIT Entitlement-Bound Usage</h2>
+  <p><strong>Buyer usage now requires session authority.</strong> Public buyer flow resolves plan from Checkout session metadata; unpaid sessions cannot write usage or ledger evidence.</p>
+  <div class="grid">
+    <a class="card" href="/marketplace/entitlement-usage/"><strong>Entitlement Usage</strong><span>paid-session-gated usage</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/entitlement-usage-policy.json"><strong>Entitlement Usage Policy</strong><span>session authority model</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/entitlement-usage"><strong>Entitlement Usage API</strong><span>plan from session</span><b>LIVE</b></a>
+    <a class="card" href="/marketplace/ledger-verify/"><strong>Ledger Verify</strong><span>cold replay proof</span><b>LIVE</b></a>
+  </div>
+</section>
+<!-- SPEEDKIT_ENTITLEMENT_USAGE_RAIL_END -->
 </main>
 <script src="/marketplace/checkout.js"></script>
 </body>

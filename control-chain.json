@@ -138,5 +138,8 @@
   "quota_api": "/api/marketplace/quota",
   "ledger_verification_status": "LIVE",
   "ledger_verify_json": "/marketplace/ledger-verify.json",
-  "ledger_verify_api": "/api/marketplace/usage-ledger-verify"
+  "ledger_verify_api": "/api/marketplace/usage-ledger-verify",
+  "entitlement_usage_status": "LIVE",
+  "entitlement_usage_policy_json": "/marketplace/entitlement-usage-policy.json",
+  "entitlement_usage_api": "/api/marketplace/entitlement-usage"
 }
