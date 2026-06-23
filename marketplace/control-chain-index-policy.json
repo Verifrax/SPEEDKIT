@@ -1,0 +1,46 @@
+{
+  "schema": "speedkit.public_control_chain_index_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T20:16:03.936Z",
+  "title": "SPEEDKIT Public Control Chain Index",
+  "rule": {
+    "chain_index_binds_digest_receipt_and_verifier": true,
+    "chain_index_hash_algorithm": "SHA-256",
+    "chain_index_uses_public_material_only": true,
+    "control_digest_attached": true,
+    "control_receipt_attached": true,
+    "receipt_verifier_attached": true,
+    "control_closure_attached": true,
+    "product_os_attached": true,
+    "route_map_attached": true,
+    "private_remaining_zero_required": true,
+    "recognized_execution_systems_four_required": true,
+    "workspace_count_135_required": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_chain_index_api": "/api/marketplace/control-chain-index",
+    "public_control_chain_index_page": "/marketplace/control-chain-index/",
+    "public_control_chain_index_policy": "/marketplace/control-chain-index-policy.json",
+    "public_control_digest_api": "/api/marketplace/control-digest",
+    "public_control_receipt_api": "/api/marketplace/control-receipt",
+    "public_control_receipt_verify_api": "/api/marketplace/control-receipt-verify",
+    "control_closure_api": "/api/marketplace/control-closure",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  },
+  "chain_nodes": [
+    "public_control_digest",
+    "public_control_receipt",
+    "public_control_receipt_verifier",
+    "control_closure",
+    "product_os",
+    "route_map"
+  ],
+  "chain_statuses": [
+    "PUBLIC_CONTROL_CHAIN_INDEX_READY",
+    "PUBLIC_CONTROL_CHAIN_INDEX_DEGRADED"
+  ]
+}

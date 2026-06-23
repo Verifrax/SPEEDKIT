@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Chain Index · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Chain Index</a></h1>
+    <p class="sub">One public index binding digest, receipt, verifier, closure, Product OS, and route map.</p>
+    <p class="stamp">PUBLIC_CONTROL_CHAIN_INDEX=LIVE · CHAIN_HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>CHAIN</span><b>LIVE</b></div>
+    <div class="metric"><span>NODES</span><b>6</b></div>
+    <div class="metric"><span>SYSTEMS</span><b>4</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Read Public Control Chain Index</h2>
+  <p>The chain index recomputes a public chain hash over the current digest, receipt, verifier, control closure, Product OS, and route map.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-chain-index-run" type="button">Read chain index</button></p>
+  <pre id="speedkit-control-chain-index-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Chain Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-chain-index-policy.json"><strong>Chain Index Policy</strong><span>chain material contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-index"><strong>Chain Index API</strong><span>public chain hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-receipt-verify"><strong>Receipt Verifier</strong><span>external replay</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-receipt"><strong>Control Receipt</strong><span>issued receipt</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL CHAIN INDEX · MARKETPLACE OS CHAIN SEAL</footer>
+</main>
+<script src="/marketplace/control-chain-index.js"></script>
+</body>
+</html>

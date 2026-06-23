@@ -48,5 +48,9 @@
   "public_control_receipt_verifier_status": "LIVE",
   "public_control_receipt_verifier_policy_json": "/marketplace/control-receipt-verify-policy.json",
   "public_control_receipt_verifier_page": "/marketplace/control-receipt-verify/",
-  "public_control_receipt_verifier_api": "/api/marketplace/control-receipt-verify"
+  "public_control_receipt_verifier_api": "/api/marketplace/control-receipt-verify",
+  "public_control_chain_index_status": "LIVE",
+  "public_control_chain_index_policy_json": "/marketplace/control-chain-index-policy.json",
+  "public_control_chain_index_page": "/marketplace/control-chain-index/",
+  "public_control_chain_index_api": "/api/marketplace/control-chain-index"
 }

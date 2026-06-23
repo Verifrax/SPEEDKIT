@@ -30,5 +30,9 @@
   "verification_statuses": [
     "PUBLIC_CONTROL_RECEIPT_VERIFIED",
     "PUBLIC_CONTROL_RECEIPT_VERIFY_FAILED"
-  ]
+  ],
+  "public_control_chain_index_status": "LIVE",
+  "public_control_chain_index_policy_json": "/marketplace/control-chain-index-policy.json",
+  "public_control_chain_index_page": "/marketplace/control-chain-index/",
+  "public_control_chain_index_api": "/api/marketplace/control-chain-index"
 }
