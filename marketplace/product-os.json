@@ -45,7 +45,9 @@
     "public_control_chain_index": "LIVE",
     "marketplace_os_chain_index": "LIVE",
     "public_control_chain_verifier": "LIVE",
-    "marketplace_os_chain_verified": "LIVE"
+    "marketplace_os_chain_verified": "LIVE",
+    "public_control_chain_certificate": "LIVE",
+    "marketplace_os_chain_certificate": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -149,6 +151,11 @@
       "/marketplace/control-chain-verify/",
       "/marketplace/control-chain-verify-policy.json",
       "/api/marketplace/control-chain-verify"
+    ],
+    "public_control_chain_certificate": [
+      "/marketplace/control-chain-certificate/",
+      "/marketplace/control-chain-certificate-policy.json",
+      "/api/marketplace/control-chain-certificate"
     ]
   },
   "plans": [
@@ -260,5 +267,9 @@
   "public_control_chain_verifier_status": "LIVE",
   "public_control_chain_verifier_policy_json": "/marketplace/control-chain-verify-policy.json",
   "public_control_chain_verifier_page": "/marketplace/control-chain-verify/",
-  "public_control_chain_verifier_api": "/api/marketplace/control-chain-verify"
+  "public_control_chain_verifier_api": "/api/marketplace/control-chain-verify",
+  "public_control_chain_certificate_status": "LIVE",
+  "public_control_chain_certificate_policy_json": "/marketplace/control-chain-certificate-policy.json",
+  "public_control_chain_certificate_page": "/marketplace/control-chain-certificate/",
+  "public_control_chain_certificate_api": "/api/marketplace/control-chain-certificate"
 }

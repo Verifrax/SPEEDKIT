@@ -35,5 +35,9 @@
   "verification_statuses": [
     "PUBLIC_CONTROL_CHAIN_VERIFIED",
     "PUBLIC_CONTROL_CHAIN_VERIFY_FAILED"
-  ]
+  ],
+  "public_control_chain_certificate_status": "LIVE",
+  "public_control_chain_certificate_policy_json": "/marketplace/control-chain-certificate-policy.json",
+  "public_control_chain_certificate_page": "/marketplace/control-chain-certificate/",
+  "public_control_chain_certificate_api": "/api/marketplace/control-chain-certificate"
 }

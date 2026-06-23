@@ -1,3 +1,5 @@
+/marketplace/control-chain-certificate-policy.json /marketplace/control-chain-certificate-policy.json 200
+/marketplace/control-chain-certificate /marketplace/control-chain-certificate/ 301
 /marketplace/control-chain-verify-policy.json /marketplace/control-chain-verify-policy.json 200
 /marketplace/control-chain-verify /marketplace/control-chain-verify/ 301
 /marketplace/control-chain-index-policy.json /marketplace/control-chain-index-policy.json 200

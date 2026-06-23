@@ -1,0 +1,40 @@
+{
+  "schema": "speedkit.public_control_chain_certificate_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-23T20:27:17.201Z",
+  "title": "SPEEDKIT Public Control Chain Certificate",
+  "rule": {
+    "certificate_binds_verified_chain": true,
+    "certificate_hash_algorithm": "SHA-256",
+    "certificate_hash_excludes_issued_at": true,
+    "certificate_includes_chain_hash": true,
+    "certificate_includes_chain_verify_hash": true,
+    "certificate_includes_digest_hash": true,
+    "certificate_includes_receipt_hash": true,
+    "certificate_includes_receipt_verify_hash": true,
+    "certificate_includes_route_count": true,
+    "certificate_includes_workspace_count": true,
+    "certificate_includes_private_remaining_zero": true,
+    "certificate_includes_recognized_execution_system_count": true,
+    "certificate_uses_public_material_only": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_chain_certificate_api": "/api/marketplace/control-chain-certificate",
+    "public_control_chain_certificate_page": "/marketplace/control-chain-certificate/",
+    "public_control_chain_certificate_policy": "/marketplace/control-chain-certificate-policy.json",
+    "public_control_chain_verify_api": "/api/marketplace/control-chain-verify",
+    "public_control_chain_index_api": "/api/marketplace/control-chain-index",
+    "public_control_receipt_verify_api": "/api/marketplace/control-receipt-verify",
+    "public_control_receipt_api": "/api/marketplace/control-receipt",
+    "public_control_digest_api": "/api/marketplace/control-digest",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  },
+  "certificate_statuses": [
+    "PUBLIC_CONTROL_CHAIN_CERTIFICATE_ISSUED",
+    "PUBLIC_CONTROL_CHAIN_CERTIFICATE_DEGRADED"
+  ]
+}
