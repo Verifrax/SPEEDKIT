@@ -55,5 +55,9 @@
     "allowed_when": "current_month_events + 1 <= monthly_event_limit AND current_month_units + requested_units <= monthly_unit_limit",
     "denied_when": "event limit or unit limit would be exceeded",
     "denial_status": "USAGE_QUOTA_EXCEEDED"
-  }
+  },
+  "ledger_verification_status": "LIVE",
+  "ledger_verify_json": "/marketplace/ledger-verify.json",
+  "ledger_verify_page": "/marketplace/ledger-verify/",
+  "ledger_verify_api": "/api/marketplace/usage-ledger-verify"
 }

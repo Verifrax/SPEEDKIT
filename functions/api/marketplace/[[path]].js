@@ -1,3 +1,4 @@
+import * as UsageLedgerVerifyApi from "./usage-ledger-verify.js";
 import * as QuotaApi from "./quota.js";
 import * as SessionApi from "./session.js";
 import * as EntitlementReconcileApi from "./entitlement-reconcile.js";
@@ -415,6 +416,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/quota") {
     return QuotaApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/usage-ledger-verify") {
+    return UsageLedgerVerifyApi.onRequest({ request, env });
   }
 
   return json({

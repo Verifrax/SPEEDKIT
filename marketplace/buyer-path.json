@@ -76,11 +76,18 @@
       "title": "Enforce usage quota",
       "route": "/api/marketplace/quota",
       "proof": "USAGE_QUOTA_EXCEEDED blocks write before usage and ledger"
+    },
+    {
+      "id": "ledger_verification",
+      "title": "Verify usage ledger",
+      "route": "/api/marketplace/usage-ledger-verify",
+      "proof": "USAGE_LEDGER_VERIFIED by SHA-256 cold replay"
     }
   ],
   "capability_bundles_status": "LIVE",
   "access_policy_status": "LIVE",
   "usage_metering_status": "LIVE",
   "usage_ledger_status": "LIVE",
-  "quota_enforcement_status": "LIVE"
+  "quota_enforcement_status": "LIVE",
+  "ledger_verification_status": "LIVE"
 }

@@ -92,3 +92,6 @@
 
 /marketplace/quota-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/ledger-verify.json
+  content-type: application/json; charset=utf-8

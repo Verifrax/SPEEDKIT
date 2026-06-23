@@ -175,3 +175,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_QUOTA_ENFORCEMENT_STYLE_END */
+
+/* SPEEDKIT_LEDGER_VERIFY_STYLE_START */
+.speedkit-ledger-verify-rail {
+  border-style: solid;
+}
+#speedkit-ledger-verify-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_LEDGER_VERIFY_STYLE_END */
