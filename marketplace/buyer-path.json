@@ -160,6 +160,12 @@
       "title": "Read public control chain archive",
       "route": "/api/marketplace/control-chain-archive",
       "proof": "PUBLIC_CONTROL_CHAIN_ARCHIVED binds final seal verification into an evidence archive"
+    },
+    {
+      "id": "public_control_chain_archive_verifier",
+      "title": "Verify public control chain archive",
+      "route": "/api/marketplace/control-chain-archive-verify",
+      "proof": "PUBLIC_CONTROL_CHAIN_ARCHIVE_VERIFIED recomputes archive hash and confirms final evidence archive"
     }
   ],
   "capability_bundles_status": "LIVE",
@@ -180,5 +186,6 @@
   "public_control_chain_certificate_verifier_status": "LIVE",
   "public_control_chain_seal_status": "LIVE",
   "public_control_chain_seal_verifier_status": "LIVE",
-  "public_control_chain_archive_status": "LIVE"
+  "public_control_chain_archive_status": "LIVE",
+  "public_control_chain_archive_verifier_status": "LIVE"
 }

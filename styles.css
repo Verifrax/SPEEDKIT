@@ -315,3 +315,13 @@ pre{white-space:pre-wrap;overflow:auto}
   overflow: auto;
 }
 /* SPEEDKIT_CONTROL_CHAIN_ARCHIVE_STYLE_END */
+
+/* SPEEDKIT_CONTROL_CHAIN_ARCHIVE_VERIFY_STYLE_START */
+.speedkit-control-chain-archive-verify-rail {
+  border-style: double;
+}
+#speedkit-control-chain-archive-verify-output {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+/* SPEEDKIT_CONTROL_CHAIN_ARCHIVE_VERIFY_STYLE_END */

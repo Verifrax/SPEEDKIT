@@ -177,5 +177,8 @@
   "public_control_chain_seal_verifier_api": "/api/marketplace/control-chain-seal-verify",
   "public_control_chain_archive_status": "LIVE",
   "public_control_chain_archive_policy_json": "/marketplace/control-chain-archive-policy.json",
-  "public_control_chain_archive_api": "/api/marketplace/control-chain-archive"
+  "public_control_chain_archive_api": "/api/marketplace/control-chain-archive",
+  "public_control_chain_archive_verifier_status": "LIVE",
+  "public_control_chain_archive_verifier_policy_json": "/marketplace/control-chain-archive-verify-policy.json",
+  "public_control_chain_archive_verifier_api": "/api/marketplace/control-chain-archive-verify"
 }

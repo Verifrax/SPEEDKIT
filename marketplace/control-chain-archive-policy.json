@@ -37,5 +37,9 @@
   "archive_statuses": [
     "PUBLIC_CONTROL_CHAIN_ARCHIVED",
     "PUBLIC_CONTROL_CHAIN_ARCHIVE_DEGRADED"
-  ]
+  ],
+  "public_control_chain_archive_verifier_status": "LIVE",
+  "public_control_chain_archive_verifier_policy_json": "/marketplace/control-chain-archive-verify-policy.json",
+  "public_control_chain_archive_verifier_page": "/marketplace/control-chain-archive-verify/",
+  "public_control_chain_archive_verifier_api": "/api/marketplace/control-chain-archive-verify"
 }
