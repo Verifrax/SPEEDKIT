@@ -1,3 +1,5 @@
+/marketplace/control-chain-archive-verify-policy.json /marketplace/control-chain-archive-verify-policy.json 200
+/marketplace/control-chain-archive-verify /marketplace/control-chain-archive-verify/ 301
 /marketplace/control-chain-archive-policy.json /marketplace/control-chain-archive-policy.json 200
 /marketplace/control-chain-archive /marketplace/control-chain-archive/ 301
 /marketplace/control-chain-seal-verify-policy.json /marketplace/control-chain-seal-verify-policy.json 200

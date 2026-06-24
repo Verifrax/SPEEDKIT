@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 81,
+  "route_count": 84,
   "routes": [
     {
       "route": "/",
@@ -409,6 +409,21 @@
       "route": "/api/marketplace/control-chain-archive",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/control-chain-archive-verify/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/control-chain-archive-verify-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control-chain-archive-verify",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
@@ -429,5 +444,6 @@
   "public_control_chain_certificate_verifier_routes_status": "LIVE",
   "public_control_chain_seal_routes_status": "LIVE",
   "public_control_chain_seal_verifier_routes_status": "LIVE",
-  "public_control_chain_archive_routes_status": "LIVE"
+  "public_control_chain_archive_routes_status": "LIVE",
+  "public_control_chain_archive_verifier_routes_status": "LIVE"
 }
