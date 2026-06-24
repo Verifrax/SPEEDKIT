@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Control Chain Archive · speedkit.eu</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <div class="eyebrow">SPEEDKIT MARKETPLACE</div>
+    <h1><a href="/">Public Control Chain Archive</a></h1>
+    <p class="sub">Final evidence archive over the verified SPEEDKIT Marketplace OS public control chain seal.</p>
+    <p class="stamp">CONTROL_CHAIN_ARCHIVE=LIVE · ARCHIVE_HASH=SHA-256 · PUBLIC_ONLY=true</p>
+  </div>
+  <div class="meta">
+    <div class="metric"><span>ARCHIVE</span><b>LIVE</b></div>
+    <div class="metric"><span>SEAL</span><b>VERIFIED</b></div>
+    <div class="metric"><span>SYSTEMS</span><b>4</b></div>
+    <div class="metric"><span>PRIVATE</span><b>0</b></div>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Read Public Control Chain Archive</h2>
+  <p>The archive binds seal verification, seal hash, certificate verification, certificate hash, verified chain, route count, workspace count, systems count, and private_remaining=0.</p>
+  <p><button class="speedkit-buy-button" id="speedkit-control-chain-archive-run" type="button">Read archive</button></p>
+  <pre id="speedkit-control-chain-archive-output">{}</pre>
+</section>
+
+<section class="box">
+  <h2>Archive Surfaces</h2>
+  <div class="grid">
+    <a class="card" href="/marketplace/control-chain-archive-policy.json"><strong>Archive Policy</strong><span>archive material contract</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-archive"><strong>Archive API</strong><span>read archive hash</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-seal-verify"><strong>Seal Verifier</strong><span>final seal replay</span><b>LIVE</b></a>
+    <a class="card" href="/api/marketplace/control-chain-seal"><strong>Seal API</strong><span>issued seal</span><b>LIVE</b></a>
+  </div>
+</section>
+
+<footer class="footer">SPEEDKIT PUBLIC CONTROL CHAIN ARCHIVE · FINAL EVIDENCE ARCHIVE</footer>
+</main>
+<script src="/marketplace/control-chain-archive.js"></script>
+</body>
+</html>

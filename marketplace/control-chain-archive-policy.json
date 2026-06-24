@@ -1,0 +1,41 @@
+{
+  "schema": "speedkit.public_control_chain_archive_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "generated_at": "2026-06-24T20:27:07.764Z",
+  "title": "SPEEDKIT Public Control Chain Archive",
+  "rule": {
+    "archive_binds_seal_verifier": true,
+    "archive_binds_chain_seal": true,
+    "archive_binds_certificate_verifier": true,
+    "archive_binds_certificate": true,
+    "archive_binds_verified_chain": true,
+    "archive_hash_algorithm": "SHA-256",
+    "archive_hash_excludes_archived_at": true,
+    "archive_uses_public_material_only": true,
+    "archive_requires_seal_verified": true,
+    "archive_requires_seal_issued": true,
+    "archive_requires_private_remaining_zero": true,
+    "archive_requires_system_count_four": true,
+    "archive_requires_workspace_count_135": true,
+    "archive_requires_route_count_floor": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_chain_archive_api": "/api/marketplace/control-chain-archive",
+    "public_control_chain_archive_page": "/marketplace/control-chain-archive/",
+    "public_control_chain_archive_policy": "/marketplace/control-chain-archive-policy.json",
+    "public_control_chain_seal_verify_api": "/api/marketplace/control-chain-seal-verify",
+    "public_control_chain_seal_api": "/api/marketplace/control-chain-seal",
+    "public_control_chain_certificate_verify_api": "/api/marketplace/control-chain-certificate-verify",
+    "public_control_chain_certificate_api": "/api/marketplace/control-chain-certificate",
+    "public_control_chain_verify_api": "/api/marketplace/control-chain-verify",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  },
+  "archive_statuses": [
+    "PUBLIC_CONTROL_CHAIN_ARCHIVED",
+    "PUBLIC_CONTROL_CHAIN_ARCHIVE_DEGRADED"
+  ]
+}
