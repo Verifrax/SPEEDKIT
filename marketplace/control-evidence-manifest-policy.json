@@ -1,0 +1,31 @@
+{
+  "schema": "speedkit.public_control_evidence_manifest_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "rule": {
+    "manifest_binds_archive_verifier": true,
+    "manifest_binds_archive": true,
+    "manifest_binds_final_seal_lineage": true,
+    "manifest_hash_algorithm": "SHA-256",
+    "manifest_hash_excludes_issued_at": true,
+    "manifest_uses_verified_archive_snapshot": true,
+    "manifest_uses_public_material_only": true,
+    "manifest_requires_archive_verified": true,
+    "manifest_requires_archive_issued": true,
+    "manifest_requires_private_remaining_zero": true,
+    "manifest_requires_system_count_four": true,
+    "manifest_requires_workspace_count_135": true,
+    "manifest_requires_route_count_floor": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest",
+    "public_control_evidence_manifest_page": "/marketplace/control-evidence-manifest/",
+    "public_control_evidence_manifest_policy": "/marketplace/control-evidence-manifest-policy.json",
+    "public_control_chain_archive_verify_api": "/api/marketplace/control-chain-archive-verify",
+    "public_control_chain_archive_api": "/api/marketplace/control-chain-archive",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  }
+}

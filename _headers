@@ -137,3 +137,6 @@
 
 /marketplace/control-chain-archive-verify-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/control-evidence-manifest-policy.json
+  content-type: application/json; charset=utf-8

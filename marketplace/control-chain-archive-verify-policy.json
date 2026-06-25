@@ -44,5 +44,9 @@
   "coherence": {
     "schema": "speedkit.public_control_chain_archive_verifier_coherence.v1",
     "rule": "The archive verifier recomputes archive_hash from archive_material and validates the archive source_status emitted by the archive API. It does not compare independently re-fetched dynamic subcalls from different replay snapshots."
-  }
+  },
+  "public_control_evidence_manifest_status": "LIVE",
+  "public_control_evidence_manifest_policy_json": "/marketplace/control-evidence-manifest-policy.json",
+  "public_control_evidence_manifest_page": "/marketplace/control-evidence-manifest/",
+  "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest"
 }
