@@ -27,5 +27,9 @@
     "public_control_chain_archive_api": "/api/marketplace/control-chain-archive",
     "product_os_json": "/marketplace/product-os.json",
     "route_map_json": "/marketplace/route-map.json"
-  }
+  },
+  "public_control_evidence_manifest_verifier_status": "LIVE",
+  "public_control_evidence_manifest_verifier_policy_json": "/marketplace/control-evidence-manifest-verify-policy.json",
+  "public_control_evidence_manifest_verifier_page": "/marketplace/control-evidence-manifest-verify/",
+  "public_control_evidence_manifest_verifier_api": "/api/marketplace/control-evidence-manifest-verify"
 }
