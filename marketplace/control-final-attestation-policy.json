@@ -17,7 +17,10 @@
     "attestation_requires_system_count_four": true,
     "attestation_requires_workspace_count_135": true,
     "attestation_requires_route_count_floor": true,
-    "public_surfaces_remain_public": true
+    "public_surfaces_remain_public": true,
+    "attestation_recomputes_evidence_manifest_verification": true,
+    "attestation_avoids_deep_nested_same_origin_replay": true,
+    "attestation_fetches_evidence_manifest_once": true
   },
   "authority": {
     "public_control_final_attestation_api": "/api/marketplace/control-final-attestation",
@@ -27,5 +30,9 @@
     "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest",
     "product_os_json": "/marketplace/product-os.json",
     "route_map_json": "/marketplace/route-map.json"
+  },
+  "coherence": {
+    "schema": "speedkit.public_control_final_attestation_coherence.v1",
+    "rule": "Final attestation fetches the evidence manifest once, recomputes manifest_hash and evidence-manifest verification locally, then emits the final attestation hash. It does not call the evidence-manifest verifier endpoint as a nested same-origin subrequest."
   }
 }
