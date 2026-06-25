@@ -1,0 +1,31 @@
+{
+  "schema": "speedkit.public_control_final_attestation_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "rule": {
+    "attestation_binds_evidence_manifest_verifier": true,
+    "attestation_binds_verified_manifest_hash": true,
+    "attestation_binds_archive_hash": true,
+    "attestation_binds_final_seal_lineage": true,
+    "attestation_binds_public_control_digest": true,
+    "attestation_hash_algorithm": "SHA-256",
+    "attestation_hash_excludes_issued_at": true,
+    "attestation_uses_public_material_only": true,
+    "attestation_requires_manifest_verified": true,
+    "attestation_requires_private_remaining_zero": true,
+    "attestation_requires_system_count_four": true,
+    "attestation_requires_workspace_count_135": true,
+    "attestation_requires_route_count_floor": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_final_attestation_api": "/api/marketplace/control-final-attestation",
+    "public_control_final_attestation_page": "/marketplace/control-final-attestation/",
+    "public_control_final_attestation_policy": "/marketplace/control-final-attestation-policy.json",
+    "public_control_evidence_manifest_verify_api": "/api/marketplace/control-evidence-manifest-verify",
+    "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  }
+}

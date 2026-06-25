@@ -143,3 +143,6 @@
 
 /marketplace/control-evidence-manifest-verify-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/control-final-attestation-policy.json
+  content-type: application/json; charset=utf-8

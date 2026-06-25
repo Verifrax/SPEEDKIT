@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 90,
+  "route_count": 93,
   "routes": [
     {
       "route": "/",
@@ -454,6 +454,21 @@
       "route": "/api/marketplace/control-evidence-manifest-verify",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/control-final-attestation/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/control-final-attestation-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control-final-attestation",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
@@ -485,5 +500,10 @@
   "public_control_evidence_manifest_verifier_policy_json": "/marketplace/control-evidence-manifest-verify-policy.json",
   "public_control_evidence_manifest_verifier_page": "/marketplace/control-evidence-manifest-verify/",
   "public_control_evidence_manifest_verifier_api": "/api/marketplace/control-evidence-manifest-verify",
-  "public_control_evidence_manifest_verifier_routes_status": "LIVE"
+  "public_control_evidence_manifest_verifier_routes_status": "LIVE",
+  "public_control_final_attestation_status": "LIVE",
+  "public_control_final_attestation_policy_json": "/marketplace/control-final-attestation-policy.json",
+  "public_control_final_attestation_page": "/marketplace/control-final-attestation/",
+  "public_control_final_attestation_api": "/api/marketplace/control-final-attestation",
+  "public_control_final_attestation_routes_status": "LIVE"
 }

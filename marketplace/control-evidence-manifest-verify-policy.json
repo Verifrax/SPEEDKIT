@@ -24,5 +24,9 @@
     "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest",
     "product_os_json": "/marketplace/product-os.json",
     "route_map_json": "/marketplace/route-map.json"
-  }
+  },
+  "public_control_final_attestation_status": "LIVE",
+  "public_control_final_attestation_policy_json": "/marketplace/control-final-attestation-policy.json",
+  "public_control_final_attestation_page": "/marketplace/control-final-attestation/",
+  "public_control_final_attestation_api": "/api/marketplace/control-final-attestation"
 }
