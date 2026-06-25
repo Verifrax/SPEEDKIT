@@ -1,3 +1,4 @@
+import * as ControlEvidenceManifestVerifyApi from "./control-evidence-manifest-verify.js";
 import * as ControlEvidenceManifestApi from "./control-evidence-manifest.js";
 import * as ControlChainArchiveVerifyApi from "./control-chain-archive-verify.js";
 import * as ControlChainArchiveApi from "./control-chain-archive.js";
@@ -511,6 +512,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/control-evidence-manifest") {
     return ControlEvidenceManifestApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-evidence-manifest-verify") {
+    return ControlEvidenceManifestVerifyApi.onRequest({ request, env });
   }
 
   return json({
