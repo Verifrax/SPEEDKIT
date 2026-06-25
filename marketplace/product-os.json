@@ -57,7 +57,9 @@
     "public_control_chain_archive": "LIVE",
     "marketplace_os_chain_archive": "LIVE",
     "public_control_chain_archive_verifier": "LIVE",
-    "marketplace_os_chain_archive_verified": "LIVE"
+    "marketplace_os_chain_archive_verified": "LIVE",
+    "public_control_evidence_manifest": "LIVE",
+    "marketplace_os_evidence_manifest": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -326,5 +328,9 @@
   "public_control_chain_archive_verifier_status": "LIVE",
   "public_control_chain_archive_verifier_policy_json": "/marketplace/control-chain-archive-verify-policy.json",
   "public_control_chain_archive_verifier_page": "/marketplace/control-chain-archive-verify/",
-  "public_control_chain_archive_verifier_api": "/api/marketplace/control-chain-archive-verify"
+  "public_control_chain_archive_verifier_api": "/api/marketplace/control-chain-archive-verify",
+  "public_control_evidence_manifest_status": "LIVE",
+  "public_control_evidence_manifest_policy_json": "/marketplace/control-evidence-manifest-policy.json",
+  "public_control_evidence_manifest_page": "/marketplace/control-evidence-manifest/",
+  "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest"
 }
