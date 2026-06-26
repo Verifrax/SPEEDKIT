@@ -1,3 +1,5 @@
+/marketplace/control-final-attestation-verify-policy.json /marketplace/control-final-attestation-verify-policy.json 200
+/marketplace/control-final-attestation-verify /marketplace/control-final-attestation-verify/ 301
 /marketplace/control-final-attestation-policy.json /marketplace/control-final-attestation-policy.json 200
 /marketplace/control-final-attestation /marketplace/control-final-attestation/ 301
 /marketplace/control-evidence-manifest-verify-policy.json /marketplace/control-evidence-manifest-verify-policy.json 200
