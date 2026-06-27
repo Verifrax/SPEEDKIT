@@ -169,5 +169,9 @@
   "public_control_final_attestation_verifier_status": "LIVE",
   "public_control_final_attestation_verifier_policy_json": "/marketplace/control-final-attestation-verify-policy.json",
   "public_control_final_attestation_verifier_page": "/marketplace/control-final-attestation-verify/",
-  "public_control_final_attestation_verifier_api": "/api/marketplace/control-final-attestation-verify"
+  "public_control_final_attestation_verifier_api": "/api/marketplace/control-final-attestation-verify",
+  "public_control_release_record_status": "LIVE",
+  "public_control_release_record_policy_json": "/marketplace/control-release-record-policy.json",
+  "public_control_release_record_page": "/marketplace/control-release-record/",
+  "public_control_release_record_api": "/api/marketplace/control-release-record"
 }
