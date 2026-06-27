@@ -1,9 +1,7 @@
 {
   "version": 1,
   "include": [
-    "/api/*",
-    "/api/marketplace/control-final-attestation-verify",
-    "/api/marketplace/control-final-attestation-verify*"
+    "/api/*"
   ],
   "exclude": []
 }
