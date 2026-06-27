@@ -32,5 +32,9 @@
   "coherence": {
     "schema": "speedkit.public_control_final_attestation_verifier_coherence.v1",
     "rule": "The verifier fetches the evidence manifest once, recomputes evidence-manifest verification, recomputes the final-attestation material and attestation hash locally, and does not call /api/marketplace/control-final-attestation as a nested same-origin subrequest."
-  }
+  },
+  "public_control_release_record_status": "LIVE",
+  "public_control_release_record_policy_json": "/marketplace/control-release-record-policy.json",
+  "public_control_release_record_page": "/marketplace/control-release-record/",
+  "public_control_release_record_api": "/api/marketplace/control-release-record"
 }

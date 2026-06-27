@@ -1,3 +1,4 @@
+import * as ControlReleaseRecordApi from "./control-release-record.js";
 import * as ControlFinalAttestationVerifyApi from "./control-final-attestation-verify.js";
 import * as ControlFinalAttestationApi from "./control-final-attestation.js";
 import * as ControlEvidenceManifestVerifyApi from "./control-evidence-manifest-verify.js";
@@ -529,6 +530,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/control-final-attestation-verify") {
     return ControlFinalAttestationVerifyApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-release-record") {
+    return ControlReleaseRecordApi.onRequest({ request, env });
   }
 
   return json({

@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 96,
+  "route_count": 99,
   "routes": [
     {
       "route": "/",
@@ -484,6 +484,21 @@
       "route": "/api/marketplace/control-final-attestation-verify",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/control-release-record/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/control-release-record-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control-release-record",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
@@ -525,5 +540,10 @@
   "public_control_final_attestation_verifier_policy_json": "/marketplace/control-final-attestation-verify-policy.json",
   "public_control_final_attestation_verifier_page": "/marketplace/control-final-attestation-verify/",
   "public_control_final_attestation_verifier_api": "/api/marketplace/control-final-attestation-verify",
-  "public_control_final_attestation_verifier_routes_status": "LIVE"
+  "public_control_final_attestation_verifier_routes_status": "LIVE",
+  "public_control_release_record_status": "LIVE",
+  "public_control_release_record_policy_json": "/marketplace/control-release-record-policy.json",
+  "public_control_release_record_page": "/marketplace/control-release-record/",
+  "public_control_release_record_api": "/api/marketplace/control-release-record",
+  "public_control_release_record_routes_status": "LIVE"
 }
