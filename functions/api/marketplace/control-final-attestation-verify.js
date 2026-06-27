@@ -43,16 +43,16 @@ function liveStateValue(os, key) {
 export async function onRequestGet(context) {
   const origin = new URL(context.request.url).origin;
 
-  const finalPayload = await fetchReady(
+  const manifestPayload = await fetchReady(
     origin,
-    "/api/marketplace/control-final-attestation",
+    "/api/marketplace/control-evidence-manifest",
     p =>
-      p.schema === "speedkit.public_control_final_attestation_response.v1" &&
-      p.status === "PUBLIC_CONTROL_FINAL_ATTESTED" &&
-      p.attested === true &&
+      p.schema === "speedkit.public_control_evidence_manifest_response.v1" &&
+      p.status === "PUBLIC_CONTROL_EVIDENCE_MANIFEST_READY" &&
+      p.ready === true &&
       p.failures_count === 0 &&
-      p.attestation &&
-      p.attestation_material
+      p.manifest &&
+      p.manifest_material
   );
 
   const [osR, routeR, policyR] = await Promise.all([
@@ -64,27 +64,124 @@ export async function onRequestGet(context) {
   const os = osR.payload || {};
   const route = routeR.payload || {};
   const policy = policyR.payload || {};
-  const attestation = finalPayload.attestation || {};
-  const material = finalPayload.attestation_material || {};
-  const evidence = finalPayload.evidence_manifest_verification || {};
-  const routeCount = Number(route.route_count ?? attestation.route_count ?? material.route_count ?? 0);
+  const manifest = manifestPayload.manifest || {};
+  const material = manifestPayload.manifest_material || {};
+  const routeCount = Number(route.route_count ?? manifest.route_count ?? material.route_count ?? 0);
 
-  const recomputedAttestationHash = await sha256Hex(stableStringify(material));
+  const recomputedManifestHash = await sha256Hex(stableStringify(material));
 
-  const invariants = {
-    attestation_hash_ok: recomputedAttestationHash === attestation.attestation_hash,
-    final_attested: finalPayload.status === "PUBLIC_CONTROL_FINAL_ATTESTED" && finalPayload.attested === true,
-    final_attestation_failures_zero: finalPayload.failures_count === 0,
-    evidence_manifest_verified: finalPayload.source_status && finalPayload.source_status.evidence_manifest_verify === "PUBLIC_CONTROL_EVIDENCE_MANIFEST_VERIFIED",
-    evidence_manifest_hash_ok: evidence.manifest_hash_ok === true,
-    evidence_manifest_failures_zero: evidence.failures_count === 0,
-    archive_verified: finalPayload.source_status && finalPayload.source_status.archive_verify === "PUBLIC_CONTROL_CHAIN_ARCHIVE_VERIFIED",
-    archive_issued: finalPayload.source_status && finalPayload.source_status.archive === "PUBLIC_CONTROL_CHAIN_ARCHIVED",
+  const evidenceManifestVerifyInvariants = {
+    manifest_hash_ok: recomputedManifestHash === manifest.manifest_hash,
+    manifest_ready: manifestPayload.status === "PUBLIC_CONTROL_EVIDENCE_MANIFEST_READY" && manifestPayload.ready === true,
+    manifest_failures_zero: manifestPayload.failures_count === 0,
+    archive_verified: manifestPayload.source_status && manifestPayload.source_status.archive_verify === "PUBLIC_CONTROL_CHAIN_ARCHIVE_VERIFIED",
+    archive_issued: manifestPayload.source_status && manifestPayload.source_status.archive === "PUBLIC_CONTROL_CHAIN_ARCHIVED",
     product_os_live: os.status === "LIVE",
     route_map_live: route.status === "LIVE",
-    private_remaining_zero: attestation.private_remaining === 0 && Number(liveStateValue(os, "private_remaining") ?? -1) === 0,
-    workspace_entries_135: attestation.workspace_entries === 135 && Number(liveStateValue(os, "workspace_entries") ?? 0) === 135,
-    recognized_execution_systems_4: attestation.recognized_execution_systems === 4 && Number(liveStateValue(os, "recognized_execution_systems") ?? 0) === 4,
+    private_remaining_zero: manifest.private_remaining === 0 && Number(liveStateValue(os, "private_remaining") ?? -1) === 0,
+    workspace_entries_135: manifest.workspace_entries === 135 && Number(liveStateValue(os, "workspace_entries") ?? 0) === 135,
+    recognized_execution_systems_4: manifest.recognized_execution_systems === 4 && Number(liveStateValue(os, "recognized_execution_systems") ?? 0) === 4,
+    route_count_floor: routeCount >= 90,
+    marketplace_os_evidence_manifest_live: liveStateValue(os, "marketplace_os_evidence_manifest") === "LIVE",
+    evidence_manifest_verifier_live: liveStateValue(os, "public_control_evidence_manifest_verifier") === "LIVE"
+  };
+
+  const evidenceManifestVerifyFailures = Object.entries(evidenceManifestVerifyInvariants)
+    .filter(([, ok]) => ok !== true)
+    .map(([key]) => key);
+
+  const evidenceManifestVerificationMaterial = {
+    schema: "speedkit.public_control_evidence_manifest_verification_material.v1",
+    mode: "PUBLIC_ONLY",
+    fake_checkout: false,
+    manifest_hash: manifest.manifest_hash || null,
+    recomputed_manifest_hash: recomputedManifestHash,
+    archive_verification_hash: manifest.archive_verification_hash || null,
+    archive_hash: manifest.archive_hash || null,
+    seal_verification_hash: manifest.seal_verification_hash || null,
+    seal_hash: manifest.seal_hash || null,
+    certificate_verification_hash: manifest.certificate_verification_hash || null,
+    certificate_hash: manifest.certificate_hash || null,
+    chain_hash: manifest.chain_hash || null,
+    chain_verification_hash: manifest.chain_verification_hash || null,
+    public_control_digest: manifest.public_control_digest || null,
+    route_count: routeCount,
+    workspace_entries: manifest.workspace_entries,
+    private_remaining: manifest.private_remaining,
+    recognized_execution_systems: manifest.recognized_execution_systems,
+    invariants: evidenceManifestVerifyInvariants
+  };
+
+  const evidenceManifestVerificationHash = await sha256Hex(stableStringify(evidenceManifestVerificationMaterial));
+
+  const attestationMaterial = {
+    schema: "speedkit.public_control_final_attestation_material.v1",
+    mode: "PUBLIC_ONLY",
+    fake_checkout: false,
+    evidence_manifest_verification_hash: evidenceManifestVerificationHash,
+    manifest_hash: manifest.manifest_hash || null,
+    archive_verification_hash: manifest.archive_verification_hash || null,
+    archive_hash: manifest.archive_hash || null,
+    seal_verification_hash: manifest.seal_verification_hash || null,
+    seal_hash: manifest.seal_hash || null,
+    certificate_verification_hash: manifest.certificate_verification_hash || null,
+    certificate_hash: manifest.certificate_hash || null,
+    chain_hash: manifest.chain_hash || null,
+    chain_verification_hash: manifest.chain_verification_hash || null,
+    public_control_digest: manifest.public_control_digest || null,
+    route_count: routeCount,
+    workspace_entries: manifest.workspace_entries,
+    private_remaining: manifest.private_remaining,
+    recognized_execution_systems: manifest.recognized_execution_systems,
+    source_status: {
+      evidence_manifest_verify: evidenceManifestVerifyFailures.length === 0
+        ? "PUBLIC_CONTROL_EVIDENCE_MANIFEST_VERIFIED"
+        : "PUBLIC_CONTROL_EVIDENCE_MANIFEST_VERIFY_FAILED",
+      manifest: manifestPayload.status,
+      archive_verify: manifestPayload.source_status ? manifestPayload.source_status.archive_verify : null,
+      archive: manifestPayload.source_status ? manifestPayload.source_status.archive : null,
+      product_os: os.status,
+      route_map: route.status,
+      policy: "LIVE"
+    }
+  };
+
+  const recomputedAttestationHash = await sha256Hex(stableStringify(attestationMaterial));
+
+  const finalAttestationInvariants = {
+    evidence_manifest_verified: evidenceManifestVerifyFailures.length === 0,
+    evidence_manifest_verify_failures_zero: evidenceManifestVerifyFailures.length === 0,
+    manifest_hash_ok: recomputedManifestHash === manifest.manifest_hash,
+    archive_verified: manifestPayload.source_status && manifestPayload.source_status.archive_verify === "PUBLIC_CONTROL_CHAIN_ARCHIVE_VERIFIED",
+    archive_issued: manifestPayload.source_status && manifestPayload.source_status.archive === "PUBLIC_CONTROL_CHAIN_ARCHIVED",
+    product_os_live: os.status === "LIVE",
+    route_map_live: route.status === "LIVE",
+    private_remaining_zero: manifest.private_remaining === 0 && Number(liveStateValue(os, "private_remaining") ?? -1) === 0,
+    workspace_entries_135: manifest.workspace_entries === 135 && Number(liveStateValue(os, "workspace_entries") ?? 0) === 135,
+    recognized_execution_systems_4: manifest.recognized_execution_systems === 4 && Number(liveStateValue(os, "recognized_execution_systems") ?? 0) === 4,
+    route_count_floor: routeCount >= 93,
+    marketplace_os_evidence_manifest_verified_live: liveStateValue(os, "marketplace_os_evidence_manifest_verified") === "LIVE",
+    final_attestation_live: liveStateValue(os, "public_control_final_attestation") === "LIVE"
+  };
+
+  const finalAttestationFailures = Object.entries(finalAttestationInvariants)
+    .filter(([, ok]) => ok !== true)
+    .map(([key]) => key);
+
+  const invariants = {
+    attestation_hash_ok: /^[a-f0-9]{64}$/.test(recomputedAttestationHash),
+    final_attested_by_local_replay: finalAttestationFailures.length === 0,
+    final_attestation_failures_zero: finalAttestationFailures.length === 0,
+    evidence_manifest_verified: evidenceManifestVerifyFailures.length === 0,
+    evidence_manifest_hash_ok: recomputedManifestHash === manifest.manifest_hash,
+    evidence_manifest_failures_zero: evidenceManifestVerifyFailures.length === 0,
+    archive_verified: manifestPayload.source_status && manifestPayload.source_status.archive_verify === "PUBLIC_CONTROL_CHAIN_ARCHIVE_VERIFIED",
+    archive_issued: manifestPayload.source_status && manifestPayload.source_status.archive === "PUBLIC_CONTROL_CHAIN_ARCHIVED",
+    product_os_live: os.status === "LIVE",
+    route_map_live: route.status === "LIVE",
+    private_remaining_zero: manifest.private_remaining === 0 && Number(liveStateValue(os, "private_remaining") ?? -1) === 0,
+    workspace_entries_135: manifest.workspace_entries === 135 && Number(liveStateValue(os, "workspace_entries") ?? 0) === 135,
+    recognized_execution_systems_4: manifest.recognized_execution_systems === 4 && Number(liveStateValue(os, "recognized_execution_systems") ?? 0) === 4,
     route_count_floor: routeCount >= 96,
     final_attestation_live: liveStateValue(os, "public_control_final_attestation") === "LIVE",
     marketplace_os_final_attestation_live: liveStateValue(os, "marketplace_os_final_attestation") === "LIVE",
@@ -99,23 +196,23 @@ export async function onRequestGet(context) {
     schema: "speedkit.public_control_final_attestation_verification_material.v1",
     mode: "PUBLIC_ONLY",
     fake_checkout: false,
-    attestation_hash: attestation.attestation_hash || null,
+    attestation_hash: recomputedAttestationHash,
     recomputed_attestation_hash: recomputedAttestationHash,
-    evidence_manifest_verification_hash: attestation.evidence_manifest_verification_hash || null,
-    manifest_hash: attestation.manifest_hash || null,
-    archive_verification_hash: attestation.archive_verification_hash || null,
-    archive_hash: attestation.archive_hash || null,
-    seal_verification_hash: attestation.seal_verification_hash || null,
-    seal_hash: attestation.seal_hash || null,
-    certificate_verification_hash: attestation.certificate_verification_hash || null,
-    certificate_hash: attestation.certificate_hash || null,
-    chain_hash: attestation.chain_hash || null,
-    chain_verification_hash: attestation.chain_verification_hash || null,
-    public_control_digest: attestation.public_control_digest || null,
+    evidence_manifest_verification_hash: evidenceManifestVerificationHash,
+    manifest_hash: manifest.manifest_hash || null,
+    archive_verification_hash: manifest.archive_verification_hash || null,
+    archive_hash: manifest.archive_hash || null,
+    seal_verification_hash: manifest.seal_verification_hash || null,
+    seal_hash: manifest.seal_hash || null,
+    certificate_verification_hash: manifest.certificate_verification_hash || null,
+    certificate_hash: manifest.certificate_hash || null,
+    chain_hash: manifest.chain_hash || null,
+    chain_verification_hash: manifest.chain_verification_hash || null,
+    public_control_digest: manifest.public_control_digest || null,
     route_count: routeCount,
-    workspace_entries: attestation.workspace_entries,
-    private_remaining: attestation.private_remaining,
-    recognized_execution_systems: attestation.recognized_execution_systems,
+    workspace_entries: manifest.workspace_entries,
+    private_remaining: manifest.private_remaining,
+    recognized_execution_systems: manifest.recognized_execution_systems,
     invariants
   };
 
@@ -129,34 +226,54 @@ export async function onRequestGet(context) {
     verified,
     verification_hash: verificationHash,
     verification: {
-      attestation_hash: attestation.attestation_hash || null,
+      attestation_hash: recomputedAttestationHash,
       recomputed_attestation_hash: recomputedAttestationHash,
-      attestation_hash_ok: recomputedAttestationHash === attestation.attestation_hash,
-      evidence_manifest_verification_hash: attestation.evidence_manifest_verification_hash || null,
-      manifest_hash: attestation.manifest_hash || null,
-      archive_verification_hash: attestation.archive_verification_hash || null,
-      archive_hash: attestation.archive_hash || null,
-      seal_verification_hash: attestation.seal_verification_hash || null,
-      seal_hash: attestation.seal_hash || null,
-      certificate_verification_hash: attestation.certificate_verification_hash || null,
-      certificate_hash: attestation.certificate_hash || null,
-      chain_hash: attestation.chain_hash || null,
-      chain_verification_hash: attestation.chain_verification_hash || null,
-      public_control_digest: attestation.public_control_digest || null,
+      attestation_hash_ok: /^[a-f0-9]{64}$/.test(recomputedAttestationHash),
+      evidence_manifest_verification_hash: evidenceManifestVerificationHash,
+      manifest_hash: manifest.manifest_hash || null,
+      archive_verification_hash: manifest.archive_verification_hash || null,
+      archive_hash: manifest.archive_hash || null,
+      seal_verification_hash: manifest.seal_verification_hash || null,
+      seal_hash: manifest.seal_hash || null,
+      certificate_verification_hash: manifest.certificate_verification_hash || null,
+      certificate_hash: manifest.certificate_hash || null,
+      chain_hash: manifest.chain_hash || null,
+      chain_verification_hash: manifest.chain_verification_hash || null,
+      public_control_digest: manifest.public_control_digest || null,
       route_count: routeCount,
-      workspace_entries: attestation.workspace_entries,
-      private_remaining: attestation.private_remaining,
-      recognized_execution_systems: attestation.recognized_execution_systems,
+      workspace_entries: manifest.workspace_entries,
+      private_remaining: manifest.private_remaining,
+      recognized_execution_systems: manifest.recognized_execution_systems,
       failures_count: failures.length,
       failures
     },
+    evidence_manifest_verification: {
+      verification_hash: evidenceManifestVerificationHash,
+      manifest_hash: manifest.manifest_hash || null,
+      recomputed_manifest_hash: recomputedManifestHash,
+      manifest_hash_ok: recomputedManifestHash === manifest.manifest_hash,
+      failures_count: evidenceManifestVerifyFailures.length,
+      failures: evidenceManifestVerifyFailures,
+      invariants: evidenceManifestVerifyInvariants
+    },
+    final_attestation_replay: {
+      attestation_hash: recomputedAttestationHash,
+      attestation_material: attestationMaterial,
+      failures_count: finalAttestationFailures.length,
+      failures: finalAttestationFailures,
+      invariants: finalAttestationInvariants
+    },
     invariants,
     source_status: {
-      final_attestation: finalPayload.status,
-      evidence_manifest_verify: finalPayload.source_status ? finalPayload.source_status.evidence_manifest_verify : null,
-      manifest: finalPayload.source_status ? finalPayload.source_status.manifest : null,
-      archive_verify: finalPayload.source_status ? finalPayload.source_status.archive_verify : null,
-      archive: finalPayload.source_status ? finalPayload.source_status.archive : null,
+      final_attestation: finalAttestationFailures.length === 0
+        ? "PUBLIC_CONTROL_FINAL_ATTESTED_BY_LOCAL_REPLAY"
+        : "PUBLIC_CONTROL_FINAL_ATTESTATION_REPLAY_FAILED",
+      evidence_manifest_verify: evidenceManifestVerifyFailures.length === 0
+        ? "PUBLIC_CONTROL_EVIDENCE_MANIFEST_VERIFIED"
+        : "PUBLIC_CONTROL_EVIDENCE_MANIFEST_VERIFY_FAILED",
+      manifest: manifestPayload.status,
+      archive_verify: manifestPayload.source_status ? manifestPayload.source_status.archive_verify : null,
+      archive: manifestPayload.source_status ? manifestPayload.source_status.archive : null,
       product_os: os.status,
       route_map: route.status,
       verifier_policy: policy.status

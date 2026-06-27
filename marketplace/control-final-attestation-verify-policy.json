@@ -16,7 +16,10 @@
     "verifier_confirms_route_count_floor": true,
     "verifier_uses_public_material_only": true,
     "verifier_avoids_deep_nested_same_origin_replay": true,
-    "public_surfaces_remain_public": true
+    "public_surfaces_remain_public": true,
+    "verifier_replays_final_attestation_locally": true,
+    "verifier_fetches_evidence_manifest_once": true,
+    "verifier_does_not_call_final_attestation_api": true
   },
   "authority": {
     "public_control_final_attestation_verify_api": "/api/marketplace/control-final-attestation-verify",
@@ -25,5 +28,9 @@
     "public_control_final_attestation_api": "/api/marketplace/control-final-attestation",
     "product_os_json": "/marketplace/product-os.json",
     "route_map_json": "/marketplace/route-map.json"
+  },
+  "coherence": {
+    "schema": "speedkit.public_control_final_attestation_verifier_coherence.v1",
+    "rule": "The verifier fetches the evidence manifest once, recomputes evidence-manifest verification, recomputes the final-attestation material and attestation hash locally, and does not call /api/marketplace/control-final-attestation as a nested same-origin subrequest."
   }
 }
