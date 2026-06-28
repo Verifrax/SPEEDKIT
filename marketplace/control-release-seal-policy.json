@@ -1,0 +1,37 @@
+{
+  "schema": "speedkit.public_control_release_seal_policy.v1",
+  "status": "LIVE",
+  "mode": "PUBLIC_ONLY",
+  "fake_checkout": false,
+  "rule": {
+    "release_seal_binds_release_record_verifier": true,
+    "release_seal_binds_release_record": true,
+    "release_seal_binds_final_attestation_verifier": true,
+    "release_seal_binds_final_attestation": true,
+    "release_seal_binds_evidence_manifest": true,
+    "release_seal_binds_archive_hash": true,
+    "release_seal_binds_final_seal_lineage": true,
+    "release_seal_binds_public_control_digest": true,
+    "release_seal_hash_algorithm": "SHA-256",
+    "release_seal_hash_excludes_sealed_at": true,
+    "release_seal_uses_public_material_only": true,
+    "release_seal_replays_locally_from_evidence_manifest": true,
+    "release_seal_fetches_evidence_manifest_once": true,
+    "release_seal_avoids_deep_nested_same_origin_replay": true,
+    "release_seal_requires_private_remaining_zero": true,
+    "release_seal_requires_system_count_four": true,
+    "release_seal_requires_workspace_count_135": true,
+    "release_seal_requires_route_count_floor": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_release_seal_api": "/api/marketplace/control-release-seal",
+    "public_control_release_seal_page": "/marketplace/control-release-seal/",
+    "public_control_release_seal_policy": "/marketplace/control-release-seal-policy.json",
+    "public_control_release_record_verify_api": "/api/marketplace/control-release-record-verify",
+    "public_control_release_record_api": "/api/marketplace/control-release-record",
+    "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  }
+}

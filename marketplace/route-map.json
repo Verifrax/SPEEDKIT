@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 102,
+  "route_count": 105,
   "routes": [
     {
       "route": "/",
@@ -514,6 +514,21 @@
       "route": "/api/marketplace/control-release-record-verify",
       "class": "api",
       "public": true
+    },
+    {
+      "route": "/marketplace/control-release-seal/",
+      "class": "html",
+      "public": true
+    },
+    {
+      "route": "/marketplace/control-release-seal-policy.json",
+      "class": "json",
+      "public": true
+    },
+    {
+      "route": "/api/marketplace/control-release-seal",
+      "class": "api",
+      "public": true
     }
   ],
   "capability_routes_status": "LIVE",
@@ -565,5 +580,10 @@
   "public_control_release_record_verifier_policy_json": "/marketplace/control-release-record-verify-policy.json",
   "public_control_release_record_verifier_page": "/marketplace/control-release-record-verify/",
   "public_control_release_record_verifier_api": "/api/marketplace/control-release-record-verify",
-  "public_control_release_record_verifier_routes_status": "LIVE"
+  "public_control_release_record_verifier_routes_status": "LIVE",
+  "public_control_release_seal_status": "LIVE",
+  "public_control_release_seal_policy_json": "/marketplace/control-release-seal-policy.json",
+  "public_control_release_seal_page": "/marketplace/control-release-seal/",
+  "public_control_release_seal_api": "/api/marketplace/control-release-seal",
+  "public_control_release_seal_routes_status": "LIVE"
 }
