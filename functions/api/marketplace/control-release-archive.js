@@ -1,3 +1,5 @@
+import * as ControlReleaseSealVerifyApi from "./control-release-seal-verify.js";
+
 function json(payload, status = 200) {
   return new Response(JSON.stringify(payload, null, 2), {
     status,
@@ -23,7 +25,7 @@ async function sha256Hex(input) {
 async function fetchJson(url) {
   const response = await fetch(url, { headers: { "cache-control": "no-store" } });
   const text = await response.text();
-  let payload = null;
+  let payload;
   try {
     payload = JSON.parse(text);
   } catch {
@@ -34,6 +36,19 @@ async function fetchJson(url) {
     };
   }
   return { http_status: response.status, payload };
+}
+
+async function responseJson(response) {
+  const text = await response.text();
+  try {
+    return JSON.parse(text);
+  } catch {
+    return {
+      schema: "speedkit.local_replay_error.v1",
+      status: "JSON_PARSE_FAILED",
+      body_prefix: text.slice(0, 260)
+    };
+  }
 }
 
 function liveStateValue(os, key) {
@@ -50,34 +65,45 @@ export async function onRequestGet(context) {
     const origin = new URL(context.request.url).origin;
     const stamp = Date.now();
 
-    const [sealVerifyR, osR, routeR, policyR] = await Promise.all([
-      fetchJson(origin + "/api/marketplace/control-release-seal-verify?t=" + stamp),
+    const localSealVerifyResponse = await ControlReleaseSealVerifyApi.onRequest({
+      request: new Request(origin + "/api/marketplace/control-release-seal-verify?local_replay=" + stamp, {
+        method: "GET",
+        headers: context.request.headers
+      }),
+      env: context.env,
+      params: context.params,
+      waitUntil: context.waitUntil,
+      next: context.next,
+      data: context.data
+    });
+
+    const [releaseSealVerify, osR, routeR, policyR] = await Promise.all([
+      responseJson(localSealVerifyResponse),
       fetchJson(origin + "/marketplace/product-os.json?t=" + stamp),
       fetchJson(origin + "/marketplace/route-map.json?t=" + stamp),
       fetchJson(origin + "/marketplace/control-release-archive-policy.json?t=" + stamp)
     ]);
 
-    const sealVerify = sealVerifyR.payload || {};
     const os = osR.payload || {};
     const route = routeR.payload || {};
     const policy = policyR.payload || {};
-    const v = sealVerify.verification || {};
+    const v = releaseSealVerify.verification || {};
     const routeCount = num(route.route_count ?? v.route_count, 0);
 
     const invariants = {
-      release_seal_verify_http_200: sealVerifyR.http_status === 200,
-      release_seal_verified: sealVerify.schema === "speedkit.public_control_release_seal_verify_response.v1" && sealVerify.status === "PUBLIC_CONTROL_RELEASE_SEAL_VERIFIED" && sealVerify.verified === true,
+      release_seal_verify_local_replay_json: releaseSealVerify.schema === "speedkit.public_control_release_seal_verify_response.v1",
+      release_seal_verified: releaseSealVerify.status === "PUBLIC_CONTROL_RELEASE_SEAL_VERIFIED" && releaseSealVerify.verified === true,
       release_seal_verify_failures_zero: num(v.failures_count, -1) === 0,
       release_seal_hash_ok: v.release_seal_hash_ok === true,
-      release_seal_replay_zero: !!sealVerify.release_seal_replay && num(sealVerify.release_seal_replay.failures_count, -1) === 0,
-      release_record_verification_replay_zero: !!sealVerify.release_record_verification_replay && num(sealVerify.release_record_verification_replay.failures_count, -1) === 0,
-      release_record_replay_zero: !!sealVerify.release_record_replay && num(sealVerify.release_record_replay.failures_count, -1) === 0,
-      final_attestation_verification_replay_zero: !!sealVerify.final_attestation_verification_replay && num(sealVerify.final_attestation_verification_replay.failures_count, -1) === 0,
-      final_attestation_replay_zero: !!sealVerify.final_attestation_replay && num(sealVerify.final_attestation_replay.failures_count, -1) === 0,
-      evidence_manifest_verified: !!sealVerify.evidence_manifest_verification && num(sealVerify.evidence_manifest_verification.failures_count, -1) === 0,
-      evidence_manifest_hash_ok: !!sealVerify.evidence_manifest_verification && sealVerify.evidence_manifest_verification.manifest_hash_ok === true,
-      archive_verified: !!sealVerify.source_status && sealVerify.source_status.archive_verify === "PUBLIC_CONTROL_CHAIN_ARCHIVE_VERIFIED",
-      archive_issued: !!sealVerify.source_status && sealVerify.source_status.archive === "PUBLIC_CONTROL_CHAIN_ARCHIVED",
+      release_seal_replay_zero: !!releaseSealVerify.release_seal_replay && num(releaseSealVerify.release_seal_replay.failures_count, -1) === 0,
+      release_record_verification_replay_zero: !!releaseSealVerify.release_record_verification_replay && num(releaseSealVerify.release_record_verification_replay.failures_count, -1) === 0,
+      release_record_replay_zero: !!releaseSealVerify.release_record_replay && num(releaseSealVerify.release_record_replay.failures_count, -1) === 0,
+      final_attestation_verification_replay_zero: !!releaseSealVerify.final_attestation_verification_replay && num(releaseSealVerify.final_attestation_verification_replay.failures_count, -1) === 0,
+      final_attestation_replay_zero: !!releaseSealVerify.final_attestation_replay && num(releaseSealVerify.final_attestation_replay.failures_count, -1) === 0,
+      evidence_manifest_verified: !!releaseSealVerify.evidence_manifest_verification && num(releaseSealVerify.evidence_manifest_verification.failures_count, -1) === 0,
+      evidence_manifest_hash_ok: !!releaseSealVerify.evidence_manifest_verification && releaseSealVerify.evidence_manifest_verification.manifest_hash_ok === true,
+      archive_verified: !!releaseSealVerify.source_status && releaseSealVerify.source_status.archive_verify === "PUBLIC_CONTROL_CHAIN_ARCHIVE_VERIFIED",
+      archive_issued: !!releaseSealVerify.source_status && releaseSealVerify.source_status.archive === "PUBLIC_CONTROL_CHAIN_ARCHIVED",
       product_os_live: os.status === "LIVE",
       route_map_live: route.status === "LIVE",
       private_remaining_zero: v.private_remaining === 0 && num(liveStateValue(os, "private_remaining"), -1) === 0,
@@ -101,7 +127,7 @@ export async function onRequestGet(context) {
       schema: "speedkit.public_control_release_archive_material.v1",
       mode: "PUBLIC_ONLY",
       fake_checkout: false,
-      release_seal_verification_hash: sealVerify.verification_hash || null,
+      release_seal_verification_hash: releaseSealVerify.verification_hash || null,
       release_seal_hash: v.release_seal_hash || null,
       release_record_verification_hash: v.release_record_verification_hash || null,
       release_record_hash: v.release_record_hash || null,
@@ -123,16 +149,16 @@ export async function onRequestGet(context) {
       private_remaining: v.private_remaining,
       recognized_execution_systems: v.recognized_execution_systems,
       source_status: {
-        release_seal_verify: sealVerify.status || null,
-        release_seal: sealVerify.source_status ? sealVerify.source_status.release_seal : null,
-        release_record_verify: sealVerify.source_status ? sealVerify.source_status.release_record_verify : null,
-        release_record: sealVerify.source_status ? sealVerify.source_status.release_record : null,
-        final_attestation_verify: sealVerify.source_status ? sealVerify.source_status.final_attestation_verify : null,
-        final_attestation: sealVerify.source_status ? sealVerify.source_status.final_attestation : null,
-        evidence_manifest_verify: sealVerify.source_status ? sealVerify.source_status.evidence_manifest_verify : null,
-        manifest: sealVerify.source_status ? sealVerify.source_status.manifest : null,
-        archive_verify: sealVerify.source_status ? sealVerify.source_status.archive_verify : null,
-        archive: sealVerify.source_status ? sealVerify.source_status.archive : null,
+        release_seal_verify: releaseSealVerify.status || null,
+        release_seal: releaseSealVerify.source_status ? releaseSealVerify.source_status.release_seal : null,
+        release_record_verify: releaseSealVerify.source_status ? releaseSealVerify.source_status.release_record_verify : null,
+        release_record: releaseSealVerify.source_status ? releaseSealVerify.source_status.release_record : null,
+        final_attestation_verify: releaseSealVerify.source_status ? releaseSealVerify.source_status.final_attestation_verify : null,
+        final_attestation: releaseSealVerify.source_status ? releaseSealVerify.source_status.final_attestation : null,
+        evidence_manifest_verify: releaseSealVerify.source_status ? releaseSealVerify.source_status.evidence_manifest_verify : null,
+        manifest: releaseSealVerify.source_status ? releaseSealVerify.source_status.manifest : null,
+        archive_verify: releaseSealVerify.source_status ? releaseSealVerify.source_status.archive_verify : null,
+        archive: releaseSealVerify.source_status ? releaseSealVerify.source_status.archive : null,
         product_os: os.status || null,
         route_map: route.status || null,
         policy: policy.status || null
@@ -149,12 +175,12 @@ export async function onRequestGet(context) {
       fake_checkout: false,
       archived,
       release_archive: {
-        id: "speedkit-release-archive-" + String(sealVerify.verification_hash || releaseArchiveHash).slice(0, 16),
+        id: "speedkit-release-archive-" + String(releaseSealVerify.verification_hash || releaseArchiveHash).slice(0, 16),
         hash_algorithm: "SHA-256",
         release_archive_hash: releaseArchiveHash,
         release_archive_hash_excludes_archived_at: true,
         material_schema: releaseArchiveMaterial.schema,
-        release_seal_verification_hash: sealVerify.verification_hash || null,
+        release_seal_verification_hash: releaseSealVerify.verification_hash || null,
         release_seal_hash: v.release_seal_hash || null,
         release_record_verification_hash: v.release_record_verification_hash || null,
         release_record_hash: v.release_record_hash || null,
@@ -175,14 +201,14 @@ export async function onRequestGet(context) {
       invariants,
       release_archive_material: releaseArchiveMaterial,
       release_seal_verification: {
-        verification_hash: sealVerify.verification_hash || null,
+        verification_hash: releaseSealVerify.verification_hash || null,
         release_seal_hash: v.release_seal_hash || null,
         release_seal_hash_ok: v.release_seal_hash_ok === true,
         failures_count: num(v.failures_count, -1),
         failures: Array.isArray(v.failures) ? v.failures : []
       },
-      evidence_manifest_verification: sealVerify.evidence_manifest_verification || null,
-      release_seal_replay: sealVerify.release_seal_replay || null,
+      evidence_manifest_verification: releaseSealVerify.evidence_manifest_verification || null,
+      release_seal_replay: releaseSealVerify.release_seal_replay || null,
       source_status: releaseArchiveMaterial.source_status
     }, archived ? 200 : 503);
   } catch (error) {
