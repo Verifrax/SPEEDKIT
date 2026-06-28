@@ -626,6 +626,6 @@
   "public_control_release_archive_page": "/marketplace/control-release-archive/",
   "public_control_release_archive_api": "/api/marketplace/control-release-archive",
   "public_control_release_archive_routes_status": "LIVE",
-  "checkout_post_route_status": "RESTORED_BY_FILE_ROUTE_DELEGATE",
+  "checkout_post_route_status": "RESTORED_BY_DYNAMIC_MARKETPLACE_ROUTER",
   "checkout_post_route_api": "/api/marketplace/checkout"
 }
