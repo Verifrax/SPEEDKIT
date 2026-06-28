@@ -1,4 +1,4 @@
-{
+const payload = {
   "schema": "speedkit.public_control_release_archive_response.v1",
   "status": "PUBLIC_CONTROL_RELEASE_ARCHIVED",
   "mode": "PUBLIC_ONLY",
@@ -7,10 +7,10 @@
   "release_archive": {
     "id": "speedkit-release-archive-e48309a9748bb5ed",
     "hash_algorithm": "SHA-256",
-    "release_archive_hash": "1b7e4a647ff26512c97c38f1a5b279e8447836a8b34d1f5b679b55230221b7cb",
+    "release_archive_hash": "9bd6c717f1cdbf2b6d32b77b7052f6340832288055a627b9f5c4292326853673",
     "release_archive_hash_excludes_archived_at": true,
     "material_schema": "speedkit.public_control_release_archive_material.v1",
-    "release_archive_delivery": "STATIC_JSON_REWRITE",
+    "release_archive_delivery": "EXACT_FUNCTION_STATIC_PAYLOAD",
     "release_seal_verification_hash": "e48309a9748bb5eddbeda24b294e533efcd4f794e00ed3f9fb67f058befa1fc9",
     "release_seal_hash": "3177515ab1875a3109018ed0a07c4d480926ecac0179e0c091ad35780b55dd14",
     "release_record_verification_hash": "8406bad7698649d4a61ab4a1599166af078e8e522e376a8562967075f328a6a0",
@@ -54,13 +54,14 @@
     "release_archive_live": true,
     "marketplace_os_release_archive_live": true,
     "release_archive_policy_live": true,
-    "release_archive_static_api_json_rewrite": true
+    "release_archive_exact_function_payload": true,
+    "api_routes_restored_for_checkout": true
   },
   "release_archive_material": {
     "schema": "speedkit.public_control_release_archive_material.v1",
     "mode": "PUBLIC_ONLY",
     "fake_checkout": false,
-    "release_archive_delivery": "STATIC_JSON_REWRITE",
+    "release_archive_delivery": "EXACT_FUNCTION_STATIC_PAYLOAD",
     "release_seal_verification_hash": "e48309a9748bb5eddbeda24b294e533efcd4f794e00ed3f9fb67f058befa1fc9",
     "release_seal_hash": "3177515ab1875a3109018ed0a07c4d480926ecac0179e0c091ad35780b55dd14",
     "release_record_verification_hash": "8406bad7698649d4a61ab4a1599166af078e8e522e376a8562967075f328a6a0",
@@ -122,7 +123,8 @@
       "release_archive_live": true,
       "marketplace_os_release_archive_live": true,
       "release_archive_policy_live": true,
-      "release_archive_static_api_json_rewrite": true
+      "release_archive_exact_function_payload": true,
+      "api_routes_restored_for_checkout": true
     }
   },
   "release_seal_verification": {
@@ -160,4 +162,26 @@
     "route_map": "LIVE",
     "policy": "LIVE"
   }
+};
+
+function json(body, status = 200) {
+  return new Response(JSON.stringify(body, null, 2), {
+    status,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store"
+    }
+  });
+}
+
+export async function onRequestGet() {
+  return json(payload, 200);
+}
+
+export async function onRequest(context) {
+  if (context.request.method === "GET" || context.request.method === "HEAD") return onRequestGet(context);
+  return json({
+    schema: "speedkit.public_control_release_archive_response.v1",
+    status: "METHOD_NOT_ALLOWED"
+  }, 405);
 }

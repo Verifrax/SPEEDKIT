@@ -1,4 +1,4 @@
-import * as ControlReleaseArchiveApi from "./control-release-archive.js";
+import * as ControlReleaseArchiveApi from "./control-release-archive/index.js";
 import * as ControlReleaseSealVerifyApi from "./control-release-seal-verify.js";
 import * as ControlReleaseSealApi from "./control-release-seal.js";
 import * as ControlReleaseRecordVerifyApi from "./control-release-record-verify.js";
