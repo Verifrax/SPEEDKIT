@@ -1,3 +1,4 @@
+/api/marketplace/control-release-archive /api/marketplace/control-release-archive.json 200
 /marketplace/control-release-archive-policy.json /marketplace/control-release-archive-policy.json 200
 /marketplace/control-release-archive /marketplace/control-release-archive/ 301
 /marketplace/control-release-seal-verify-policy.json /marketplace/control-release-seal-verify-policy.json 200
