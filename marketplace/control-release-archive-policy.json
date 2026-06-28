@@ -20,7 +20,11 @@
     "release_archive_requires_system_count_four": true,
     "release_archive_requires_workspace_count_135": true,
     "release_archive_requires_route_count_floor": true,
-    "public_surfaces_remain_public": true
+    "public_surfaces_remain_public": true,
+    "release_archive_api_returns_json_on_error": true,
+    "release_archive_uses_release_seal_verifier_snapshot": true,
+    "release_archive_single_verifier_fetch_only": true,
+    "release_archive_no_uncaught_html_500": true
   },
   "authority": {
     "public_control_release_archive_api": "/api/marketplace/control-release-archive",
