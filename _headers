@@ -161,3 +161,6 @@
 
 /marketplace/control-release-seal-verify-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/control-release-archive-policy.json
+  content-type: application/json; charset=utf-8

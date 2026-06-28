@@ -185,5 +185,9 @@
   "public_control_release_seal_verifier_status": "LIVE",
   "public_control_release_seal_verifier_policy_json": "/marketplace/control-release-seal-verify-policy.json",
   "public_control_release_seal_verifier_page": "/marketplace/control-release-seal-verify/",
-  "public_control_release_seal_verifier_api": "/api/marketplace/control-release-seal-verify"
+  "public_control_release_seal_verifier_api": "/api/marketplace/control-release-seal-verify",
+  "public_control_release_archive_status": "LIVE",
+  "public_control_release_archive_policy_json": "/marketplace/control-release-archive-policy.json",
+  "public_control_release_archive_page": "/marketplace/control-release-archive/",
+  "public_control_release_archive_api": "/api/marketplace/control-release-archive"
 }
