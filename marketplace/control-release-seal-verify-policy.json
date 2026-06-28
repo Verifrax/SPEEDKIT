@@ -30,5 +30,9 @@
     "public_control_evidence_manifest_api": "/api/marketplace/control-evidence-manifest",
     "product_os_json": "/marketplace/product-os.json",
     "route_map_json": "/marketplace/route-map.json"
-  }
+  },
+  "public_control_release_archive_status": "LIVE",
+  "public_control_release_archive_policy_json": "/marketplace/control-release-archive-policy.json",
+  "public_control_release_archive_page": "/marketplace/control-release-archive/",
+  "public_control_release_archive_api": "/api/marketplace/control-release-archive"
 }
