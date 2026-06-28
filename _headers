@@ -152,3 +152,6 @@
 
 /marketplace/control-release-record-policy.json
   content-type: application/json; charset=utf-8
+
+/marketplace/control-release-record-verify-policy.json
+  content-type: application/json; charset=utf-8
