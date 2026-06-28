@@ -27,7 +27,11 @@
     "release_archive_no_uncaught_html_500": true,
     "release_archive_replays_release_seal_verifier_locally": true,
     "release_archive_does_not_call_release_seal_verify_api": true,
-    "release_archive_avoids_same_origin_verifier_http_replay": true
+    "release_archive_avoids_same_origin_verifier_http_replay": true,
+    "release_archive_api_is_static_json_rewrite": true,
+    "release_archive_api_exact_route_excluded_from_functions": true,
+    "release_archive_static_json_prevents_root_html_fallthrough": true,
+    "release_archive_static_json_uses_move82_verified_snapshot": true
   },
   "authority": {
     "public_control_release_archive_api": "/api/marketplace/control-release-archive",
@@ -36,6 +40,7 @@
     "public_control_release_seal_verify_api": "/api/marketplace/control-release-seal-verify",
     "public_control_release_seal_api": "/api/marketplace/control-release-seal",
     "product_os_json": "/marketplace/product-os.json",
-    "route_map_json": "/marketplace/route-map.json"
+    "route_map_json": "/marketplace/route-map.json",
+    "public_control_release_archive_static_json": "/api/marketplace/control-release-archive.json"
   }
 }

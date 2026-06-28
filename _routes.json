@@ -3,5 +3,7 @@
   "include": [
     "/api/*"
   ],
-  "exclude": []
+  "exclude": [
+    "/api/marketplace/control-release-archive"
+  ]
 }
