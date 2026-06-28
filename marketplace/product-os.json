@@ -75,7 +75,8 @@
     "public_control_release_seal_verifier": "LIVE",
     "marketplace_os_release_seal_verified": "LIVE",
     "public_control_release_archive": "LIVE",
-    "marketplace_os_release_archive": "LIVE"
+    "marketplace_os_release_archive": "LIVE",
+    "checkout_post_route": "RESTORED"
   },
   "rails": {
     "public_control": [
@@ -380,5 +381,7 @@
   "public_control_release_archive_status": "LIVE",
   "public_control_release_archive_policy_json": "/marketplace/control-release-archive-policy.json",
   "public_control_release_archive_page": "/marketplace/control-release-archive/",
-  "public_control_release_archive_api": "/api/marketplace/control-release-archive"
+  "public_control_release_archive_api": "/api/marketplace/control-release-archive",
+  "checkout_post_route_status": "RESTORED",
+  "checkout_post_route_api": "/api/marketplace/checkout"
 }
