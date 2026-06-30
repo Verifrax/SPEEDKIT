@@ -1,11 +1,11 @@
 {
   "schema": "speedkit.public_reconciliation.proof.v1",
-  "generated_at": "2026-06-30T22:00:27Z",
+  "generated_at": "2026-06-30T22:08:27Z",
   "governed_reconciliation": true,
   "title": "SPEEDKIT Control Engine",
   "mode": "PUBLIC_ONLY",
   "source_manifest": "SPEEDKIT_TERMINAL_MANIFEST.json",
-  "index_sha256": "9f198db470ecc1c70ef1559c5637c6defa0fc52a21ced6771f4ee432b243f047",
+  "index_sha256": "6b7434467243a27ff4e91f144f05f7e7e3541a7ff4c07a4e7938401d9f701f56",
   "systems": 4,
   "workspace_entries": 135,
   "github_namespaces": 16,

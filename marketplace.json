@@ -2609,5 +2609,8 @@
   "public_control_release_certificate_page": "/marketplace/control-release-certificate/",
   "public_control_release_certificate_verifier_status": "LIVE",
   "public_control_release_certificate_verifier_api": "/api/marketplace/control-release-certificate-verify",
-  "public_control_release_certificate_verifier_page": "/marketplace/control-release-certificate-verify/"
+  "public_control_release_certificate_verifier_page": "/marketplace/control-release-certificate-verify/",
+  "public_control_release_certificate_seal_status": "LIVE",
+  "public_control_release_certificate_seal_api": "/api/marketplace/control-release-certificate-seal",
+  "public_control_release_certificate_seal_page": "/marketplace/control-release-certificate-seal/"
 }
