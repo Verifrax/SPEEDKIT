@@ -23,7 +23,9 @@
     "public_surfaces_remain_public": true,
     "release_archive_verifier_digest_is_optional_legacy_carry_field": true,
     "release_archive_verifier_does_not_fail_on_missing_digest_carry_field": true,
-    "release_archive_verifier_validates_archive_by_recomputed_hash": true
+    "release_archive_verifier_validates_archive_by_recomputed_hash": true,
+    "release_certificate_live": true,
+    "release_certificate_binds_release_archive_verifier": true
   },
   "authority": {
     "public_control_release_archive_verify_api": "/api/marketplace/control-release-archive-verify",
@@ -34,6 +36,9 @@
     "public_control_release_archive_policy": "/marketplace/control-release-archive-policy.json",
     "checkout_api": "/api/marketplace/checkout",
     "product_os_json": "/marketplace/product-os.json",
-    "route_map_json": "/marketplace/route-map.json"
+    "route_map_json": "/marketplace/route-map.json",
+    "public_control_release_certificate_api": "/api/marketplace/control-release-certificate",
+    "public_control_release_certificate_page": "/marketplace/control-release-certificate/",
+    "public_control_release_certificate_policy": "/marketplace/control-release-certificate-policy.json"
   }
 }
