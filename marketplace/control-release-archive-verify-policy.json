@@ -20,7 +20,10 @@
     "release_archive_verifier_returns_json_on_error": true,
     "release_archive_verifier_no_uncaught_html_500": true,
     "checkout_remains_live": true,
-    "public_surfaces_remain_public": true
+    "public_surfaces_remain_public": true,
+    "release_archive_verifier_digest_is_optional_legacy_carry_field": true,
+    "release_archive_verifier_does_not_fail_on_missing_digest_carry_field": true,
+    "release_archive_verifier_validates_archive_by_recomputed_hash": true
   },
   "authority": {
     "public_control_release_archive_verify_api": "/api/marketplace/control-release-archive-verify",
