@@ -1,0 +1,39 @@
+{
+  "schema": "speedkit.public_control_release_certificate_verifier_policy.v1",
+  "status": "LIVE",
+  "rule": {
+    "release_certificate_verifier_recomputes_release_certificate_hash": true,
+    "release_certificate_verifier_uses_release_certificate_material": true,
+    "release_certificate_verifier_hash_algorithm": "SHA-256",
+    "release_certificate_verifier_uses_public_material_only": true,
+    "release_certificate_verifier_uses_release_certificate_snapshot": true,
+    "release_certificate_verifier_does_not_call_release_certificate_api": true,
+    "release_certificate_verifier_does_not_call_release_archive_verify_api": true,
+    "release_certificate_verifier_does_not_call_release_archive_api": true,
+    "release_certificate_verifier_avoids_same_origin_http_replay": true,
+    "release_certificate_verifier_requires_certificate_status_certified": true,
+    "release_certificate_verifier_requires_certificate_failures_zero": true,
+    "release_certificate_verifier_requires_archive_verification_hash": true,
+    "release_certificate_verifier_requires_archive_hash_ok": true,
+    "release_certificate_verifier_requires_private_remaining_zero": true,
+    "release_certificate_verifier_requires_system_count_four": true,
+    "release_certificate_verifier_requires_workspace_count_135": true,
+    "release_certificate_verifier_requires_route_count_floor": true,
+    "release_certificate_verifier_returns_json_on_error": true,
+    "release_certificate_verifier_no_uncaught_html_500": true,
+    "checkout_remains_live": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_release_certificate_verify_api": "/api/marketplace/control-release-certificate-verify",
+    "public_control_release_certificate_verify_page": "/marketplace/control-release-certificate-verify/",
+    "public_control_release_certificate_verify_policy": "/marketplace/control-release-certificate-verify-policy.json",
+    "public_control_release_certificate_api": "/api/marketplace/control-release-certificate",
+    "public_control_release_certificate_policy": "/marketplace/control-release-certificate-policy.json",
+    "public_control_release_archive_verify_api": "/api/marketplace/control-release-archive-verify",
+    "public_control_release_archive_api": "/api/marketplace/control-release-archive",
+    "checkout_api": "/api/marketplace/checkout",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  }
+}

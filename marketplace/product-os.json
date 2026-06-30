@@ -80,7 +80,9 @@
     "public_control_release_archive_verifier": "LIVE",
     "marketplace_os_release_archive_verified": "LIVE",
     "public_control_release_certificate": "LIVE",
-    "marketplace_os_release_certificate": "LIVE"
+    "marketplace_os_release_certificate": "LIVE",
+    "public_control_release_certificate_verifier": "LIVE",
+    "marketplace_os_release_certificate_verified": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -393,5 +395,8 @@
   "public_control_release_archive_verifier_page": "/marketplace/control-release-archive-verify/",
   "public_control_release_certificate_status": "LIVE",
   "public_control_release_certificate_api": "/api/marketplace/control-release-certificate",
-  "public_control_release_certificate_page": "/marketplace/control-release-certificate/"
+  "public_control_release_certificate_page": "/marketplace/control-release-certificate/",
+  "public_control_release_certificate_verifier_status": "LIVE",
+  "public_control_release_certificate_verifier_api": "/api/marketplace/control-release-certificate-verify",
+  "public_control_release_certificate_verifier_page": "/marketplace/control-release-certificate-verify/"
 }
