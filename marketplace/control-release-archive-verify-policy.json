@@ -1,0 +1,36 @@
+{
+  "schema": "speedkit.public_control_release_archive_verifier_policy.v1",
+  "status": "LIVE",
+  "rule": {
+    "release_archive_verifier_recomputes_release_archive_hash": true,
+    "release_archive_verifier_uses_release_archive_material": true,
+    "release_archive_verifier_hash_algorithm": "SHA-256",
+    "release_archive_verifier_uses_public_material_only": true,
+    "release_archive_verifier_uses_release_archive_snapshot": true,
+    "release_archive_verifier_does_not_call_release_archive_api": true,
+    "release_archive_verifier_does_not_call_release_seal_verify_api": true,
+    "release_archive_verifier_avoids_same_origin_http_replay": true,
+    "release_archive_verifier_requires_archive_status_archived": true,
+    "release_archive_verifier_requires_archive_failures_zero": true,
+    "release_archive_verifier_requires_release_seal_hash_ok": true,
+    "release_archive_verifier_requires_private_remaining_zero": true,
+    "release_archive_verifier_requires_system_count_four": true,
+    "release_archive_verifier_requires_workspace_count_135": true,
+    "release_archive_verifier_requires_route_count_floor": true,
+    "release_archive_verifier_returns_json_on_error": true,
+    "release_archive_verifier_no_uncaught_html_500": true,
+    "checkout_remains_live": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_release_archive_verify_api": "/api/marketplace/control-release-archive-verify",
+    "public_control_release_archive_verify_page": "/marketplace/control-release-archive-verify/",
+    "public_control_release_archive_verify_policy": "/marketplace/control-release-archive-verify-policy.json",
+    "public_control_release_archive_api": "/api/marketplace/control-release-archive",
+    "public_control_release_archive_page": "/marketplace/control-release-archive/",
+    "public_control_release_archive_policy": "/marketplace/control-release-archive-policy.json",
+    "checkout_api": "/api/marketplace/checkout",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  }
+}
