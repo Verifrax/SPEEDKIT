@@ -1,3 +1,4 @@
+import * as ControlReleaseCertificateVerifyApi from "./control-release-certificate-verify/index.js";
 import * as ControlReleaseCertificateApi from "./control-release-certificate/index.js";
 import * as ControlReleaseArchiveVerifyApi from "./control-release-archive-verify/index.js";
 import * as ControlReleaseArchiveApi from "./control-release-archive/index.js";
@@ -571,6 +572,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/control-release-certificate") {
     return ControlReleaseCertificateApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-release-certificate-verify") {
+    return ControlReleaseCertificateVerifyApi.onRequest({ request, env });
   }
 
   return json({
