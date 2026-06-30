@@ -44,7 +44,9 @@
     "checkout_post_route_restored_by_exact_file_route": true,
     "checkout_exact_file_route_removed": true,
     "checkout_dynamic_marketplace_router_owns_post": true,
-    "checkout_post_route_restored_by_dynamic_router": true
+    "checkout_post_route_restored_by_dynamic_router": true,
+    "release_archive_verifier_live": true,
+    "release_archive_verified_by_external_replay": true
   },
   "authority": {
     "public_control_release_archive_api": "/api/marketplace/control-release-archive",
@@ -54,7 +56,10 @@
     "public_control_release_seal_api": "/api/marketplace/control-release-seal",
     "product_os_json": "/marketplace/product-os.json",
     "route_map_json": "/marketplace/route-map.json",
-    "checkout_api": "/api/marketplace/checkout"
+    "checkout_api": "/api/marketplace/checkout",
+    "public_control_release_archive_verify_api": "/api/marketplace/control-release-archive-verify",
+    "public_control_release_archive_verify_page": "/marketplace/control-release-archive-verify/",
+    "public_control_release_archive_verify_policy": "/marketplace/control-release-archive-verify-policy.json"
   },
   "checkout_post_route_status": "RESTORED_BY_DYNAMIC_MARKETPLACE_ROUTER",
   "checkout_post_route_api": "/api/marketplace/checkout",

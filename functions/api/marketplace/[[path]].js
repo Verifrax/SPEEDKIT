@@ -1,3 +1,4 @@
+import * as ControlReleaseArchiveVerifyApi from "./control-release-archive-verify/index.js";
 import * as ControlReleaseArchiveApi from "./control-release-archive/index.js";
 import * as ControlReleaseSealVerifyApi from "./control-release-seal-verify.js";
 import * as ControlReleaseSealApi from "./control-release-seal.js";
@@ -559,6 +560,11 @@ export async function onRequest({ request, env }) {
 
   if (path === "/api/marketplace/control-release-archive") {
     return ControlReleaseArchiveApi.onRequest({ request, env });
+  }
+
+
+  if (path === "/api/marketplace/control-release-archive-verify") {
+    return ControlReleaseArchiveVerifyApi.onRequest({ request, env });
   }
 
   return json({

@@ -191,5 +191,8 @@
   "public_control_release_archive_page": "/marketplace/control-release-archive/",
   "public_control_release_archive_api": "/api/marketplace/control-release-archive",
   "checkout_post_route_status": "RESTORED_BY_DYNAMIC_MARKETPLACE_ROUTER",
-  "checkout_post_route_api": "/api/marketplace/checkout"
+  "checkout_post_route_api": "/api/marketplace/checkout",
+  "public_control_release_archive_verifier_status": "LIVE",
+  "public_control_release_archive_verifier_api": "/api/marketplace/control-release-archive-verify",
+  "public_control_release_archive_verifier_page": "/marketplace/control-release-archive-verify/"
 }
