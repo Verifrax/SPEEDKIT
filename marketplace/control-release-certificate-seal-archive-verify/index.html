@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPEEDKIT Public Control Release Certificate Seal Archive Verifier</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+  <div>
+    <p class="eyebrow">SPEEDKIT Control Engine</p>
+    <h1>Public Control Release Certificate Seal Archive Verifier</h1>
+    <p>External replay surface for the certificate seal archive hash, seal verifier binding, certificate verifier binding, archive verifier binding, public-only counts, and checkout continuity.</p>
+  </div>
+  <a class="button" href="/marketplace/">Marketplace OS</a>
+</header>
+
+<section class="grid">
+  <article class="card">
+    <h2>Verification API</h2>
+    <p>Recomputes the release certificate seal archive hash from public archive material.</p>
+    <button id="load" class="button">Load release certificate seal archive verification</button>
+  </article>
+  <article class="card">
+    <h2>Expected invariants</h2>
+    <ul>
+      <li>release_certificate_seal_archive_hash_ok = true</li>
+      <li>release_certificate_seal_hash_ok = true</li>
+      <li>release_certificate_hash_ok = true</li>
+      <li>release_archive_hash_ok = true</li>
+      <li>private_remaining = 0</li>
+      <li>recognized_execution_systems = 4</li>
+      <li>workspace_entries = 135</li>
+      <li>failures_count = 0</li>
+    </ul>
+  </article>
+</section>
+
+<pre id="out" class="code">Ready.</pre>
+</main>
+
+<script>
+document.getElementById("load").addEventListener("click", async () => {
+  const out = document.getElementById("out");
+  out.textContent = "Loading release certificate seal archive verification...";
+  const response = await fetch("/api/marketplace/control-release-certificate-seal-archive-verify?t=" + Date.now(), { cache: "no-store" });
+  const payload = await response.json();
+  out.textContent = JSON.stringify(payload, null, 2);
+});
+</script>
+</body>
+</html>
