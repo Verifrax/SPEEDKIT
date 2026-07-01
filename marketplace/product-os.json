@@ -86,7 +86,9 @@
     "public_control_release_certificate_seal": "LIVE",
     "marketplace_os_release_certificate_seal": "LIVE",
     "public_control_release_certificate_seal_verifier": "LIVE",
-    "marketplace_os_release_certificate_seal_verified": "LIVE"
+    "marketplace_os_release_certificate_seal_verified": "LIVE",
+    "public_control_release_certificate_seal_archive": "LIVE",
+    "marketplace_os_release_certificate_seal_archive": "LIVE"
   },
   "rails": {
     "public_control": [
@@ -408,5 +410,8 @@
   "public_control_release_certificate_seal_page": "/marketplace/control-release-certificate-seal/",
   "public_control_release_certificate_seal_verifier_status": "LIVE",
   "public_control_release_certificate_seal_verifier_api": "/api/marketplace/control-release-certificate-seal-verify",
-  "public_control_release_certificate_seal_verifier_page": "/marketplace/control-release-certificate-seal-verify/"
+  "public_control_release_certificate_seal_verifier_page": "/marketplace/control-release-certificate-seal-verify/",
+  "public_control_release_certificate_seal_archive_status": "LIVE",
+  "public_control_release_certificate_seal_archive_api": "/api/marketplace/control-release-certificate-seal-archive",
+  "public_control_release_certificate_seal_archive_page": "/marketplace/control-release-certificate-seal-archive/"
 }
