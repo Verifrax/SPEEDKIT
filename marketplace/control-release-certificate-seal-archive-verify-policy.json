@@ -24,7 +24,9 @@
     "release_certificate_seal_archive_verifier_returns_json_on_error": true,
     "release_certificate_seal_archive_verifier_no_uncaught_html_500": true,
     "checkout_remains_live": true,
-    "public_surfaces_remain_public": true
+    "public_surfaces_remain_public": true,
+    "release_finality_record_live": true,
+    "release_finality_record_binds_archive_verifier": true
   },
   "authority": {
     "public_control_release_certificate_seal_archive_verify_api": "/api/marketplace/control-release-certificate-seal-archive-verify",
@@ -38,6 +40,9 @@
     "public_control_release_certificate_api": "/api/marketplace/control-release-certificate",
     "checkout_api": "/api/marketplace/checkout",
     "product_os_json": "/marketplace/product-os.json",
-    "route_map_json": "/marketplace/route-map.json"
+    "route_map_json": "/marketplace/route-map.json",
+    "public_control_release_finality_record_api": "/api/marketplace/control-release-finality-record",
+    "public_control_release_finality_record_page": "/marketplace/control-release-finality-record/",
+    "public_control_release_finality_record_policy": "/marketplace/control-release-finality-record-policy.json"
   }
 }
