@@ -1,0 +1,43 @@
+{
+  "schema": "speedkit.public_control_release_certificate_seal_archive_verifier_policy.v1",
+  "status": "LIVE",
+  "rule": {
+    "release_certificate_seal_archive_verifier_recomputes_archive_hash": true,
+    "release_certificate_seal_archive_verifier_uses_archive_material": true,
+    "release_certificate_seal_archive_verifier_hash_algorithm": "SHA-256",
+    "release_certificate_seal_archive_verifier_uses_public_material_only": true,
+    "release_certificate_seal_archive_verifier_uses_archive_snapshot": true,
+    "release_certificate_seal_archive_verifier_does_not_call_archive_api": true,
+    "release_certificate_seal_archive_verifier_does_not_call_seal_verify_api": true,
+    "release_certificate_seal_archive_verifier_does_not_call_seal_api": true,
+    "release_certificate_seal_archive_verifier_avoids_same_origin_http_replay": true,
+    "release_certificate_seal_archive_verifier_requires_archive_status_archived": true,
+    "release_certificate_seal_archive_verifier_requires_archive_failures_zero": true,
+    "release_certificate_seal_archive_verifier_requires_seal_verification_hash": true,
+    "release_certificate_seal_archive_verifier_requires_seal_hash_ok": true,
+    "release_certificate_seal_archive_verifier_requires_certificate_hash_ok": true,
+    "release_certificate_seal_archive_verifier_requires_archive_hash_ok": true,
+    "release_certificate_seal_archive_verifier_requires_private_remaining_zero": true,
+    "release_certificate_seal_archive_verifier_requires_system_count_four": true,
+    "release_certificate_seal_archive_verifier_requires_workspace_count_135": true,
+    "release_certificate_seal_archive_verifier_requires_route_count_floor": true,
+    "release_certificate_seal_archive_verifier_returns_json_on_error": true,
+    "release_certificate_seal_archive_verifier_no_uncaught_html_500": true,
+    "checkout_remains_live": true,
+    "public_surfaces_remain_public": true
+  },
+  "authority": {
+    "public_control_release_certificate_seal_archive_verify_api": "/api/marketplace/control-release-certificate-seal-archive-verify",
+    "public_control_release_certificate_seal_archive_verify_page": "/marketplace/control-release-certificate-seal-archive-verify/",
+    "public_control_release_certificate_seal_archive_verify_policy": "/marketplace/control-release-certificate-seal-archive-verify-policy.json",
+    "public_control_release_certificate_seal_archive_api": "/api/marketplace/control-release-certificate-seal-archive",
+    "public_control_release_certificate_seal_archive_policy": "/marketplace/control-release-certificate-seal-archive-policy.json",
+    "public_control_release_certificate_seal_verify_api": "/api/marketplace/control-release-certificate-seal-verify",
+    "public_control_release_certificate_seal_api": "/api/marketplace/control-release-certificate-seal",
+    "public_control_release_certificate_verify_api": "/api/marketplace/control-release-certificate-verify",
+    "public_control_release_certificate_api": "/api/marketplace/control-release-certificate",
+    "checkout_api": "/api/marketplace/checkout",
+    "product_os_json": "/marketplace/product-os.json",
+    "route_map_json": "/marketplace/route-map.json"
+  }
+}
