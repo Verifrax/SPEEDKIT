@@ -3,7 +3,7 @@
   "status": "LIVE",
   "mode": "PUBLIC_ONLY",
   "generated_at": "2026-06-22T20:08:00.762Z",
-  "route_count": 123,
+  "route_count": 126,
   "routes": [
     {
       "route": "/",
@@ -607,6 +607,18 @@
     {
       "route": "/marketplace/control-release-certificate-seal-policy.json",
       "status": "LIVE"
+    },
+    {
+      "route": "/api/marketplace/control-release-certificate-seal-verify",
+      "status": "LIVE"
+    },
+    {
+      "route": "/marketplace/control-release-certificate-seal-verify/",
+      "status": "LIVE"
+    },
+    {
+      "route": "/marketplace/control-release-certificate-seal-verify-policy.json",
+      "status": "LIVE"
     }
   ],
   "capability_routes_status": "LIVE",
@@ -691,5 +703,9 @@
   "public_control_release_certificate_seal_status": "LIVE",
   "public_control_release_certificate_seal_api": "/api/marketplace/control-release-certificate-seal",
   "public_control_release_certificate_seal_page": "/marketplace/control-release-certificate-seal/",
-  "public_control_release_certificate_seal_routes_status": "LIVE"
+  "public_control_release_certificate_seal_routes_status": "LIVE",
+  "public_control_release_certificate_seal_verifier_status": "LIVE",
+  "public_control_release_certificate_seal_verifier_api": "/api/marketplace/control-release-certificate-seal-verify",
+  "public_control_release_certificate_seal_verifier_page": "/marketplace/control-release-certificate-seal-verify/",
+  "public_control_release_certificate_seal_verifier_routes_status": "LIVE"
 }
